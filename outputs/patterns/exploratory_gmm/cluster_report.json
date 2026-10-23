@@ -1,0 +1,62 @@
+{
+  "parameters": {
+    "features": "C:\\Users\\HP\\OneDrive\\Desktop\\sepsis\\outputs\\patterns\\pattern_features.parquet",
+    "outdir": "C:\\Users\\HP\\OneDrive\\Desktop\\sepsis\\outputs\\patterns\\exploratory_gmm",
+    "method": "gmm",
+    "covariance": "full",
+    "feature_set": "delta_last",
+    "vitals": [
+      "HR",
+      "Resp",
+      "MAP",
+      "O2Sat",
+      "Temp"
+    ],
+    "k_min": 2,
+    "k_max": 6,
+    "k": null,
+    "bootstraps": 50,
+    "null_bootstraps": 20,
+    "min_cluster_size": 150,
+    "stab_thr": 0.6,
+    "hosp_thr": 0.4,
+    "null_margin": 0.15,
+    "min_silhouette": 0.25,
+    "max_window_smd": 0.5,
+    "seed": 42
+  },
+  "verdict": {
+    "chosen_k": 2,
+    "qualifying_k_exists": true,
+    "checks": {
+      "min_cluster_size_ok": true,
+      "stability_ok": true,
+      "hospital_replicable": true,
+      "beats_null": true,
+      "silhouette_ok": false,
+      "not_confounded_by_window_length": true
+    },
+    "feasible": false,
+    "window_hours_max_abs_smd": 0.144
+  },
+  "n_patterns": 2,
+  "assigned": 1914,
+  "unassigned": {
+    "total": 592,
+    "by_reason": {
+      "short_window": 307,
+      "sparse_vitals": 285
+    }
+  },
+  "pattern_sizes_dev": {
+    "P1": 894,
+    "P2": 644
+  },
+  "pattern_sizes_test": {
+    "P1": 234,
+    "P2": 142
+  },
+  "smallest_test_pattern": 142,
+  "test_low_confidence_share_prob_lt_0.6": 0.051,
+  "dev_low_confidence_share_prob_lt_0.6": 0.057
+}

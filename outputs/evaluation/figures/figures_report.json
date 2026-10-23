@@ -1,0 +1,18 @@
+{
+  "models": [
+    "p_logreg",
+    "p_lgbm",
+    "p_gru",
+    "p_ensemble",
+    "p_lgbm_no_time",
+    "p_lgbm_time_only",
+    "p_gru_mtl",
+    "p_gru_moe",
+    "p_lgbm_moe_max"
+  ],
+  "km_model": "p_lgbm",
+  "km_window_h": 24,
+  "calib_bins": 10,
+  "corr_rows": 200000,
+  "split": "dev"
+}

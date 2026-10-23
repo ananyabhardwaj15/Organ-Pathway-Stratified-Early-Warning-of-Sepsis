@@ -1,0 +1,299 @@
+model,operating_point,group,hours_since_window_start,share_not_yet_alerted,n_at_risk,n_patients
+p_lgbm,far5,all,0.0,1.0,2005,2005
+p_lgbm,far5,all,0.0,0.714214463840399,2005,2005
+p_lgbm,far5,all,1.0,0.6902743142144638,1432,2005
+p_lgbm,far5,all,2.0,0.6787784512979473,1321,2005
+p_lgbm,far5,all,3.0,0.6701039662973346,1252,2005
+p_lgbm,far5,all,4.0,0.6600607761280157,1201,2005
+p_lgbm,far5,all,5.0,0.6560148694442188,1142,2005
+p_lgbm,far5,all,6.0,0.6469622263516123,1087,2005
+p_lgbm,far5,all,7.0,0.6381856070018811,1032,2005
+p_lgbm,far5,all,8.0,0.6258629174357879,984,2005
+p_lgbm,far5,all,9.0,0.6204733551758457,929,2005
+p_lgbm,far5,all,10.0,0.614254802618404,898,2005
+p_lgbm,far5,all,11.0,0.6065061755211536,872,2005
+p_lgbm,far5,all,12.0,0.5991812217105116,828,2005
+p_lgbm,far5,all,13.0,0.5892836919999187,787,2005
+p_lgbm,far5,all,14.0,0.5821838884818473,747,2005
+p_lgbm,far5,all,15.0,0.570879346957928,721,2005
+p_lgbm,far5,all,16.0,0.5582492729101862,678,2005
+p_lgbm,far5,all,17.0,0.5469451599073321,642,2005
+p_lgbm,far5,all,18.0,0.5315764529347293,605,2005
+p_lgbm,far5,all,19.0,0.523153586603017,568,2005
+p_lgbm,far5,all,20.0,0.5153453241164048,536,2005
+p_lgbm,far5,all,21.0,0.5083133216430815,513,2005
+p_lgbm,far5,all,22.0,0.4948549241250366,491,2005
+p_lgbm,far5,all,23.0,0.48628600768997104,462,2005
+p_lgbm,far5,Hemodynamic,0.0,1.0,150,150
+p_lgbm,far5,Hemodynamic,0.0,0.7533333333333333,150,150
+p_lgbm,far5,Hemodynamic,1.0,0.7333333333333333,113,150
+p_lgbm,far5,Hemodynamic,3.0,0.7266666666666667,110,150
+p_lgbm,far5,Hemodynamic,4.0,0.7133333333333334,109,150
+p_lgbm,far5,Hemodynamic,5.0,0.7066666666666667,107,150
+p_lgbm,far5,Hemodynamic,6.0,0.7,106,150
+p_lgbm,far5,Hemodynamic,7.0,0.6865384615384614,104,150
+p_lgbm,far5,Hemodynamic,8.0,0.666146230007616,101,150
+p_lgbm,far5,Hemodynamic,15.0,0.658022495495328,82,150
+p_lgbm,far5,Hemodynamic,17.0,0.63974409284268,72,150
+p_lgbm,far5,Hemodynamic,19.0,0.6203579082110836,66,150
+p_lgbm,far5,Hemodynamic,22.0,0.5985909640633262,57,150
+p_lgbm,far5,Hemodynamic,23.0,0.5877074919894476,55,150
+p_lgbm,far5,Inflammatory,0.0,1.0,301,301
+p_lgbm,far5,Inflammatory,0.0,0.6578073089700996,301,301
+p_lgbm,far5,Inflammatory,1.0,0.6378737541528239,198,301
+p_lgbm,far5,Inflammatory,2.0,0.6179401993355481,192,301
+p_lgbm,far5,Inflammatory,3.0,0.6079734219269103,186,301
+p_lgbm,far5,Inflammatory,4.0,0.5980066445182723,183,301
+p_lgbm,far5,Inflammatory,5.0,0.5946843853820597,180,301
+p_lgbm,far5,Inflammatory,6.0,0.5813953488372092,179,301
+p_lgbm,far5,Inflammatory,7.0,0.5678745267712276,172,301
+p_lgbm,far5,Inflammatory,9.0,0.5644535958870637,166,301
+p_lgbm,far5,Inflammatory,10.0,0.5573535506557799,159,301
+p_lgbm,far5,Inflammatory,11.0,0.5465660625785712,155,301
+p_lgbm,far5,Inflammatory,12.0,0.5355613767548416,149,301
+p_lgbm,far5,Inflammatory,13.0,0.5198095715561698,136,301
+p_lgbm,far5,Inflammatory,14.0,0.5157485592783873,128,301
+p_lgbm,far5,Inflammatory,15.0,0.5116553167444318,126,301
+p_lgbm,far5,Inflammatory,16.0,0.49896964773423924,121,301
+p_lgbm,far5,Inflammatory,17.0,0.49029191473016553,115,301
+p_lgbm,far5,Inflammatory,18.0,0.4769203170557065,110,301
+p_lgbm,far5,Inflammatory,19.0,0.4723345447763247,104,301
+p_lgbm,far5,Inflammatory,20.0,0.45772625988633525,97,301
+p_lgbm,far5,Inflammatory,21.0,0.4528568315896721,94,301
+p_lgbm,far5,Inflammatory,23.0,0.4419446187802824,83,301
+p_lgbm,far5,Multi-system,0.0,1.0,397,397
+p_lgbm,far5,Multi-system,0.0,0.614609571788413,397,397
+p_lgbm,far5,Multi-system,1.0,0.5843828715365238,244,397
+p_lgbm,far5,Multi-system,2.0,0.5717884130982366,232,397
+p_lgbm,far5,Multi-system,3.0,0.5617128463476069,227,397
+p_lgbm,far5,Multi-system,4.0,0.556675062972292,223,397
+p_lgbm,far5,Multi-system,5.0,0.5516372795969772,221,397
+p_lgbm,far5,Multi-system,6.0,0.5440806045340049,219,397
+p_lgbm,far5,Multi-system,7.0,0.538971866463263,213,397
+p_lgbm,far5,Multi-system,8.0,0.5208333901880571,208,397
+p_lgbm,far5,Multi-system,9.0,0.5129019172410308,197,397
+p_lgbm,far5,Multi-system,10.0,0.5049704442940046,194,397
+p_lgbm,far5,Multi-system,11.0,0.49965496593301506,190,397
+p_lgbm,far5,Multi-system,12.0,0.4860031909075228,183,397
+p_lgbm,far5,Multi-system,13.0,0.48041694733387313,174,397
+p_lgbm,far5,Multi-system,14.0,0.4775909652907327,170,397
+p_lgbm,far5,Multi-system,15.0,0.46594240516169044,164,397
+p_lgbm,far5,Multi-system,16.0,0.45368076292059334,152,397
+p_lgbm,far5,Multi-system,17.0,0.4505519300728651,145,397
+p_lgbm,far5,Multi-system,18.0,0.43398752087900977,136,397
+p_lgbm,far5,Multi-system,19.0,0.4269877221551548,124,397
+p_lgbm,far5,Multi-system,20.0,0.4233691821368908,118,397
+p_lgbm,far5,Multi-system,21.0,0.4196225522064758,113,397
+p_lgbm,far5,Multi-system,22.0,0.3963101881950049,108,397
+p_lgbm,far5,Multi-system,23.0,0.3880537259409423,96,397
+p_lgbm,far5,No abnormal vitals,0.0,1.0,482,482
+p_lgbm,far5,No abnormal vitals,0.0,0.6493775933609959,482,482
+p_lgbm,far5,No abnormal vitals,1.0,0.6369294605809128,313,482
+p_lgbm,far5,No abnormal vitals,2.0,0.6265560165975104,307,482
+p_lgbm,far5,No abnormal vitals,3.0,0.6203319502074689,302,482
+p_lgbm,far5,No abnormal vitals,4.0,0.607883817427386,299,482
+p_lgbm,far5,No abnormal vitals,5.0,0.603734439834025,293,482
+p_lgbm,far5,No abnormal vitals,6.0,0.595435684647303,291,482
+p_lgbm,far5,No abnormal vitals,7.0,0.5912717987406785,286,482
+p_lgbm,far5,No abnormal vitals,8.0,0.5724681019609396,283,482
+p_lgbm,far5,No abnormal vitals,9.0,0.5682432451198994,271,482
+p_lgbm,far5,No abnormal vitals,10.0,0.5618584895567544,267,482
+p_lgbm,far5,No abnormal vitals,11.0,0.5489915012462944,262,482
+p_lgbm,far5,No abnormal vitals,12.0,0.544599569236324,250,482
+p_lgbm,far5,No abnormal vitals,13.0,0.5379310030824098,245,482
+p_lgbm,far5,No abnormal vitals,14.0,0.5310344517608405,234,482
+p_lgbm,far5,No abnormal vitals,15.0,0.5192859019431227,226,482
+p_lgbm,far5,No abnormal vitals,16.0,0.5044491618876049,210,482
+p_lgbm,far5,No abnormal vitals,17.0,0.4993793210646139,199,482
+p_lgbm,far5,No abnormal vitals,18.0,0.4782415720248419,189,482
+p_lgbm,far5,No abnormal vitals,19.0,0.47027087915776117,180,482
+p_lgbm,far5,No abnormal vitals,20.0,0.46470554330974034,169,482
+p_lgbm,far5,No abnormal vitals,21.0,0.45316006397285236,161,482
+p_lgbm,far5,No abnormal vitals,22.0,0.4471974315521569,152,482
+p_lgbm,far5,No abnormal vitals,23.0,0.44417582728491256,148,482
+p_lgbm,far5,Respiratory,0.0,1.0,208,208
+p_lgbm,far5,Respiratory,0.0,0.5913461538461539,208,208
+p_lgbm,far5,Respiratory,1.0,0.5625,123,208
+p_lgbm,far5,Respiratory,3.0,0.548076923076923,117,208
+p_lgbm,far5,Respiratory,4.0,0.5384615384615383,114,208
+p_lgbm,far5,Respiratory,5.0,0.533653846153846,112,208
+p_lgbm,far5,Respiratory,6.0,0.5240384615384615,111,208
+p_lgbm,far5,Respiratory,7.0,0.5143340455840455,108,208
+p_lgbm,far5,Respiratory,9.0,0.5045372066205398,105,208
+p_lgbm,far5,Respiratory,10.0,0.49959076341837766,102,208
+p_lgbm,far5,Respiratory,13.0,0.4839785520615534,96,208
+p_lgbm,far5,Respiratory,14.0,0.46819664275519834,92,208
+p_lgbm,far5,Respiratory,15.0,0.4573083487376356,86,208
+p_lgbm,far5,Respiratory,16.0,0.44615448657330303,82,208
+p_lgbm,far5,Respiratory,17.0,0.4403602724619614,77,208
+p_lgbm,far5,Respiratory,19.0,0.4344094579692322,74,208
+p_lgbm,far5,Respiratory,20.0,0.42217257182925383,71,208
+p_lgbm,far5,Respiratory,22.0,0.403547311307375,68,208
+p_lgbm,far5,Respiratory,23.0,0.39724188456819726,64,208
+p_lgbm,far5,unassigned,0.0,1.0,467,467
+p_lgbm,far5,unassigned,0.0,0.9443254817987152,467,467
+p_lgbm,far5,unassigned,1.0,0.9122055674518201,441,467
+p_lgbm,far5,unassigned,2.0,0.8971277894774099,363,467
+p_lgbm,far5,unassigned,3.0,0.891339868254975,310,467
+p_lgbm,far5,unassigned,4.0,0.8815449246477776,273,467
+p_lgbm,far5,unassigned,6.0,0.8766745106994474,181,467
+p_lgbm,far5,unassigned,7.0,0.8649070676028104,149,467
+p_lgbm,far5,unassigned,13.0,0.8468881703610852,48,467
+p_lgbm,far5,unassigned,14.0,0.826232361327888,41,467
+p_lgbm,far5,unassigned,15.0,0.8039017569676749,37,467
+p_lgbm,far5,unassigned,17.0,0.6856809103547815,34,467
+p_lgbm,far5,unassigned,18.0,0.6593085676488284,26,467
+p_lgbm,far5,unassigned,21.0,0.6226803138905601,18,467
+p_lgbm,far5,unassigned,23.0,0.5837627942724001,16,467
+p_lgbm,util_opt,all,0.0,1.0,2005,2005
+p_lgbm,util_opt,all,0.0,0.5800498753117207,2005,2005
+p_lgbm,util_opt,all,1.0,0.5097256857855362,1163,2005
+p_lgbm,util_opt,all,2.0,0.48648430736629933,965,2005
+p_lgbm,util_opt,all,3.0,0.47001192675570225,886,2005
+p_lgbm,util_opt,all,4.0,0.45922662891952065,828,2005
+p_lgbm,util_opt,all,5.0,0.44861548730135453,779,2005
+p_lgbm,util_opt,all,6.0,0.44122072652166183,728,2005
+p_lgbm,util_opt,all,7.0,0.43097467191448247,689,2005
+p_lgbm,util_opt,all,8.0,0.4230789527343698,655,2005
+p_lgbm,util_opt,all,9.0,0.41216078621219254,620,2005
+p_lgbm,util_opt,all,10.0,0.399478915867202,585,2005
+p_lgbm,util_opt,all,11.0,0.3909033398557415,559,2005
+p_lgbm,util_opt,all,12.0,0.3767832572373782,526,2005
+p_lgbm,util_opt,all,13.0,0.3705682756746998,485,2005
+p_lgbm,util_opt,all,14.0,0.3616875544711667,459,2005
+p_lgbm,util_opt,all,15.0,0.35260407707577207,438,2005
+p_lgbm,util_opt,all,16.0,0.34053449986535445,409,2005
+p_lgbm,util_opt,all,17.0,0.33157306565837147,380,2005
+p_lgbm,util_opt,all,18.0,0.324121985531217,356,2005
+p_lgbm,util_opt,all,19.0,0.3146447344922926,342,2005
+p_lgbm,util_opt,all,20.0,0.3077618809252737,320,2005
+p_lgbm,util_opt,all,21.0,0.2977370639570237,307,2005
+p_lgbm,util_opt,all,22.0,0.28955185257676186,291,2005
+p_lgbm,util_opt,all,23.0,0.27779882535039885,271,2005
+p_lgbm,util_opt,Hemodynamic,0.0,1.0,150,150
+p_lgbm,util_opt,Hemodynamic,0.0,0.6733333333333333,150,150
+p_lgbm,util_opt,Hemodynamic,1.0,0.5599999999999999,101,150
+p_lgbm,util_opt,Hemodynamic,2.0,0.5466666666666666,84,150
+p_lgbm,util_opt,Hemodynamic,4.0,0.5333333333333333,82,150
+p_lgbm,util_opt,Hemodynamic,5.0,0.5266666666666667,80,150
+p_lgbm,util_opt,Hemodynamic,6.0,0.5133333333333334,79,150
+p_lgbm,util_opt,Hemodynamic,7.0,0.49307017543859655,76,150
+p_lgbm,util_opt,Hemodynamic,8.0,0.48622197855750493,72,150
+p_lgbm,util_opt,Hemodynamic,9.0,0.4793737816764133,71,150
+p_lgbm,util_opt,Hemodynamic,10.0,0.4654788894539086,69,150
+p_lgbm,util_opt,Hemodynamic,12.0,0.4583176757700023,65,150
+p_lgbm,util_opt,Hemodynamic,13.0,0.4508042712491826,61,150
+p_lgbm,util_opt,Hemodynamic,14.0,0.4349865775211411,57,150
+p_lgbm,util_opt,Hemodynamic,16.0,0.41887596353887663,54,150
+p_lgbm,util_opt,Hemodynamic,17.0,0.41014938096515,48,150
+p_lgbm,util_opt,Hemodynamic,19.0,0.39192051958892116,45,150
+p_lgbm,util_opt,Hemodynamic,22.0,0.3821225065991981,40,150
+p_lgbm,util_opt,Inflammatory,0.0,1.0,301,301
+p_lgbm,util_opt,Inflammatory,0.0,0.5116279069767442,301,301
+p_lgbm,util_opt,Inflammatory,1.0,0.46179401993355484,154,301
+p_lgbm,util_opt,Inflammatory,2.0,0.425249169435216,139,301
+p_lgbm,util_opt,Inflammatory,3.0,0.41528239202657813,128,301
+p_lgbm,util_opt,Inflammatory,4.0,0.398671096345515,125,301
+p_lgbm,util_opt,Inflammatory,5.0,0.3887043189368771,120,301
+p_lgbm,util_opt,Inflammatory,6.0,0.38205980066445183,117,301
+p_lgbm,util_opt,Inflammatory,7.0,0.3753569971440228,114,301
+p_lgbm,util_opt,Inflammatory,8.0,0.3686541936235938,112,301
+p_lgbm,util_opt,Inflammatory,9.0,0.36527204505823974,109,301
+p_lgbm,util_opt,Inflammatory,10.0,0.35463305345460167,103,301
+p_lgbm,util_opt,Inflammatory,11.0,0.3401582349462506,98,301
+p_lgbm,util_opt,Inflammatory,12.0,0.3252062246189429,91,301
+p_lgbm,util_opt,Inflammatory,13.0,0.32108969013009553,79,301
+p_lgbm,util_opt,Inflammatory,16.0,0.30771095304134155,72,301
+p_lgbm,util_opt,Inflammatory,17.0,0.29852555145801796,67,301
+p_lgbm,util_opt,Inflammatory,18.0,0.2891966279749549,64,301
+p_lgbm,util_opt,Inflammatory,19.0,0.2844556996474966,61,301
+p_lgbm,util_opt,Inflammatory,20.0,0.2694843470344705,57,301
+p_lgbm,util_opt,Inflammatory,22.0,0.2643997367130654,53,301
+p_lgbm,util_opt,Inflammatory,23.0,0.24752315777393355,47,301
+p_lgbm,util_opt,Multi-system,0.0,1.0,397,397
+p_lgbm,util_opt,Multi-system,0.0,0.47103274559193953,397,397
+p_lgbm,util_opt,Multi-system,1.0,0.3929471032745592,187,397
+p_lgbm,util_opt,Multi-system,2.0,0.37531486146095716,156,397
+p_lgbm,util_opt,Multi-system,3.0,0.34760705289672544,149,397
+p_lgbm,util_opt,Multi-system,4.0,0.3425692695214106,138,397
+p_lgbm,util_opt,Multi-system,5.0,0.32745591939546603,136,397
+p_lgbm,util_opt,Multi-system,6.0,0.3198992443324937,130,397
+p_lgbm,util_opt,Multi-system,7.0,0.31222166246851385,125,397
+p_lgbm,util_opt,Multi-system,8.0,0.30190028519682743,121,397
+p_lgbm,util_opt,Multi-system,9.0,0.2835237460978901,115,397
+p_lgbm,util_opt,Multi-system,10.0,0.2703976467415063,108,397
+p_lgbm,util_opt,Multi-system,11.0,0.25989676725639926,103,397
+p_lgbm,util_opt,Multi-system,12.0,0.2465000266761725,97,397
+p_lgbm,util_opt,Multi-system,13.0,0.24376113749088169,90,397
+p_lgbm,util_opt,Multi-system,14.0,0.2382211116388162,88,397
+p_lgbm,util_opt,Multi-system,15.0,0.22971321479457277,84,397
+p_lgbm,util_opt,Multi-system,16.0,0.2238231323639427,78,397
+p_lgbm,util_opt,Multi-system,17.0,0.22083882393242346,75,397
+p_lgbm,util_opt,Multi-system,18.0,0.2113743029067482,70,397
+p_lgbm,util_opt,Multi-system,19.0,0.2049690210004831,66,397
+p_lgbm,util_opt,Multi-system,20.0,0.2017155444766659,63,397
+p_lgbm,util_opt,Multi-system,21.0,0.18544816185757992,62,397
+p_lgbm,util_opt,Multi-system,22.0,0.18207637709653302,55,397
+p_lgbm,util_opt,Multi-system,23.0,0.17850625205542453,51,397
+p_lgbm,util_opt,No abnormal vitals,0.0,1.0,482,482
+p_lgbm,util_opt,No abnormal vitals,0.0,0.508298755186722,482,482
+p_lgbm,util_opt,No abnormal vitals,1.0,0.4647302904564315,245,482
+p_lgbm,util_opt,No abnormal vitals,2.0,0.454356846473029,224,482
+p_lgbm,util_opt,No abnormal vitals,3.0,0.44398340248962653,219,482
+p_lgbm,util_opt,No abnormal vitals,4.0,0.4356846473029045,214,482
+p_lgbm,util_opt,No abnormal vitals,5.0,0.4232365145228215,210,482
+p_lgbm,util_opt,No abnormal vitals,6.0,0.421161825726141,204,482
+p_lgbm,util_opt,No abnormal vitals,7.0,0.41699190665954555,202,482
+p_lgbm,util_opt,No abnormal vitals,8.0,0.4148964699426634,199,482
+p_lgbm,util_opt,No abnormal vitals,9.0,0.4085460137700716,196,482
+p_lgbm,util_opt,No abnormal vitals,10.0,0.39785109194362994,191,482
+p_lgbm,util_opt,No abnormal vitals,12.0,0.38026651329418776,181,482
+p_lgbm,util_opt,No abnormal vitals,13.0,0.3713713901761951,171,482
+p_lgbm,util_opt,No abnormal vitals,14.0,0.3573573754525651,159,482
+p_lgbm,util_opt,No abnormal vitals,15.0,0.3525606321578998,149,482
+p_lgbm,util_opt,No abnormal vitals,16.0,0.34241500245551415,139,482
+p_lgbm,util_opt,No abnormal vitals,17.0,0.329345727552632,131,482
+p_lgbm,util_opt,No abnormal vitals,18.0,0.3238566320934214,120,482
+p_lgbm,util_opt,No abnormal vitals,19.0,0.310016605080882,117,482
+p_lgbm,util_opt,No abnormal vitals,21.0,0.2979771252719157,103,482
+p_lgbm,util_opt,No abnormal vitals,22.0,0.2918332670188865,97,482
+p_lgbm,util_opt,No abnormal vitals,23.0,0.2761433064264733,93,482
+p_lgbm,util_opt,Respiratory,0.0,1.0,208,208
+p_lgbm,util_opt,Respiratory,0.0,0.46634615384615385,208,208
+p_lgbm,util_opt,Respiratory,1.0,0.4326923076923077,97,208
+p_lgbm,util_opt,Respiratory,2.0,0.40865384615384615,90,208
+p_lgbm,util_opt,Respiratory,3.0,0.38942307692307687,85,208
+p_lgbm,util_opt,Respiratory,4.0,0.375,81,208
+p_lgbm,util_opt,Respiratory,6.0,0.3701923076923077,78,208
+p_lgbm,util_opt,Respiratory,7.0,0.3653846153846154,77,208
+p_lgbm,util_opt,Respiratory,8.0,0.3507692307692308,75,208
+p_lgbm,util_opt,Respiratory,9.0,0.3361538461538462,72,208
+p_lgbm,util_opt,Respiratory,10.0,0.3262669683257919,68,208
+p_lgbm,util_opt,Respiratory,11.0,0.3163800904977376,66,208
+p_lgbm,util_opt,Respiratory,12.0,0.3112771858122902,62,208
+p_lgbm,util_opt,Respiratory,13.0,0.30600130130699715,59,208
+p_lgbm,util_opt,Respiratory,15.0,0.2841440654993545,56,208
+p_lgbm,util_opt,Respiratory,16.0,0.2727783028793803,50,208
+p_lgbm,util_opt,Respiratory,17.0,0.26684833977330685,46,208
+p_lgbm,util_opt,Respiratory,18.0,0.26091837666723333,45,208
+p_lgbm,util_opt,Respiratory,20.0,0.24849369206403174,42,208
+p_lgbm,util_opt,Respiratory,21.0,0.24228134976243093,40,208
+p_lgbm,util_opt,Respiratory,22.0,0.22315387478118637,38,208
+p_lgbm,util_opt,Respiratory,23.0,0.21002717626464598,34,208
+p_lgbm,util_opt,unassigned,0.0,1.0,467,467
+p_lgbm,util_opt,unassigned,0.0,0.8115631691648822,467,467
+p_lgbm,util_opt,unassigned,1.0,0.7044967880085653,379,467
+p_lgbm,util_opt,unassigned,2.0,0.6682359239198891,272,467
+p_lgbm,util_opt,unassigned,3.0,0.6472599083708342,223,467
+p_lgbm,util_opt,unassigned,4.0,0.6369312928117252,188,467
+p_lgbm,util_opt,unassigned,5.0,0.6287128245173803,155,467
+p_lgbm,util_opt,unassigned,6.0,0.6129950039044458,120,467
+p_lgbm,util_opt,unassigned,7.0,0.5807321089621066,95,467
+p_lgbm,util_opt,unassigned,8.0,0.5730908970020788,76,467
+p_lgbm,util_opt,unassigned,9.0,0.5630366707388844,57,467
+p_lgbm,util_opt,unassigned,10.0,0.5507967431141261,46,467
+p_lgbm,util_opt,unassigned,11.0,0.5232569059584198,40,467
+p_lgbm,util_opt,unassigned,14.0,0.499472501142128,22,467
+p_lgbm,util_opt,unassigned,15.0,0.4439755565707804,18,467
+p_lgbm,util_opt,unassigned,16.0,0.41622708428510663,16,467
+p_lgbm,util_opt,unassigned,20.0,0.37460437585659595,10,467

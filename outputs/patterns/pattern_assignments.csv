@@ -1,0 +1,2507 @@
+Patient_ID,hospital,split,fold,first_pos_hour,window_hours,pattern_id,pattern,pattern_desc,pattern_prob,assign_reason
+9,A,dev,2,248.0,24,1,Multi-system,Multi-system,,
+11,A,dev,1,24.0,24,0,No abnormal vitals,No abnormal vitals,,
+15,A,dev,0,5.0,5,-1,unassigned,,,short_window
+18,A,dev,2,125.0,24,1,Multi-system,Multi-system,,
+22,A,dev,2,9.0,9,-1,unassigned,,,sparse_vitals
+28,A,dev,0,21.0,21,3,Respiratory,Respiratory,,
+34,A,dev,3,3.0,3,-1,unassigned,,,short_window
+42,A,dev,3,63.0,24,2,Inflammatory,Inflammatory,,
+53,A,dev,1,15.0,15,4,Hemodynamic,Hemodynamic,,
+63,A,dev,0,4.0,4,-1,unassigned,,,short_window
+64,A,dev,1,19.0,19,0,No abnormal vitals,No abnormal vitals,,
+78,A,dev,1,94.0,24,2,Inflammatory,Inflammatory,,
+141,A,dev,3,51.0,24,1,Multi-system,Multi-system,,
+161,A,dev,0,13.0,13,0,No abnormal vitals,No abnormal vitals,,
+171,A,dev,3,59.0,24,1,Multi-system,Multi-system,,
+178,A,dev,3,87.0,24,2,Inflammatory,Inflammatory,,
+185,A,test,-1,55.0,24,0,No abnormal vitals,No abnormal vitals,,
+188,A,test,-1,75.0,24,1,Multi-system,Multi-system,,
+203,A,test,-1,71.0,24,-1,unassigned,,,sparse_vitals
+206,A,dev,3,13.0,13,2,Inflammatory,Inflammatory,,
+226,A,test,-1,9.0,9,-1,unassigned,,,sparse_vitals
+265,A,dev,0,52.0,24,3,Respiratory,Respiratory,,
+272,A,test,-1,90.0,24,2,Inflammatory,Inflammatory,,
+283,A,dev,2,32.0,24,2,Inflammatory,Inflammatory,,
+286,A,dev,1,84.0,24,1,Multi-system,Multi-system,,
+311,A,dev,2,88.0,24,3,Respiratory,Respiratory,,
+324,A,dev,0,54.0,24,3,Respiratory,Respiratory,,
+346,A,test,-1,55.0,24,-1,unassigned,,,sparse_vitals
+354,A,dev,4,2.0,2,-1,unassigned,,,short_window
+357,A,dev,1,137.0,24,-1,unassigned,,,sparse_vitals
+359,A,dev,1,34.0,24,0,No abnormal vitals,No abnormal vitals,,
+371,A,test,-1,2.0,2,-1,unassigned,,,short_window
+373,A,dev,0,139.0,24,0,No abnormal vitals,No abnormal vitals,,
+376,A,dev,2,28.0,24,0,No abnormal vitals,No abnormal vitals,,
+379,A,dev,3,49.0,24,0,No abnormal vitals,No abnormal vitals,,
+384,A,test,-1,1.0,1,-1,unassigned,,,short_window
+401,A,dev,3,204.0,24,0,No abnormal vitals,No abnormal vitals,,
+466,A,dev,3,40.0,24,0,No abnormal vitals,No abnormal vitals,,
+468,A,dev,0,83.0,24,1,Multi-system,Multi-system,,
+483,A,dev,2,19.0,19,2,Inflammatory,Inflammatory,,
+541,A,dev,0,241.0,24,1,Multi-system,Multi-system,,
+559,A,test,-1,41.0,24,1,Multi-system,Multi-system,,
+574,A,dev,1,67.0,24,1,Multi-system,Multi-system,,
+584,A,test,-1,1.0,1,-1,unassigned,,,short_window
+587,A,dev,2,244.0,24,3,Respiratory,Respiratory,,
+601,A,dev,2,83.0,24,2,Inflammatory,Inflammatory,,
+614,A,dev,0,17.0,17,-1,unassigned,,,sparse_vitals
+635,A,dev,2,107.0,24,3,Respiratory,Respiratory,,
+639,A,dev,0,61.0,24,0,No abnormal vitals,No abnormal vitals,,
+650,A,test,-1,48.0,24,0,No abnormal vitals,No abnormal vitals,,
+653,A,dev,1,28.0,24,1,Multi-system,Multi-system,,
+654,A,dev,0,7.0,7,-1,unassigned,,,sparse_vitals
+656,A,dev,2,31.0,24,0,No abnormal vitals,No abnormal vitals,,
+674,A,dev,4,73.0,24,4,Hemodynamic,Hemodynamic,,
+679,A,dev,0,64.0,24,0,No abnormal vitals,No abnormal vitals,,
+698,A,dev,2,21.0,21,0,No abnormal vitals,No abnormal vitals,,
+702,A,dev,1,61.0,24,1,Multi-system,Multi-system,,
+705,A,dev,0,8.0,8,1,Multi-system,Multi-system,,
+714,A,test,-1,11.0,11,4,Hemodynamic,Hemodynamic,,
+730,A,dev,0,4.0,4,-1,unassigned,,,short_window
+754,A,dev,4,98.0,24,1,Multi-system,Multi-system,,
+762,A,dev,2,151.0,24,2,Inflammatory,Inflammatory,,
+765,A,test,-1,53.0,24,3,Respiratory,Respiratory,,
+772,A,dev,0,69.0,24,3,Respiratory,Respiratory,,
+784,A,dev,2,23.0,23,2,Inflammatory,Inflammatory,,
+795,A,test,-1,128.0,24,0,No abnormal vitals,No abnormal vitals,,
+811,A,test,-1,2.0,2,-1,unassigned,,,short_window
+818,A,dev,4,13.0,13,0,No abnormal vitals,No abnormal vitals,,
+847,A,dev,3,71.0,24,2,Inflammatory,Inflammatory,,
+851,A,dev,4,5.0,5,-1,unassigned,,,short_window
+872,A,test,-1,4.0,4,-1,unassigned,,,short_window
+890,A,dev,1,72.0,24,1,Multi-system,Multi-system,,
+897,A,test,-1,212.0,24,0,No abnormal vitals,No abnormal vitals,,
+938,A,dev,3,41.0,24,-1,unassigned,,,sparse_vitals
+939,A,test,-1,65.0,24,0,No abnormal vitals,No abnormal vitals,,
+962,A,dev,2,22.0,22,2,Inflammatory,Inflammatory,,
+967,A,dev,3,29.0,24,4,Hemodynamic,Hemodynamic,,
+972,A,dev,3,8.0,8,-1,unassigned,,,sparse_vitals
+983,A,test,-1,33.0,24,3,Respiratory,Respiratory,,
+996,A,test,-1,5.0,5,-1,unassigned,,,short_window
+999,A,test,-1,4.0,4,-1,unassigned,,,short_window
+1040,A,test,-1,205.0,24,1,Multi-system,Multi-system,,
+1043,A,dev,3,72.0,24,1,Multi-system,Multi-system,,
+1069,A,dev,0,144.0,24,0,No abnormal vitals,No abnormal vitals,,
+1072,A,dev,3,52.0,24,2,Inflammatory,Inflammatory,,
+1084,A,dev,3,5.0,5,-1,unassigned,,,short_window
+1086,A,dev,1,34.0,24,3,Respiratory,Respiratory,,
+1088,A,dev,4,23.0,23,0,No abnormal vitals,No abnormal vitals,,
+1092,A,dev,2,53.0,24,0,No abnormal vitals,No abnormal vitals,,
+1123,A,dev,3,88.0,24,2,Inflammatory,Inflammatory,,
+1128,A,test,-1,7.0,7,1,Multi-system,Multi-system,,
+1133,A,dev,2,92.0,24,1,Multi-system,Multi-system,,
+1144,A,dev,3,35.0,24,0,No abnormal vitals,No abnormal vitals,,
+1183,A,dev,2,8.0,8,-1,unassigned,,,sparse_vitals
+1185,A,dev,3,142.0,24,3,Respiratory,Respiratory,,
+1192,A,dev,1,163.0,24,0,No abnormal vitals,No abnormal vitals,,
+1194,A,test,-1,2.0,2,-1,unassigned,,,short_window
+1201,A,test,-1,69.0,24,3,Respiratory,Respiratory,,
+1206,A,dev,4,211.0,24,1,Multi-system,Multi-system,,
+1226,A,dev,1,2.0,2,-1,unassigned,,,short_window
+1230,A,dev,0,15.0,15,1,Multi-system,Multi-system,,
+1245,A,dev,0,5.0,5,-1,unassigned,,,short_window
+1250,A,dev,4,67.0,24,4,Hemodynamic,Hemodynamic,,
+1260,A,dev,2,8.0,8,-1,unassigned,,,sparse_vitals
+1273,A,dev,3,34.0,24,1,Multi-system,Multi-system,,
+1276,A,dev,1,45.0,24,-1,unassigned,,,sparse_vitals
+1277,A,test,-1,8.0,8,2,Inflammatory,Inflammatory,,
+1280,A,dev,4,80.0,24,2,Inflammatory,Inflammatory,,
+1288,A,dev,4,11.0,11,1,Multi-system,Multi-system,,
+1291,A,dev,4,147.0,24,2,Inflammatory,Inflammatory,,
+1298,A,dev,2,30.0,24,1,Multi-system,Multi-system,,
+1307,A,dev,0,13.0,13,-1,unassigned,,,sparse_vitals
+1319,A,dev,1,174.0,24,0,No abnormal vitals,No abnormal vitals,,
+1336,A,dev,0,5.0,5,-1,unassigned,,,short_window
+1352,A,dev,0,3.0,3,-1,unassigned,,,short_window
+1366,A,dev,2,61.0,24,0,No abnormal vitals,No abnormal vitals,,
+1368,A,test,-1,5.0,5,-1,unassigned,,,short_window
+1370,A,test,-1,35.0,24,0,No abnormal vitals,No abnormal vitals,,
+1389,A,dev,4,164.0,24,1,Multi-system,Multi-system,,
+1399,A,dev,4,157.0,24,-1,unassigned,,,sparse_vitals
+1429,A,dev,4,6.0,6,4,Hemodynamic,Hemodynamic,,
+1435,A,dev,0,2.0,2,-1,unassigned,,,short_window
+1439,A,test,-1,8.0,8,4,Hemodynamic,Hemodynamic,,
+1440,A,dev,4,1.0,1,-1,unassigned,,,short_window
+1441,A,dev,2,27.0,24,4,Hemodynamic,Hemodynamic,,
+1446,A,dev,1,76.0,24,1,Multi-system,Multi-system,,
+1461,A,dev,4,13.0,13,4,Hemodynamic,Hemodynamic,,
+1485,A,dev,2,151.0,24,3,Respiratory,Respiratory,,
+1502,A,dev,3,19.0,19,2,Inflammatory,Inflammatory,,
+1519,A,dev,1,3.0,3,-1,unassigned,,,short_window
+1523,A,dev,2,48.0,24,0,No abnormal vitals,No abnormal vitals,,
+1547,A,test,-1,118.0,24,1,Multi-system,Multi-system,,
+1588,A,dev,0,21.0,21,2,Inflammatory,Inflammatory,,
+1605,A,dev,1,24.0,24,0,No abnormal vitals,No abnormal vitals,,
+1610,A,dev,2,215.0,24,2,Inflammatory,Inflammatory,,
+1635,A,dev,1,63.0,24,3,Respiratory,Respiratory,,
+1646,A,dev,0,269.0,24,4,Hemodynamic,Hemodynamic,,
+1666,A,dev,3,117.0,24,3,Respiratory,Respiratory,,
+1668,A,dev,0,47.0,24,0,No abnormal vitals,No abnormal vitals,,
+1669,A,dev,0,5.0,5,-1,unassigned,,,short_window
+1670,A,dev,1,1.0,1,-1,unassigned,,,short_window
+1698,A,dev,0,7.0,7,-1,unassigned,,,sparse_vitals
+1712,A,test,-1,21.0,21,1,Multi-system,Multi-system,,
+1717,A,dev,1,8.0,8,2,Inflammatory,Inflammatory,,
+1727,A,dev,0,6.0,6,1,Multi-system,Multi-system,,
+1744,A,dev,0,113.0,24,-1,unassigned,,,sparse_vitals
+1765,A,dev,2,35.0,24,-1,unassigned,,,sparse_vitals
+1771,A,dev,0,16.0,16,4,Hemodynamic,Hemodynamic,,
+1786,A,test,-1,2.0,2,-1,unassigned,,,short_window
+1793,A,dev,3,75.0,24,1,Multi-system,Multi-system,,
+1810,A,dev,4,1.0,1,-1,unassigned,,,short_window
+1811,A,dev,1,33.0,24,2,Inflammatory,Inflammatory,,
+1830,A,dev,3,24.0,24,2,Inflammatory,Inflammatory,,
+1834,A,dev,4,107.0,24,0,No abnormal vitals,No abnormal vitals,,
+1836,A,dev,0,31.0,24,0,No abnormal vitals,No abnormal vitals,,
+1839,A,dev,1,15.0,15,0,No abnormal vitals,No abnormal vitals,,
+1849,A,dev,0,189.0,24,1,Multi-system,Multi-system,,
+1861,A,dev,2,101.0,24,0,No abnormal vitals,No abnormal vitals,,
+1863,A,dev,3,23.0,23,3,Respiratory,Respiratory,,
+1873,A,test,-1,66.0,24,1,Multi-system,Multi-system,,
+1895,A,dev,3,256.0,24,3,Respiratory,Respiratory,,
+1917,A,dev,4,37.0,24,1,Multi-system,Multi-system,,
+1932,A,dev,2,83.0,24,3,Respiratory,Respiratory,,
+1948,A,dev,0,16.0,16,3,Respiratory,Respiratory,,
+1954,A,dev,4,15.0,15,2,Inflammatory,Inflammatory,,
+1955,A,dev,4,95.0,24,4,Hemodynamic,Hemodynamic,,
+2004,A,dev,3,5.0,5,-1,unassigned,,,short_window
+2027,A,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+2029,A,dev,4,16.0,16,0,No abnormal vitals,No abnormal vitals,,
+2034,A,dev,0,5.0,5,-1,unassigned,,,short_window
+2067,A,dev,4,209.0,24,2,Inflammatory,Inflammatory,,
+2080,A,test,-1,87.0,24,1,Multi-system,Multi-system,,
+2097,A,dev,2,17.0,17,-1,unassigned,,,sparse_vitals
+2099,A,test,-1,7.0,7,-1,unassigned,,,sparse_vitals
+2100,A,dev,4,216.0,24,3,Respiratory,Respiratory,,
+2114,A,test,-1,8.0,8,-1,unassigned,,,sparse_vitals
+2125,A,dev,0,81.0,24,0,No abnormal vitals,No abnormal vitals,,
+2130,A,dev,2,43.0,24,0,No abnormal vitals,No abnormal vitals,,
+2131,A,test,-1,24.0,24,1,Multi-system,Multi-system,,
+2156,A,dev,4,16.0,16,1,Multi-system,Multi-system,,
+2161,A,dev,0,1.0,1,-1,unassigned,,,short_window
+2185,A,dev,1,13.0,13,2,Inflammatory,Inflammatory,,
+2188,A,dev,0,12.0,12,1,Multi-system,Multi-system,,
+2211,A,test,-1,219.0,24,1,Multi-system,Multi-system,,
+2213,A,dev,2,16.0,16,4,Hemodynamic,Hemodynamic,,
+2220,A,dev,1,29.0,24,1,Multi-system,Multi-system,,
+2273,A,dev,1,19.0,19,2,Inflammatory,Inflammatory,,
+2292,A,dev,4,38.0,24,3,Respiratory,Respiratory,,
+2316,A,dev,0,225.0,24,1,Multi-system,Multi-system,,
+2321,A,dev,3,37.0,24,-1,unassigned,,,sparse_vitals
+2326,A,dev,3,26.0,24,4,Hemodynamic,Hemodynamic,,
+2332,A,test,-1,135.0,24,0,No abnormal vitals,No abnormal vitals,,
+2360,A,dev,4,6.0,6,-1,unassigned,,,sparse_vitals
+2399,A,dev,2,79.0,24,0,No abnormal vitals,No abnormal vitals,,
+2404,A,dev,0,28.0,24,4,Hemodynamic,Hemodynamic,,
+2425,A,dev,2,163.0,24,0,No abnormal vitals,No abnormal vitals,,
+2429,A,dev,1,30.0,24,2,Inflammatory,Inflammatory,,
+2446,A,dev,0,65.0,24,1,Multi-system,Multi-system,,
+2519,A,dev,2,46.0,24,0,No abnormal vitals,No abnormal vitals,,
+2521,A,dev,0,61.0,24,0,No abnormal vitals,No abnormal vitals,,
+2525,A,dev,2,6.0,6,0,No abnormal vitals,No abnormal vitals,,
+2535,A,dev,2,3.0,3,-1,unassigned,,,short_window
+2541,A,dev,3,11.0,11,0,No abnormal vitals,No abnormal vitals,,
+2544,A,dev,2,12.0,12,4,Hemodynamic,Hemodynamic,,
+2546,A,test,-1,44.0,24,0,No abnormal vitals,No abnormal vitals,,
+2561,A,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+2564,A,dev,0,10.0,10,-1,unassigned,,,sparse_vitals
+2569,A,dev,0,25.0,24,1,Multi-system,Multi-system,,
+2589,A,dev,0,23.0,23,4,Hemodynamic,Hemodynamic,,
+2608,A,dev,4,16.0,16,2,Inflammatory,Inflammatory,,
+2610,A,dev,3,8.0,8,1,Multi-system,Multi-system,,
+2626,A,dev,2,69.0,24,2,Inflammatory,Inflammatory,,
+2637,A,dev,1,52.0,24,2,Inflammatory,Inflammatory,,
+2648,A,test,-1,10.0,10,-1,unassigned,,,sparse_vitals
+2659,A,dev,0,210.0,24,0,No abnormal vitals,No abnormal vitals,,
+2670,A,dev,3,5.0,5,-1,unassigned,,,short_window
+2679,A,dev,0,70.0,24,0,No abnormal vitals,No abnormal vitals,,
+2691,A,test,-1,7.0,7,-1,unassigned,,,sparse_vitals
+2700,A,dev,1,203.0,24,1,Multi-system,Multi-system,,
+2706,A,dev,2,36.0,24,3,Respiratory,Respiratory,,
+2714,A,dev,4,11.0,11,2,Inflammatory,Inflammatory,,
+2720,A,dev,1,71.0,24,0,No abnormal vitals,No abnormal vitals,,
+2761,A,dev,3,31.0,24,0,No abnormal vitals,No abnormal vitals,,
+2774,A,dev,2,16.0,16,4,Hemodynamic,Hemodynamic,,
+2785,A,dev,2,7.0,7,3,Respiratory,Respiratory,,
+2808,A,test,-1,25.0,24,2,Inflammatory,Inflammatory,,
+2852,A,dev,1,27.0,24,0,No abnormal vitals,No abnormal vitals,,
+2880,A,dev,1,21.0,21,1,Multi-system,Multi-system,,
+2881,A,dev,1,214.0,24,3,Respiratory,Respiratory,,
+2884,A,dev,1,39.0,24,3,Respiratory,Respiratory,,
+2905,A,dev,3,49.0,24,0,No abnormal vitals,No abnormal vitals,,
+2919,A,test,-1,15.0,15,-1,unassigned,,,sparse_vitals
+2921,A,dev,2,40.0,24,1,Multi-system,Multi-system,,
+2925,A,dev,1,4.0,4,-1,unassigned,,,short_window
+2927,A,dev,0,179.0,24,3,Respiratory,Respiratory,,
+2935,A,test,-1,39.0,24,0,No abnormal vitals,No abnormal vitals,,
+2948,A,dev,0,7.0,7,-1,unassigned,,,sparse_vitals
+2949,A,dev,2,54.0,24,2,Inflammatory,Inflammatory,,
+2968,A,test,-1,1.0,1,-1,unassigned,,,short_window
+2969,A,dev,1,111.0,24,-1,unassigned,,,sparse_vitals
+2973,A,dev,2,11.0,11,4,Hemodynamic,Hemodynamic,,
+2974,A,dev,2,23.0,23,2,Inflammatory,Inflammatory,,
+2992,A,dev,1,98.0,24,1,Multi-system,Multi-system,,
+3010,A,dev,1,108.0,24,1,Multi-system,Multi-system,,
+3018,A,test,-1,74.0,24,0,No abnormal vitals,No abnormal vitals,,
+3023,A,dev,3,19.0,19,0,No abnormal vitals,No abnormal vitals,,
+3051,A,test,-1,54.0,24,1,Multi-system,Multi-system,,
+3061,A,dev,4,8.0,8,-1,unassigned,,,sparse_vitals
+3064,A,test,-1,43.0,24,3,Respiratory,Respiratory,,
+3071,A,test,-1,16.0,16,2,Inflammatory,Inflammatory,,
+3073,A,test,-1,119.0,24,0,No abnormal vitals,No abnormal vitals,,
+3075,A,dev,2,34.0,24,4,Hemodynamic,Hemodynamic,,
+3079,A,test,-1,13.0,13,0,No abnormal vitals,No abnormal vitals,,
+3102,A,test,-1,47.0,24,1,Multi-system,Multi-system,,
+3104,A,dev,2,102.0,24,1,Multi-system,Multi-system,,
+3128,A,dev,2,132.0,24,4,Hemodynamic,Hemodynamic,,
+3142,A,test,-1,82.0,24,0,No abnormal vitals,No abnormal vitals,,
+3152,A,dev,2,55.0,24,0,No abnormal vitals,No abnormal vitals,,
+3153,A,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+3182,A,test,-1,62.0,24,0,No abnormal vitals,No abnormal vitals,,
+3199,A,dev,4,109.0,24,2,Inflammatory,Inflammatory,,
+3204,A,test,-1,103.0,24,1,Multi-system,Multi-system,,
+3205,A,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+3227,A,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+3234,A,dev,4,46.0,24,3,Respiratory,Respiratory,,
+3246,A,test,-1,24.0,24,0,No abnormal vitals,No abnormal vitals,,
+3247,A,dev,1,33.0,24,3,Respiratory,Respiratory,,
+3273,A,dev,3,108.0,24,1,Multi-system,Multi-system,,
+3308,A,dev,3,17.0,17,2,Inflammatory,Inflammatory,,
+3321,A,dev,0,4.0,4,-1,unassigned,,,short_window
+3323,A,dev,0,67.0,24,0,No abnormal vitals,No abnormal vitals,,
+3325,A,dev,4,50.0,24,4,Hemodynamic,Hemodynamic,,
+3332,A,dev,0,2.0,2,-1,unassigned,,,short_window
+3373,A,dev,4,166.0,24,1,Multi-system,Multi-system,,
+3375,A,dev,2,27.0,24,4,Hemodynamic,Hemodynamic,,
+3377,A,dev,4,41.0,24,2,Inflammatory,Inflammatory,,
+3379,A,test,-1,13.0,13,1,Multi-system,Multi-system,,
+3391,A,dev,4,88.0,24,0,No abnormal vitals,No abnormal vitals,,
+3407,A,dev,4,71.0,24,2,Inflammatory,Inflammatory,,
+3421,A,dev,3,214.0,24,3,Respiratory,Respiratory,,
+3427,A,dev,3,46.0,24,4,Hemodynamic,Hemodynamic,,
+3438,A,dev,4,5.0,5,-1,unassigned,,,short_window
+3449,A,test,-1,29.0,24,3,Respiratory,Respiratory,,
+3455,A,dev,0,100.0,24,0,No abnormal vitals,No abnormal vitals,,
+3457,A,dev,0,4.0,4,-1,unassigned,,,short_window
+3486,A,dev,4,3.0,3,-1,unassigned,,,short_window
+3488,A,test,-1,1.0,1,-1,unassigned,,,short_window
+3497,A,dev,3,10.0,10,-1,unassigned,,,sparse_vitals
+3523,A,test,-1,5.0,5,-1,unassigned,,,short_window
+3532,A,test,-1,26.0,24,1,Multi-system,Multi-system,,
+3539,A,test,-1,2.0,2,-1,unassigned,,,short_window
+3547,A,dev,4,17.0,17,1,Multi-system,Multi-system,,
+3567,A,test,-1,55.0,24,-1,unassigned,,,sparse_vitals
+3581,A,test,-1,45.0,24,2,Inflammatory,Inflammatory,,
+3592,A,dev,0,10.0,10,-1,unassigned,,,sparse_vitals
+3614,A,dev,0,31.0,24,3,Respiratory,Respiratory,,
+3634,A,dev,0,57.0,24,4,Hemodynamic,Hemodynamic,,
+3639,A,dev,2,63.0,24,0,No abnormal vitals,No abnormal vitals,,
+3645,A,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+3647,A,dev,2,29.0,24,2,Inflammatory,Inflammatory,,
+3648,A,dev,4,5.0,5,-1,unassigned,,,short_window
+3650,A,dev,3,266.0,24,3,Respiratory,Respiratory,,
+3657,A,dev,2,59.0,24,1,Multi-system,Multi-system,,
+3661,A,dev,3,90.0,24,2,Inflammatory,Inflammatory,,
+3665,A,dev,3,44.0,24,2,Inflammatory,Inflammatory,,
+3668,A,dev,1,151.0,24,0,No abnormal vitals,No abnormal vitals,,
+3685,A,dev,1,3.0,3,-1,unassigned,,,short_window
+3698,A,dev,4,4.0,4,-1,unassigned,,,short_window
+3708,A,test,-1,112.0,24,3,Respiratory,Respiratory,,
+3729,A,dev,1,86.0,24,0,No abnormal vitals,No abnormal vitals,,
+3732,A,dev,1,34.0,24,1,Multi-system,Multi-system,,
+3752,A,dev,3,4.0,4,-1,unassigned,,,short_window
+3768,A,dev,0,23.0,23,1,Multi-system,Multi-system,,
+3778,A,dev,0,12.0,12,4,Hemodynamic,Hemodynamic,,
+3791,A,dev,0,116.0,24,0,No abnormal vitals,No abnormal vitals,,
+3806,A,test,-1,22.0,22,2,Inflammatory,Inflammatory,,
+3809,A,dev,0,22.0,22,2,Inflammatory,Inflammatory,,
+3811,A,test,-1,19.0,19,0,No abnormal vitals,No abnormal vitals,,
+3831,A,dev,3,8.0,8,-1,unassigned,,,sparse_vitals
+3866,A,dev,2,25.0,24,2,Inflammatory,Inflammatory,,
+3889,A,dev,1,38.0,24,0,No abnormal vitals,No abnormal vitals,,
+3893,A,dev,3,5.0,5,-1,unassigned,,,short_window
+3920,A,dev,3,72.0,24,0,No abnormal vitals,No abnormal vitals,,
+3921,A,test,-1,38.0,24,4,Hemodynamic,Hemodynamic,,
+3953,A,test,-1,26.0,24,3,Respiratory,Respiratory,,
+3959,A,dev,0,17.0,17,1,Multi-system,Multi-system,,
+4016,A,dev,3,36.0,24,1,Multi-system,Multi-system,,
+4019,A,dev,1,25.0,24,2,Inflammatory,Inflammatory,,
+4020,A,dev,3,18.0,18,1,Multi-system,Multi-system,,
+4023,A,dev,1,19.0,19,1,Multi-system,Multi-system,,
+4024,A,dev,3,106.0,24,3,Respiratory,Respiratory,,
+4030,A,test,-1,119.0,24,0,No abnormal vitals,No abnormal vitals,,
+4041,A,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+4069,A,dev,0,178.0,24,0,No abnormal vitals,No abnormal vitals,,
+4071,A,dev,4,22.0,22,2,Inflammatory,Inflammatory,,
+4123,A,dev,4,82.0,24,2,Inflammatory,Inflammatory,,
+4139,A,dev,1,139.0,24,3,Respiratory,Respiratory,,
+4162,A,dev,2,4.0,4,-1,unassigned,,,short_window
+4173,A,dev,1,52.0,24,3,Respiratory,Respiratory,,
+4174,A,dev,3,8.0,8,-1,unassigned,,,sparse_vitals
+4183,A,dev,1,56.0,24,0,No abnormal vitals,No abnormal vitals,,
+4197,A,dev,1,238.0,24,3,Respiratory,Respiratory,,
+4200,A,dev,1,30.0,24,1,Multi-system,Multi-system,,
+4209,A,dev,3,3.0,3,-1,unassigned,,,short_window
+4223,A,dev,3,15.0,15,3,Respiratory,Respiratory,,
+4243,A,dev,2,137.0,24,0,No abnormal vitals,No abnormal vitals,,
+4252,A,dev,3,157.0,24,2,Inflammatory,Inflammatory,,
+4259,A,dev,3,24.0,24,0,No abnormal vitals,No abnormal vitals,,
+4292,A,dev,4,11.0,11,-1,unassigned,,,sparse_vitals
+4303,A,dev,0,50.0,24,1,Multi-system,Multi-system,,
+4329,A,dev,0,38.0,24,0,No abnormal vitals,No abnormal vitals,,
+4340,A,dev,3,5.0,5,-1,unassigned,,,short_window
+4368,A,test,-1,72.0,24,0,No abnormal vitals,No abnormal vitals,,
+4376,A,dev,2,74.0,24,0,No abnormal vitals,No abnormal vitals,,
+4440,A,dev,1,69.0,24,1,Multi-system,Multi-system,,
+4452,A,dev,2,3.0,3,-1,unassigned,,,short_window
+4487,A,dev,0,43.0,24,-1,unassigned,,,sparse_vitals
+4493,A,test,-1,1.0,1,-1,unassigned,,,short_window
+4518,A,dev,4,94.0,24,4,Hemodynamic,Hemodynamic,,
+4519,A,dev,1,4.0,4,-1,unassigned,,,short_window
+4532,A,dev,1,11.0,11,1,Multi-system,Multi-system,,
+4561,A,dev,4,248.0,24,1,Multi-system,Multi-system,,
+4599,A,dev,4,65.0,24,0,No abnormal vitals,No abnormal vitals,,
+4618,A,test,-1,188.0,24,3,Respiratory,Respiratory,,
+4629,A,dev,4,174.0,24,3,Respiratory,Respiratory,,
+4630,A,dev,1,23.0,23,2,Inflammatory,Inflammatory,,
+4634,A,dev,3,54.0,24,2,Inflammatory,Inflammatory,,
+4642,A,dev,4,62.0,24,0,No abnormal vitals,No abnormal vitals,,
+4683,A,dev,2,7.0,7,2,Inflammatory,Inflammatory,,
+4689,A,dev,4,228.0,24,2,Inflammatory,Inflammatory,,
+4694,A,dev,3,75.0,24,3,Respiratory,Respiratory,,
+4698,A,dev,0,11.0,11,0,No abnormal vitals,No abnormal vitals,,
+4701,A,dev,0,122.0,24,1,Multi-system,Multi-system,,
+4702,A,dev,2,243.0,24,3,Respiratory,Respiratory,,
+4712,A,dev,4,132.0,24,0,No abnormal vitals,No abnormal vitals,,
+4737,A,dev,1,37.0,24,3,Respiratory,Respiratory,,
+4740,A,dev,4,1.0,1,-1,unassigned,,,short_window
+4746,A,dev,3,17.0,17,1,Multi-system,Multi-system,,
+4749,A,dev,1,62.0,24,1,Multi-system,Multi-system,,
+4758,A,dev,2,6.0,6,-1,unassigned,,,sparse_vitals
+4766,A,dev,4,86.0,24,2,Inflammatory,Inflammatory,,
+4785,A,dev,1,1.0,1,-1,unassigned,,,short_window
+4786,A,dev,1,8.0,8,-1,unassigned,,,sparse_vitals
+4813,A,dev,0,25.0,24,0,No abnormal vitals,No abnormal vitals,,
+4819,A,dev,0,5.0,5,-1,unassigned,,,short_window
+4821,A,dev,3,4.0,4,-1,unassigned,,,short_window
+4824,A,test,-1,99.0,24,2,Inflammatory,Inflammatory,,
+4846,A,test,-1,7.0,7,3,Respiratory,Respiratory,,
+4847,A,dev,4,109.0,24,0,No abnormal vitals,No abnormal vitals,,
+4858,A,dev,1,21.0,21,3,Respiratory,Respiratory,,
+4865,A,dev,4,4.0,4,-1,unassigned,,,short_window
+4868,A,test,-1,7.0,7,-1,unassigned,,,sparse_vitals
+4880,A,test,-1,57.0,24,2,Inflammatory,Inflammatory,,
+4894,A,dev,1,42.0,24,-1,unassigned,,,sparse_vitals
+4901,A,dev,4,53.0,24,1,Multi-system,Multi-system,,
+4924,A,dev,1,40.0,24,3,Respiratory,Respiratory,,
+4928,A,dev,0,58.0,24,3,Respiratory,Respiratory,,
+4939,A,dev,3,1.0,1,-1,unassigned,,,short_window
+4941,A,dev,1,14.0,14,3,Respiratory,Respiratory,,
+4964,A,dev,0,10.0,10,-1,unassigned,,,sparse_vitals
+4966,A,test,-1,23.0,23,-1,unassigned,,,sparse_vitals
+4980,A,test,-1,53.0,24,0,No abnormal vitals,No abnormal vitals,,
+4982,A,test,-1,19.0,19,1,Multi-system,Multi-system,,
+4988,A,dev,4,63.0,24,-1,unassigned,,,sparse_vitals
+5007,A,dev,3,64.0,24,1,Multi-system,Multi-system,,
+5026,A,dev,1,47.0,24,2,Inflammatory,Inflammatory,,
+5037,A,dev,0,68.0,24,0,No abnormal vitals,No abnormal vitals,,
+5038,A,dev,0,23.0,23,1,Multi-system,Multi-system,,
+5053,A,dev,0,6.0,6,-1,unassigned,,,sparse_vitals
+5079,A,dev,3,62.0,24,0,No abnormal vitals,No abnormal vitals,,
+5091,A,dev,1,32.0,24,4,Hemodynamic,Hemodynamic,,
+5092,A,dev,2,11.0,11,1,Multi-system,Multi-system,,
+5099,A,dev,3,55.0,24,0,No abnormal vitals,No abnormal vitals,,
+5154,A,dev,0,2.0,2,-1,unassigned,,,short_window
+5179,A,test,-1,45.0,24,3,Respiratory,Respiratory,,
+5186,A,dev,3,101.0,24,3,Respiratory,Respiratory,,
+5188,A,dev,0,63.0,24,0,No abnormal vitals,No abnormal vitals,,
+5211,A,dev,3,20.0,20,-1,unassigned,,,sparse_vitals
+5233,A,dev,2,20.0,20,-1,unassigned,,,sparse_vitals
+5234,A,dev,1,27.0,24,0,No abnormal vitals,No abnormal vitals,,
+5251,A,dev,1,86.0,24,1,Multi-system,Multi-system,,
+5259,A,dev,2,28.0,24,0,No abnormal vitals,No abnormal vitals,,
+5277,A,test,-1,7.0,7,-1,unassigned,,,sparse_vitals
+5294,A,test,-1,13.0,13,1,Multi-system,Multi-system,,
+5316,A,dev,0,5.0,5,-1,unassigned,,,short_window
+5317,A,dev,0,2.0,2,-1,unassigned,,,short_window
+5322,A,dev,3,56.0,24,0,No abnormal vitals,No abnormal vitals,,
+5325,A,dev,1,12.0,12,-1,unassigned,,,sparse_vitals
+5338,A,dev,2,63.0,24,0,No abnormal vitals,No abnormal vitals,,
+5359,A,dev,3,321.0,24,0,No abnormal vitals,No abnormal vitals,,
+5386,A,dev,3,139.0,24,0,No abnormal vitals,No abnormal vitals,,
+5391,A,dev,1,47.0,24,1,Multi-system,Multi-system,,
+5394,A,dev,4,35.0,24,2,Inflammatory,Inflammatory,,
+5406,A,dev,0,287.0,24,1,Multi-system,Multi-system,,
+5416,A,dev,4,40.0,24,0,No abnormal vitals,No abnormal vitals,,
+5418,A,dev,3,22.0,22,1,Multi-system,Multi-system,,
+5425,A,dev,4,11.0,11,0,No abnormal vitals,No abnormal vitals,,
+5427,A,dev,1,104.0,24,2,Inflammatory,Inflammatory,,
+5429,A,dev,3,24.0,24,0,No abnormal vitals,No abnormal vitals,,
+5457,A,dev,1,86.0,24,1,Multi-system,Multi-system,,
+5462,A,dev,2,40.0,24,1,Multi-system,Multi-system,,
+5508,A,dev,2,25.0,24,1,Multi-system,Multi-system,,
+5511,A,test,-1,2.0,2,-1,unassigned,,,short_window
+5519,A,dev,1,18.0,18,3,Respiratory,Respiratory,,
+5533,A,dev,4,18.0,18,-1,unassigned,,,sparse_vitals
+5539,A,dev,2,71.0,24,3,Respiratory,Respiratory,,
+5545,A,dev,4,34.0,24,1,Multi-system,Multi-system,,
+5554,A,dev,4,45.0,24,4,Hemodynamic,Hemodynamic,,
+5566,A,dev,3,32.0,24,1,Multi-system,Multi-system,,
+5576,A,test,-1,30.0,24,-1,unassigned,,,sparse_vitals
+5600,A,test,-1,42.0,24,2,Inflammatory,Inflammatory,,
+5605,A,dev,4,169.0,24,2,Inflammatory,Inflammatory,,
+5610,A,test,-1,16.0,16,1,Multi-system,Multi-system,,
+5637,A,dev,3,147.0,24,3,Respiratory,Respiratory,,
+5642,A,dev,0,53.0,24,2,Inflammatory,Inflammatory,,
+5644,A,dev,2,9.0,9,2,Inflammatory,Inflammatory,,
+5651,A,dev,2,34.0,24,2,Inflammatory,Inflammatory,,
+5676,A,dev,2,42.0,24,3,Respiratory,Respiratory,,
+5677,A,dev,2,18.0,18,1,Multi-system,Multi-system,,
+5691,A,dev,3,17.0,17,1,Multi-system,Multi-system,,
+5693,A,dev,4,63.0,24,0,No abnormal vitals,No abnormal vitals,,
+5702,A,test,-1,53.0,24,3,Respiratory,Respiratory,,
+5710,A,dev,4,8.0,8,1,Multi-system,Multi-system,,
+5714,A,dev,3,30.0,24,2,Inflammatory,Inflammatory,,
+5719,A,dev,2,68.0,24,1,Multi-system,Multi-system,,
+5728,A,test,-1,23.0,23,1,Multi-system,Multi-system,,
+5748,A,dev,0,13.0,13,1,Multi-system,Multi-system,,
+5751,A,test,-1,6.0,6,-1,unassigned,,,sparse_vitals
+5755,A,dev,1,16.0,16,4,Hemodynamic,Hemodynamic,,
+5765,A,dev,4,61.0,24,-1,unassigned,,,sparse_vitals
+5772,A,dev,0,41.0,24,4,Hemodynamic,Hemodynamic,,
+5810,A,dev,2,40.0,24,2,Inflammatory,Inflammatory,,
+5841,A,dev,2,11.0,11,-1,unassigned,,,sparse_vitals
+5885,A,dev,0,64.0,24,3,Respiratory,Respiratory,,
+5888,A,dev,3,4.0,4,-1,unassigned,,,short_window
+5906,A,test,-1,61.0,24,0,No abnormal vitals,No abnormal vitals,,
+5932,A,dev,4,28.0,24,3,Respiratory,Respiratory,,
+5935,A,dev,2,59.0,24,3,Respiratory,Respiratory,,
+5937,A,dev,1,68.0,24,1,Multi-system,Multi-system,,
+5943,A,dev,1,71.0,24,2,Inflammatory,Inflammatory,,
+5950,A,dev,0,26.0,24,1,Multi-system,Multi-system,,
+5955,A,test,-1,105.0,24,2,Inflammatory,Inflammatory,,
+5981,A,test,-1,11.0,11,1,Multi-system,Multi-system,,
+5998,A,dev,3,34.0,24,2,Inflammatory,Inflammatory,,
+6022,A,dev,3,80.0,24,0,No abnormal vitals,No abnormal vitals,,
+6041,A,dev,4,187.0,24,-1,unassigned,,,sparse_vitals
+6044,A,dev,4,6.0,6,2,Inflammatory,Inflammatory,,
+6051,A,dev,2,22.0,22,3,Respiratory,Respiratory,,
+6072,A,dev,1,3.0,3,-1,unassigned,,,short_window
+6094,A,dev,1,11.0,11,0,No abnormal vitals,No abnormal vitals,,
+6101,A,test,-1,28.0,24,2,Inflammatory,Inflammatory,,
+6133,A,dev,0,207.0,24,1,Multi-system,Multi-system,,
+6136,A,dev,2,19.0,19,1,Multi-system,Multi-system,,
+6140,A,dev,1,18.0,18,1,Multi-system,Multi-system,,
+6158,A,dev,0,172.0,24,4,Hemodynamic,Hemodynamic,,
+6162,A,dev,2,4.0,4,-1,unassigned,,,short_window
+6176,A,dev,3,40.0,24,0,No abnormal vitals,No abnormal vitals,,
+6241,A,dev,0,18.0,18,1,Multi-system,Multi-system,,
+6247,A,dev,3,23.0,23,1,Multi-system,Multi-system,,
+6257,A,dev,1,1.0,1,-1,unassigned,,,short_window
+6260,A,test,-1,98.0,24,1,Multi-system,Multi-system,,
+6265,A,dev,1,2.0,2,-1,unassigned,,,short_window
+6266,A,test,-1,21.0,21,0,No abnormal vitals,No abnormal vitals,,
+6299,A,dev,4,92.0,24,4,Hemodynamic,Hemodynamic,,
+6300,A,dev,4,118.0,24,2,Inflammatory,Inflammatory,,
+6308,A,test,-1,182.0,24,3,Respiratory,Respiratory,,
+6321,A,dev,2,12.0,12,-1,unassigned,,,sparse_vitals
+6326,A,dev,3,21.0,21,4,Hemodynamic,Hemodynamic,,
+6351,A,dev,2,17.0,17,1,Multi-system,Multi-system,,
+6354,A,dev,0,143.0,24,4,Hemodynamic,Hemodynamic,,
+6363,A,test,-1,44.0,24,0,No abnormal vitals,No abnormal vitals,,
+6374,A,dev,3,194.0,24,4,Hemodynamic,Hemodynamic,,
+6414,A,dev,1,34.0,24,4,Hemodynamic,Hemodynamic,,
+6416,A,dev,1,18.0,18,1,Multi-system,Multi-system,,
+6461,A,dev,2,107.0,24,0,No abnormal vitals,No abnormal vitals,,
+6474,A,dev,2,15.0,15,1,Multi-system,Multi-system,,
+6481,A,dev,0,41.0,24,0,No abnormal vitals,No abnormal vitals,,
+6496,A,test,-1,10.0,10,-1,unassigned,,,sparse_vitals
+6499,A,test,-1,143.0,24,2,Inflammatory,Inflammatory,,
+6504,A,dev,0,23.0,23,1,Multi-system,Multi-system,,
+6507,A,dev,1,318.0,24,3,Respiratory,Respiratory,,
+6537,A,test,-1,25.0,24,3,Respiratory,Respiratory,,
+6573,A,dev,1,23.0,23,0,No abnormal vitals,No abnormal vitals,,
+6585,A,dev,3,5.0,5,-1,unassigned,,,short_window
+6617,A,dev,0,4.0,4,-1,unassigned,,,short_window
+6632,A,dev,0,2.0,2,-1,unassigned,,,short_window
+6639,A,dev,0,118.0,24,1,Multi-system,Multi-system,,
+6669,A,dev,0,74.0,24,2,Inflammatory,Inflammatory,,
+6673,A,dev,4,94.0,24,0,No abnormal vitals,No abnormal vitals,,
+6681,A,dev,4,38.0,24,0,No abnormal vitals,No abnormal vitals,,
+6700,A,test,-1,18.0,18,2,Inflammatory,Inflammatory,,
+6706,A,dev,0,6.0,6,-1,unassigned,,,sparse_vitals
+6737,A,dev,4,8.0,8,0,No abnormal vitals,No abnormal vitals,,
+6743,A,dev,2,52.0,24,4,Hemodynamic,Hemodynamic,,
+6765,A,dev,3,5.0,5,-1,unassigned,,,short_window
+6766,A,dev,4,24.0,24,4,Hemodynamic,Hemodynamic,,
+6770,A,dev,2,49.0,24,2,Inflammatory,Inflammatory,,
+6785,A,test,-1,70.0,24,1,Multi-system,Multi-system,,
+6787,A,dev,0,32.0,24,0,No abnormal vitals,No abnormal vitals,,
+6833,A,dev,2,27.0,24,2,Inflammatory,Inflammatory,,
+6940,A,dev,4,42.0,24,0,No abnormal vitals,No abnormal vitals,,
+6967,A,dev,1,54.0,24,1,Multi-system,Multi-system,,
+6984,A,dev,3,15.0,15,4,Hemodynamic,Hemodynamic,,
+6995,A,dev,3,7.0,7,-1,unassigned,,,sparse_vitals
+7001,A,dev,4,20.0,20,0,No abnormal vitals,No abnormal vitals,,
+7017,A,dev,2,51.0,24,4,Hemodynamic,Hemodynamic,,
+7018,A,dev,0,44.0,24,-1,unassigned,,,sparse_vitals
+7048,A,dev,1,3.0,3,-1,unassigned,,,short_window
+7070,A,dev,1,70.0,24,0,No abnormal vitals,No abnormal vitals,,
+7093,A,dev,2,92.0,24,3,Respiratory,Respiratory,,
+7128,A,dev,4,12.0,12,2,Inflammatory,Inflammatory,,
+7132,A,dev,3,113.0,24,2,Inflammatory,Inflammatory,,
+7140,A,dev,2,108.0,24,0,No abnormal vitals,No abnormal vitals,,
+7154,A,dev,0,61.0,24,1,Multi-system,Multi-system,,
+7168,A,dev,0,92.0,24,2,Inflammatory,Inflammatory,,
+7174,A,test,-1,7.0,7,-1,unassigned,,,sparse_vitals
+7186,A,dev,1,3.0,3,-1,unassigned,,,short_window
+7187,A,dev,3,3.0,3,-1,unassigned,,,short_window
+7194,A,dev,1,80.0,24,1,Multi-system,Multi-system,,
+7240,A,dev,2,7.0,7,1,Multi-system,Multi-system,,
+7245,A,dev,2,12.0,12,4,Hemodynamic,Hemodynamic,,
+7252,A,dev,2,1.0,1,-1,unassigned,,,short_window
+7280,A,test,-1,3.0,3,-1,unassigned,,,short_window
+7283,A,test,-1,43.0,24,4,Hemodynamic,Hemodynamic,,
+7328,A,dev,3,141.0,24,0,No abnormal vitals,No abnormal vitals,,
+7348,A,dev,3,36.0,24,3,Respiratory,Respiratory,,
+7352,A,dev,3,42.0,24,2,Inflammatory,Inflammatory,,
+7382,A,dev,3,43.0,24,2,Inflammatory,Inflammatory,,
+7399,A,dev,1,47.0,24,1,Multi-system,Multi-system,,
+7411,A,dev,1,187.0,24,3,Respiratory,Respiratory,,
+7416,A,dev,3,38.0,24,3,Respiratory,Respiratory,,
+7417,A,dev,0,145.0,24,0,No abnormal vitals,No abnormal vitals,,
+7423,A,dev,0,206.0,24,0,No abnormal vitals,No abnormal vitals,,
+7456,A,dev,4,112.0,24,2,Inflammatory,Inflammatory,,
+7459,A,dev,4,103.0,24,3,Respiratory,Respiratory,,
+7472,A,test,-1,91.0,24,3,Respiratory,Respiratory,,
+7481,A,dev,1,144.0,24,0,No abnormal vitals,No abnormal vitals,,
+7492,A,dev,3,112.0,24,1,Multi-system,Multi-system,,
+7500,A,dev,1,37.0,24,3,Respiratory,Respiratory,,
+7510,A,dev,2,96.0,24,3,Respiratory,Respiratory,,
+7526,A,dev,4,145.0,24,1,Multi-system,Multi-system,,
+7552,A,dev,0,209.0,24,1,Multi-system,Multi-system,,
+7564,A,dev,4,34.0,24,4,Hemodynamic,Hemodynamic,,
+7577,A,dev,1,67.0,24,0,No abnormal vitals,No abnormal vitals,,
+7599,A,dev,3,13.0,13,2,Inflammatory,Inflammatory,,
+7603,A,dev,4,56.0,24,0,No abnormal vitals,No abnormal vitals,,
+7639,A,test,-1,36.0,24,1,Multi-system,Multi-system,,
+7646,A,dev,4,79.0,24,-1,unassigned,,,sparse_vitals
+7649,A,test,-1,76.0,24,4,Hemodynamic,Hemodynamic,,
+7676,A,test,-1,58.0,24,3,Respiratory,Respiratory,,
+7694,A,dev,0,3.0,3,-1,unassigned,,,short_window
+7768,A,dev,0,8.0,8,2,Inflammatory,Inflammatory,,
+7770,A,dev,2,11.0,11,3,Respiratory,Respiratory,,
+7775,A,dev,1,17.0,17,4,Hemodynamic,Hemodynamic,,
+7826,A,dev,2,19.0,19,3,Respiratory,Respiratory,,
+7836,A,dev,0,78.0,24,0,No abnormal vitals,No abnormal vitals,,
+7837,A,dev,2,111.0,24,1,Multi-system,Multi-system,,
+7857,A,dev,2,84.0,24,1,Multi-system,Multi-system,,
+7884,A,dev,1,9.0,9,-1,unassigned,,,sparse_vitals
+7902,A,dev,4,4.0,4,-1,unassigned,,,short_window
+7927,A,dev,1,101.0,24,0,No abnormal vitals,No abnormal vitals,,
+7963,A,dev,0,5.0,5,-1,unassigned,,,short_window
+7966,A,dev,1,39.0,24,1,Multi-system,Multi-system,,
+7972,A,dev,0,6.0,6,-1,unassigned,,,sparse_vitals
+7975,A,dev,2,66.0,24,1,Multi-system,Multi-system,,
+7976,A,dev,3,76.0,24,3,Respiratory,Respiratory,,
+7980,A,dev,4,15.0,15,1,Multi-system,Multi-system,,
+8017,A,dev,4,15.0,15,0,No abnormal vitals,No abnormal vitals,,
+8035,A,dev,0,195.0,24,2,Inflammatory,Inflammatory,,
+8040,A,dev,1,2.0,2,-1,unassigned,,,short_window
+8050,A,dev,2,2.0,2,-1,unassigned,,,short_window
+8057,A,dev,1,109.0,24,1,Multi-system,Multi-system,,
+8076,A,dev,1,25.0,24,4,Hemodynamic,Hemodynamic,,
+8150,A,test,-1,77.0,24,3,Respiratory,Respiratory,,
+8154,A,dev,4,37.0,24,-1,unassigned,,,sparse_vitals
+8173,A,dev,4,31.0,24,3,Respiratory,Respiratory,,
+8187,A,dev,2,101.0,24,1,Multi-system,Multi-system,,
+8194,A,dev,2,65.0,24,0,No abnormal vitals,No abnormal vitals,,
+8220,A,dev,1,6.0,6,1,Multi-system,Multi-system,,
+8231,A,dev,0,20.0,20,2,Inflammatory,Inflammatory,,
+8250,A,dev,3,15.0,15,0,No abnormal vitals,No abnormal vitals,,
+8259,A,test,-1,34.0,24,3,Respiratory,Respiratory,,
+8275,A,test,-1,44.0,24,0,No abnormal vitals,No abnormal vitals,,
+8293,A,dev,1,9.0,9,2,Inflammatory,Inflammatory,,
+8297,A,dev,4,30.0,24,-1,unassigned,,,sparse_vitals
+8316,A,dev,3,7.0,7,-1,unassigned,,,sparse_vitals
+8318,A,dev,2,31.0,24,0,No abnormal vitals,No abnormal vitals,,
+8330,A,dev,1,8.0,8,1,Multi-system,Multi-system,,
+8332,A,dev,4,9.0,9,-1,unassigned,,,sparse_vitals
+8335,A,dev,4,62.0,24,0,No abnormal vitals,No abnormal vitals,,
+8343,A,dev,4,160.0,24,0,No abnormal vitals,No abnormal vitals,,
+8362,A,dev,4,19.0,19,1,Multi-system,Multi-system,,
+8372,A,dev,3,12.0,12,1,Multi-system,Multi-system,,
+8382,A,dev,0,91.0,24,3,Respiratory,Respiratory,,
+8388,A,test,-1,94.0,24,4,Hemodynamic,Hemodynamic,,
+8391,A,dev,0,1.0,1,-1,unassigned,,,short_window
+8399,A,dev,3,49.0,24,2,Inflammatory,Inflammatory,,
+8402,A,dev,2,11.0,11,4,Hemodynamic,Hemodynamic,,
+8403,A,dev,2,10.0,10,-1,unassigned,,,sparse_vitals
+8448,A,dev,4,167.0,24,3,Respiratory,Respiratory,,
+8453,A,test,-1,5.0,5,-1,unassigned,,,short_window
+8460,A,dev,4,15.0,15,1,Multi-system,Multi-system,,
+8470,A,dev,2,4.0,4,-1,unassigned,,,short_window
+8490,A,dev,2,277.0,24,1,Multi-system,Multi-system,,
+8506,A,dev,4,263.0,24,1,Multi-system,Multi-system,,
+8522,A,dev,1,63.0,24,0,No abnormal vitals,No abnormal vitals,,
+8533,A,test,-1,70.0,24,3,Respiratory,Respiratory,,
+8586,A,test,-1,68.0,24,3,Respiratory,Respiratory,,
+8594,A,dev,4,67.0,24,2,Inflammatory,Inflammatory,,
+8603,A,dev,3,50.0,24,1,Multi-system,Multi-system,,
+8608,A,dev,3,119.0,24,0,No abnormal vitals,No abnormal vitals,,
+8630,A,test,-1,10.0,10,3,Respiratory,Respiratory,,
+8634,A,test,-1,41.0,24,1,Multi-system,Multi-system,,
+8638,A,dev,0,180.0,24,2,Inflammatory,Inflammatory,,
+8640,A,dev,3,136.0,24,2,Inflammatory,Inflammatory,,
+8654,A,test,-1,42.0,24,2,Inflammatory,Inflammatory,,
+8658,A,dev,0,17.0,17,1,Multi-system,Multi-system,,
+8679,A,dev,0,77.0,24,1,Multi-system,Multi-system,,
+8684,A,dev,1,92.0,24,1,Multi-system,Multi-system,,
+8697,A,test,-1,98.0,24,0,No abnormal vitals,No abnormal vitals,,
+8713,A,dev,0,145.0,24,2,Inflammatory,Inflammatory,,
+8727,A,dev,2,11.0,11,1,Multi-system,Multi-system,,
+8736,A,dev,4,109.0,24,0,No abnormal vitals,No abnormal vitals,,
+8756,A,dev,0,31.0,24,2,Inflammatory,Inflammatory,,
+8772,A,dev,2,29.0,24,1,Multi-system,Multi-system,,
+8780,A,dev,0,66.0,24,0,No abnormal vitals,No abnormal vitals,,
+8801,A,dev,3,26.0,24,0,No abnormal vitals,No abnormal vitals,,
+8802,A,dev,4,123.0,24,4,Hemodynamic,Hemodynamic,,
+8803,A,dev,1,149.0,24,1,Multi-system,Multi-system,,
+8811,A,dev,2,69.0,24,-1,unassigned,,,sparse_vitals
+8814,A,dev,4,35.0,24,3,Respiratory,Respiratory,,
+8852,A,test,-1,5.0,5,-1,unassigned,,,short_window
+8853,A,dev,0,14.0,14,3,Respiratory,Respiratory,,
+8861,A,test,-1,15.0,15,1,Multi-system,Multi-system,,
+8867,A,dev,4,296.0,24,3,Respiratory,Respiratory,,
+8873,A,dev,1,13.0,13,4,Hemodynamic,Hemodynamic,,
+8890,A,dev,3,20.0,20,1,Multi-system,Multi-system,,
+8907,A,dev,1,69.0,24,0,No abnormal vitals,No abnormal vitals,,
+8912,A,dev,2,92.0,24,-1,unassigned,,,sparse_vitals
+8927,A,dev,0,53.0,24,3,Respiratory,Respiratory,,
+8978,A,test,-1,72.0,24,4,Hemodynamic,Hemodynamic,,
+9000,A,dev,4,12.0,12,2,Inflammatory,Inflammatory,,
+9002,A,dev,4,6.0,6,-1,unassigned,,,sparse_vitals
+9008,A,test,-1,46.0,24,3,Respiratory,Respiratory,,
+9030,A,test,-1,15.0,15,2,Inflammatory,Inflammatory,,
+9036,A,dev,0,38.0,24,1,Multi-system,Multi-system,,
+9038,A,test,-1,78.0,24,0,No abnormal vitals,No abnormal vitals,,
+9042,A,dev,2,8.0,8,-1,unassigned,,,sparse_vitals
+9051,A,dev,1,11.0,11,-1,unassigned,,,sparse_vitals
+9053,A,dev,0,66.0,24,2,Inflammatory,Inflammatory,,
+9057,A,dev,1,70.0,24,0,No abnormal vitals,No abnormal vitals,,
+9064,A,test,-1,120.0,24,4,Hemodynamic,Hemodynamic,,
+9092,A,dev,1,8.0,8,-1,unassigned,,,sparse_vitals
+9099,A,dev,1,108.0,24,1,Multi-system,Multi-system,,
+9115,A,dev,3,4.0,4,-1,unassigned,,,short_window
+9129,A,dev,0,11.0,11,3,Respiratory,Respiratory,,
+9139,A,dev,4,202.0,24,3,Respiratory,Respiratory,,
+9142,A,dev,3,51.0,24,4,Hemodynamic,Hemodynamic,,
+9145,A,dev,4,4.0,4,-1,unassigned,,,short_window
+9146,A,test,-1,94.0,24,0,No abnormal vitals,No abnormal vitals,,
+9167,A,dev,3,17.0,17,4,Hemodynamic,Hemodynamic,,
+9178,A,test,-1,26.0,24,2,Inflammatory,Inflammatory,,
+9197,A,test,-1,187.0,24,1,Multi-system,Multi-system,,
+9207,A,dev,0,49.0,24,4,Hemodynamic,Hemodynamic,,
+9214,A,dev,4,38.0,24,0,No abnormal vitals,No abnormal vitals,,
+9245,A,test,-1,33.0,24,-1,unassigned,,,sparse_vitals
+9252,A,dev,3,80.0,24,0,No abnormal vitals,No abnormal vitals,,
+9259,A,dev,4,184.0,24,2,Inflammatory,Inflammatory,,
+9260,A,dev,2,59.0,24,3,Respiratory,Respiratory,,
+9277,A,dev,4,56.0,24,2,Inflammatory,Inflammatory,,
+9278,A,dev,4,12.0,12,-1,unassigned,,,sparse_vitals
+9313,A,dev,3,84.0,24,1,Multi-system,Multi-system,,
+9315,A,dev,0,9.0,9,1,Multi-system,Multi-system,,
+9322,A,dev,3,64.0,24,1,Multi-system,Multi-system,,
+9332,A,dev,1,58.0,24,3,Respiratory,Respiratory,,
+9334,A,dev,3,8.0,8,-1,unassigned,,,sparse_vitals
+9360,A,dev,1,21.0,21,2,Inflammatory,Inflammatory,,
+9361,A,dev,4,13.0,13,-1,unassigned,,,sparse_vitals
+9372,A,dev,2,11.0,11,-1,unassigned,,,sparse_vitals
+9393,A,test,-1,86.0,24,2,Inflammatory,Inflammatory,,
+9396,A,dev,1,5.0,5,-1,unassigned,,,short_window
+9420,A,test,-1,21.0,21,0,No abnormal vitals,No abnormal vitals,,
+9433,A,dev,2,51.0,24,1,Multi-system,Multi-system,,
+9463,A,dev,2,71.0,24,3,Respiratory,Respiratory,,
+9464,A,dev,4,114.0,24,0,No abnormal vitals,No abnormal vitals,,
+9484,A,dev,2,86.0,24,2,Inflammatory,Inflammatory,,
+9499,A,dev,2,92.0,24,0,No abnormal vitals,No abnormal vitals,,
+9501,A,dev,1,24.0,24,0,No abnormal vitals,No abnormal vitals,,
+9513,A,dev,1,4.0,4,-1,unassigned,,,short_window
+9533,A,test,-1,204.0,24,3,Respiratory,Respiratory,,
+9541,A,test,-1,88.0,24,2,Inflammatory,Inflammatory,,
+9561,A,dev,1,63.0,24,0,No abnormal vitals,No abnormal vitals,,
+9569,A,dev,2,179.0,24,0,No abnormal vitals,No abnormal vitals,,
+9573,A,dev,2,59.0,24,0,No abnormal vitals,No abnormal vitals,,
+9582,A,dev,1,27.0,24,1,Multi-system,Multi-system,,
+9591,A,dev,3,49.0,24,1,Multi-system,Multi-system,,
+9622,A,test,-1,65.0,24,3,Respiratory,Respiratory,,
+9647,A,dev,2,7.0,7,-1,unassigned,,,sparse_vitals
+9651,A,dev,3,104.0,24,4,Hemodynamic,Hemodynamic,,
+9658,A,test,-1,40.0,24,1,Multi-system,Multi-system,,
+9661,A,test,-1,49.0,24,0,No abnormal vitals,No abnormal vitals,,
+9671,A,dev,4,5.0,5,-1,unassigned,,,short_window
+9673,A,dev,3,40.0,24,3,Respiratory,Respiratory,,
+9675,A,test,-1,19.0,19,0,No abnormal vitals,No abnormal vitals,,
+9697,A,dev,0,104.0,24,1,Multi-system,Multi-system,,
+9728,A,dev,4,9.0,9,-1,unassigned,,,sparse_vitals
+9740,A,dev,1,41.0,24,2,Inflammatory,Inflammatory,,
+9761,A,dev,3,56.0,24,2,Inflammatory,Inflammatory,,
+9776,A,dev,4,5.0,5,-1,unassigned,,,short_window
+9826,A,test,-1,131.0,24,3,Respiratory,Respiratory,,
+9829,A,dev,0,8.0,8,0,No abnormal vitals,No abnormal vitals,,
+9831,A,test,-1,1.0,1,-1,unassigned,,,short_window
+9833,A,dev,0,69.0,24,2,Inflammatory,Inflammatory,,
+9835,A,dev,0,2.0,2,-1,unassigned,,,short_window
+9862,A,test,-1,51.0,24,0,No abnormal vitals,No abnormal vitals,,
+9890,A,dev,1,83.0,24,0,No abnormal vitals,No abnormal vitals,,
+9894,A,dev,1,80.0,24,1,Multi-system,Multi-system,,
+9903,A,dev,3,6.0,6,-1,unassigned,,,sparse_vitals
+9909,A,dev,4,68.0,24,3,Respiratory,Respiratory,,
+9912,A,test,-1,6.0,6,-1,unassigned,,,sparse_vitals
+9913,A,dev,0,10.0,10,-1,unassigned,,,sparse_vitals
+9914,A,dev,3,55.0,24,3,Respiratory,Respiratory,,
+9916,A,dev,1,20.0,20,1,Multi-system,Multi-system,,
+9921,A,test,-1,3.0,3,-1,unassigned,,,short_window
+9927,A,dev,1,69.0,24,1,Multi-system,Multi-system,,
+9944,A,dev,0,6.0,6,1,Multi-system,Multi-system,,
+9947,A,dev,2,29.0,24,2,Inflammatory,Inflammatory,,
+9954,A,dev,2,30.0,24,2,Inflammatory,Inflammatory,,
+9955,A,dev,2,8.0,8,-1,unassigned,,,sparse_vitals
+9962,A,dev,3,28.0,24,0,No abnormal vitals,No abnormal vitals,,
+9970,A,dev,2,29.0,24,4,Hemodynamic,Hemodynamic,,
+9973,A,test,-1,105.0,24,2,Inflammatory,Inflammatory,,
+10043,A,dev,3,45.0,24,4,Hemodynamic,Hemodynamic,,
+10049,A,dev,1,66.0,24,1,Multi-system,Multi-system,,
+10070,A,dev,2,50.0,24,0,No abnormal vitals,No abnormal vitals,,
+10094,A,dev,1,128.0,24,1,Multi-system,Multi-system,,
+10095,A,dev,2,15.0,15,4,Hemodynamic,Hemodynamic,,
+10114,A,dev,2,16.0,16,2,Inflammatory,Inflammatory,,
+10115,A,dev,0,52.0,24,1,Multi-system,Multi-system,,
+10126,A,dev,1,58.0,24,0,No abnormal vitals,No abnormal vitals,,
+10137,A,dev,2,148.0,24,1,Multi-system,Multi-system,,
+10142,A,dev,0,2.0,2,-1,unassigned,,,short_window
+10156,A,dev,4,32.0,24,0,No abnormal vitals,No abnormal vitals,,
+10161,A,dev,0,12.0,12,0,No abnormal vitals,No abnormal vitals,,
+10211,A,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+10220,A,dev,1,5.0,5,-1,unassigned,,,short_window
+10253,A,dev,4,32.0,24,1,Multi-system,Multi-system,,
+10262,A,dev,0,25.0,24,1,Multi-system,Multi-system,,
+10264,A,dev,0,53.0,24,2,Inflammatory,Inflammatory,,
+10280,A,dev,4,118.0,24,3,Respiratory,Respiratory,,
+10289,A,dev,3,134.0,24,1,Multi-system,Multi-system,,
+10308,A,test,-1,100.0,24,-1,unassigned,,,sparse_vitals
+10339,A,dev,0,187.0,24,0,No abnormal vitals,No abnormal vitals,,
+10349,A,dev,1,8.0,8,-1,unassigned,,,sparse_vitals
+10355,A,test,-1,66.0,24,1,Multi-system,Multi-system,,
+10387,A,dev,0,10.0,10,0,No abnormal vitals,No abnormal vitals,,
+10389,A,dev,3,122.0,24,3,Respiratory,Respiratory,,
+10416,A,test,-1,30.0,24,0,No abnormal vitals,No abnormal vitals,,
+10418,A,dev,0,122.0,24,0,No abnormal vitals,No abnormal vitals,,
+10427,A,dev,3,58.0,24,3,Respiratory,Respiratory,,
+10441,A,dev,2,13.0,13,2,Inflammatory,Inflammatory,,
+10482,A,dev,2,25.0,24,2,Inflammatory,Inflammatory,,
+10490,A,dev,3,120.0,24,0,No abnormal vitals,No abnormal vitals,,
+10491,A,dev,4,86.0,24,1,Multi-system,Multi-system,,
+10497,A,dev,1,45.0,24,3,Respiratory,Respiratory,,
+10540,A,test,-1,91.0,24,2,Inflammatory,Inflammatory,,
+10549,A,dev,0,96.0,24,3,Respiratory,Respiratory,,
+10580,A,dev,4,6.0,6,-1,unassigned,,,sparse_vitals
+10606,A,dev,0,51.0,24,0,No abnormal vitals,No abnormal vitals,,
+10627,A,dev,2,7.0,7,-1,unassigned,,,sparse_vitals
+10628,A,dev,4,40.0,24,1,Multi-system,Multi-system,,
+10631,A,dev,0,15.0,15,0,No abnormal vitals,No abnormal vitals,,
+10634,A,dev,0,18.0,18,1,Multi-system,Multi-system,,
+10645,A,test,-1,231.0,24,1,Multi-system,Multi-system,,
+10656,A,dev,4,144.0,24,1,Multi-system,Multi-system,,
+10664,A,dev,4,10.0,10,0,No abnormal vitals,No abnormal vitals,,
+10682,A,dev,1,76.0,24,3,Respiratory,Respiratory,,
+10700,A,dev,4,28.0,24,2,Inflammatory,Inflammatory,,
+10705,A,dev,0,121.0,24,3,Respiratory,Respiratory,,
+10710,A,dev,4,3.0,3,-1,unassigned,,,short_window
+10740,A,dev,4,1.0,1,-1,unassigned,,,short_window
+10741,A,dev,3,20.0,20,0,No abnormal vitals,No abnormal vitals,,
+10755,A,dev,0,11.0,11,4,Hemodynamic,Hemodynamic,,
+10756,A,dev,2,107.0,24,0,No abnormal vitals,No abnormal vitals,,
+10771,A,dev,2,80.0,24,2,Inflammatory,Inflammatory,,
+10782,A,test,-1,3.0,3,-1,unassigned,,,short_window
+10804,A,test,-1,17.0,17,1,Multi-system,Multi-system,,
+10821,A,dev,1,85.0,24,0,No abnormal vitals,No abnormal vitals,,
+10829,A,dev,3,81.0,24,1,Multi-system,Multi-system,,
+10855,A,dev,4,39.0,24,2,Inflammatory,Inflammatory,,
+10876,A,dev,3,20.0,20,1,Multi-system,Multi-system,,
+10879,A,dev,4,5.0,5,-1,unassigned,,,short_window
+10888,A,test,-1,55.0,24,4,Hemodynamic,Hemodynamic,,
+10924,A,dev,4,19.0,19,4,Hemodynamic,Hemodynamic,,
+10936,A,test,-1,23.0,23,-1,unassigned,,,sparse_vitals
+10948,A,test,-1,39.0,24,4,Hemodynamic,Hemodynamic,,
+10957,A,test,-1,8.0,8,1,Multi-system,Multi-system,,
+10966,A,dev,2,58.0,24,0,No abnormal vitals,No abnormal vitals,,
+10974,A,test,-1,12.0,12,4,Hemodynamic,Hemodynamic,,
+10976,A,dev,0,95.0,24,1,Multi-system,Multi-system,,
+10983,A,dev,1,61.0,24,1,Multi-system,Multi-system,,
+10984,A,test,-1,5.0,5,-1,unassigned,,,short_window
+10992,A,test,-1,69.0,24,1,Multi-system,Multi-system,,
+10997,A,test,-1,9.0,9,-1,unassigned,,,sparse_vitals
+10998,A,test,-1,7.0,7,-1,unassigned,,,sparse_vitals
+11010,A,dev,1,119.0,24,0,No abnormal vitals,No abnormal vitals,,
+11056,A,dev,2,96.0,24,1,Multi-system,Multi-system,,
+11090,A,dev,4,78.0,24,0,No abnormal vitals,No abnormal vitals,,
+11093,A,dev,3,50.0,24,-1,unassigned,,,sparse_vitals
+11094,A,dev,4,49.0,24,2,Inflammatory,Inflammatory,,
+11105,A,dev,1,169.0,24,1,Multi-system,Multi-system,,
+11132,A,dev,4,77.0,24,0,No abnormal vitals,No abnormal vitals,,
+11156,A,test,-1,11.0,11,-1,unassigned,,,sparse_vitals
+11173,A,test,-1,99.0,24,1,Multi-system,Multi-system,,
+11187,A,test,-1,9.0,9,-1,unassigned,,,sparse_vitals
+11200,A,dev,4,55.0,24,0,No abnormal vitals,No abnormal vitals,,
+11215,A,dev,1,117.0,24,3,Respiratory,Respiratory,,
+11251,A,dev,1,35.0,24,1,Multi-system,Multi-system,,
+11272,A,dev,0,138.0,24,4,Hemodynamic,Hemodynamic,,
+11273,A,dev,0,159.0,24,1,Multi-system,Multi-system,,
+11290,A,test,-1,5.0,5,-1,unassigned,,,short_window
+11292,A,dev,2,83.0,24,0,No abnormal vitals,No abnormal vitals,,
+11294,A,dev,4,22.0,22,1,Multi-system,Multi-system,,
+11297,A,dev,0,18.0,18,4,Hemodynamic,Hemodynamic,,
+11317,A,dev,4,1.0,1,-1,unassigned,,,short_window
+11319,A,dev,4,5.0,5,-1,unassigned,,,short_window
+11339,A,dev,4,167.0,24,3,Respiratory,Respiratory,,
+11348,A,dev,0,78.0,24,0,No abnormal vitals,No abnormal vitals,,
+11366,A,dev,0,64.0,24,4,Hemodynamic,Hemodynamic,,
+11374,A,dev,0,76.0,24,2,Inflammatory,Inflammatory,,
+11382,A,test,-1,136.0,24,1,Multi-system,Multi-system,,
+11385,A,dev,4,28.0,24,4,Hemodynamic,Hemodynamic,,
+11432,A,dev,2,65.0,24,3,Respiratory,Respiratory,,
+11444,A,test,-1,8.0,8,3,Respiratory,Respiratory,,
+11470,A,dev,0,7.0,7,-1,unassigned,,,sparse_vitals
+11480,A,dev,1,126.0,24,0,No abnormal vitals,No abnormal vitals,,
+11498,A,dev,0,115.0,24,3,Respiratory,Respiratory,,
+11500,A,test,-1,2.0,2,-1,unassigned,,,short_window
+11510,A,dev,4,30.0,24,4,Hemodynamic,Hemodynamic,,
+11551,A,dev,2,40.0,24,4,Hemodynamic,Hemodynamic,,
+11564,A,dev,0,117.0,24,3,Respiratory,Respiratory,,
+11565,A,dev,4,45.0,24,0,No abnormal vitals,No abnormal vitals,,
+11575,A,dev,1,13.0,13,2,Inflammatory,Inflammatory,,
+11591,A,dev,2,23.0,23,4,Hemodynamic,Hemodynamic,,
+11607,A,test,-1,25.0,24,1,Multi-system,Multi-system,,
+11634,A,dev,3,1.0,1,-1,unassigned,,,short_window
+11638,A,dev,0,92.0,24,1,Multi-system,Multi-system,,
+11647,A,test,-1,208.0,24,1,Multi-system,Multi-system,,
+11656,A,dev,2,2.0,2,-1,unassigned,,,short_window
+11659,A,dev,0,6.0,6,-1,unassigned,,,sparse_vitals
+11676,A,dev,2,34.0,24,1,Multi-system,Multi-system,,
+11700,A,test,-1,10.0,10,-1,unassigned,,,sparse_vitals
+11708,A,dev,4,18.0,18,2,Inflammatory,Inflammatory,,
+11716,A,test,-1,36.0,24,3,Respiratory,Respiratory,,
+11720,A,dev,3,68.0,24,3,Respiratory,Respiratory,,
+11731,A,dev,2,21.0,21,1,Multi-system,Multi-system,,
+11745,A,test,-1,259.0,24,3,Respiratory,Respiratory,,
+11751,A,test,-1,199.0,24,0,No abnormal vitals,No abnormal vitals,,
+11760,A,dev,0,18.0,18,-1,unassigned,,,sparse_vitals
+11762,A,dev,4,14.0,14,0,No abnormal vitals,No abnormal vitals,,
+11772,A,dev,0,5.0,5,-1,unassigned,,,short_window
+11791,A,dev,1,21.0,21,1,Multi-system,Multi-system,,
+11800,A,dev,0,75.0,24,3,Respiratory,Respiratory,,
+11810,A,test,-1,53.0,24,0,No abnormal vitals,No abnormal vitals,,
+11856,A,dev,3,43.0,24,4,Hemodynamic,Hemodynamic,,
+11872,A,test,-1,7.0,7,-1,unassigned,,,sparse_vitals
+11874,A,dev,4,17.0,17,1,Multi-system,Multi-system,,
+11876,A,test,-1,59.0,24,2,Inflammatory,Inflammatory,,
+11898,A,dev,4,125.0,24,0,No abnormal vitals,No abnormal vitals,,
+11899,A,dev,1,3.0,3,-1,unassigned,,,short_window
+11929,A,test,-1,4.0,4,-1,unassigned,,,short_window
+11932,A,dev,1,43.0,24,3,Respiratory,Respiratory,,
+11953,A,dev,0,4.0,4,-1,unassigned,,,short_window
+11966,A,test,-1,9.0,9,-1,unassigned,,,sparse_vitals
+11967,A,dev,2,91.0,24,2,Inflammatory,Inflammatory,,
+11980,A,test,-1,48.0,24,1,Multi-system,Multi-system,,
+11989,A,test,-1,23.0,23,1,Multi-system,Multi-system,,
+12023,A,test,-1,4.0,4,-1,unassigned,,,short_window
+12028,A,dev,1,9.0,9,2,Inflammatory,Inflammatory,,
+12043,A,dev,2,11.0,11,0,No abnormal vitals,No abnormal vitals,,
+12057,A,dev,4,116.0,24,4,Hemodynamic,Hemodynamic,,
+12076,A,dev,4,33.0,24,0,No abnormal vitals,No abnormal vitals,,
+12091,A,dev,3,57.0,24,0,No abnormal vitals,No abnormal vitals,,
+12107,A,dev,3,33.0,24,1,Multi-system,Multi-system,,
+12116,A,test,-1,144.0,24,2,Inflammatory,Inflammatory,,
+12117,A,dev,2,1.0,1,-1,unassigned,,,short_window
+12123,A,dev,1,16.0,16,3,Respiratory,Respiratory,,
+12141,A,dev,1,1.0,1,-1,unassigned,,,short_window
+12150,A,dev,4,4.0,4,-1,unassigned,,,short_window
+12171,A,test,-1,6.0,6,-1,unassigned,,,sparse_vitals
+12177,A,dev,4,8.0,8,-1,unassigned,,,sparse_vitals
+12194,A,dev,4,1.0,1,-1,unassigned,,,short_window
+12208,A,test,-1,36.0,24,1,Multi-system,Multi-system,,
+12210,A,dev,4,36.0,24,2,Inflammatory,Inflammatory,,
+12228,A,dev,2,204.0,24,1,Multi-system,Multi-system,,
+12233,A,dev,1,21.0,21,2,Inflammatory,Inflammatory,,
+12245,A,dev,2,95.0,24,2,Inflammatory,Inflammatory,,
+12269,A,dev,3,33.0,24,1,Multi-system,Multi-system,,
+12278,A,dev,3,85.0,24,2,Inflammatory,Inflammatory,,
+12293,A,dev,2,7.0,7,-1,unassigned,,,sparse_vitals
+12294,A,dev,1,107.0,24,0,No abnormal vitals,No abnormal vitals,,
+12303,A,dev,3,82.0,24,0,No abnormal vitals,No abnormal vitals,,
+12322,A,dev,4,146.0,24,1,Multi-system,Multi-system,,
+12332,A,dev,1,68.0,24,1,Multi-system,Multi-system,,
+12333,A,dev,1,3.0,3,-1,unassigned,,,short_window
+12341,A,test,-1,108.0,24,1,Multi-system,Multi-system,,
+12349,A,dev,1,1.0,1,-1,unassigned,,,short_window
+12352,A,dev,2,7.0,7,4,Hemodynamic,Hemodynamic,,
+12359,A,test,-1,4.0,4,-1,unassigned,,,short_window
+12373,A,dev,0,30.0,24,3,Respiratory,Respiratory,,
+12375,A,dev,4,53.0,24,0,No abnormal vitals,No abnormal vitals,,
+12391,A,dev,0,23.0,23,0,No abnormal vitals,No abnormal vitals,,
+12417,A,dev,0,6.0,6,-1,unassigned,,,sparse_vitals
+12459,A,test,-1,13.0,13,0,No abnormal vitals,No abnormal vitals,,
+12461,A,dev,2,15.0,15,2,Inflammatory,Inflammatory,,
+12465,A,dev,2,147.0,24,1,Multi-system,Multi-system,,
+12476,A,dev,0,97.0,24,0,No abnormal vitals,No abnormal vitals,,
+12485,A,test,-1,11.0,11,1,Multi-system,Multi-system,,
+12497,A,dev,2,3.0,3,-1,unassigned,,,short_window
+12506,A,test,-1,21.0,21,1,Multi-system,Multi-system,,
+12508,A,dev,0,160.0,24,0,No abnormal vitals,No abnormal vitals,,
+12513,A,dev,1,19.0,19,0,No abnormal vitals,No abnormal vitals,,
+12525,A,dev,1,17.0,17,1,Multi-system,Multi-system,,
+12529,A,dev,2,110.0,24,2,Inflammatory,Inflammatory,,
+12538,A,dev,2,26.0,24,0,No abnormal vitals,No abnormal vitals,,
+12547,A,dev,2,20.0,20,4,Hemodynamic,Hemodynamic,,
+12562,A,dev,3,1.0,1,-1,unassigned,,,short_window
+12566,A,test,-1,45.0,24,0,No abnormal vitals,No abnormal vitals,,
+12567,A,dev,1,47.0,24,3,Respiratory,Respiratory,,
+12568,A,dev,3,13.0,13,-1,unassigned,,,sparse_vitals
+12570,A,dev,1,17.0,17,-1,unassigned,,,sparse_vitals
+12576,A,dev,1,37.0,24,1,Multi-system,Multi-system,,
+12590,A,dev,2,2.0,2,-1,unassigned,,,short_window
+12591,A,dev,4,7.0,7,-1,unassigned,,,sparse_vitals
+12598,A,test,-1,53.0,24,3,Respiratory,Respiratory,,
+12619,A,dev,2,9.0,9,-1,unassigned,,,sparse_vitals
+12621,A,dev,1,204.0,24,0,No abnormal vitals,No abnormal vitals,,
+12625,A,test,-1,65.0,24,3,Respiratory,Respiratory,,
+12636,A,test,-1,90.0,24,1,Multi-system,Multi-system,,
+12651,A,test,-1,103.0,24,0,No abnormal vitals,No abnormal vitals,,
+12682,A,dev,1,165.0,24,4,Hemodynamic,Hemodynamic,,
+12702,A,dev,0,171.0,24,3,Respiratory,Respiratory,,
+12711,A,dev,3,1.0,1,-1,unassigned,,,short_window
+12727,A,dev,4,48.0,24,1,Multi-system,Multi-system,,
+12733,A,dev,3,27.0,24,1,Multi-system,Multi-system,,
+12747,A,test,-1,8.0,8,-1,unassigned,,,sparse_vitals
+12759,A,dev,4,13.0,13,-1,unassigned,,,sparse_vitals
+12766,A,dev,4,28.0,24,3,Respiratory,Respiratory,,
+12804,A,dev,1,21.0,21,1,Multi-system,Multi-system,,
+12809,A,dev,4,57.0,24,3,Respiratory,Respiratory,,
+12828,A,test,-1,47.0,24,1,Multi-system,Multi-system,,
+12879,A,dev,3,8.0,8,-1,unassigned,,,sparse_vitals
+12883,A,dev,1,67.0,24,0,No abnormal vitals,No abnormal vitals,,
+12884,A,dev,2,135.0,24,3,Respiratory,Respiratory,,
+12898,A,dev,3,37.0,24,3,Respiratory,Respiratory,,
+12900,A,dev,2,38.0,24,0,No abnormal vitals,No abnormal vitals,,
+12904,A,test,-1,141.0,24,2,Inflammatory,Inflammatory,,
+12910,A,dev,3,33.0,24,0,No abnormal vitals,No abnormal vitals,,
+12970,A,dev,4,7.0,7,-1,unassigned,,,sparse_vitals
+13002,A,test,-1,23.0,23,4,Hemodynamic,Hemodynamic,,
+13013,A,dev,4,8.0,8,-1,unassigned,,,sparse_vitals
+13027,A,dev,1,6.0,6,-1,unassigned,,,sparse_vitals
+13033,A,dev,2,44.0,24,0,No abnormal vitals,No abnormal vitals,,
+13035,A,dev,4,144.0,24,4,Hemodynamic,Hemodynamic,,
+13054,A,dev,3,29.0,24,2,Inflammatory,Inflammatory,,
+13085,A,dev,3,57.0,24,3,Respiratory,Respiratory,,
+13090,A,dev,4,1.0,1,-1,unassigned,,,short_window
+13096,A,dev,0,17.0,17,0,No abnormal vitals,No abnormal vitals,,
+13120,A,dev,2,10.0,10,1,Multi-system,Multi-system,,
+13124,A,test,-1,62.0,24,0,No abnormal vitals,No abnormal vitals,,
+13146,A,dev,0,8.0,8,-1,unassigned,,,sparse_vitals
+13149,A,dev,1,86.0,24,3,Respiratory,Respiratory,,
+13152,A,dev,2,3.0,3,-1,unassigned,,,short_window
+13163,A,dev,4,40.0,24,4,Hemodynamic,Hemodynamic,,
+13183,A,dev,1,11.0,11,-1,unassigned,,,sparse_vitals
+13201,A,dev,4,2.0,2,-1,unassigned,,,short_window
+13204,A,dev,2,75.0,24,1,Multi-system,Multi-system,,
+13231,A,dev,3,36.0,24,1,Multi-system,Multi-system,,
+13248,A,dev,1,8.0,8,0,No abnormal vitals,No abnormal vitals,,
+13254,A,test,-1,7.0,7,-1,unassigned,,,sparse_vitals
+13264,A,dev,3,121.0,24,0,No abnormal vitals,No abnormal vitals,,
+13305,A,dev,2,31.0,24,4,Hemodynamic,Hemodynamic,,
+13326,A,dev,1,109.0,24,1,Multi-system,Multi-system,,
+13334,A,dev,0,165.0,24,0,No abnormal vitals,No abnormal vitals,,
+13337,A,dev,1,41.0,24,0,No abnormal vitals,No abnormal vitals,,
+13342,A,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+13346,A,dev,2,78.0,24,2,Inflammatory,Inflammatory,,
+13361,A,dev,0,121.0,24,2,Inflammatory,Inflammatory,,
+13365,A,dev,2,6.0,6,-1,unassigned,,,sparse_vitals
+13391,A,test,-1,98.0,24,0,No abnormal vitals,No abnormal vitals,,
+13402,A,dev,4,13.0,13,1,Multi-system,Multi-system,,
+13429,A,dev,0,19.0,19,1,Multi-system,Multi-system,,
+13490,A,dev,2,3.0,3,-1,unassigned,,,short_window
+13491,A,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+13492,A,dev,0,61.0,24,0,No abnormal vitals,No abnormal vitals,,
+13493,A,test,-1,14.0,14,0,No abnormal vitals,No abnormal vitals,,
+13499,A,dev,2,20.0,20,4,Hemodynamic,Hemodynamic,,
+13500,A,dev,3,130.0,24,4,Hemodynamic,Hemodynamic,,
+13507,A,test,-1,12.0,12,3,Respiratory,Respiratory,,
+13509,A,dev,0,12.0,12,4,Hemodynamic,Hemodynamic,,
+13516,A,dev,0,126.0,24,0,No abnormal vitals,No abnormal vitals,,
+13542,A,dev,1,30.0,24,4,Hemodynamic,Hemodynamic,,
+13565,A,dev,4,27.0,24,3,Respiratory,Respiratory,,
+13569,A,dev,3,47.0,24,3,Respiratory,Respiratory,,
+13579,A,dev,4,28.0,24,2,Inflammatory,Inflammatory,,
+13586,A,dev,1,1.0,1,-1,unassigned,,,short_window
+13594,A,dev,4,1.0,1,-1,unassigned,,,short_window
+13612,A,dev,0,12.0,12,0,No abnormal vitals,No abnormal vitals,,
+13623,A,dev,1,104.0,24,0,No abnormal vitals,No abnormal vitals,,
+13640,A,dev,0,86.0,24,3,Respiratory,Respiratory,,
+13652,A,dev,3,35.0,24,4,Hemodynamic,Hemodynamic,,
+13659,A,test,-1,7.0,7,-1,unassigned,,,sparse_vitals
+13669,A,dev,0,19.0,19,2,Inflammatory,Inflammatory,,
+13687,A,dev,4,96.0,24,1,Multi-system,Multi-system,,
+13695,A,dev,2,2.0,2,-1,unassigned,,,short_window
+13697,A,test,-1,30.0,24,2,Inflammatory,Inflammatory,,
+13699,A,dev,0,1.0,1,-1,unassigned,,,short_window
+13727,A,dev,2,24.0,24,1,Multi-system,Multi-system,,
+13729,A,dev,4,21.0,21,1,Multi-system,Multi-system,,
+13745,A,dev,4,65.0,24,2,Inflammatory,Inflammatory,,
+13764,A,dev,2,22.0,22,0,No abnormal vitals,No abnormal vitals,,
+13784,A,test,-1,49.0,24,3,Respiratory,Respiratory,,
+13812,A,test,-1,14.0,14,4,Hemodynamic,Hemodynamic,,
+13830,A,dev,4,86.0,24,4,Hemodynamic,Hemodynamic,,
+13852,A,dev,3,11.0,11,-1,unassigned,,,sparse_vitals
+13856,A,dev,0,16.0,16,2,Inflammatory,Inflammatory,,
+13882,A,dev,1,47.0,24,0,No abnormal vitals,No abnormal vitals,,
+13891,A,dev,0,199.0,24,2,Inflammatory,Inflammatory,,
+13907,A,test,-1,236.0,24,1,Multi-system,Multi-system,,
+13917,A,test,-1,63.0,24,0,No abnormal vitals,No abnormal vitals,,
+13934,A,dev,0,45.0,24,3,Respiratory,Respiratory,,
+13946,A,test,-1,38.0,24,-1,unassigned,,,sparse_vitals
+13957,A,dev,4,2.0,2,-1,unassigned,,,short_window
+13976,A,dev,0,174.0,24,2,Inflammatory,Inflammatory,,
+13980,A,dev,2,66.0,24,1,Multi-system,Multi-system,,
+13985,A,dev,1,9.0,9,-1,unassigned,,,sparse_vitals
+13997,A,dev,3,100.0,24,0,No abnormal vitals,No abnormal vitals,,
+14020,A,dev,1,168.0,24,-1,unassigned,,,sparse_vitals
+14037,A,dev,1,95.0,24,2,Inflammatory,Inflammatory,,
+14046,A,test,-1,70.0,24,0,No abnormal vitals,No abnormal vitals,,
+14064,A,dev,2,55.0,24,0,No abnormal vitals,No abnormal vitals,,
+14076,A,dev,1,45.0,24,0,No abnormal vitals,No abnormal vitals,,
+14081,A,dev,4,44.0,24,1,Multi-system,Multi-system,,
+14085,A,test,-1,20.0,20,4,Hemodynamic,Hemodynamic,,
+14088,A,dev,2,77.0,24,2,Inflammatory,Inflammatory,,
+14092,A,dev,1,100.0,24,0,No abnormal vitals,No abnormal vitals,,
+14096,A,test,-1,10.0,10,2,Inflammatory,Inflammatory,,
+14110,A,dev,0,37.0,24,2,Inflammatory,Inflammatory,,
+14114,A,test,-1,45.0,24,4,Hemodynamic,Hemodynamic,,
+14127,A,test,-1,49.0,24,4,Hemodynamic,Hemodynamic,,
+14131,A,test,-1,2.0,2,-1,unassigned,,,short_window
+14136,A,dev,0,1.0,1,-1,unassigned,,,short_window
+14139,A,dev,4,56.0,24,1,Multi-system,Multi-system,,
+14142,A,dev,1,39.0,24,2,Inflammatory,Inflammatory,,
+14144,A,dev,3,32.0,24,1,Multi-system,Multi-system,,
+14159,A,dev,3,6.0,6,2,Inflammatory,Inflammatory,,
+14168,A,dev,2,46.0,24,3,Respiratory,Respiratory,,
+14182,A,dev,1,2.0,2,-1,unassigned,,,short_window
+14231,A,dev,3,66.0,24,1,Multi-system,Multi-system,,
+14232,A,dev,0,63.0,24,0,No abnormal vitals,No abnormal vitals,,
+14248,A,dev,3,66.0,24,1,Multi-system,Multi-system,,
+14251,A,test,-1,58.0,24,3,Respiratory,Respiratory,,
+14253,A,dev,3,3.0,3,-1,unassigned,,,short_window
+14259,A,dev,2,48.0,24,0,No abnormal vitals,No abnormal vitals,,
+14280,A,dev,1,36.0,24,2,Inflammatory,Inflammatory,,
+14285,A,test,-1,9.0,9,-1,unassigned,,,sparse_vitals
+14289,A,dev,2,190.0,24,3,Respiratory,Respiratory,,
+14291,A,dev,4,25.0,24,1,Multi-system,Multi-system,,
+14312,A,dev,3,2.0,2,-1,unassigned,,,short_window
+14315,A,dev,3,41.0,24,1,Multi-system,Multi-system,,
+14361,A,dev,1,63.0,24,3,Respiratory,Respiratory,,
+14365,A,dev,4,50.0,24,2,Inflammatory,Inflammatory,,
+14401,A,test,-1,12.0,12,0,No abnormal vitals,No abnormal vitals,,
+14405,A,dev,3,6.0,6,-1,unassigned,,,sparse_vitals
+14407,A,dev,2,20.0,20,4,Hemodynamic,Hemodynamic,,
+14409,A,test,-1,155.0,24,3,Respiratory,Respiratory,,
+14410,A,test,-1,20.0,20,3,Respiratory,Respiratory,,
+14414,A,dev,2,32.0,24,4,Hemodynamic,Hemodynamic,,
+14430,A,dev,2,81.0,24,1,Multi-system,Multi-system,,
+14451,A,dev,0,13.0,13,4,Hemodynamic,Hemodynamic,,
+14458,A,dev,3,20.0,20,0,No abnormal vitals,No abnormal vitals,,
+14463,A,dev,1,24.0,24,0,No abnormal vitals,No abnormal vitals,,
+14488,A,dev,2,49.0,24,1,Multi-system,Multi-system,,
+14492,A,test,-1,13.0,13,1,Multi-system,Multi-system,,
+14495,A,dev,4,38.0,24,4,Hemodynamic,Hemodynamic,,
+14510,A,dev,0,64.0,24,2,Inflammatory,Inflammatory,,
+14518,A,test,-1,28.0,24,0,No abnormal vitals,No abnormal vitals,,
+14521,A,dev,4,124.0,24,4,Hemodynamic,Hemodynamic,,
+14529,A,dev,3,10.0,10,2,Inflammatory,Inflammatory,,
+14545,A,dev,2,108.0,24,1,Multi-system,Multi-system,,
+14547,A,dev,0,22.0,22,0,No abnormal vitals,No abnormal vitals,,
+14556,A,dev,3,17.0,17,0,No abnormal vitals,No abnormal vitals,,
+14560,A,dev,3,6.0,6,-1,unassigned,,,sparse_vitals
+14563,A,test,-1,91.0,24,0,No abnormal vitals,No abnormal vitals,,
+14565,A,test,-1,12.0,12,4,Hemodynamic,Hemodynamic,,
+14574,A,dev,0,38.0,24,1,Multi-system,Multi-system,,
+14577,A,dev,3,66.0,24,3,Respiratory,Respiratory,,
+14590,A,dev,1,13.0,13,-1,unassigned,,,sparse_vitals
+14597,A,dev,1,91.0,24,1,Multi-system,Multi-system,,
+14601,A,dev,2,160.0,24,1,Multi-system,Multi-system,,
+14602,A,test,-1,31.0,24,1,Multi-system,Multi-system,,
+14606,A,test,-1,63.0,24,3,Respiratory,Respiratory,,
+14614,A,dev,2,163.0,24,1,Multi-system,Multi-system,,
+14640,A,dev,4,14.0,14,1,Multi-system,Multi-system,,
+14642,A,test,-1,12.0,12,-1,unassigned,,,sparse_vitals
+14684,A,dev,2,14.0,14,3,Respiratory,Respiratory,,
+14727,A,dev,3,138.0,24,1,Multi-system,Multi-system,,
+14728,A,dev,1,62.0,24,0,No abnormal vitals,No abnormal vitals,,
+14746,A,dev,4,22.0,22,1,Multi-system,Multi-system,,
+14763,A,dev,3,67.0,24,3,Respiratory,Respiratory,,
+14764,A,dev,4,73.0,24,1,Multi-system,Multi-system,,
+14765,A,test,-1,2.0,2,-1,unassigned,,,short_window
+14769,A,dev,1,31.0,24,1,Multi-system,Multi-system,,
+14771,A,test,-1,35.0,24,2,Inflammatory,Inflammatory,,
+14774,A,dev,1,2.0,2,-1,unassigned,,,short_window
+14795,A,dev,2,268.0,24,1,Multi-system,Multi-system,,
+14798,A,dev,4,35.0,24,1,Multi-system,Multi-system,,
+14807,A,test,-1,20.0,20,4,Hemodynamic,Hemodynamic,,
+14813,A,dev,0,81.0,24,0,No abnormal vitals,No abnormal vitals,,
+14820,A,dev,0,178.0,24,1,Multi-system,Multi-system,,
+14823,A,dev,4,8.0,8,-1,unassigned,,,sparse_vitals
+14824,A,dev,4,53.0,24,2,Inflammatory,Inflammatory,,
+14841,A,dev,0,2.0,2,-1,unassigned,,,short_window
+14855,A,dev,0,9.0,9,-1,unassigned,,,sparse_vitals
+14876,A,dev,1,37.0,24,1,Multi-system,Multi-system,,
+14880,A,dev,1,154.0,24,2,Inflammatory,Inflammatory,,
+14881,A,test,-1,105.0,24,0,No abnormal vitals,No abnormal vitals,,
+14882,A,dev,1,8.0,8,-1,unassigned,,,sparse_vitals
+14887,A,dev,4,207.0,24,1,Multi-system,Multi-system,,
+14888,A,dev,4,47.0,24,3,Respiratory,Respiratory,,
+14895,A,dev,4,71.0,24,4,Hemodynamic,Hemodynamic,,
+14899,A,dev,0,32.0,24,2,Inflammatory,Inflammatory,,
+14924,A,dev,2,10.0,10,-1,unassigned,,,sparse_vitals
+14942,A,dev,1,81.0,24,3,Respiratory,Respiratory,,
+14976,A,dev,4,59.0,24,4,Hemodynamic,Hemodynamic,,
+14990,A,dev,4,78.0,24,3,Respiratory,Respiratory,,
+14997,A,test,-1,110.0,24,1,Multi-system,Multi-system,,
+14999,A,dev,3,131.0,24,2,Inflammatory,Inflammatory,,
+15036,A,dev,3,39.0,24,3,Respiratory,Respiratory,,
+15043,A,test,-1,9.0,9,-1,unassigned,,,sparse_vitals
+15049,A,dev,1,56.0,24,0,No abnormal vitals,No abnormal vitals,,
+15051,A,dev,2,55.0,24,2,Inflammatory,Inflammatory,,
+15077,A,dev,4,17.0,17,2,Inflammatory,Inflammatory,,
+15085,A,dev,2,21.0,21,2,Inflammatory,Inflammatory,,
+15094,A,dev,2,2.0,2,-1,unassigned,,,short_window
+15106,A,dev,2,36.0,24,2,Inflammatory,Inflammatory,,
+15115,A,dev,2,200.0,24,0,No abnormal vitals,No abnormal vitals,,
+15120,A,test,-1,23.0,23,-1,unassigned,,,sparse_vitals
+15142,A,dev,3,137.0,24,0,No abnormal vitals,No abnormal vitals,,
+15152,A,test,-1,40.0,24,1,Multi-system,Multi-system,,
+15158,A,dev,3,18.0,18,1,Multi-system,Multi-system,,
+15160,A,dev,3,12.0,12,2,Inflammatory,Inflammatory,,
+15180,A,test,-1,32.0,24,2,Inflammatory,Inflammatory,,
+15187,A,dev,3,30.0,24,3,Respiratory,Respiratory,,
+15188,A,dev,4,83.0,24,2,Inflammatory,Inflammatory,,
+15193,A,dev,3,6.0,6,-1,unassigned,,,sparse_vitals
+15199,A,dev,3,52.0,24,1,Multi-system,Multi-system,,
+15214,A,dev,3,63.0,24,-1,unassigned,,,sparse_vitals
+15246,A,dev,1,100.0,24,3,Respiratory,Respiratory,,
+15247,A,test,-1,148.0,24,0,No abnormal vitals,No abnormal vitals,,
+15264,A,test,-1,89.0,24,1,Multi-system,Multi-system,,
+15281,A,dev,3,178.0,24,3,Respiratory,Respiratory,,
+15335,A,dev,3,15.0,15,0,No abnormal vitals,No abnormal vitals,,
+15338,A,test,-1,32.0,24,2,Inflammatory,Inflammatory,,
+15353,A,dev,1,37.0,24,2,Inflammatory,Inflammatory,,
+15378,A,dev,4,3.0,3,-1,unassigned,,,short_window
+15393,A,dev,2,10.0,10,-1,unassigned,,,sparse_vitals
+15426,A,test,-1,6.0,6,-1,unassigned,,,sparse_vitals
+15445,A,dev,2,26.0,24,4,Hemodynamic,Hemodynamic,,
+15449,A,dev,3,18.0,18,0,No abnormal vitals,No abnormal vitals,,
+15476,A,dev,1,15.0,15,4,Hemodynamic,Hemodynamic,,
+15488,A,dev,2,2.0,2,-1,unassigned,,,short_window
+15490,A,dev,3,151.0,24,0,No abnormal vitals,No abnormal vitals,,
+15510,A,dev,2,77.0,24,0,No abnormal vitals,No abnormal vitals,,
+15535,A,dev,3,40.0,24,2,Inflammatory,Inflammatory,,
+15540,A,dev,1,71.0,24,4,Hemodynamic,Hemodynamic,,
+15549,A,test,-1,31.0,24,0,No abnormal vitals,No abnormal vitals,,
+15586,A,test,-1,12.0,12,0,No abnormal vitals,No abnormal vitals,,
+15587,A,test,-1,16.0,16,3,Respiratory,Respiratory,,
+15611,A,dev,1,10.0,10,-1,unassigned,,,sparse_vitals
+15619,A,dev,0,73.0,24,3,Respiratory,Respiratory,,
+15621,A,test,-1,9.0,9,-1,unassigned,,,sparse_vitals
+15643,A,dev,2,118.0,24,2,Inflammatory,Inflammatory,,
+15658,A,dev,0,14.0,14,0,No abnormal vitals,No abnormal vitals,,
+15678,A,dev,0,1.0,1,-1,unassigned,,,short_window
+15726,A,dev,1,39.0,24,1,Multi-system,Multi-system,,
+15728,A,dev,0,23.0,23,0,No abnormal vitals,No abnormal vitals,,
+15731,A,test,-1,12.0,12,4,Hemodynamic,Hemodynamic,,
+15757,A,dev,2,7.0,7,-1,unassigned,,,sparse_vitals
+15765,A,dev,0,51.0,24,2,Inflammatory,Inflammatory,,
+15786,A,test,-1,39.0,24,4,Hemodynamic,Hemodynamic,,
+15805,A,dev,2,1.0,1,-1,unassigned,,,short_window
+15809,A,dev,3,12.0,12,-1,unassigned,,,sparse_vitals
+15821,A,dev,0,24.0,24,1,Multi-system,Multi-system,,
+15836,A,dev,3,66.0,24,4,Hemodynamic,Hemodynamic,,
+15853,A,test,-1,152.0,24,1,Multi-system,Multi-system,,
+15885,A,dev,3,27.0,24,4,Hemodynamic,Hemodynamic,,
+15889,A,test,-1,94.0,24,3,Respiratory,Respiratory,,
+15892,A,dev,4,11.0,11,2,Inflammatory,Inflammatory,,
+15893,A,dev,3,96.0,24,4,Hemodynamic,Hemodynamic,,
+15911,A,test,-1,69.0,24,4,Hemodynamic,Hemodynamic,,
+15941,A,dev,2,9.0,9,2,Inflammatory,Inflammatory,,
+15946,A,dev,3,1.0,1,-1,unassigned,,,short_window
+15962,A,dev,0,59.0,24,0,No abnormal vitals,No abnormal vitals,,
+15967,A,dev,4,2.0,2,-1,unassigned,,,short_window
+15971,A,dev,2,20.0,20,0,No abnormal vitals,No abnormal vitals,,
+15981,A,test,-1,16.0,16,2,Inflammatory,Inflammatory,,
+15988,A,dev,2,10.0,10,4,Hemodynamic,Hemodynamic,,
+15993,A,dev,1,31.0,24,3,Respiratory,Respiratory,,
+16018,A,dev,3,109.0,24,0,No abnormal vitals,No abnormal vitals,,
+16033,A,dev,4,18.0,18,2,Inflammatory,Inflammatory,,
+16038,A,dev,1,188.0,24,0,No abnormal vitals,No abnormal vitals,,
+16051,A,dev,0,161.0,24,3,Respiratory,Respiratory,,
+16056,A,dev,1,15.0,15,1,Multi-system,Multi-system,,
+16057,A,dev,3,4.0,4,-1,unassigned,,,short_window
+16060,A,dev,3,39.0,24,1,Multi-system,Multi-system,,
+16088,A,test,-1,121.0,24,0,No abnormal vitals,No abnormal vitals,,
+16099,A,dev,4,21.0,21,1,Multi-system,Multi-system,,
+16114,A,dev,1,13.0,13,2,Inflammatory,Inflammatory,,
+16137,A,dev,3,7.0,7,-1,unassigned,,,sparse_vitals
+16185,A,test,-1,224.0,24,2,Inflammatory,Inflammatory,,
+16209,A,test,-1,3.0,3,-1,unassigned,,,short_window
+16220,A,dev,3,37.0,24,-1,unassigned,,,sparse_vitals
+16231,A,dev,4,41.0,24,0,No abnormal vitals,No abnormal vitals,,
+16249,A,dev,0,71.0,24,-1,unassigned,,,sparse_vitals
+16256,A,dev,4,2.0,2,-1,unassigned,,,short_window
+16257,A,dev,4,32.0,24,3,Respiratory,Respiratory,,
+16276,A,dev,4,81.0,24,0,No abnormal vitals,No abnormal vitals,,
+16281,A,dev,4,71.0,24,0,No abnormal vitals,No abnormal vitals,,
+16289,A,dev,4,4.0,4,-1,unassigned,,,short_window
+16290,A,dev,0,8.0,8,-1,unassigned,,,sparse_vitals
+16301,A,dev,3,4.0,4,-1,unassigned,,,short_window
+16307,A,dev,2,4.0,4,-1,unassigned,,,short_window
+16323,A,dev,4,48.0,24,4,Hemodynamic,Hemodynamic,,
+16346,A,test,-1,40.0,24,4,Hemodynamic,Hemodynamic,,
+16348,A,dev,3,116.0,24,0,No abnormal vitals,No abnormal vitals,,
+16349,A,dev,1,182.0,24,4,Hemodynamic,Hemodynamic,,
+16386,A,dev,0,110.0,24,3,Respiratory,Respiratory,,
+16393,A,test,-1,59.0,24,0,No abnormal vitals,No abnormal vitals,,
+16395,A,dev,0,15.0,15,0,No abnormal vitals,No abnormal vitals,,
+16403,A,dev,4,31.0,24,0,No abnormal vitals,No abnormal vitals,,
+16414,A,dev,2,1.0,1,-1,unassigned,,,short_window
+16421,A,dev,0,3.0,3,-1,unassigned,,,short_window
+16445,A,dev,3,126.0,24,1,Multi-system,Multi-system,,
+16461,A,dev,2,4.0,4,-1,unassigned,,,short_window
+16487,A,dev,3,91.0,24,0,No abnormal vitals,No abnormal vitals,,
+16500,A,dev,3,82.0,24,0,No abnormal vitals,No abnormal vitals,,
+16518,A,dev,2,234.0,24,0,No abnormal vitals,No abnormal vitals,,
+16547,A,dev,4,193.0,24,1,Multi-system,Multi-system,,
+16558,A,dev,2,23.0,23,1,Multi-system,Multi-system,,
+16575,A,dev,3,295.0,24,3,Respiratory,Respiratory,,
+16590,A,dev,3,2.0,2,-1,unassigned,,,short_window
+16594,A,dev,4,75.0,24,3,Respiratory,Respiratory,,
+16606,A,dev,2,19.0,19,1,Multi-system,Multi-system,,
+16609,A,dev,3,26.0,24,0,No abnormal vitals,No abnormal vitals,,
+16614,A,test,-1,11.0,11,4,Hemodynamic,Hemodynamic,,
+16627,A,dev,0,125.0,24,1,Multi-system,Multi-system,,
+16629,A,dev,1,40.0,24,3,Respiratory,Respiratory,,
+16630,A,dev,2,100.0,24,3,Respiratory,Respiratory,,
+16648,A,dev,3,12.0,12,2,Inflammatory,Inflammatory,,
+16668,A,test,-1,196.0,24,0,No abnormal vitals,No abnormal vitals,,
+16698,A,dev,3,22.0,22,0,No abnormal vitals,No abnormal vitals,,
+16701,A,dev,3,17.0,17,3,Respiratory,Respiratory,,
+16714,A,test,-1,48.0,24,0,No abnormal vitals,No abnormal vitals,,
+16719,A,dev,2,41.0,24,0,No abnormal vitals,No abnormal vitals,,
+16722,A,test,-1,2.0,2,-1,unassigned,,,short_window
+16726,A,test,-1,27.0,24,0,No abnormal vitals,No abnormal vitals,,
+16744,A,dev,1,173.0,24,3,Respiratory,Respiratory,,
+16806,A,dev,1,45.0,24,1,Multi-system,Multi-system,,
+16823,A,dev,3,29.0,24,0,No abnormal vitals,No abnormal vitals,,
+16864,A,dev,4,14.0,14,2,Inflammatory,Inflammatory,,
+16873,A,dev,4,3.0,3,-1,unassigned,,,short_window
+16876,A,dev,0,48.0,24,0,No abnormal vitals,No abnormal vitals,,
+16901,A,dev,3,1.0,1,-1,unassigned,,,short_window
+16905,A,dev,4,42.0,24,2,Inflammatory,Inflammatory,,
+16906,A,test,-1,45.0,24,1,Multi-system,Multi-system,,
+16921,A,dev,0,106.0,24,2,Inflammatory,Inflammatory,,
+16927,A,dev,4,23.0,23,0,No abnormal vitals,No abnormal vitals,,
+16929,A,test,-1,5.0,5,-1,unassigned,,,short_window
+16943,A,dev,2,37.0,24,4,Hemodynamic,Hemodynamic,,
+16944,A,test,-1,95.0,24,0,No abnormal vitals,No abnormal vitals,,
+16966,A,test,-1,9.0,9,3,Respiratory,Respiratory,,
+16968,A,dev,4,11.0,11,0,No abnormal vitals,No abnormal vitals,,
+16970,A,test,-1,1.0,1,-1,unassigned,,,short_window
+17018,A,test,-1,190.0,24,3,Respiratory,Respiratory,,
+17037,A,dev,0,20.0,20,0,No abnormal vitals,No abnormal vitals,,
+17043,A,dev,4,4.0,4,-1,unassigned,,,short_window
+17048,A,dev,3,3.0,3,-1,unassigned,,,short_window
+17052,A,dev,2,137.0,24,1,Multi-system,Multi-system,,
+17058,A,dev,0,58.0,24,1,Multi-system,Multi-system,,
+17064,A,dev,0,31.0,24,0,No abnormal vitals,No abnormal vitals,,
+17068,A,dev,2,64.0,24,2,Inflammatory,Inflammatory,,
+17078,A,dev,4,133.0,24,4,Hemodynamic,Hemodynamic,,
+17086,A,dev,4,10.0,10,2,Inflammatory,Inflammatory,,
+17091,A,test,-1,103.0,24,4,Hemodynamic,Hemodynamic,,
+17163,A,dev,0,100.0,24,4,Hemodynamic,Hemodynamic,,
+17168,A,dev,0,9.0,9,-1,unassigned,,,sparse_vitals
+17196,A,test,-1,124.0,24,0,No abnormal vitals,No abnormal vitals,,
+17204,A,dev,2,228.0,24,0,No abnormal vitals,No abnormal vitals,,
+17205,A,test,-1,2.0,2,-1,unassigned,,,short_window
+17217,A,dev,3,110.0,24,2,Inflammatory,Inflammatory,,
+17299,A,test,-1,2.0,2,-1,unassigned,,,short_window
+17302,A,test,-1,4.0,4,-1,unassigned,,,short_window
+17316,A,dev,2,75.0,24,2,Inflammatory,Inflammatory,,
+17333,A,dev,3,8.0,8,-1,unassigned,,,sparse_vitals
+17343,A,dev,3,100.0,24,4,Hemodynamic,Hemodynamic,,
+17347,A,dev,0,17.0,17,2,Inflammatory,Inflammatory,,
+17354,A,test,-1,7.0,7,-1,unassigned,,,sparse_vitals
+17366,A,dev,2,4.0,4,-1,unassigned,,,short_window
+17370,A,test,-1,141.0,24,4,Hemodynamic,Hemodynamic,,
+17372,A,dev,4,2.0,2,-1,unassigned,,,short_window
+17376,A,dev,3,42.0,24,0,No abnormal vitals,No abnormal vitals,,
+17377,A,test,-1,13.0,13,0,No abnormal vitals,No abnormal vitals,,
+17382,A,dev,2,48.0,24,0,No abnormal vitals,No abnormal vitals,,
+17405,A,dev,3,31.0,24,-1,unassigned,,,sparse_vitals
+17412,A,dev,2,104.0,24,1,Multi-system,Multi-system,,
+17428,A,dev,3,39.0,24,1,Multi-system,Multi-system,,
+17466,A,test,-1,13.0,13,-1,unassigned,,,sparse_vitals
+17469,A,test,-1,30.0,24,0,No abnormal vitals,No abnormal vitals,,
+17475,A,dev,4,134.0,24,3,Respiratory,Respiratory,,
+17519,A,test,-1,109.0,24,1,Multi-system,Multi-system,,
+17523,A,dev,3,30.0,24,1,Multi-system,Multi-system,,
+17525,A,dev,0,70.0,24,0,No abnormal vitals,No abnormal vitals,,
+17535,A,dev,0,41.0,24,1,Multi-system,Multi-system,,
+17554,A,test,-1,33.0,24,0,No abnormal vitals,No abnormal vitals,,
+17583,A,dev,3,2.0,2,-1,unassigned,,,short_window
+17587,A,dev,4,122.0,24,1,Multi-system,Multi-system,,
+17595,A,dev,4,192.0,24,0,No abnormal vitals,No abnormal vitals,,
+17627,A,dev,2,10.0,10,1,Multi-system,Multi-system,,
+17638,A,dev,0,46.0,24,3,Respiratory,Respiratory,,
+17644,A,dev,0,90.0,24,1,Multi-system,Multi-system,,
+17659,A,dev,4,66.0,24,2,Inflammatory,Inflammatory,,
+17676,A,dev,0,157.0,24,1,Multi-system,Multi-system,,
+17690,A,dev,1,22.0,22,2,Inflammatory,Inflammatory,,
+17691,A,dev,3,68.0,24,0,No abnormal vitals,No abnormal vitals,,
+17726,A,dev,1,121.0,24,1,Multi-system,Multi-system,,
+17754,A,dev,2,5.0,5,-1,unassigned,,,short_window
+17776,A,dev,2,21.0,21,0,No abnormal vitals,No abnormal vitals,,
+17788,A,dev,2,101.0,24,0,No abnormal vitals,No abnormal vitals,,
+17792,A,dev,4,83.0,24,1,Multi-system,Multi-system,,
+17806,A,dev,1,1.0,1,-1,unassigned,,,short_window
+17815,A,dev,0,7.0,7,-1,unassigned,,,sparse_vitals
+17818,A,dev,0,69.0,24,4,Hemodynamic,Hemodynamic,,
+17854,A,dev,1,32.0,24,0,No abnormal vitals,No abnormal vitals,,
+17867,A,dev,3,95.0,24,1,Multi-system,Multi-system,,
+17931,A,dev,1,66.0,24,0,No abnormal vitals,No abnormal vitals,,
+17953,A,dev,4,23.0,23,0,No abnormal vitals,No abnormal vitals,,
+17960,A,dev,4,30.0,24,1,Multi-system,Multi-system,,
+17968,A,dev,4,2.0,2,-1,unassigned,,,short_window
+17972,A,dev,0,1.0,1,-1,unassigned,,,short_window
+18010,A,dev,0,155.0,24,0,No abnormal vitals,No abnormal vitals,,
+18013,A,dev,4,9.0,9,-1,unassigned,,,sparse_vitals
+18040,A,dev,3,14.0,14,1,Multi-system,Multi-system,,
+18053,A,dev,1,2.0,2,-1,unassigned,,,short_window
+18057,A,dev,2,18.0,18,2,Inflammatory,Inflammatory,,
+18063,A,dev,0,4.0,4,-1,unassigned,,,short_window
+18114,A,test,-1,200.0,24,1,Multi-system,Multi-system,,
+18124,A,dev,0,6.0,6,-1,unassigned,,,sparse_vitals
+18145,A,dev,4,135.0,24,0,No abnormal vitals,No abnormal vitals,,
+18160,A,dev,2,11.0,11,0,No abnormal vitals,No abnormal vitals,,
+18163,A,dev,1,47.0,24,4,Hemodynamic,Hemodynamic,,
+18175,A,dev,3,12.0,12,2,Inflammatory,Inflammatory,,
+18180,A,dev,2,63.0,24,0,No abnormal vitals,No abnormal vitals,,
+18185,A,dev,1,93.0,24,0,No abnormal vitals,No abnormal vitals,,
+18207,A,dev,2,11.0,11,-1,unassigned,,,sparse_vitals
+18219,A,dev,1,175.0,24,0,No abnormal vitals,No abnormal vitals,,
+18230,A,dev,4,109.0,24,3,Respiratory,Respiratory,,
+18239,A,dev,2,141.0,24,0,No abnormal vitals,No abnormal vitals,,
+18248,A,dev,4,75.0,24,1,Multi-system,Multi-system,,
+18252,A,dev,2,27.0,24,3,Respiratory,Respiratory,,
+18289,A,dev,1,10.0,10,1,Multi-system,Multi-system,,
+18300,A,dev,3,34.0,24,0,No abnormal vitals,No abnormal vitals,,
+18305,A,dev,1,29.0,24,1,Multi-system,Multi-system,,
+18328,A,test,-1,115.0,24,0,No abnormal vitals,No abnormal vitals,,
+18329,A,dev,3,19.0,19,0,No abnormal vitals,No abnormal vitals,,
+18342,A,dev,3,27.0,24,3,Respiratory,Respiratory,,
+18344,A,dev,3,1.0,1,-1,unassigned,,,short_window
+18345,A,dev,1,52.0,24,1,Multi-system,Multi-system,,
+18369,A,test,-1,128.0,24,1,Multi-system,Multi-system,,
+18393,A,dev,4,41.0,24,2,Inflammatory,Inflammatory,,
+18407,A,dev,4,24.0,24,0,No abnormal vitals,No abnormal vitals,,
+18414,A,test,-1,50.0,24,4,Hemodynamic,Hemodynamic,,
+18440,A,dev,3,201.0,24,2,Inflammatory,Inflammatory,,
+18444,A,dev,3,135.0,24,1,Multi-system,Multi-system,,
+18469,A,test,-1,330.0,24,0,No abnormal vitals,No abnormal vitals,,
+18487,A,dev,2,3.0,3,-1,unassigned,,,short_window
+18504,A,dev,0,147.0,24,0,No abnormal vitals,No abnormal vitals,,
+18507,A,dev,2,261.0,24,3,Respiratory,Respiratory,,
+18521,A,dev,0,126.0,24,0,No abnormal vitals,No abnormal vitals,,
+18556,A,test,-1,44.0,24,3,Respiratory,Respiratory,,
+18558,A,dev,0,8.0,8,-1,unassigned,,,sparse_vitals
+18561,A,test,-1,19.0,19,4,Hemodynamic,Hemodynamic,,
+18564,A,dev,4,6.0,6,3,Respiratory,Respiratory,,
+18575,A,test,-1,44.0,24,0,No abnormal vitals,No abnormal vitals,,
+18597,A,test,-1,58.0,24,0,No abnormal vitals,No abnormal vitals,,
+18598,A,dev,0,5.0,5,-1,unassigned,,,short_window
+18609,A,dev,2,15.0,15,1,Multi-system,Multi-system,,
+18630,A,test,-1,135.0,24,3,Respiratory,Respiratory,,
+18641,A,dev,3,207.0,24,-1,unassigned,,,sparse_vitals
+18648,A,dev,1,5.0,5,-1,unassigned,,,short_window
+18650,A,dev,0,12.0,12,0,No abnormal vitals,No abnormal vitals,,
+18660,A,dev,2,115.0,24,0,No abnormal vitals,No abnormal vitals,,
+18668,A,dev,1,246.0,24,2,Inflammatory,Inflammatory,,
+18683,A,dev,1,1.0,1,-1,unassigned,,,short_window
+18688,A,dev,2,55.0,24,0,No abnormal vitals,No abnormal vitals,,
+18699,A,test,-1,66.0,24,4,Hemodynamic,Hemodynamic,,
+18703,A,dev,2,2.0,2,-1,unassigned,,,short_window
+18707,A,dev,0,57.0,24,2,Inflammatory,Inflammatory,,
+18714,A,test,-1,25.0,24,1,Multi-system,Multi-system,,
+18720,A,dev,2,150.0,24,3,Respiratory,Respiratory,,
+18736,A,dev,3,8.0,8,-1,unassigned,,,sparse_vitals
+18738,A,dev,3,66.0,24,0,No abnormal vitals,No abnormal vitals,,
+18740,A,dev,0,36.0,24,1,Multi-system,Multi-system,,
+18742,A,dev,1,62.0,24,0,No abnormal vitals,No abnormal vitals,,
+18755,A,dev,3,1.0,1,-1,unassigned,,,short_window
+18760,A,dev,1,137.0,24,1,Multi-system,Multi-system,,
+18763,A,dev,2,115.0,24,0,No abnormal vitals,No abnormal vitals,,
+18770,A,dev,2,108.0,24,0,No abnormal vitals,No abnormal vitals,,
+18799,A,dev,4,29.0,24,0,No abnormal vitals,No abnormal vitals,,
+18805,A,dev,3,15.0,15,2,Inflammatory,Inflammatory,,
+18824,A,dev,3,24.0,24,1,Multi-system,Multi-system,,
+18857,A,dev,3,47.0,24,4,Hemodynamic,Hemodynamic,,
+18860,A,dev,3,73.0,24,0,No abnormal vitals,No abnormal vitals,,
+18871,A,dev,4,20.0,20,4,Hemodynamic,Hemodynamic,,
+18872,A,test,-1,183.0,24,3,Respiratory,Respiratory,,
+18909,A,dev,1,9.0,9,2,Inflammatory,Inflammatory,,
+18911,A,dev,3,5.0,5,-1,unassigned,,,short_window
+18930,A,dev,1,2.0,2,-1,unassigned,,,short_window
+18941,A,test,-1,15.0,15,1,Multi-system,Multi-system,,
+18953,A,dev,3,18.0,18,-1,unassigned,,,sparse_vitals
+18958,A,dev,1,36.0,24,4,Hemodynamic,Hemodynamic,,
+18986,A,dev,0,160.0,24,1,Multi-system,Multi-system,,
+18987,A,dev,3,5.0,5,-1,unassigned,,,short_window
+18994,A,dev,3,7.0,7,-1,unassigned,,,sparse_vitals
+18998,A,dev,3,169.0,24,1,Multi-system,Multi-system,,
+19007,A,dev,1,192.0,24,1,Multi-system,Multi-system,,
+19010,A,dev,1,180.0,24,0,No abnormal vitals,No abnormal vitals,,
+19049,A,dev,2,4.0,4,-1,unassigned,,,short_window
+19061,A,dev,1,65.0,24,2,Inflammatory,Inflammatory,,
+19072,A,dev,1,72.0,24,2,Inflammatory,Inflammatory,,
+19094,A,dev,3,96.0,24,2,Inflammatory,Inflammatory,,
+19095,A,dev,1,195.0,24,2,Inflammatory,Inflammatory,,
+19098,A,dev,4,30.0,24,0,No abnormal vitals,No abnormal vitals,,
+19109,A,test,-1,27.0,24,0,No abnormal vitals,No abnormal vitals,,
+19114,A,dev,4,2.0,2,-1,unassigned,,,short_window
+19149,A,dev,4,265.0,24,1,Multi-system,Multi-system,,
+19153,A,dev,4,125.0,24,4,Hemodynamic,Hemodynamic,,
+19170,A,dev,3,37.0,24,4,Hemodynamic,Hemodynamic,,
+19175,A,dev,0,5.0,5,-1,unassigned,,,short_window
+19185,A,dev,3,38.0,24,3,Respiratory,Respiratory,,
+19207,A,dev,2,85.0,24,4,Hemodynamic,Hemodynamic,,
+19210,A,dev,4,47.0,24,1,Multi-system,Multi-system,,
+19222,A,test,-1,72.0,24,3,Respiratory,Respiratory,,
+19228,A,dev,4,1.0,1,-1,unassigned,,,short_window
+19231,A,dev,3,5.0,5,-1,unassigned,,,short_window
+19245,A,test,-1,19.0,19,2,Inflammatory,Inflammatory,,
+19249,A,dev,0,88.0,24,-1,unassigned,,,sparse_vitals
+19268,A,dev,4,138.0,24,0,No abnormal vitals,No abnormal vitals,,
+19304,A,dev,1,121.0,24,0,No abnormal vitals,No abnormal vitals,,
+19311,A,test,-1,119.0,24,-1,unassigned,,,sparse_vitals
+19331,A,dev,4,1.0,1,-1,unassigned,,,short_window
+19335,A,test,-1,215.0,24,1,Multi-system,Multi-system,,
+19340,A,dev,0,14.0,14,1,Multi-system,Multi-system,,
+19353,A,dev,2,75.0,24,0,No abnormal vitals,No abnormal vitals,,
+19361,A,dev,0,1.0,1,-1,unassigned,,,short_window
+19372,A,dev,3,89.0,24,0,No abnormal vitals,No abnormal vitals,,
+19374,A,dev,4,30.0,24,4,Hemodynamic,Hemodynamic,,
+19375,A,dev,3,79.0,24,2,Inflammatory,Inflammatory,,
+19378,A,dev,2,63.0,24,2,Inflammatory,Inflammatory,,
+19401,A,test,-1,47.0,24,3,Respiratory,Respiratory,,
+19421,A,dev,3,125.0,24,0,No abnormal vitals,No abnormal vitals,,
+19423,A,dev,2,6.0,6,-1,unassigned,,,sparse_vitals
+19434,A,dev,0,88.0,24,1,Multi-system,Multi-system,,
+19437,A,dev,0,14.0,14,1,Multi-system,Multi-system,,
+19453,A,dev,4,15.0,15,1,Multi-system,Multi-system,,
+19489,A,dev,4,11.0,11,-1,unassigned,,,sparse_vitals
+19492,A,dev,4,18.0,18,1,Multi-system,Multi-system,,
+19498,A,dev,0,13.0,13,4,Hemodynamic,Hemodynamic,,
+19509,A,dev,1,55.0,24,4,Hemodynamic,Hemodynamic,,
+19510,A,dev,4,61.0,24,0,No abnormal vitals,No abnormal vitals,,
+19547,A,dev,0,93.0,24,4,Hemodynamic,Hemodynamic,,
+19581,A,test,-1,9.0,9,3,Respiratory,Respiratory,,
+19584,A,dev,4,24.0,24,1,Multi-system,Multi-system,,
+19601,A,dev,2,9.0,9,2,Inflammatory,Inflammatory,,
+19602,A,test,-1,235.0,24,3,Respiratory,Respiratory,,
+19636,A,dev,3,1.0,1,-1,unassigned,,,short_window
+19675,A,dev,2,78.0,24,1,Multi-system,Multi-system,,
+19678,A,dev,1,19.0,19,-1,unassigned,,,sparse_vitals
+19680,A,test,-1,114.0,24,3,Respiratory,Respiratory,,
+19687,A,dev,4,19.0,19,2,Inflammatory,Inflammatory,,
+19722,A,dev,1,42.0,24,1,Multi-system,Multi-system,,
+19731,A,dev,2,7.0,7,-1,unassigned,,,sparse_vitals
+19738,A,test,-1,233.0,24,1,Multi-system,Multi-system,,
+19743,A,dev,3,48.0,24,4,Hemodynamic,Hemodynamic,,
+19751,A,dev,0,34.0,24,0,No abnormal vitals,No abnormal vitals,,
+19760,A,test,-1,115.0,24,2,Inflammatory,Inflammatory,,
+19769,A,dev,1,18.0,18,0,No abnormal vitals,No abnormal vitals,,
+19778,A,dev,4,228.0,24,1,Multi-system,Multi-system,,
+19802,A,dev,1,15.0,15,1,Multi-system,Multi-system,,
+19820,A,dev,4,51.0,24,2,Inflammatory,Inflammatory,,
+19826,A,dev,1,34.0,24,0,No abnormal vitals,No abnormal vitals,,
+19829,A,dev,3,3.0,3,-1,unassigned,,,short_window
+19847,A,dev,4,51.0,24,0,No abnormal vitals,No abnormal vitals,,
+19850,A,dev,1,6.0,6,-1,unassigned,,,sparse_vitals
+19866,A,dev,2,37.0,24,3,Respiratory,Respiratory,,
+19877,A,dev,1,200.0,24,1,Multi-system,Multi-system,,
+19878,A,dev,1,25.0,24,1,Multi-system,Multi-system,,
+19901,A,dev,0,5.0,5,-1,unassigned,,,short_window
+19930,A,test,-1,15.0,15,4,Hemodynamic,Hemodynamic,,
+19947,A,dev,2,30.0,24,2,Inflammatory,Inflammatory,,
+19950,A,test,-1,211.0,24,0,No abnormal vitals,No abnormal vitals,,
+19952,A,test,-1,94.0,24,4,Hemodynamic,Hemodynamic,,
+19960,A,dev,0,72.0,24,2,Inflammatory,Inflammatory,,
+19966,A,dev,2,2.0,2,-1,unassigned,,,short_window
+19970,A,test,-1,48.0,24,1,Multi-system,Multi-system,,
+19985,A,dev,0,16.0,16,-1,unassigned,,,sparse_vitals
+20323,A,dev,2,84.0,24,1,Multi-system,Multi-system,,
+20332,A,dev,3,12.0,12,-1,unassigned,,,sparse_vitals
+20349,A,dev,0,1.0,1,-1,unassigned,,,short_window
+20354,A,dev,3,15.0,15,1,Multi-system,Multi-system,,
+20360,A,test,-1,123.0,24,1,Multi-system,Multi-system,,
+20367,A,dev,0,95.0,24,2,Inflammatory,Inflammatory,,
+20374,A,dev,1,19.0,19,1,Multi-system,Multi-system,,
+20382,A,dev,1,200.0,24,0,No abnormal vitals,No abnormal vitals,,
+20383,A,dev,0,3.0,3,-1,unassigned,,,short_window
+20391,A,dev,2,4.0,4,-1,unassigned,,,short_window
+20400,A,dev,1,70.0,24,0,No abnormal vitals,No abnormal vitals,,
+20406,A,test,-1,77.0,24,2,Inflammatory,Inflammatory,,
+20411,A,dev,3,132.0,24,4,Hemodynamic,Hemodynamic,,
+20419,A,dev,3,62.0,24,3,Respiratory,Respiratory,,
+20434,A,dev,0,8.0,8,-1,unassigned,,,sparse_vitals
+20444,A,dev,4,17.0,17,0,No abnormal vitals,No abnormal vitals,,
+20456,A,dev,3,113.0,24,0,No abnormal vitals,No abnormal vitals,,
+20463,A,test,-1,1.0,1,-1,unassigned,,,short_window
+20480,A,dev,2,58.0,24,-1,unassigned,,,sparse_vitals
+20503,A,test,-1,136.0,24,1,Multi-system,Multi-system,,
+20524,A,dev,0,35.0,24,-1,unassigned,,,sparse_vitals
+20526,A,dev,1,13.0,13,-1,unassigned,,,sparse_vitals
+20538,A,dev,0,88.0,24,1,Multi-system,Multi-system,,
+20563,A,test,-1,16.0,16,1,Multi-system,Multi-system,,
+20565,A,dev,2,14.0,14,0,No abnormal vitals,No abnormal vitals,,
+20575,A,dev,3,117.0,24,2,Inflammatory,Inflammatory,,
+20585,A,dev,2,165.0,24,0,No abnormal vitals,No abnormal vitals,,
+20593,A,dev,3,5.0,5,-1,unassigned,,,short_window
+20601,A,dev,3,21.0,21,0,No abnormal vitals,No abnormal vitals,,
+20637,A,test,-1,133.0,24,1,Multi-system,Multi-system,,
+20643,A,dev,2,24.0,24,2,Inflammatory,Inflammatory,,
+100013,B,dev,4,80.0,24,2,Inflammatory,Inflammatory,,
+100016,B,test,-1,265.0,24,2,Inflammatory,Inflammatory,,
+100047,B,test,-1,26.0,24,2,Inflammatory,Inflammatory,,
+100049,B,test,-1,78.0,24,2,Inflammatory,Inflammatory,,
+100068,B,dev,1,94.0,24,0,No abnormal vitals,No abnormal vitals,,
+100072,B,dev,4,25.0,24,0,No abnormal vitals,No abnormal vitals,,
+100073,B,dev,3,18.0,18,-1,unassigned,,,sparse_vitals
+100088,B,dev,1,29.0,24,0,No abnormal vitals,No abnormal vitals,,
+100100,B,dev,1,52.0,24,0,No abnormal vitals,No abnormal vitals,,
+100111,B,dev,3,32.0,24,2,Inflammatory,Inflammatory,,
+100162,B,test,-1,109.0,24,-1,unassigned,,,sparse_vitals
+100217,B,dev,2,191.0,24,3,Respiratory,Respiratory,,
+100218,B,dev,1,56.0,24,0,No abnormal vitals,No abnormal vitals,,
+100232,B,test,-1,89.0,24,3,Respiratory,Respiratory,,
+100275,B,test,-1,17.0,17,1,Multi-system,Multi-system,,
+100312,B,dev,1,39.0,24,1,Multi-system,Multi-system,,
+100333,B,dev,4,134.0,24,1,Multi-system,Multi-system,,
+100334,B,dev,0,208.0,24,1,Multi-system,Multi-system,,
+100356,B,dev,2,6.0,6,-1,unassigned,,,sparse_vitals
+100362,B,dev,1,105.0,24,2,Inflammatory,Inflammatory,,
+100367,B,dev,2,89.0,24,1,Multi-system,Multi-system,,
+100462,B,dev,4,31.0,24,3,Respiratory,Respiratory,,
+100504,B,dev,2,250.0,24,1,Multi-system,Multi-system,,
+100527,B,dev,2,40.0,24,2,Inflammatory,Inflammatory,,
+100540,B,test,-1,77.0,24,0,No abnormal vitals,No abnormal vitals,,
+100543,B,test,-1,3.0,3,-1,unassigned,,,short_window
+100579,B,dev,4,3.0,3,-1,unassigned,,,short_window
+100580,B,test,-1,26.0,24,1,Multi-system,Multi-system,,
+100612,B,dev,3,31.0,24,0,No abnormal vitals,No abnormal vitals,,
+100632,B,dev,4,46.0,24,3,Respiratory,Respiratory,,
+100658,B,dev,4,100.0,24,0,No abnormal vitals,No abnormal vitals,,
+100671,B,dev,0,39.0,24,0,No abnormal vitals,No abnormal vitals,,
+100673,B,dev,3,44.0,24,2,Inflammatory,Inflammatory,,
+100675,B,dev,0,61.0,24,0,No abnormal vitals,No abnormal vitals,,
+100693,B,test,-1,2.0,2,-1,unassigned,,,short_window
+100705,B,test,-1,91.0,24,0,No abnormal vitals,No abnormal vitals,,
+100737,B,dev,3,13.0,13,0,No abnormal vitals,No abnormal vitals,,
+100738,B,dev,2,68.0,24,3,Respiratory,Respiratory,,
+100739,B,dev,1,92.0,24,0,No abnormal vitals,No abnormal vitals,,
+100741,B,dev,0,18.0,18,1,Multi-system,Multi-system,,
+100811,B,dev,4,45.0,24,0,No abnormal vitals,No abnormal vitals,,
+100823,B,dev,0,14.0,14,0,No abnormal vitals,No abnormal vitals,,
+100836,B,dev,0,76.0,24,2,Inflammatory,Inflammatory,,
+100837,B,test,-1,110.0,24,1,Multi-system,Multi-system,,
+100838,B,dev,4,33.0,24,0,No abnormal vitals,No abnormal vitals,,
+100862,B,dev,3,5.0,5,-1,unassigned,,,short_window
+100870,B,dev,4,24.0,24,0,No abnormal vitals,No abnormal vitals,,
+100901,B,dev,0,1.0,1,-1,unassigned,,,short_window
+100907,B,test,-1,16.0,16,-1,unassigned,,,sparse_vitals
+100946,B,dev,4,310.0,24,1,Multi-system,Multi-system,,
+100974,B,dev,3,128.0,24,0,No abnormal vitals,No abnormal vitals,,
+100992,B,dev,0,223.0,24,0,No abnormal vitals,No abnormal vitals,,
+100995,B,dev,0,38.0,24,0,No abnormal vitals,No abnormal vitals,,
+101090,B,test,-1,51.0,24,-1,unassigned,,,sparse_vitals
+101108,B,dev,0,1.0,1,-1,unassigned,,,short_window
+101157,B,dev,3,34.0,24,0,No abnormal vitals,No abnormal vitals,,
+101189,B,test,-1,20.0,20,0,No abnormal vitals,No abnormal vitals,,
+101190,B,dev,0,62.0,24,1,Multi-system,Multi-system,,
+101245,B,test,-1,15.0,15,4,Hemodynamic,Hemodynamic,,
+101257,B,test,-1,18.0,18,1,Multi-system,Multi-system,,
+101262,B,dev,3,29.0,24,2,Inflammatory,Inflammatory,,
+101291,B,dev,0,43.0,24,-1,unassigned,,,sparse_vitals
+101295,B,dev,1,55.0,24,0,No abnormal vitals,No abnormal vitals,,
+101300,B,test,-1,15.0,15,3,Respiratory,Respiratory,,
+101327,B,dev,3,6.0,6,2,Inflammatory,Inflammatory,,
+101341,B,test,-1,2.0,2,-1,unassigned,,,short_window
+101357,B,dev,0,2.0,2,-1,unassigned,,,short_window
+101367,B,dev,0,6.0,6,-1,unassigned,,,sparse_vitals
+101375,B,dev,0,122.0,24,0,No abnormal vitals,No abnormal vitals,,
+101405,B,dev,0,119.0,24,-1,unassigned,,,sparse_vitals
+101413,B,dev,2,197.0,24,0,No abnormal vitals,No abnormal vitals,,
+101444,B,test,-1,247.0,24,1,Multi-system,Multi-system,,
+101517,B,dev,4,13.0,13,0,No abnormal vitals,No abnormal vitals,,
+101527,B,test,-1,63.0,24,1,Multi-system,Multi-system,,
+101561,B,dev,2,77.0,24,4,Hemodynamic,Hemodynamic,,
+101596,B,dev,0,83.0,24,2,Inflammatory,Inflammatory,,
+101601,B,test,-1,38.0,24,-1,unassigned,,,sparse_vitals
+101618,B,dev,1,46.0,24,3,Respiratory,Respiratory,,
+101630,B,test,-1,1.0,1,-1,unassigned,,,short_window
+101696,B,dev,1,101.0,24,1,Multi-system,Multi-system,,
+101712,B,dev,0,31.0,24,0,No abnormal vitals,No abnormal vitals,,
+101724,B,test,-1,12.0,12,-1,unassigned,,,sparse_vitals
+101729,B,test,-1,2.0,2,-1,unassigned,,,short_window
+101739,B,dev,3,138.0,24,3,Respiratory,Respiratory,,
+101748,B,dev,1,13.0,13,3,Respiratory,Respiratory,,
+101750,B,dev,4,23.0,23,2,Inflammatory,Inflammatory,,
+101805,B,dev,1,154.0,24,2,Inflammatory,Inflammatory,,
+101857,B,dev,2,107.0,24,2,Inflammatory,Inflammatory,,
+101879,B,test,-1,26.0,24,1,Multi-system,Multi-system,,
+101880,B,dev,0,44.0,24,2,Inflammatory,Inflammatory,,
+101883,B,dev,0,37.0,24,0,No abnormal vitals,No abnormal vitals,,
+101911,B,dev,0,12.0,12,-1,unassigned,,,sparse_vitals
+101922,B,dev,1,330.0,24,1,Multi-system,Multi-system,,
+101933,B,dev,1,157.0,24,2,Inflammatory,Inflammatory,,
+101934,B,dev,4,2.0,2,-1,unassigned,,,short_window
+101956,B,dev,1,28.0,24,4,Hemodynamic,Hemodynamic,,
+101982,B,dev,3,103.0,24,0,No abnormal vitals,No abnormal vitals,,
+101990,B,dev,2,8.0,8,-1,unassigned,,,sparse_vitals
+102020,B,dev,3,47.0,24,0,No abnormal vitals,No abnormal vitals,,
+102022,B,dev,2,60.0,24,0,No abnormal vitals,No abnormal vitals,,
+102070,B,dev,2,73.0,24,0,No abnormal vitals,No abnormal vitals,,
+102109,B,dev,2,12.0,12,-1,unassigned,,,sparse_vitals
+102128,B,dev,0,33.0,24,0,No abnormal vitals,No abnormal vitals,,
+102129,B,dev,2,13.0,13,2,Inflammatory,Inflammatory,,
+102158,B,dev,4,26.0,24,0,No abnormal vitals,No abnormal vitals,,
+102173,B,dev,1,60.0,24,0,No abnormal vitals,No abnormal vitals,,
+102260,B,test,-1,29.0,24,4,Hemodynamic,Hemodynamic,,
+102267,B,dev,0,11.0,11,-1,unassigned,,,sparse_vitals
+102306,B,dev,1,109.0,24,0,No abnormal vitals,No abnormal vitals,,
+102313,B,dev,0,83.0,24,0,No abnormal vitals,No abnormal vitals,,
+102347,B,dev,0,13.0,13,4,Hemodynamic,Hemodynamic,,
+102390,B,dev,3,32.0,24,0,No abnormal vitals,No abnormal vitals,,
+102398,B,test,-1,18.0,18,2,Inflammatory,Inflammatory,,
+102401,B,dev,1,22.0,22,1,Multi-system,Multi-system,,
+102421,B,dev,0,138.0,24,2,Inflammatory,Inflammatory,,
+102436,B,dev,4,6.0,6,-1,unassigned,,,sparse_vitals
+102468,B,dev,4,27.0,24,1,Multi-system,Multi-system,,
+102478,B,dev,3,82.0,24,2,Inflammatory,Inflammatory,,
+102481,B,test,-1,3.0,3,-1,unassigned,,,short_window
+102495,B,dev,3,23.0,23,3,Respiratory,Respiratory,,
+102542,B,dev,0,9.0,9,-1,unassigned,,,sparse_vitals
+102582,B,dev,3,23.0,23,0,No abnormal vitals,No abnormal vitals,,
+102590,B,dev,3,31.0,24,0,No abnormal vitals,No abnormal vitals,,
+102643,B,dev,2,11.0,11,-1,unassigned,,,sparse_vitals
+102644,B,dev,0,36.0,24,0,No abnormal vitals,No abnormal vitals,,
+102671,B,dev,3,38.0,24,2,Inflammatory,Inflammatory,,
+102708,B,dev,1,39.0,24,1,Multi-system,Multi-system,,
+102746,B,dev,1,178.0,24,2,Inflammatory,Inflammatory,,
+102749,B,dev,1,46.0,24,4,Hemodynamic,Hemodynamic,,
+102771,B,dev,1,50.0,24,0,No abnormal vitals,No abnormal vitals,,
+102780,B,dev,1,17.0,17,0,No abnormal vitals,No abnormal vitals,,
+102784,B,dev,3,121.0,24,2,Inflammatory,Inflammatory,,
+102787,B,dev,3,2.0,2,-1,unassigned,,,short_window
+102830,B,dev,4,8.0,8,-1,unassigned,,,sparse_vitals
+102844,B,dev,4,121.0,24,2,Inflammatory,Inflammatory,,
+102888,B,dev,0,82.0,24,2,Inflammatory,Inflammatory,,
+102934,B,dev,2,47.0,24,1,Multi-system,Multi-system,,
+102937,B,dev,1,23.0,23,1,Multi-system,Multi-system,,
+102971,B,dev,4,4.0,4,-1,unassigned,,,short_window
+102972,B,dev,3,148.0,24,3,Respiratory,Respiratory,,
+102989,B,dev,0,5.0,5,-1,unassigned,,,short_window
+103001,B,dev,4,2.0,2,-1,unassigned,,,short_window
+103037,B,test,-1,38.0,24,0,No abnormal vitals,No abnormal vitals,,
+103073,B,dev,3,26.0,24,2,Inflammatory,Inflammatory,,
+103080,B,test,-1,11.0,11,-1,unassigned,,,sparse_vitals
+103148,B,test,-1,4.0,4,-1,unassigned,,,short_window
+103159,B,dev,3,59.0,24,1,Multi-system,Multi-system,,
+103194,B,dev,2,74.0,24,0,No abnormal vitals,No abnormal vitals,,
+103207,B,dev,3,67.0,24,3,Respiratory,Respiratory,,
+103249,B,dev,1,70.0,24,1,Multi-system,Multi-system,,
+103259,B,dev,2,5.0,5,-1,unassigned,,,short_window
+103261,B,dev,0,54.0,24,1,Multi-system,Multi-system,,
+103278,B,test,-1,33.0,24,-1,unassigned,,,sparse_vitals
+103293,B,dev,0,24.0,24,0,No abnormal vitals,No abnormal vitals,,
+103317,B,dev,4,90.0,24,4,Hemodynamic,Hemodynamic,,
+103357,B,dev,1,1.0,1,-1,unassigned,,,short_window
+103365,B,test,-1,86.0,24,0,No abnormal vitals,No abnormal vitals,,
+103367,B,dev,1,15.0,15,4,Hemodynamic,Hemodynamic,,
+103395,B,dev,2,54.0,24,4,Hemodynamic,Hemodynamic,,
+103429,B,dev,1,34.0,24,0,No abnormal vitals,No abnormal vitals,,
+103435,B,dev,4,6.0,6,-1,unassigned,,,sparse_vitals
+103452,B,dev,2,13.0,13,0,No abnormal vitals,No abnormal vitals,,
+103525,B,dev,2,4.0,4,-1,unassigned,,,short_window
+103562,B,dev,0,242.0,24,-1,unassigned,,,sparse_vitals
+103568,B,test,-1,44.0,24,1,Multi-system,Multi-system,,
+103577,B,test,-1,28.0,24,0,No abnormal vitals,No abnormal vitals,,
+103623,B,dev,4,195.0,24,0,No abnormal vitals,No abnormal vitals,,
+103662,B,dev,4,6.0,6,-1,unassigned,,,sparse_vitals
+103663,B,dev,1,83.0,24,-1,unassigned,,,sparse_vitals
+103686,B,dev,0,86.0,24,2,Inflammatory,Inflammatory,,
+103691,B,dev,0,8.0,8,-1,unassigned,,,sparse_vitals
+103744,B,dev,2,91.0,24,2,Inflammatory,Inflammatory,,
+103815,B,dev,1,99.0,24,2,Inflammatory,Inflammatory,,
+103819,B,dev,1,180.0,24,0,No abnormal vitals,No abnormal vitals,,
+103863,B,dev,1,25.0,24,0,No abnormal vitals,No abnormal vitals,,
+103871,B,dev,4,26.0,24,1,Multi-system,Multi-system,,
+103897,B,dev,3,1.0,1,-1,unassigned,,,short_window
+103905,B,dev,4,12.0,12,-1,unassigned,,,sparse_vitals
+103995,B,dev,3,8.0,8,1,Multi-system,Multi-system,,
+104025,B,test,-1,36.0,24,1,Multi-system,Multi-system,,
+104049,B,dev,4,298.0,24,1,Multi-system,Multi-system,,
+104051,B,dev,0,197.0,24,0,No abnormal vitals,No abnormal vitals,,
+104053,B,dev,2,23.0,23,1,Multi-system,Multi-system,,
+104106,B,dev,1,60.0,24,2,Inflammatory,Inflammatory,,
+104130,B,dev,2,16.0,16,0,No abnormal vitals,No abnormal vitals,,
+104184,B,test,-1,80.0,24,2,Inflammatory,Inflammatory,,
+104187,B,dev,2,52.0,24,0,No abnormal vitals,No abnormal vitals,,
+104210,B,dev,3,53.0,24,2,Inflammatory,Inflammatory,,
+104274,B,dev,2,45.0,24,-1,unassigned,,,sparse_vitals
+104281,B,dev,2,30.0,24,2,Inflammatory,Inflammatory,,
+104288,B,dev,4,122.0,24,1,Multi-system,Multi-system,,
+104318,B,dev,4,53.0,24,2,Inflammatory,Inflammatory,,
+104320,B,dev,1,19.0,19,0,No abnormal vitals,No abnormal vitals,,
+104367,B,test,-1,155.0,24,0,No abnormal vitals,No abnormal vitals,,
+104445,B,dev,0,103.0,24,0,No abnormal vitals,No abnormal vitals,,
+104456,B,dev,1,70.0,24,1,Multi-system,Multi-system,,
+104474,B,dev,3,25.0,24,2,Inflammatory,Inflammatory,,
+104483,B,dev,2,22.0,22,2,Inflammatory,Inflammatory,,
+104507,B,dev,3,49.0,24,2,Inflammatory,Inflammatory,,
+104524,B,dev,0,153.0,24,0,No abnormal vitals,No abnormal vitals,,
+104530,B,dev,4,239.0,24,2,Inflammatory,Inflammatory,,
+104535,B,test,-1,6.0,6,-1,unassigned,,,sparse_vitals
+104541,B,dev,0,18.0,18,-1,unassigned,,,sparse_vitals
+104545,B,dev,3,1.0,1,-1,unassigned,,,short_window
+104616,B,dev,0,5.0,5,-1,unassigned,,,short_window
+104624,B,dev,1,83.0,24,2,Inflammatory,Inflammatory,,
+104666,B,test,-1,19.0,19,0,No abnormal vitals,No abnormal vitals,,
+104728,B,dev,0,29.0,24,1,Multi-system,Multi-system,,
+104734,B,dev,2,120.0,24,1,Multi-system,Multi-system,,
+104738,B,dev,4,17.0,17,1,Multi-system,Multi-system,,
+104754,B,dev,2,51.0,24,1,Multi-system,Multi-system,,
+104769,B,dev,4,83.0,24,0,No abnormal vitals,No abnormal vitals,,
+104780,B,dev,1,1.0,1,-1,unassigned,,,short_window
+104785,B,dev,4,35.0,24,0,No abnormal vitals,No abnormal vitals,,
+104787,B,test,-1,27.0,24,1,Multi-system,Multi-system,,
+104800,B,dev,2,6.0,6,-1,unassigned,,,sparse_vitals
+104804,B,dev,2,12.0,12,1,Multi-system,Multi-system,,
+104893,B,dev,2,10.0,10,3,Respiratory,Respiratory,,
+104932,B,dev,2,98.0,24,2,Inflammatory,Inflammatory,,
+104980,B,dev,4,2.0,2,-1,unassigned,,,short_window
+104996,B,dev,4,22.0,22,2,Inflammatory,Inflammatory,,
+105017,B,dev,1,35.0,24,0,No abnormal vitals,No abnormal vitals,,
+105030,B,dev,3,41.0,24,0,No abnormal vitals,No abnormal vitals,,
+105038,B,test,-1,72.0,24,0,No abnormal vitals,No abnormal vitals,,
+105042,B,dev,1,95.0,24,0,No abnormal vitals,No abnormal vitals,,
+105045,B,dev,4,288.0,24,2,Inflammatory,Inflammatory,,
+105055,B,test,-1,96.0,24,4,Hemodynamic,Hemodynamic,,
+105061,B,dev,0,45.0,24,0,No abnormal vitals,No abnormal vitals,,
+105081,B,dev,0,30.0,24,0,No abnormal vitals,No abnormal vitals,,
+105102,B,test,-1,8.0,8,-1,unassigned,,,sparse_vitals
+105122,B,dev,2,203.0,24,-1,unassigned,,,sparse_vitals
+105180,B,test,-1,13.0,13,-1,unassigned,,,sparse_vitals
+105190,B,dev,0,182.0,24,4,Hemodynamic,Hemodynamic,,
+105259,B,dev,0,113.0,24,0,No abnormal vitals,No abnormal vitals,,
+105270,B,dev,4,17.0,17,0,No abnormal vitals,No abnormal vitals,,
+105284,B,dev,3,1.0,1,-1,unassigned,,,short_window
+105287,B,dev,1,44.0,24,3,Respiratory,Respiratory,,
+105308,B,dev,0,27.0,24,0,No abnormal vitals,No abnormal vitals,,
+105320,B,dev,3,127.0,24,1,Multi-system,Multi-system,,
+105405,B,dev,3,196.0,24,1,Multi-system,Multi-system,,
+105410,B,dev,0,56.0,24,1,Multi-system,Multi-system,,
+105423,B,dev,1,32.0,24,2,Inflammatory,Inflammatory,,
+105431,B,test,-1,49.0,24,0,No abnormal vitals,No abnormal vitals,,
+105474,B,dev,2,103.0,24,3,Respiratory,Respiratory,,
+105483,B,dev,1,5.0,5,-1,unassigned,,,short_window
+105496,B,test,-1,51.0,24,0,No abnormal vitals,No abnormal vitals,,
+105586,B,dev,3,164.0,24,1,Multi-system,Multi-system,,
+105599,B,dev,4,196.0,24,1,Multi-system,Multi-system,,
+105639,B,test,-1,43.0,24,1,Multi-system,Multi-system,,
+105640,B,dev,4,86.0,24,2,Inflammatory,Inflammatory,,
+105645,B,dev,0,5.0,5,-1,unassigned,,,short_window
+105659,B,dev,3,85.0,24,1,Multi-system,Multi-system,,
+105667,B,test,-1,36.0,24,1,Multi-system,Multi-system,,
+105669,B,test,-1,73.0,24,4,Hemodynamic,Hemodynamic,,
+105741,B,dev,1,246.0,24,0,No abnormal vitals,No abnormal vitals,,
+105753,B,dev,4,5.0,5,-1,unassigned,,,short_window
+105781,B,dev,4,105.0,24,0,No abnormal vitals,No abnormal vitals,,
+105788,B,test,-1,31.0,24,0,No abnormal vitals,No abnormal vitals,,
+105796,B,dev,4,1.0,1,-1,unassigned,,,short_window
+105809,B,dev,2,230.0,24,3,Respiratory,Respiratory,,
+105824,B,dev,3,25.0,24,1,Multi-system,Multi-system,,
+105831,B,dev,0,178.0,24,0,No abnormal vitals,No abnormal vitals,,
+105862,B,test,-1,37.0,24,1,Multi-system,Multi-system,,
+105869,B,dev,3,39.0,24,4,Hemodynamic,Hemodynamic,,
+105885,B,dev,3,124.0,24,0,No abnormal vitals,No abnormal vitals,,
+105892,B,test,-1,13.0,13,4,Hemodynamic,Hemodynamic,,
+105905,B,dev,1,9.0,9,0,No abnormal vitals,No abnormal vitals,,
+105912,B,dev,2,25.0,24,2,Inflammatory,Inflammatory,,
+105915,B,dev,4,91.0,24,0,No abnormal vitals,No abnormal vitals,,
+105962,B,dev,2,1.0,1,-1,unassigned,,,short_window
+105969,B,dev,3,29.0,24,1,Multi-system,Multi-system,,
+105979,B,dev,0,24.0,24,3,Respiratory,Respiratory,,
+105999,B,dev,4,34.0,24,1,Multi-system,Multi-system,,
+106037,B,dev,3,9.0,9,-1,unassigned,,,sparse_vitals
+106058,B,dev,4,41.0,24,0,No abnormal vitals,No abnormal vitals,,
+106064,B,dev,4,68.0,24,0,No abnormal vitals,No abnormal vitals,,
+106114,B,dev,3,5.0,5,-1,unassigned,,,short_window
+106129,B,dev,2,29.0,24,2,Inflammatory,Inflammatory,,
+106158,B,test,-1,12.0,12,3,Respiratory,Respiratory,,
+106171,B,dev,3,92.0,24,2,Inflammatory,Inflammatory,,
+106214,B,dev,4,43.0,24,0,No abnormal vitals,No abnormal vitals,,
+106246,B,dev,0,74.0,24,1,Multi-system,Multi-system,,
+106293,B,dev,2,58.0,24,4,Hemodynamic,Hemodynamic,,
+106358,B,test,-1,17.0,17,-1,unassigned,,,sparse_vitals
+106376,B,dev,0,63.0,24,1,Multi-system,Multi-system,,
+106401,B,dev,3,64.0,24,2,Inflammatory,Inflammatory,,
+106429,B,dev,2,9.0,9,-1,unassigned,,,sparse_vitals
+106433,B,dev,3,198.0,24,3,Respiratory,Respiratory,,
+106445,B,dev,0,97.0,24,1,Multi-system,Multi-system,,
+106451,B,dev,3,7.0,7,-1,unassigned,,,sparse_vitals
+106479,B,dev,0,1.0,1,-1,unassigned,,,short_window
+106488,B,dev,1,170.0,24,2,Inflammatory,Inflammatory,,
+106498,B,dev,1,113.0,24,2,Inflammatory,Inflammatory,,
+106507,B,test,-1,80.0,24,4,Hemodynamic,Hemodynamic,,
+106511,B,dev,1,129.0,24,3,Respiratory,Respiratory,,
+106515,B,dev,1,4.0,4,-1,unassigned,,,short_window
+106608,B,dev,2,3.0,3,-1,unassigned,,,short_window
+106618,B,test,-1,94.0,24,1,Multi-system,Multi-system,,
+106644,B,test,-1,105.0,24,0,No abnormal vitals,No abnormal vitals,,
+106661,B,dev,3,128.0,24,-1,unassigned,,,sparse_vitals
+106714,B,dev,4,46.0,24,2,Inflammatory,Inflammatory,,
+106718,B,dev,1,38.0,24,3,Respiratory,Respiratory,,
+106720,B,test,-1,9.0,9,1,Multi-system,Multi-system,,
+106750,B,dev,2,85.0,24,0,No abnormal vitals,No abnormal vitals,,
+106826,B,dev,2,4.0,4,-1,unassigned,,,short_window
+106836,B,dev,2,18.0,18,4,Hemodynamic,Hemodynamic,,
+106855,B,dev,4,134.0,24,0,No abnormal vitals,No abnormal vitals,,
+106868,B,dev,3,45.0,24,2,Inflammatory,Inflammatory,,
+106900,B,dev,0,21.0,21,0,No abnormal vitals,No abnormal vitals,,
+106914,B,dev,0,112.0,24,0,No abnormal vitals,No abnormal vitals,,
+106943,B,test,-1,27.0,24,0,No abnormal vitals,No abnormal vitals,,
+106969,B,dev,0,136.0,24,1,Multi-system,Multi-system,,
+106984,B,dev,2,12.0,12,2,Inflammatory,Inflammatory,,
+107021,B,test,-1,57.0,24,0,No abnormal vitals,No abnormal vitals,,
+107022,B,dev,3,54.0,24,0,No abnormal vitals,No abnormal vitals,,
+107063,B,dev,4,90.0,24,0,No abnormal vitals,No abnormal vitals,,
+107111,B,dev,2,102.0,24,0,No abnormal vitals,No abnormal vitals,,
+107138,B,test,-1,34.0,24,2,Inflammatory,Inflammatory,,
+107246,B,dev,0,11.0,11,-1,unassigned,,,sparse_vitals
+107250,B,dev,3,38.0,24,0,No abnormal vitals,No abnormal vitals,,
+107262,B,test,-1,112.0,24,0,No abnormal vitals,No abnormal vitals,,
+107267,B,dev,3,56.0,24,3,Respiratory,Respiratory,,
+107279,B,test,-1,199.0,24,0,No abnormal vitals,No abnormal vitals,,
+107283,B,dev,0,215.0,24,3,Respiratory,Respiratory,,
+107297,B,dev,1,12.0,12,4,Hemodynamic,Hemodynamic,,
+107350,B,dev,3,30.0,24,0,No abnormal vitals,No abnormal vitals,,
+107362,B,dev,4,136.0,24,0,No abnormal vitals,No abnormal vitals,,
+107372,B,dev,3,16.0,16,-1,unassigned,,,sparse_vitals
+107375,B,dev,3,10.0,10,2,Inflammatory,Inflammatory,,
+107424,B,test,-1,24.0,24,3,Respiratory,Respiratory,,
+107438,B,dev,1,5.0,5,-1,unassigned,,,short_window
+107511,B,dev,0,13.0,13,1,Multi-system,Multi-system,,
+107525,B,test,-1,32.0,24,1,Multi-system,Multi-system,,
+107532,B,dev,2,199.0,24,2,Inflammatory,Inflammatory,,
+107547,B,dev,2,11.0,11,-1,unassigned,,,sparse_vitals
+107563,B,dev,2,38.0,24,4,Hemodynamic,Hemodynamic,,
+107567,B,dev,1,28.0,24,2,Inflammatory,Inflammatory,,
+107599,B,dev,4,13.0,13,0,No abnormal vitals,No abnormal vitals,,
+107638,B,dev,0,33.0,24,3,Respiratory,Respiratory,,
+107664,B,dev,2,89.0,24,0,No abnormal vitals,No abnormal vitals,,
+107665,B,dev,1,4.0,4,-1,unassigned,,,short_window
+107670,B,test,-1,197.0,24,0,No abnormal vitals,No abnormal vitals,,
+107674,B,dev,0,8.0,8,-1,unassigned,,,sparse_vitals
+107684,B,dev,4,172.0,24,0,No abnormal vitals,No abnormal vitals,,
+107691,B,dev,0,38.0,24,4,Hemodynamic,Hemodynamic,,
+107703,B,test,-1,79.0,24,0,No abnormal vitals,No abnormal vitals,,
+107721,B,dev,3,14.0,14,-1,unassigned,,,sparse_vitals
+107746,B,dev,3,87.0,24,0,No abnormal vitals,No abnormal vitals,,
+107754,B,test,-1,36.0,24,4,Hemodynamic,Hemodynamic,,
+107793,B,dev,4,201.0,24,1,Multi-system,Multi-system,,
+107830,B,dev,1,63.0,24,0,No abnormal vitals,No abnormal vitals,,
+107847,B,dev,2,4.0,4,-1,unassigned,,,short_window
+107874,B,test,-1,124.0,24,2,Inflammatory,Inflammatory,,
+107896,B,dev,2,12.0,12,2,Inflammatory,Inflammatory,,
+107912,B,dev,1,17.0,17,1,Multi-system,Multi-system,,
+107917,B,dev,0,84.0,24,0,No abnormal vitals,No abnormal vitals,,
+107939,B,test,-1,23.0,23,0,No abnormal vitals,No abnormal vitals,,
+107963,B,dev,4,48.0,24,0,No abnormal vitals,No abnormal vitals,,
+107979,B,dev,1,46.0,24,2,Inflammatory,Inflammatory,,
+108007,B,dev,2,179.0,24,0,No abnormal vitals,No abnormal vitals,,
+108009,B,dev,0,33.0,24,1,Multi-system,Multi-system,,
+108042,B,test,-1,64.0,24,3,Respiratory,Respiratory,,
+108047,B,dev,1,158.0,24,1,Multi-system,Multi-system,,
+108054,B,dev,2,45.0,24,3,Respiratory,Respiratory,,
+108086,B,dev,2,16.0,16,4,Hemodynamic,Hemodynamic,,
+108092,B,dev,4,5.0,5,-1,unassigned,,,short_window
+108101,B,dev,2,1.0,1,-1,unassigned,,,short_window
+108124,B,dev,2,3.0,3,-1,unassigned,,,short_window
+108141,B,test,-1,11.0,11,3,Respiratory,Respiratory,,
+108143,B,dev,3,73.0,24,2,Inflammatory,Inflammatory,,
+108144,B,test,-1,128.0,24,-1,unassigned,,,sparse_vitals
+108146,B,test,-1,12.0,12,2,Inflammatory,Inflammatory,,
+108163,B,dev,2,87.0,24,0,No abnormal vitals,No abnormal vitals,,
+108171,B,dev,4,9.0,9,-1,unassigned,,,sparse_vitals
+108176,B,dev,1,46.0,24,2,Inflammatory,Inflammatory,,
+108195,B,dev,3,36.0,24,4,Hemodynamic,Hemodynamic,,
+108210,B,test,-1,81.0,24,2,Inflammatory,Inflammatory,,
+108217,B,dev,3,41.0,24,3,Respiratory,Respiratory,,
+108284,B,dev,2,16.0,16,0,No abnormal vitals,No abnormal vitals,,
+108296,B,test,-1,224.0,24,0,No abnormal vitals,No abnormal vitals,,
+108355,B,dev,4,87.0,24,0,No abnormal vitals,No abnormal vitals,,
+108361,B,dev,0,19.0,19,2,Inflammatory,Inflammatory,,
+108381,B,test,-1,33.0,24,2,Inflammatory,Inflammatory,,
+108388,B,dev,3,26.0,24,0,No abnormal vitals,No abnormal vitals,,
+108417,B,dev,0,65.0,24,0,No abnormal vitals,No abnormal vitals,,
+108474,B,dev,0,128.0,24,0,No abnormal vitals,No abnormal vitals,,
+108482,B,dev,4,53.0,24,3,Respiratory,Respiratory,,
+108559,B,dev,4,15.0,15,3,Respiratory,Respiratory,,
+108569,B,dev,1,12.0,12,0,No abnormal vitals,No abnormal vitals,,
+108574,B,dev,0,137.0,24,1,Multi-system,Multi-system,,
+108585,B,dev,0,92.0,24,2,Inflammatory,Inflammatory,,
+108648,B,dev,3,211.0,24,3,Respiratory,Respiratory,,
+108689,B,dev,4,64.0,24,2,Inflammatory,Inflammatory,,
+108701,B,dev,0,119.0,24,0,No abnormal vitals,No abnormal vitals,,
+108717,B,dev,1,42.0,24,0,No abnormal vitals,No abnormal vitals,,
+108727,B,dev,2,12.0,12,4,Hemodynamic,Hemodynamic,,
+108734,B,dev,1,4.0,4,-1,unassigned,,,short_window
+108750,B,dev,4,26.0,24,3,Respiratory,Respiratory,,
+108804,B,test,-1,2.0,2,-1,unassigned,,,short_window
+108833,B,dev,2,64.0,24,2,Inflammatory,Inflammatory,,
+108849,B,dev,3,255.0,24,1,Multi-system,Multi-system,,
+108871,B,dev,1,56.0,24,1,Multi-system,Multi-system,,
+108952,B,test,-1,100.0,24,1,Multi-system,Multi-system,,
+109005,B,dev,0,33.0,24,1,Multi-system,Multi-system,,
+109023,B,test,-1,202.0,24,0,No abnormal vitals,No abnormal vitals,,
+109080,B,dev,2,138.0,24,0,No abnormal vitals,No abnormal vitals,,
+109092,B,dev,0,1.0,1,-1,unassigned,,,short_window
+109145,B,dev,4,4.0,4,-1,unassigned,,,short_window
+109148,B,dev,1,87.0,24,-1,unassigned,,,sparse_vitals
+109165,B,dev,1,34.0,24,1,Multi-system,Multi-system,,
+109167,B,test,-1,14.0,14,4,Hemodynamic,Hemodynamic,,
+109195,B,dev,2,34.0,24,2,Inflammatory,Inflammatory,,
+109197,B,dev,2,24.0,24,2,Inflammatory,Inflammatory,,
+109202,B,dev,4,15.0,15,0,No abnormal vitals,No abnormal vitals,,
+109218,B,dev,1,35.0,24,3,Respiratory,Respiratory,,
+109222,B,dev,1,11.0,11,0,No abnormal vitals,No abnormal vitals,,
+109263,B,test,-1,4.0,4,-1,unassigned,,,short_window
+109266,B,test,-1,44.0,24,1,Multi-system,Multi-system,,
+109273,B,dev,2,14.0,14,-1,unassigned,,,sparse_vitals
+109290,B,test,-1,45.0,24,2,Inflammatory,Inflammatory,,
+109299,B,dev,4,24.0,24,3,Respiratory,Respiratory,,
+109332,B,test,-1,10.0,10,-1,unassigned,,,sparse_vitals
+109337,B,dev,2,153.0,24,3,Respiratory,Respiratory,,
+109338,B,dev,3,82.0,24,0,No abnormal vitals,No abnormal vitals,,
+109349,B,test,-1,29.0,24,0,No abnormal vitals,No abnormal vitals,,
+109358,B,test,-1,5.0,5,-1,unassigned,,,short_window
+109388,B,dev,3,26.0,24,0,No abnormal vitals,No abnormal vitals,,
+109392,B,dev,2,1.0,1,-1,unassigned,,,short_window
+109468,B,dev,0,60.0,24,1,Multi-system,Multi-system,,
+109501,B,test,-1,63.0,24,0,No abnormal vitals,No abnormal vitals,,
+109524,B,dev,1,5.0,5,-1,unassigned,,,short_window
+109588,B,dev,2,22.0,22,0,No abnormal vitals,No abnormal vitals,,
+109617,B,dev,0,51.0,24,0,No abnormal vitals,No abnormal vitals,,
+109639,B,dev,4,165.0,24,4,Hemodynamic,Hemodynamic,,
+109654,B,dev,3,6.0,6,-1,unassigned,,,sparse_vitals
+109656,B,test,-1,9.0,9,2,Inflammatory,Inflammatory,,
+109702,B,dev,2,34.0,24,0,No abnormal vitals,No abnormal vitals,,
+109721,B,dev,4,80.0,24,-1,unassigned,,,sparse_vitals
+109725,B,test,-1,9.0,9,-1,unassigned,,,sparse_vitals
+109842,B,dev,0,5.0,5,-1,unassigned,,,short_window
+109874,B,dev,3,156.0,24,4,Hemodynamic,Hemodynamic,,
+109888,B,test,-1,5.0,5,-1,unassigned,,,short_window
+109952,B,dev,4,6.0,6,-1,unassigned,,,sparse_vitals
+109959,B,dev,0,97.0,24,2,Inflammatory,Inflammatory,,
+109961,B,test,-1,113.0,24,2,Inflammatory,Inflammatory,,
+110004,B,dev,2,198.0,24,0,No abnormal vitals,No abnormal vitals,,
+110008,B,test,-1,59.0,24,2,Inflammatory,Inflammatory,,
+110031,B,dev,2,16.0,16,0,No abnormal vitals,No abnormal vitals,,
+110033,B,dev,0,96.0,24,0,No abnormal vitals,No abnormal vitals,,
+110048,B,dev,4,47.0,24,0,No abnormal vitals,No abnormal vitals,,
+110074,B,dev,0,29.0,24,1,Multi-system,Multi-system,,
+110087,B,dev,4,57.0,24,0,No abnormal vitals,No abnormal vitals,,
+110106,B,dev,1,10.0,10,-1,unassigned,,,sparse_vitals
+110158,B,test,-1,53.0,24,0,No abnormal vitals,No abnormal vitals,,
+110163,B,dev,0,151.0,24,3,Respiratory,Respiratory,,
+110181,B,test,-1,43.0,24,2,Inflammatory,Inflammatory,,
+110194,B,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+110216,B,dev,2,308.0,24,0,No abnormal vitals,No abnormal vitals,,
+110234,B,dev,1,61.0,24,0,No abnormal vitals,No abnormal vitals,,
+110288,B,dev,3,130.0,24,1,Multi-system,Multi-system,,
+110389,B,dev,4,1.0,1,-1,unassigned,,,short_window
+110411,B,dev,2,265.0,24,0,No abnormal vitals,No abnormal vitals,,
+110426,B,dev,1,24.0,24,1,Multi-system,Multi-system,,
+110458,B,test,-1,23.0,23,2,Inflammatory,Inflammatory,,
+110487,B,dev,0,11.0,11,-1,unassigned,,,sparse_vitals
+110508,B,dev,1,69.0,24,2,Inflammatory,Inflammatory,,
+110509,B,dev,1,230.0,24,0,No abnormal vitals,No abnormal vitals,,
+110574,B,dev,1,5.0,5,-1,unassigned,,,short_window
+110588,B,test,-1,136.0,24,1,Multi-system,Multi-system,,
+110591,B,test,-1,26.0,24,1,Multi-system,Multi-system,,
+110597,B,test,-1,105.0,24,4,Hemodynamic,Hemodynamic,,
+110600,B,dev,3,15.0,15,0,No abnormal vitals,No abnormal vitals,,
+110602,B,dev,2,41.0,24,0,No abnormal vitals,No abnormal vitals,,
+110658,B,dev,0,49.0,24,1,Multi-system,Multi-system,,
+110685,B,test,-1,12.0,12,-1,unassigned,,,sparse_vitals
+110693,B,dev,2,14.0,14,0,No abnormal vitals,No abnormal vitals,,
+110708,B,dev,1,15.0,15,0,No abnormal vitals,No abnormal vitals,,
+110711,B,dev,2,209.0,24,4,Hemodynamic,Hemodynamic,,
+110736,B,dev,3,8.0,8,-1,unassigned,,,sparse_vitals
+110738,B,dev,3,3.0,3,-1,unassigned,,,short_window
+110744,B,dev,2,16.0,16,3,Respiratory,Respiratory,,
+110750,B,test,-1,2.0,2,-1,unassigned,,,short_window
+110755,B,dev,3,48.0,24,1,Multi-system,Multi-system,,
+110758,B,dev,1,26.0,24,0,No abnormal vitals,No abnormal vitals,,
+110765,B,dev,2,7.0,7,-1,unassigned,,,sparse_vitals
+110769,B,dev,1,120.0,24,4,Hemodynamic,Hemodynamic,,
+110775,B,dev,1,6.0,6,-1,unassigned,,,sparse_vitals
+110778,B,dev,4,185.0,24,2,Inflammatory,Inflammatory,,
+110786,B,dev,2,105.0,24,0,No abnormal vitals,No abnormal vitals,,
+110794,B,dev,0,106.0,24,2,Inflammatory,Inflammatory,,
+110881,B,dev,3,163.0,24,2,Inflammatory,Inflammatory,,
+110906,B,dev,2,48.0,24,1,Multi-system,Multi-system,,
+110917,B,dev,0,6.0,6,-1,unassigned,,,sparse_vitals
+110938,B,dev,1,111.0,24,3,Respiratory,Respiratory,,
+110947,B,dev,2,12.0,12,4,Hemodynamic,Hemodynamic,,
+111007,B,dev,4,79.0,24,1,Multi-system,Multi-system,,
+111026,B,dev,3,129.0,24,1,Multi-system,Multi-system,,
+111029,B,test,-1,56.0,24,1,Multi-system,Multi-system,,
+111035,B,dev,2,14.0,14,1,Multi-system,Multi-system,,
+111054,B,dev,4,31.0,24,2,Inflammatory,Inflammatory,,
+111055,B,dev,1,242.0,24,1,Multi-system,Multi-system,,
+111072,B,dev,2,61.0,24,1,Multi-system,Multi-system,,
+111087,B,dev,0,59.0,24,1,Multi-system,Multi-system,,
+111099,B,dev,2,2.0,2,-1,unassigned,,,short_window
+111102,B,dev,4,13.0,13,4,Hemodynamic,Hemodynamic,,
+111130,B,test,-1,84.0,24,-1,unassigned,,,sparse_vitals
+111204,B,dev,2,44.0,24,0,No abnormal vitals,No abnormal vitals,,
+111207,B,dev,3,4.0,4,-1,unassigned,,,short_window
+111301,B,test,-1,235.0,24,0,No abnormal vitals,No abnormal vitals,,
+111318,B,dev,4,54.0,24,3,Respiratory,Respiratory,,
+111327,B,dev,1,33.0,24,3,Respiratory,Respiratory,,
+111351,B,dev,4,28.0,24,-1,unassigned,,,sparse_vitals
+111353,B,dev,0,326.0,24,3,Respiratory,Respiratory,,
+111354,B,dev,0,43.0,24,0,No abnormal vitals,No abnormal vitals,,
+111417,B,dev,2,8.0,8,-1,unassigned,,,sparse_vitals
+111418,B,test,-1,220.0,24,2,Inflammatory,Inflammatory,,
+111420,B,test,-1,1.0,1,-1,unassigned,,,short_window
+111447,B,dev,0,3.0,3,-1,unassigned,,,short_window
+111449,B,test,-1,43.0,24,4,Hemodynamic,Hemodynamic,,
+111465,B,dev,1,143.0,24,3,Respiratory,Respiratory,,
+111512,B,dev,0,324.0,24,0,No abnormal vitals,No abnormal vitals,,
+111523,B,test,-1,98.0,24,0,No abnormal vitals,No abnormal vitals,,
+111529,B,dev,2,32.0,24,-1,unassigned,,,sparse_vitals
+111537,B,test,-1,52.0,24,0,No abnormal vitals,No abnormal vitals,,
+111540,B,dev,0,30.0,24,1,Multi-system,Multi-system,,
+111554,B,dev,3,31.0,24,1,Multi-system,Multi-system,,
+111580,B,dev,1,160.0,24,2,Inflammatory,Inflammatory,,
+111593,B,dev,3,33.0,24,-1,unassigned,,,sparse_vitals
+111657,B,dev,4,41.0,24,1,Multi-system,Multi-system,,
+111690,B,dev,4,19.0,19,0,No abnormal vitals,No abnormal vitals,,
+111692,B,test,-1,41.0,24,3,Respiratory,Respiratory,,
+111697,B,dev,3,90.0,24,0,No abnormal vitals,No abnormal vitals,,
+111706,B,dev,0,49.0,24,0,No abnormal vitals,No abnormal vitals,,
+111750,B,dev,3,39.0,24,0,No abnormal vitals,No abnormal vitals,,
+111806,B,test,-1,66.0,24,1,Multi-system,Multi-system,,
+111823,B,dev,2,22.0,22,1,Multi-system,Multi-system,,
+111856,B,test,-1,27.0,24,2,Inflammatory,Inflammatory,,
+111870,B,test,-1,20.0,20,-1,unassigned,,,sparse_vitals
+111908,B,test,-1,37.0,24,-1,unassigned,,,sparse_vitals
+111920,B,dev,0,106.0,24,2,Inflammatory,Inflammatory,,
+111945,B,dev,1,36.0,24,0,No abnormal vitals,No abnormal vitals,,
+112050,B,test,-1,135.0,24,0,No abnormal vitals,No abnormal vitals,,
+112060,B,dev,4,107.0,24,-1,unassigned,,,sparse_vitals
+112097,B,dev,1,53.0,24,0,No abnormal vitals,No abnormal vitals,,
+112115,B,dev,4,102.0,24,1,Multi-system,Multi-system,,
+112134,B,dev,3,41.0,24,2,Inflammatory,Inflammatory,,
+112153,B,dev,0,12.0,12,2,Inflammatory,Inflammatory,,
+112155,B,dev,0,50.0,24,0,No abnormal vitals,No abnormal vitals,,
+112166,B,dev,2,44.0,24,3,Respiratory,Respiratory,,
+112182,B,test,-1,30.0,24,3,Respiratory,Respiratory,,
+112231,B,dev,4,46.0,24,2,Inflammatory,Inflammatory,,
+112268,B,dev,1,221.0,24,2,Inflammatory,Inflammatory,,
+112297,B,dev,3,54.0,24,1,Multi-system,Multi-system,,
+112302,B,dev,1,45.0,24,1,Multi-system,Multi-system,,
+112345,B,dev,0,2.0,2,-1,unassigned,,,short_window
+112363,B,dev,0,27.0,24,1,Multi-system,Multi-system,,
+112411,B,dev,2,31.0,24,0,No abnormal vitals,No abnormal vitals,,
+112416,B,dev,3,195.0,24,1,Multi-system,Multi-system,,
+112464,B,test,-1,25.0,24,0,No abnormal vitals,No abnormal vitals,,
+112538,B,dev,2,254.0,24,3,Respiratory,Respiratory,,
+112554,B,dev,4,52.0,24,0,No abnormal vitals,No abnormal vitals,,
+112569,B,dev,1,52.0,24,3,Respiratory,Respiratory,,
+112587,B,dev,3,1.0,1,-1,unassigned,,,short_window
+112590,B,test,-1,2.0,2,-1,unassigned,,,short_window
+112602,B,test,-1,113.0,24,0,No abnormal vitals,No abnormal vitals,,
+112608,B,dev,1,281.0,24,1,Multi-system,Multi-system,,
+112610,B,dev,1,124.0,24,3,Respiratory,Respiratory,,
+112640,B,dev,4,75.0,24,2,Inflammatory,Inflammatory,,
+112647,B,dev,2,136.0,24,4,Hemodynamic,Hemodynamic,,
+112763,B,test,-1,217.0,24,4,Hemodynamic,Hemodynamic,,
+112769,B,test,-1,174.0,24,0,No abnormal vitals,No abnormal vitals,,
+112788,B,test,-1,142.0,24,2,Inflammatory,Inflammatory,,
+112807,B,dev,3,39.0,24,4,Hemodynamic,Hemodynamic,,
+112816,B,dev,3,3.0,3,-1,unassigned,,,short_window
+112820,B,dev,2,9.0,9,4,Hemodynamic,Hemodynamic,,
+112826,B,dev,4,74.0,24,1,Multi-system,Multi-system,,
+112828,B,dev,1,85.0,24,0,No abnormal vitals,No abnormal vitals,,
+112859,B,dev,4,3.0,3,-1,unassigned,,,short_window
+112872,B,dev,2,15.0,15,2,Inflammatory,Inflammatory,,
+112882,B,test,-1,35.0,24,0,No abnormal vitals,No abnormal vitals,,
+112888,B,dev,1,88.0,24,0,No abnormal vitals,No abnormal vitals,,
+112944,B,dev,3,86.0,24,0,No abnormal vitals,No abnormal vitals,,
+112947,B,dev,4,84.0,24,0,No abnormal vitals,No abnormal vitals,,
+112955,B,test,-1,73.0,24,0,No abnormal vitals,No abnormal vitals,,
+112964,B,dev,2,8.0,8,-1,unassigned,,,sparse_vitals
+112966,B,dev,1,36.0,24,0,No abnormal vitals,No abnormal vitals,,
+112999,B,dev,4,9.0,9,-1,unassigned,,,sparse_vitals
+113023,B,test,-1,11.0,11,0,No abnormal vitals,No abnormal vitals,,
+113029,B,dev,0,41.0,24,2,Inflammatory,Inflammatory,,
+113036,B,dev,2,14.0,14,-1,unassigned,,,sparse_vitals
+113106,B,dev,1,53.0,24,1,Multi-system,Multi-system,,
+113119,B,test,-1,10.0,10,-1,unassigned,,,sparse_vitals
+113129,B,test,-1,17.0,17,0,No abnormal vitals,No abnormal vitals,,
+113135,B,dev,3,11.0,11,2,Inflammatory,Inflammatory,,
+113147,B,dev,2,3.0,3,-1,unassigned,,,short_window
+113153,B,dev,2,75.0,24,-1,unassigned,,,sparse_vitals
+113248,B,test,-1,1.0,1,-1,unassigned,,,short_window
+113260,B,dev,1,25.0,24,4,Hemodynamic,Hemodynamic,,
+113272,B,dev,2,2.0,2,-1,unassigned,,,short_window
+113277,B,dev,4,6.0,6,-1,unassigned,,,sparse_vitals
+113291,B,dev,3,1.0,1,-1,unassigned,,,short_window
+113334,B,test,-1,16.0,16,3,Respiratory,Respiratory,,
+113377,B,dev,2,104.0,24,0,No abnormal vitals,No abnormal vitals,,
+113388,B,dev,2,35.0,24,1,Multi-system,Multi-system,,
+113392,B,dev,4,83.0,24,4,Hemodynamic,Hemodynamic,,
+113404,B,dev,2,172.0,24,1,Multi-system,Multi-system,,
+113407,B,dev,3,38.0,24,0,No abnormal vitals,No abnormal vitals,,
+113428,B,dev,4,222.0,24,1,Multi-system,Multi-system,,
+113489,B,dev,2,43.0,24,1,Multi-system,Multi-system,,
+113526,B,dev,1,28.0,24,3,Respiratory,Respiratory,,
+113562,B,dev,4,19.0,19,2,Inflammatory,Inflammatory,,
+113566,B,dev,1,92.0,24,2,Inflammatory,Inflammatory,,
+113618,B,dev,3,166.0,24,0,No abnormal vitals,No abnormal vitals,,
+113626,B,test,-1,8.0,8,0,No abnormal vitals,No abnormal vitals,,
+113636,B,dev,4,189.0,24,2,Inflammatory,Inflammatory,,
+113691,B,dev,3,14.0,14,1,Multi-system,Multi-system,,
+113729,B,dev,1,34.0,24,2,Inflammatory,Inflammatory,,
+113748,B,dev,1,31.0,24,4,Hemodynamic,Hemodynamic,,
+113783,B,dev,2,70.0,24,1,Multi-system,Multi-system,,
+113784,B,dev,3,3.0,3,-1,unassigned,,,short_window
+113787,B,dev,0,143.0,24,0,No abnormal vitals,No abnormal vitals,,
+113793,B,dev,0,34.0,24,4,Hemodynamic,Hemodynamic,,
+113822,B,dev,2,7.0,7,-1,unassigned,,,sparse_vitals
+113872,B,dev,4,12.0,12,1,Multi-system,Multi-system,,
+113886,B,dev,1,6.0,6,-1,unassigned,,,sparse_vitals
+113887,B,test,-1,50.0,24,0,No abnormal vitals,No abnormal vitals,,
+113897,B,dev,1,78.0,24,1,Multi-system,Multi-system,,
+113934,B,test,-1,69.0,24,0,No abnormal vitals,No abnormal vitals,,
+113944,B,dev,0,24.0,24,2,Inflammatory,Inflammatory,,
+113961,B,dev,1,34.0,24,0,No abnormal vitals,No abnormal vitals,,
+113985,B,test,-1,52.0,24,3,Respiratory,Respiratory,,
+114100,B,dev,3,65.0,24,2,Inflammatory,Inflammatory,,
+114108,B,test,-1,42.0,24,1,Multi-system,Multi-system,,
+114109,B,dev,4,12.0,12,3,Respiratory,Respiratory,,
+114113,B,dev,0,250.0,24,2,Inflammatory,Inflammatory,,
+114127,B,test,-1,4.0,4,-1,unassigned,,,short_window
+114165,B,test,-1,4.0,4,-1,unassigned,,,short_window
+114181,B,dev,2,103.0,24,1,Multi-system,Multi-system,,
+114187,B,dev,3,13.0,13,2,Inflammatory,Inflammatory,,
+114202,B,dev,1,37.0,24,2,Inflammatory,Inflammatory,,
+114260,B,test,-1,14.0,14,1,Multi-system,Multi-system,,
+114276,B,dev,2,17.0,17,1,Multi-system,Multi-system,,
+114295,B,dev,3,72.0,24,3,Respiratory,Respiratory,,
+114315,B,dev,3,80.0,24,0,No abnormal vitals,No abnormal vitals,,
+114352,B,dev,3,21.0,21,0,No abnormal vitals,No abnormal vitals,,
+114387,B,dev,4,67.0,24,1,Multi-system,Multi-system,,
+114397,B,dev,4,5.0,5,-1,unassigned,,,short_window
+114404,B,dev,4,85.0,24,4,Hemodynamic,Hemodynamic,,
+114421,B,dev,3,27.0,24,1,Multi-system,Multi-system,,
+114432,B,dev,2,97.0,24,3,Respiratory,Respiratory,,
+114435,B,dev,1,12.0,12,2,Inflammatory,Inflammatory,,
+114444,B,dev,1,56.0,24,2,Inflammatory,Inflammatory,,
+114448,B,dev,2,183.0,24,0,No abnormal vitals,No abnormal vitals,,
+114464,B,dev,3,90.0,24,2,Inflammatory,Inflammatory,,
+114518,B,dev,1,7.0,7,0,No abnormal vitals,No abnormal vitals,,
+114568,B,dev,0,15.0,15,0,No abnormal vitals,No abnormal vitals,,
+114581,B,dev,0,135.0,24,2,Inflammatory,Inflammatory,,
+114585,B,dev,0,50.0,24,1,Multi-system,Multi-system,,
+114591,B,dev,0,24.0,24,0,No abnormal vitals,No abnormal vitals,,
+114598,B,test,-1,64.0,24,2,Inflammatory,Inflammatory,,
+114638,B,test,-1,11.0,11,2,Inflammatory,Inflammatory,,
+114673,B,dev,4,33.0,24,1,Multi-system,Multi-system,,
+114679,B,dev,3,152.0,24,2,Inflammatory,Inflammatory,,
+114710,B,dev,4,10.0,10,-1,unassigned,,,sparse_vitals
+114775,B,dev,1,88.0,24,3,Respiratory,Respiratory,,
+114779,B,dev,2,64.0,24,0,No abnormal vitals,No abnormal vitals,,
+114799,B,dev,1,24.0,24,-1,unassigned,,,sparse_vitals
+114802,B,test,-1,1.0,1,-1,unassigned,,,short_window
+114830,B,dev,3,101.0,24,3,Respiratory,Respiratory,,
+114864,B,dev,0,57.0,24,-1,unassigned,,,sparse_vitals
+114883,B,dev,1,114.0,24,1,Multi-system,Multi-system,,
+114893,B,dev,1,79.0,24,1,Multi-system,Multi-system,,
+114917,B,dev,0,67.0,24,2,Inflammatory,Inflammatory,,
+114937,B,dev,0,30.0,24,3,Respiratory,Respiratory,,
+114997,B,dev,4,34.0,24,0,No abnormal vitals,No abnormal vitals,,
+115031,B,dev,2,17.0,17,0,No abnormal vitals,No abnormal vitals,,
+115042,B,dev,1,44.0,24,1,Multi-system,Multi-system,,
+115066,B,dev,1,1.0,1,-1,unassigned,,,short_window
+115075,B,test,-1,4.0,4,-1,unassigned,,,short_window
+115137,B,dev,2,28.0,24,0,No abnormal vitals,No abnormal vitals,,
+115139,B,dev,3,1.0,1,-1,unassigned,,,short_window
+115158,B,dev,4,5.0,5,-1,unassigned,,,short_window
+115162,B,dev,0,9.0,9,3,Respiratory,Respiratory,,
+115169,B,dev,2,24.0,24,4,Hemodynamic,Hemodynamic,,
+115184,B,dev,4,74.0,24,4,Hemodynamic,Hemodynamic,,
+115190,B,dev,2,3.0,3,-1,unassigned,,,short_window
+115199,B,dev,1,78.0,24,3,Respiratory,Respiratory,,
+115214,B,test,-1,45.0,24,2,Inflammatory,Inflammatory,,
+115261,B,dev,3,8.0,8,-1,unassigned,,,sparse_vitals
+115364,B,test,-1,15.0,15,0,No abnormal vitals,No abnormal vitals,,
+115380,B,dev,0,65.0,24,0,No abnormal vitals,No abnormal vitals,,
+115389,B,dev,2,2.0,2,-1,unassigned,,,short_window
+115408,B,dev,0,45.0,24,1,Multi-system,Multi-system,,
+115441,B,dev,2,19.0,19,2,Inflammatory,Inflammatory,,
+115463,B,dev,2,82.0,24,1,Multi-system,Multi-system,,
+115487,B,dev,3,20.0,20,0,No abnormal vitals,No abnormal vitals,,
+115527,B,dev,2,19.0,19,0,No abnormal vitals,No abnormal vitals,,
+115536,B,test,-1,105.0,24,3,Respiratory,Respiratory,,
+115594,B,dev,4,111.0,24,3,Respiratory,Respiratory,,
+115595,B,dev,1,36.0,24,0,No abnormal vitals,No abnormal vitals,,
+115624,B,dev,2,15.0,15,0,No abnormal vitals,No abnormal vitals,,
+115625,B,dev,1,12.0,12,2,Inflammatory,Inflammatory,,
+115627,B,dev,0,7.0,7,-1,unassigned,,,sparse_vitals
+115633,B,dev,4,62.0,24,1,Multi-system,Multi-system,,
+115636,B,dev,0,45.0,24,1,Multi-system,Multi-system,,
+115742,B,dev,0,23.0,23,1,Multi-system,Multi-system,,
+115743,B,test,-1,47.0,24,-1,unassigned,,,sparse_vitals
+115767,B,dev,2,60.0,24,1,Multi-system,Multi-system,,
+115768,B,test,-1,10.0,10,2,Inflammatory,Inflammatory,,
+115775,B,test,-1,132.0,24,1,Multi-system,Multi-system,,
+115826,B,dev,0,44.0,24,0,No abnormal vitals,No abnormal vitals,,
+115835,B,dev,3,166.0,24,1,Multi-system,Multi-system,,
+115861,B,dev,2,118.0,24,0,No abnormal vitals,No abnormal vitals,,
+115898,B,test,-1,34.0,24,-1,unassigned,,,sparse_vitals
+115920,B,dev,2,8.0,8,-1,unassigned,,,sparse_vitals
+115928,B,dev,0,109.0,24,1,Multi-system,Multi-system,,
+115956,B,dev,3,86.0,24,0,No abnormal vitals,No abnormal vitals,,
+115976,B,dev,1,26.0,24,2,Inflammatory,Inflammatory,,
+115980,B,test,-1,65.0,24,3,Respiratory,Respiratory,,
+115988,B,dev,0,103.0,24,4,Hemodynamic,Hemodynamic,,
+116039,B,dev,1,3.0,3,-1,unassigned,,,short_window
+116049,B,dev,4,143.0,24,1,Multi-system,Multi-system,,
+116066,B,dev,1,34.0,24,0,No abnormal vitals,No abnormal vitals,,
+116076,B,test,-1,56.0,24,0,No abnormal vitals,No abnormal vitals,,
+116085,B,dev,3,105.0,24,1,Multi-system,Multi-system,,
+116091,B,dev,0,9.0,9,0,No abnormal vitals,No abnormal vitals,,
+116122,B,dev,3,90.0,24,4,Hemodynamic,Hemodynamic,,
+116124,B,dev,4,46.0,24,3,Respiratory,Respiratory,,
+116125,B,dev,3,11.0,11,-1,unassigned,,,sparse_vitals
+116140,B,dev,3,2.0,2,-1,unassigned,,,short_window
+116172,B,test,-1,39.0,24,2,Inflammatory,Inflammatory,,
+116195,B,dev,1,55.0,24,2,Inflammatory,Inflammatory,,
+116206,B,dev,2,138.0,24,3,Respiratory,Respiratory,,
+116218,B,test,-1,23.0,23,0,No abnormal vitals,No abnormal vitals,,
+116221,B,dev,2,130.0,24,-1,unassigned,,,sparse_vitals
+116223,B,dev,4,76.0,24,2,Inflammatory,Inflammatory,,
+116237,B,test,-1,36.0,24,0,No abnormal vitals,No abnormal vitals,,
+116263,B,dev,0,101.0,24,2,Inflammatory,Inflammatory,,
+116303,B,dev,0,38.0,24,0,No abnormal vitals,No abnormal vitals,,
+116322,B,test,-1,302.0,24,2,Inflammatory,Inflammatory,,
+116379,B,dev,3,18.0,18,3,Respiratory,Respiratory,,
+116382,B,dev,2,29.0,24,4,Hemodynamic,Hemodynamic,,
+116392,B,dev,1,129.0,24,0,No abnormal vitals,No abnormal vitals,,
+116403,B,dev,0,2.0,2,-1,unassigned,,,short_window
+116460,B,dev,1,48.0,24,2,Inflammatory,Inflammatory,,
+116469,B,dev,4,65.0,24,2,Inflammatory,Inflammatory,,
+116488,B,dev,3,31.0,24,2,Inflammatory,Inflammatory,,
+116522,B,dev,0,1.0,1,-1,unassigned,,,short_window
+116564,B,dev,0,1.0,1,-1,unassigned,,,short_window
+116578,B,dev,4,86.0,24,1,Multi-system,Multi-system,,
+116673,B,dev,3,43.0,24,3,Respiratory,Respiratory,,
+116718,B,dev,3,41.0,24,1,Multi-system,Multi-system,,
+116743,B,dev,3,173.0,24,0,No abnormal vitals,No abnormal vitals,,
+116778,B,test,-1,34.0,24,4,Hemodynamic,Hemodynamic,,
+116789,B,dev,3,12.0,12,3,Respiratory,Respiratory,,
+116790,B,test,-1,27.0,24,0,No abnormal vitals,No abnormal vitals,,
+116832,B,dev,2,119.0,24,3,Respiratory,Respiratory,,
+116858,B,dev,0,25.0,24,1,Multi-system,Multi-system,,
+116870,B,dev,4,117.0,24,2,Inflammatory,Inflammatory,,
+116887,B,dev,4,151.0,24,2,Inflammatory,Inflammatory,,
+116890,B,dev,1,24.0,24,1,Multi-system,Multi-system,,
+116910,B,dev,4,32.0,24,3,Respiratory,Respiratory,,
+116946,B,dev,4,59.0,24,1,Multi-system,Multi-system,,
+116950,B,dev,3,49.0,24,-1,unassigned,,,sparse_vitals
+116955,B,dev,3,17.0,17,2,Inflammatory,Inflammatory,,
+117069,B,dev,4,6.0,6,-1,unassigned,,,sparse_vitals
+117124,B,test,-1,212.0,24,0,No abnormal vitals,No abnormal vitals,,
+117142,B,dev,4,36.0,24,3,Respiratory,Respiratory,,
+117159,B,dev,1,156.0,24,2,Inflammatory,Inflammatory,,
+117217,B,dev,2,67.0,24,0,No abnormal vitals,No abnormal vitals,,
+117272,B,dev,2,45.0,24,0,No abnormal vitals,No abnormal vitals,,
+117299,B,dev,1,80.0,24,-1,unassigned,,,sparse_vitals
+117320,B,test,-1,152.0,24,0,No abnormal vitals,No abnormal vitals,,
+117325,B,test,-1,88.0,24,-1,unassigned,,,sparse_vitals
+117335,B,test,-1,112.0,24,0,No abnormal vitals,No abnormal vitals,,
+117339,B,test,-1,22.0,22,2,Inflammatory,Inflammatory,,
+117365,B,dev,2,4.0,4,-1,unassigned,,,short_window
+117397,B,dev,0,16.0,16,1,Multi-system,Multi-system,,
+117399,B,test,-1,88.0,24,1,Multi-system,Multi-system,,
+117407,B,test,-1,5.0,5,-1,unassigned,,,short_window
+117462,B,dev,3,64.0,24,1,Multi-system,Multi-system,,
+117490,B,dev,1,7.0,7,1,Multi-system,Multi-system,,
+117492,B,dev,4,214.0,24,1,Multi-system,Multi-system,,
+117517,B,dev,3,41.0,24,2,Inflammatory,Inflammatory,,
+117521,B,dev,0,89.0,24,2,Inflammatory,Inflammatory,,
+117534,B,dev,1,174.0,24,3,Respiratory,Respiratory,,
+117542,B,dev,4,13.0,13,-1,unassigned,,,sparse_vitals
+117566,B,dev,2,8.0,8,-1,unassigned,,,sparse_vitals
+117585,B,dev,0,1.0,1,-1,unassigned,,,short_window
+117592,B,dev,2,98.0,24,0,No abnormal vitals,No abnormal vitals,,
+117598,B,dev,2,94.0,24,0,No abnormal vitals,No abnormal vitals,,
+117620,B,dev,1,97.0,24,0,No abnormal vitals,No abnormal vitals,,
+117631,B,test,-1,5.0,5,-1,unassigned,,,short_window
+117660,B,dev,0,19.0,19,3,Respiratory,Respiratory,,
+117683,B,dev,1,46.0,24,0,No abnormal vitals,No abnormal vitals,,
+117691,B,dev,0,85.0,24,1,Multi-system,Multi-system,,
+117705,B,dev,3,45.0,24,1,Multi-system,Multi-system,,
+117714,B,dev,4,65.0,24,-1,unassigned,,,sparse_vitals
+117717,B,dev,4,126.0,24,0,No abnormal vitals,No abnormal vitals,,
+117721,B,dev,0,8.0,8,-1,unassigned,,,sparse_vitals
+117724,B,test,-1,109.0,24,0,No abnormal vitals,No abnormal vitals,,
+117761,B,dev,0,18.0,18,1,Multi-system,Multi-system,,
+117768,B,test,-1,3.0,3,-1,unassigned,,,short_window
+117805,B,dev,3,44.0,24,3,Respiratory,Respiratory,,
+117843,B,dev,3,4.0,4,-1,unassigned,,,short_window
+117856,B,dev,4,5.0,5,-1,unassigned,,,short_window
+117871,B,dev,0,60.0,24,4,Hemodynamic,Hemodynamic,,
+117886,B,dev,2,20.0,20,1,Multi-system,Multi-system,,
+117891,B,dev,4,53.0,24,1,Multi-system,Multi-system,,
+117919,B,dev,4,2.0,2,-1,unassigned,,,short_window
+117931,B,dev,1,47.0,24,3,Respiratory,Respiratory,,
+117968,B,dev,3,247.0,24,1,Multi-system,Multi-system,,
+117981,B,dev,2,2.0,2,-1,unassigned,,,short_window
+118005,B,dev,4,43.0,24,0,No abnormal vitals,No abnormal vitals,,
+118030,B,dev,2,30.0,24,1,Multi-system,Multi-system,,
+118058,B,dev,4,16.0,16,-1,unassigned,,,sparse_vitals
+118069,B,dev,0,38.0,24,0,No abnormal vitals,No abnormal vitals,,
+118083,B,dev,1,190.0,24,0,No abnormal vitals,No abnormal vitals,,
+118154,B,test,-1,33.0,24,4,Hemodynamic,Hemodynamic,,
+118213,B,dev,1,42.0,24,0,No abnormal vitals,No abnormal vitals,,
+118231,B,dev,4,75.0,24,2,Inflammatory,Inflammatory,,
+118264,B,dev,0,49.0,24,2,Inflammatory,Inflammatory,,
+118265,B,dev,4,20.0,20,0,No abnormal vitals,No abnormal vitals,,
+118275,B,dev,1,27.0,24,1,Multi-system,Multi-system,,
+118292,B,dev,4,9.0,9,-1,unassigned,,,sparse_vitals
+118306,B,dev,0,84.0,24,2,Inflammatory,Inflammatory,,
+118311,B,dev,3,59.0,24,1,Multi-system,Multi-system,,
+118313,B,dev,2,25.0,24,0,No abnormal vitals,No abnormal vitals,,
+118386,B,dev,1,34.0,24,2,Inflammatory,Inflammatory,,
+118388,B,dev,1,198.0,24,2,Inflammatory,Inflammatory,,
+118396,B,dev,2,2.0,2,-1,unassigned,,,short_window
+118429,B,dev,3,16.0,16,1,Multi-system,Multi-system,,
+118440,B,dev,3,5.0,5,-1,unassigned,,,short_window
+118449,B,dev,2,135.0,24,2,Inflammatory,Inflammatory,,
+118461,B,dev,4,66.0,24,0,No abnormal vitals,No abnormal vitals,,
+118501,B,dev,3,54.0,24,0,No abnormal vitals,No abnormal vitals,,
+118515,B,dev,4,72.0,24,0,No abnormal vitals,No abnormal vitals,,
+118522,B,test,-1,113.0,24,0,No abnormal vitals,No abnormal vitals,,
+118529,B,dev,0,19.0,19,4,Hemodynamic,Hemodynamic,,
+118539,B,dev,3,44.0,24,1,Multi-system,Multi-system,,
+118572,B,dev,3,70.0,24,0,No abnormal vitals,No abnormal vitals,,
+118577,B,dev,1,11.0,11,1,Multi-system,Multi-system,,
+118583,B,dev,3,99.0,24,0,No abnormal vitals,No abnormal vitals,,
+118611,B,dev,4,79.0,24,0,No abnormal vitals,No abnormal vitals,,
+118613,B,dev,1,152.0,24,1,Multi-system,Multi-system,,
+118620,B,dev,4,17.0,17,0,No abnormal vitals,No abnormal vitals,,
+118630,B,dev,3,218.0,24,0,No abnormal vitals,No abnormal vitals,,
+118632,B,dev,4,23.0,23,0,No abnormal vitals,No abnormal vitals,,
+118654,B,dev,3,11.0,11,-1,unassigned,,,sparse_vitals
+118674,B,dev,4,13.0,13,0,No abnormal vitals,No abnormal vitals,,
+118746,B,dev,1,103.0,24,3,Respiratory,Respiratory,,
+118783,B,test,-1,95.0,24,2,Inflammatory,Inflammatory,,
+118795,B,test,-1,14.0,14,3,Respiratory,Respiratory,,
+118804,B,test,-1,211.0,24,2,Inflammatory,Inflammatory,,
+118848,B,dev,3,108.0,24,0,No abnormal vitals,No abnormal vitals,,
+118849,B,dev,4,303.0,24,0,No abnormal vitals,No abnormal vitals,,
+118906,B,dev,4,8.0,8,-1,unassigned,,,sparse_vitals
+118939,B,dev,2,1.0,1,-1,unassigned,,,short_window
+118954,B,test,-1,89.0,24,2,Inflammatory,Inflammatory,,
+118963,B,dev,4,186.0,24,1,Multi-system,Multi-system,,
+118966,B,dev,2,72.0,24,0,No abnormal vitals,No abnormal vitals,,
+118976,B,dev,0,22.0,22,1,Multi-system,Multi-system,,
+119022,B,test,-1,79.0,24,1,Multi-system,Multi-system,,
+119032,B,dev,3,5.0,5,-1,unassigned,,,short_window
+119052,B,dev,1,171.0,24,0,No abnormal vitals,No abnormal vitals,,
+119059,B,dev,3,28.0,24,2,Inflammatory,Inflammatory,,
+119061,B,dev,3,57.0,24,0,No abnormal vitals,No abnormal vitals,,
+119076,B,dev,0,19.0,19,0,No abnormal vitals,No abnormal vitals,,
+119082,B,dev,3,84.0,24,1,Multi-system,Multi-system,,
+119098,B,dev,0,31.0,24,0,No abnormal vitals,No abnormal vitals,,
+119103,B,dev,2,7.0,7,1,Multi-system,Multi-system,,
+119107,B,dev,0,200.0,24,0,No abnormal vitals,No abnormal vitals,,
+119109,B,dev,4,58.0,24,2,Inflammatory,Inflammatory,,
+119118,B,dev,3,25.0,24,4,Hemodynamic,Hemodynamic,,
+119150,B,test,-1,23.0,23,1,Multi-system,Multi-system,,
+119158,B,dev,4,17.0,17,0,No abnormal vitals,No abnormal vitals,,
+119161,B,dev,1,16.0,16,0,No abnormal vitals,No abnormal vitals,,
+119162,B,test,-1,1.0,1,-1,unassigned,,,short_window
+119168,B,dev,0,13.0,13,0,No abnormal vitals,No abnormal vitals,,
+119194,B,test,-1,14.0,14,3,Respiratory,Respiratory,,
+119214,B,test,-1,45.0,24,3,Respiratory,Respiratory,,
+119232,B,dev,0,5.0,5,-1,unassigned,,,short_window
+119276,B,dev,4,37.0,24,4,Hemodynamic,Hemodynamic,,
+119279,B,dev,1,39.0,24,0,No abnormal vitals,No abnormal vitals,,
+119309,B,dev,1,12.0,12,1,Multi-system,Multi-system,,
+119343,B,dev,1,23.0,23,1,Multi-system,Multi-system,,
+119407,B,dev,2,42.0,24,1,Multi-system,Multi-system,,
+119442,B,dev,4,50.0,24,2,Inflammatory,Inflammatory,,
+119463,B,dev,4,53.0,24,3,Respiratory,Respiratory,,
+119482,B,dev,0,17.0,17,-1,unassigned,,,sparse_vitals
+119504,B,dev,4,55.0,24,1,Multi-system,Multi-system,,
+119520,B,dev,2,22.0,22,-1,unassigned,,,sparse_vitals
+119545,B,dev,3,301.0,24,0,No abnormal vitals,No abnormal vitals,,
+119585,B,dev,2,80.0,24,2,Inflammatory,Inflammatory,,
+119621,B,dev,3,62.0,24,0,No abnormal vitals,No abnormal vitals,,
+119627,B,dev,4,79.0,24,2,Inflammatory,Inflammatory,,
+119643,B,dev,1,49.0,24,0,No abnormal vitals,No abnormal vitals,,
+119674,B,dev,3,36.0,24,1,Multi-system,Multi-system,,
+119692,B,dev,2,186.0,24,1,Multi-system,Multi-system,,
+119713,B,test,-1,3.0,3,-1,unassigned,,,short_window
+119722,B,dev,0,1.0,1,-1,unassigned,,,short_window
+119738,B,dev,1,135.0,24,0,No abnormal vitals,No abnormal vitals,,
+119749,B,dev,4,159.0,24,3,Respiratory,Respiratory,,
+119751,B,dev,4,130.0,24,1,Multi-system,Multi-system,,
+119760,B,test,-1,135.0,24,0,No abnormal vitals,No abnormal vitals,,
+119770,B,test,-1,73.0,24,0,No abnormal vitals,No abnormal vitals,,
+119791,B,dev,1,152.0,24,0,No abnormal vitals,No abnormal vitals,,
+119794,B,dev,3,1.0,1,-1,unassigned,,,short_window
+119808,B,dev,0,42.0,24,1,Multi-system,Multi-system,,
+119813,B,dev,3,30.0,24,3,Respiratory,Respiratory,,
+119822,B,test,-1,122.0,24,2,Inflammatory,Inflammatory,,
+119867,B,dev,1,88.0,24,0,No abnormal vitals,No abnormal vitals,,
+119874,B,test,-1,13.0,13,2,Inflammatory,Inflammatory,,
+119884,B,dev,3,230.0,24,3,Respiratory,Respiratory,,
+119888,B,dev,3,2.0,2,-1,unassigned,,,short_window
+119910,B,dev,1,41.0,24,1,Multi-system,Multi-system,,
+119917,B,dev,3,58.0,24,-1,unassigned,,,sparse_vitals
+119938,B,dev,0,101.0,24,0,No abnormal vitals,No abnormal vitals,,
+119959,B,dev,0,31.0,24,0,No abnormal vitals,No abnormal vitals,,

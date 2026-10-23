@@ -1,0 +1,10 @@
+{
+  "model": "p_lgbm",
+  "operating_point": "far5",
+  "tau": 0.04977064947685808,
+  "reference_pattern": "No abnormal vitals",
+  "n_septic": 2005,
+  "n_regression": 2005,
+  "left_out_small_groups": [],
+  "regression": "logistic, ridge C=1, patient bootstrap CIs"
+}

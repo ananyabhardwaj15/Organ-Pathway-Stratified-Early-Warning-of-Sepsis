@@ -1,0 +1,18 @@
+{
+  "model": "p_lgbm",
+  "operating_point": "far5",
+  "logrank": {
+    "chi2": 18.46992815505037,
+    "df": 5,
+    "p_value": 0.00241161299588312,
+    "groups": [
+      "Circulation",
+      "Clotting",
+      "Kidneys",
+      "Lungs",
+      "Multi-organ",
+      "Unattributable"
+    ]
+  },
+  "split": "test"
+}

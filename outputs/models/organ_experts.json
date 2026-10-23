@@ -1,0 +1,75 @@
+{
+  "labels": "organ",
+  "patterns": {
+    "Circulation": {
+      "column": "p_lgbm_organ_expert_circulation",
+      "n_dev_septic": 501,
+      "best_iterations": [
+        131,
+        336,
+        90,
+        141,
+        600
+      ],
+      "oof_auroc_own_pattern_vs_nonseptic": 0.8654544704232796,
+      "oof_auprc_own_pattern_vs_nonseptic": 0.08456521796066677
+    },
+    "Clotting": {
+      "column": "p_lgbm_organ_expert_clotting",
+      "n_dev_septic": 100,
+      "best_iterations": [
+        81,
+        119,
+        4,
+        28,
+        3
+      ],
+      "oof_auroc_own_pattern_vs_nonseptic": 0.8383104822845278,
+      "oof_auprc_own_pattern_vs_nonseptic": 0.039408020829666254
+    },
+    "Kidneys": {
+      "column": "p_lgbm_organ_expert_kidneys",
+      "n_dev_septic": 66,
+      "best_iterations": [
+        3,
+        7,
+        94,
+        3,
+        19
+      ],
+      "oof_auroc_own_pattern_vs_nonseptic": 0.7978376058070267,
+      "oof_auprc_own_pattern_vs_nonseptic": 0.003925265059643904
+    },
+    "Liver": {
+      "skipped": true,
+      "n_dev_septic": 13
+    },
+    "Lungs": {
+      "column": "p_lgbm_organ_expert_lungs",
+      "n_dev_septic": 103,
+      "best_iterations": [
+        137,
+        215,
+        25,
+        54,
+        112
+      ],
+      "oof_auroc_own_pattern_vs_nonseptic": 0.8825620482544885,
+      "oof_auprc_own_pattern_vs_nonseptic": 0.05152379315013033
+    },
+    "Multi-organ": {
+      "column": "p_lgbm_organ_expert_multi_organ",
+      "n_dev_septic": 254,
+      "best_iterations": [
+        150,
+        243,
+        67,
+        317,
+        40
+      ],
+      "oof_auroc_own_pattern_vs_nonseptic": 0.8941160214708066,
+      "oof_auprc_own_pattern_vs_nonseptic": 0.09623170317976561
+    }
+  },
+  "moe_max": true
+}

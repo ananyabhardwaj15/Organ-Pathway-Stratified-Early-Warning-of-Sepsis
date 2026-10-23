@@ -1,0 +1,291 @@
+{
+  "rules": [
+    {
+      "column": "FiO2",
+      "rule": "<=0 -> NaN",
+      "n_changed": 83
+    },
+    {
+      "column": "FiO2",
+      "rule": ">100 -> NaN",
+      "n_changed": 1
+    },
+    {
+      "column": "FiO2",
+      "rule": "21..100 treated as percent, /100",
+      "n_changed": 0
+    },
+    {
+      "column": "FiO2",
+      "rule": "1<x<21 (ambiguous) -> NaN",
+      "n_changed": 29
+    },
+    {
+      "column": "FiO2",
+      "rule": "0<x<0.2 -> NaN",
+      "n_changed": 228
+    },
+    {
+      "column": "HR",
+      "rule": ">250 -> NaN",
+      "n_changed": 4
+    },
+    {
+      "column": "O2Sat",
+      "rule": "<50 -> NaN",
+      "n_changed": 272
+    },
+    {
+      "column": "Temp",
+      "rule": "<30 -> NaN",
+      "n_changed": 16
+    },
+    {
+      "column": "Temp",
+      "rule": ">43 -> NaN",
+      "n_changed": 2
+    },
+    {
+      "column": "SBP",
+      "rule": "<40 -> NaN",
+      "n_changed": 114
+    },
+    {
+      "column": "MAP",
+      "rule": ">200 -> NaN",
+      "n_changed": 444
+    },
+    {
+      "column": "DBP",
+      "rule": ">200 -> NaN",
+      "n_changed": 103
+    },
+    {
+      "column": "Resp",
+      "rule": "<3 -> NaN",
+      "n_changed": 1260
+    },
+    {
+      "column": "Resp",
+      "rule": ">80 -> NaN",
+      "n_changed": 50
+    },
+    {
+      "column": "SaO2",
+      "rule": "<50 -> NaN",
+      "n_changed": 271
+    },
+    {
+      "column": "Potassium",
+      "rule": ">9 -> NaN",
+      "n_changed": 66
+    },
+    {
+      "column": "Hct",
+      "rule": ">70 -> NaN",
+      "n_changed": 2
+    },
+    {
+      "column": "Hgb",
+      "rule": ">25 -> NaN",
+      "n_changed": 3
+    },
+    {
+      "column": "Platelets",
+      "rule": ">1500 -> NaN",
+      "n_changed": 4
+    },
+    {
+      "column": "Creatinine",
+      "rule": ">25 -> NaN",
+      "n_changed": 7
+    },
+    {
+      "column": "Lactate",
+      "rule": ">30 -> NaN",
+      "n_changed": 1
+    },
+    {
+      "column": "WBC",
+      "rule": ">200 -> NaN",
+      "n_changed": 18
+    },
+    {
+      "column": "SBP/DBP",
+      "rule": "flag bp_sbp_lt_dbp (not removed)",
+      "n_changed": 126
+    },
+    {
+      "column": "MAP",
+      "rule": "flag bp_map_outside_range (not removed)",
+      "n_changed": 6866
+    }
+  ],
+  "notes": [
+    "Dropped columns: ['Unnamed: 0']",
+    "Rows at/after label switch-on (not pre-onset): 27916 of 1552210.",
+    "Dropped Unit2 (exact complement of Unit1); merged into 'unit'."
+  ],
+  "input": {
+    "file": "C:\\Users\\HP\\OneDrive\\Desktop\\sepsis\\data\\Dataset.csv",
+    "rows": 1552210,
+    "patients": 40336
+  },
+  "missing_pct_before": {
+    "Bilirubin_direct": 99.81,
+    "Fibrinogen": 99.34,
+    "TroponinI": 99.05,
+    "Bilirubin_total": 98.51,
+    "Alkalinephos": 98.39,
+    "AST": 98.38,
+    "Lactate": 97.33,
+    "PTT": 97.06,
+    "SaO2": 96.55,
+    "EtCO2": 96.29,
+    "Phosphate": 95.99,
+    "HCO3": 95.81,
+    "Chloride": 95.46,
+    "BaseExcess": 94.58,
+    "PaCO2": 94.44,
+    "Calcium": 94.12,
+    "Platelets": 94.06,
+    "Creatinine": 93.9,
+    "Magnesium": 93.69,
+    "WBC": 93.59,
+    "BUN": 93.13,
+    "pH": 93.07,
+    "Hgb": 92.62,
+    "FiO2": 91.67,
+    "Hct": 91.15,
+    "Potassium": 90.69,
+    "Glucose": 82.89,
+    "Temp": 66.16,
+    "Unit2": 39.43,
+    "Unit1": 39.43,
+    "DBP": 31.35,
+    "Resp": 15.35,
+    "SBP": 14.58,
+    "O2Sat": 13.06,
+    "MAP": 12.45,
+    "HR": 9.88
+  },
+  "output": {
+    "hourly_file": "hourly_clean.parquet",
+    "rows": 1552210,
+    "columns": [
+      "Hour",
+      "HR",
+      "O2Sat",
+      "Temp",
+      "SBP",
+      "MAP",
+      "DBP",
+      "Resp",
+      "EtCO2",
+      "BaseExcess",
+      "HCO3",
+      "FiO2",
+      "pH",
+      "PaCO2",
+      "SaO2",
+      "AST",
+      "BUN",
+      "Alkalinephos",
+      "Calcium",
+      "Chloride",
+      "Creatinine",
+      "Bilirubin_direct",
+      "Glucose",
+      "Lactate",
+      "Magnesium",
+      "Phosphate",
+      "Potassium",
+      "Bilirubin_total",
+      "TroponinI",
+      "Hct",
+      "Hgb",
+      "PTT",
+      "WBC",
+      "Fibrinogen",
+      "Platelets",
+      "Age",
+      "Gender",
+      "Unit1",
+      "HospAdmTime",
+      "ICULOS",
+      "SepsisLabel",
+      "Patient_ID",
+      "bp_sbp_lt_dbp",
+      "bp_map_outside_range",
+      "age_topcoded",
+      "age_lt18",
+      "HospAdmTime_slog",
+      "unit",
+      "hospital",
+      "first_pos_hour",
+      "septic_patient",
+      "hours_to_onset",
+      "is_pre_onset"
+    ]
+  },
+  "missing_pct_after": {
+    "Bilirubin_direct": 99.81,
+    "Fibrinogen": 99.34,
+    "TroponinI": 99.05,
+    "Bilirubin_total": 98.51,
+    "Alkalinephos": 98.39,
+    "AST": 98.38,
+    "Lactate": 97.33,
+    "PTT": 97.06,
+    "SaO2": 96.57,
+    "EtCO2": 96.29,
+    "Phosphate": 95.99,
+    "HCO3": 95.81,
+    "Chloride": 95.46,
+    "BaseExcess": 94.58,
+    "PaCO2": 94.44,
+    "Calcium": 94.12,
+    "Platelets": 94.06,
+    "Creatinine": 93.9,
+    "Magnesium": 93.69,
+    "WBC": 93.59,
+    "BUN": 93.13,
+    "pH": 93.07,
+    "Hgb": 92.62,
+    "FiO2": 91.69,
+    "Hct": 91.15,
+    "Potassium": 90.69,
+    "hours_to_onset": 88.89,
+    "first_pos_hour": 88.89,
+    "Glucose": 82.89,
+    "Temp": 66.16,
+    "Unit1": 39.43,
+    "DBP": 31.35,
+    "Resp": 15.44,
+    "SBP": 14.58,
+    "O2Sat": 13.08,
+    "MAP": 12.48,
+    "HR": 9.88
+  },
+  "patients_summary": {
+    "patients": 40336,
+    "by_hospital": {
+      "A": 20336,
+      "B": 20000
+    },
+    "septic": 2932,
+    "septic_by_hospital": {
+      "A": 1790,
+      "B": 1142
+    },
+    "onset_hour0_excluded": 426,
+    "onset_lt6h": 733,
+    "short_stay_lt12h": 1019,
+    "age_lt18": 22,
+    "age_topcoded": 392,
+    "unit_unknown": 15617,
+    "include_main": 39910,
+    "include_main_septic": 2506,
+    "rows_pre_onset": 1524294
+  }
+}

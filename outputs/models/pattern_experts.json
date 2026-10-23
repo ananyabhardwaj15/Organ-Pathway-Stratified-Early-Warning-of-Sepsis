@@ -1,0 +1,70 @@
+{
+  "patterns": {
+    "Hemodynamic": {
+      "column": "p_lgbm_expert_hemodynamic",
+      "n_dev_septic": 150,
+      "best_iterations": [
+        333,
+        285,
+        133,
+        19,
+        332
+      ],
+      "oof_auroc_own_pattern_vs_nonseptic": 0.8665109361377894,
+      "oof_auprc_own_pattern_vs_nonseptic": 0.05046839112987831
+    },
+    "Inflammatory": {
+      "column": "p_lgbm_expert_inflammatory",
+      "n_dev_septic": 301,
+      "best_iterations": [
+        108,
+        23,
+        430,
+        98,
+        9
+      ],
+      "oof_auroc_own_pattern_vs_nonseptic": 0.8776388391143949,
+      "oof_auprc_own_pattern_vs_nonseptic": 0.08719543173141271
+    },
+    "Multi-system": {
+      "column": "p_lgbm_expert_multi_system",
+      "n_dev_septic": 397,
+      "best_iterations": [
+        127,
+        137,
+        133,
+        190,
+        128
+      ],
+      "oof_auroc_own_pattern_vs_nonseptic": 0.9231644757701178,
+      "oof_auprc_own_pattern_vs_nonseptic": 0.10065777732949407
+    },
+    "No abnormal vitals": {
+      "column": "p_lgbm_expert_no_abnormal_vitals",
+      "n_dev_septic": 482,
+      "best_iterations": [
+        242,
+        140,
+        58,
+        152,
+        332
+      ],
+      "oof_auroc_own_pattern_vs_nonseptic": 0.863709823348227,
+      "oof_auprc_own_pattern_vs_nonseptic": 0.10042180070278547
+    },
+    "Respiratory": {
+      "column": "p_lgbm_expert_respiratory",
+      "n_dev_septic": 208,
+      "best_iterations": [
+        4,
+        73,
+        50,
+        81,
+        152
+      ],
+      "oof_auroc_own_pattern_vs_nonseptic": 0.8961619881290631,
+      "oof_auprc_own_pattern_vs_nonseptic": 0.06647251327732884
+    }
+  },
+  "moe_max": true
+}

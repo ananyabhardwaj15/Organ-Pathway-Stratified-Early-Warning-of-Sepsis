@@ -1,0 +1,171 @@
+variable,kind,group,missing_pct
+HR,vital,all,9.91578223939364
+HR,vital,septic,6.973118696329983
+HR,vital,non-septic,10.225463998636737
+HR,vital,hospital A,7.818952700842464
+HR,vital,hospital B,12.066991767256777
+O2Sat,vital,all,13.10414905124826
+O2Sat,vital,septic,9.101401341911924
+O2Sat,vital,non-septic,13.525392572396115
+O2Sat,vital,hospital A,12.092331013127678
+O2Sat,vital,hospital B,14.142207970225881
+Temp,vital,all,66.15395718499941
+Temp,vital,septic,64.14821322446448
+Temp,vital,non-septic,66.36503884934865
+Temp,vital,hospital A,66.1095042058451
+Temp,vital,hospital B,66.19956302493084
+SBP,vital,all,14.541977251609273
+SBP,vital,septic,13.53970181649053
+SBP,vital,non-septic,14.64745530421415
+SBP,vital,hospital A,15.159666641834313
+SBP,vital,hospital B,13.908268465519678
+MAP,vital,all,12.521374285576037
+MAP,vital,septic,8.551027966546945
+MAP,vital,non-septic,12.939207930125557
+MAP,vital,hospital A,10.336953458769115
+MAP,vital,hospital B,14.762446728086864
+DBP,vital,all,31.26185580876196
+DBP,vital,septic,23.754769471934402
+DBP,vital,non-septic,32.051890982527766
+DBP,vital,hospital A,48.14810016292184
+DBP,vital,hospital B,13.937677053824363
+Resp,vital,all,15.449846187155499
+Resp,vital,septic,12.76797326511804
+Resp,vital,non-septic,15.732082709411225
+Resp,vital,hospital A,9.84737818920311
+Resp,vital,hospital B,21.197610759888015
+EtCO2,vital,all,96.40756180192712
+EtCO2,vital,septic,89.27331765759713
+EtCO2,vital,non-septic,97.15835958942601
+EtCO2,vital,hospital A,100.0
+EtCO2,vital,hospital B,92.72195592034758
+BaseExcess,lab,all,94.63307578942361
+BaseExcess,lab,septic,91.25087207048914
+BaseExcess,lab,non-septic,94.98901413659453
+BaseExcess,lab,hospital A,89.61429954945471
+BaseExcess,lab,hospital B,99.78201091606923
+HCO3,lab,all,95.84086131912454
+HCO3,lab,septic,94.26113020335391
+HCO3,lab,non-septic,96.00710999278486
+HCO3,lab,hospital A,91.96192876137295
+HCO3,lab,hospital B,99.82039161606008
+FiO2,lab,all,91.85575135380726
+FiO2,lab,septic,83.56028698655504
+FiO2,lab,non-septic,92.72875431911214
+FiO2,lab,hospital A,86.02354107217471
+FiO2,lab,hospital B,97.83921643557942
+pH,lab,all,93.15949051084235
+pH,lab,septic,89.14584463795079
+pH,lab,non-septic,93.58188093934571
+pH,lab,hospital A,88.57117870550016
+pH,lab,hospital B,97.86679737150358
+PaCO2,lab,all,94.52572254311558
+PaCO2,lab,septic,91.12856687596359
+PaCO2,lab,non-septic,94.88323441222005
+PaCO2,lab,hospital A,91.27315482109368
+PaCO2,lab,hospital B,97.86264361609331
+SaO2,lab,all,96.61472322299213
+SaO2,lab,septic,95.33776043685349
+SaO2,lab,non-septic,96.74910898484096
+SaO2,lab,hospital A,95.06926607436102
+SaO2,lab,hospital B,98.20026085583976
+AST,lab,all,98.39855856328715
+AST,lab,septic,97.86310431255006
+AST,lab,non-septic,98.4549090131214
+AST,lab,hospital A,98.5179942799211
+AST,lab,hospital B,98.27602535452303
+BUN,lab,all,93.16031062731528
+BUN,lab,septic,92.01226497162003
+BUN,lab,non-septic,93.28112933225529
+BUN,lab,hospital A,91.84289540936138
+BUN,lab,hospital B,94.51189220173958
+Alkalinephos,lab,all,98.41479686945141
+Alkalinephos,lab,septic,97.85707518324247
+Alkalinephos,lab,non-septic,98.47349071277587
+Alkalinephos,lab,hospital A,98.55589061239826
+Alkalinephos,lab,hospital B,98.27004394673224
+Calcium,lab,all,94.15913047971073
+Calcium,lab,septic,92.78916134811331
+Calcium,lab,non-septic,94.30330409812588
+Calcium,lab,hospital A,95.04481160340355
+Calcium,lab,hospital B,93.25047975874988
+Chloride,lab,all,95.4867350261084
+Chloride,lab,septic,93.61773597581458
+Chloride,lab,non-septic,95.68342584904771
+Chloride,lab,hospital A,91.67317166390812
+Chloride,lab,hospital B,99.39920081745906
+Creatinine,lab,all,93.93351643800453
+Creatinine,lab,septic,93.34642515697269
+Creatinine,lab,non-septic,93.99530109604835
+Creatinine,lab,hospital A,93.37364812121643
+Creatinine,lab,hospital B,94.50790459654573
+Bilirubin_direct,lab,all,99.81088114133969
+Bilirubin_direct,lab,septic,99.7278278769713
+Bilirubin_direct,lab,non-septic,99.81962154969563
+Bilirubin_direct,lab,hospital A,99.8553785260594
+Bilirubin_direct,lab,hospital B,99.76522974421174
+Glucose,lab,all,82.89614291021611
+Glucose,lab,septic,82.11760247366563
+Glucose,lab,non-septic,82.97807540725647
+Glucose,lab,hospital A,87.7559217068249
+Glucose,lab,hospital B,77.91032872820317
+Lactate,lab,all,97.39252168592984
+Lactate,lab,septic,94.8192553164001
+Lactate,lab,non-septic,97.66332860784094
+Lactate,lab,hospital A,96.60714459232291
+Lactate,lab,hospital B,98.19826705324284
+Magnesium,lab,all,93.71323315337244
+Magnesium,lab,septic,92.0622206144544
+Magnesium,lab,non-septic,93.88698338342839
+Magnesium,lab,hospital A,92.21748608038557
+Magnesium,lab,hospital B,95.24777151022239
+Phosphate,lab,all,96.01324980173685
+Phosphate,lab,septic,94.69781142606134
+Phosphate,lab,non-septic,96.15168468034038
+Phosphate,lab,hospital A,94.97549694400088
+Phosphate,lab,hospital B,97.07791614398577
+Potassium,lab,all,90.74966026675109
+Potassium,lab,septic,88.6213103881898
+Potassium,lab,non-septic,90.97364480491935
+Potassium,lab,hospital A,89.13557493918772
+Potassium,lab,hospital B,92.4056059083017
+Bilirubin_total,lab,all,98.53166346684557
+Bilirubin_total,lab,septic,98.16800599467715
+Bilirubin_total,lab,non-septic,98.56993426610444
+Bilirubin_total,lab,hospital A,98.79120416406197
+Bilirubin_total,lab,hospital B,98.26539174067275
+TroponinI,lab,all,99.05219139222152
+TroponinI,lab,septic,99.41086793622904
+TroponinI,lab,non-septic,99.01444477881432
+TroponinI,lab,hospital A,99.87513644299193
+TroponinI,lab,hospital B,98.20790376579465
+Hct,lab,all,91.18030342669266
+Hct,lab,septic,90.32583137386631
+Hct,lab,non-septic,91.27022685989216
+Hct,lab,hospital A,88.20824844446892
+Hct,lab,hospital B,94.22943683384148
+Hgb,lab,all,92.64798386666875
+Hgb,lab,septic,91.85895282636969
+Hgb,lab,non-septic,92.73102038004562
+Hgb,lab,hospital A,91.17031648296123
+Hgb,lab,hospital B,94.16397364857568
+PTT,lab,all,97.09211302189136
+PTT,lab,septic,96.20681636133433
+PTT,lab,non-septic,97.18528039331567
+PTT,lab,hospital A,95.18684187512349
+PTT,lab,hospital B,99.04679620845207
+WBC,lab,all,93.61276888543712
+WBC,lab,septic,92.75557048482813
+WBC,lab,non-septic,93.70297923563045
+WBC,lab,hospital A,92.4877808620282
+WBC,lab,hospital B,94.76693278392995
+Fibrinogen,lab,all,99.35440431250046
+Fibrinogen,lab,septic,98.9957193181916
+Fibrinogen,lab,non-septic,99.39215181520545
+Fibrinogen,lab,hospital A,99.2506567078128
+Fibrinogen,lab,hospital B,99.46084254774742
+Platelets,lab,all,94.08039929830835
+Platelets,lab,septic,93.64615901397897
+Platelets,lab,non-septic,94.12609813312835
+Platelets,lab,hospital A,93.49154782225648
+Platelets,lab,hospital B,94.68452227659027

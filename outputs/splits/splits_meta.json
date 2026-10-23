@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "n_folds": 5,
+  "test_frac": 0.2,
+  "stratification": "hospital x septic",
+  "sklearn_version": "1.9.1",
+  "pandas_version": "3.0.6",
+  "patients_csv": "C:\\Users\\HP\\OneDrive\\Desktop\\sepsis\\outputs\\clean\\patients.csv",
+  "patients_csv_sha256": "06b6b3f1c10a9446c5b6f4e40d07d2cd47f538b23f75eeec24662eb866bf75fd",
+  "folds_csv_sha256": "adbbea42d11f421f2dc1fffe66713413f679474cf1a026488cd2bc880b1a1c61",
+  "counts": {
+    "dev": 31928,
+    "test": 7982,
+    "excluded": 426
+  },
+  "septic_by_split": {
+    "dev": 2005,
+    "test": 501,
+    "excluded": 426
+  },
+  "balance_warnings": []
+}

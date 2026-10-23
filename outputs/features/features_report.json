@@ -1,0 +1,31 @@
+{
+  "horizon_hours": 12,
+  "rows": 1524294,
+  "patients": 39910,
+  "n_features": 91,
+  "positives_by_split": {
+    "dev": 21062,
+    "test": 5262
+  },
+  "positive_rate_by_split": {
+    "dev": 0.01727,
+    "test": 0.01726
+  },
+  "rows_by_split": {
+    "dev": 1219339,
+    "test": 304955
+  },
+  "missing_share_top10": {
+    "Lactate_ffill": 0.771,
+    "Alkalinephos_ffill": 0.766,
+    "Bilirubin_total_ffill": 0.766,
+    "AST_ffill": 0.763,
+    "SaO2_ffill": 0.755,
+    "BaseExcess_ffill": 0.715,
+    "Lactate_age": 0.707,
+    "SaO2_age": 0.701,
+    "Bilirubin_total_age": 0.701,
+    "Alkalinephos_age": 0.7
+  },
+  "seconds": 20.1
+}

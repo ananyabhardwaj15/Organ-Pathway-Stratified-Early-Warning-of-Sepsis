@@ -1,0 +1,13 @@
+Model,Patients,AUROC,AUPRC,"Warned in time, % (95% CI)",False alarms per 100 patient-days,"Non-septic patients alerted, %","Median warning, h",Normalised utility
+LightGBM,All,0.812,0.102,43.5 (41.7 to 45.6),4.93,6.7,42,0.304
+LightGBM,Hospital A,,,45.5 (43.1 to 47.9),7.36,9.9,40,0.328
+LightGBM,Hospital B,,,40.0 (37.0 to 43.4),2.54,3.6,47,0.263
+Logistic regression,All,0.770,0.083,34.7 (32.7 to 36.5),4.96,6.9,46,0.214
+Logistic regression,Hospital A,,,37.3 (34.8 to 39.9),7.39,10.3,46,0.236
+Logistic regression,Hospital B,,,30.2 (26.9 to 33.6),2.57,3.5,50,0.176
+GRU,All,0.805,0.088,39.6 (37.3 to 42.2),4.95,6.9,47,0.248
+GRU,Hospital A,,,41.5 (39.1 to 44.0),6.78,9.4,43,0.272
+GRU,Hospital B,,,36.2 (33.1 to 39.3),3.14,4.4,55,0.206
+Ensemble,All,0.813,0.097,42.2 (40.2 to 44.2),4.93,6.7,44,0.281
+Ensemble,Hospital A,,,44.8 (42.1 to 47.1),7.39,10.0,41,0.307
+Ensemble,Hospital B,,,37.8 (34.7 to 41.6),2.51,3.5,52,0.236

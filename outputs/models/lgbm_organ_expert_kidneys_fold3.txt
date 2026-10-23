@@ -1,0 +1,210 @@
+tree
+version=v4
+num_class=1
+num_tree_per_iteration=1
+label_index=0
+max_feature_idx=90
+objective=binary sigmoid:1
+feature_names=HR_ffill HR_age O2Sat_ffill O2Sat_age Temp_ffill Temp_age SBP_ffill SBP_age MAP_ffill MAP_age DBP_ffill DBP_age Resp_ffill Resp_age BaseExcess_ffill BaseExcess_age HCO3_ffill HCO3_age FiO2_ffill FiO2_age pH_ffill pH_age PaCO2_ffill PaCO2_age SaO2_ffill SaO2_age AST_ffill AST_age BUN_ffill BUN_age Alkalinephos_ffill Alkalinephos_age Calcium_ffill Calcium_age Chloride_ffill Chloride_age Creatinine_ffill Creatinine_age Glucose_ffill Glucose_age Lactate_ffill Lactate_age Magnesium_ffill Magnesium_age Phosphate_ffill Phosphate_age Potassium_ffill Potassium_age Bilirubin_total_ffill Bilirubin_total_age Hct_ffill Hct_age Hgb_ffill Hgb_age PTT_ffill PTT_age WBC_ffill WBC_age Platelets_ffill Platelets_age HR_mean6 HR_std6 HR_delta6 O2Sat_mean6 O2Sat_std6 O2Sat_delta6 Temp_mean6 Temp_std6 Temp_delta6 SBP_mean6 SBP_std6 SBP_delta6 MAP_mean6 MAP_std6 MAP_delta6 DBP_mean6 DBP_std6 DBP_delta6 Resp_mean6 Resp_std6 Resp_delta6 n_vital_obs_6h n_lab_obs_12h n_lab_hours_12h n_lab_obs_total lab_age_any Age Gender unit HospAdmTime_slog ICULOS
+feature_infos=[20:193] [0:42] [50:100] [0:44] [30:42.099998474121094] [0:47] [40:300] [0:56] [20:200] [0:42] [20:196] [0:56] [3:70] [0:67] [-28:36] [0:72] [5:55] [0:72] [0.20000000298023224:1] [0:72] [6.6500000953674316:7.929999828338623] [0:72] [11:100] [0:72] [50:100] [0:72] [3:9890] [0:72] [1:268] [0:72] [11:3833] [0:72] [1:27] [0:72] [26:139] [0:72] [0.10000000149011612:25] [0:72] [10:942] [0:68] [0.20000000298023224:25.899999618530273] [0:72] [0.20000000298023224:8.8999996185302734] [0:72] [0.30000001192092896:16.899999618530273] [0:72] [1.2999999523162842:8.8999996185302734] [0:72] [0.10000000149011612:49.599998474121094] [0:72] [7:69.699996948242188] [0:72] [2.2000000476837158:24.799999237060547] [0:72] [16.600000381469727:250] [0:72] [0.10000000149011612:199.19999694824219] [0:72] [1:1421] [0:72] [22:183] [0:54] [-101.5:121] [50.5:100] [0:24] [-50:49] [30.280000686645508:41.966667175292969] [0:3.7000007629394531] [-6.4000015258789062:6.6299991607666016] [44:259.5] [0:83.356666564941406] [-198:187] [21.329999923706055:200] [0:58.75] [-131.5:140.5] [20:173] [0:69] [-142:149.5] [3:70] [0:24.75] [-59:55] [0:42] [0:162] [0:12] [0:1985] [0:68] [14:100] [0:1] [0:2] [-8.5881843566894531:3.2184758186340332] [1:336]
+tree_sizes=885 908 909
+
+Tree=0
+num_leaves=7
+num_cat=0
+split_feature=84 84 89 56 30 86
+split_gain=325.191 67.0479 64.3927 58.6527 45.4812 32.5337
+threshold=90.500000000000014 20.500000000000004 -4.3613774776458731 14.250000000000002 75.250000000000014 56.875000000000007
+decision_type=2 2 2 10 8 2
+left_child=1 -1 5 -4 -2 -3
+right_child=4 2 3 -5 -6 -7
+leaf_value=-7.3196900572714272 -7.291318991970436 -7.295893643291226 -7.3114946135701304 -7.2603191389011732 -7.1785940607767209 -7.2350762552998891
+leaf_weight=197.95053699240088 5.4516681898385286 11.708914042450486 136.51942746387795 34.105751082766801 20.018399764318023 30.918316883966327
+leaf_count=289464 7972 17122 199633 49873 29273 45212
+internal_value=-7.28619 -7.30196 -7.2823 -7.29767 -7.19 -7.24789
+internal_weight=436.673 411.203 213.252 170.625 25.4701 42.6272
+internal_count=638549 601304 311840 249506 37245 62334
+is_linear=0
+shrinkage=1
+
+
+Tree=1
+num_leaves=7
+num_cat=0
+split_feature=36 84 76 36 72 86
+split_gain=587.914 185.146 68.9487 47.376 37.2283 29.4263
+threshold=1.0850000381469729 27.500000000000004 1.4918756484985354 5.6050000190734872 104.02124786376955 78.204998016357436
+decision_type=10 2 10 10 10 2
+left_child=-1 -2 -3 4 5 -4
+right_child=1 2 3 -5 -6 -7
+leaf_value=-0.035772252261249075 -0.001421029197660116 0.0046388334916424561 0.14914756730349096 -0.0036843346977131763 -0.0016323780438423135 0.0076997490107363776
+leaf_weight=307.72477567085298 51.86026587622473 17.706240194733255 36.612760826654267 3.9744486299459814 3.7522740928106932 9.7863262977334653
+leaf_count=457182 77727 25781 52589 5765 5423 13977
+internal_value=0.00096492 0.0763485 0.110036 0.125731 0.132706 0.138782
+internal_weight=431.417 123.692 71.8321 54.1258 50.1514 46.3991
+internal_count=638444 181262 103535 77754 71989 66566
+is_linear=0
+shrinkage=0.05
+
+
+Tree=2
+num_leaves=7
+num_cat=0
+split_feature=36 89 28 90 45 75
+split_gain=538.324 112.828 68.6184 60.9936 49.0697 55.7992
+threshold=1.0850000381469729 -3.5867083072662349 32.500000000000007 20.500000000000004 23.500000000000004 81.020832061767592
+decision_type=10 2 8 2 8 8
+left_child=-1 3 4 -2 5 -3
+right_child=1 2 -4 -5 -6 -7
+leaf_value=-0.035038669401119805 0.0028604488505980848 0.078111013970932688 -0.019716454023267167 0.12998167688027848 -0.0097345621302817736 -0.0093640588454755036
+leaf_weight=296.9166292945738 13.365368510480037 21.806404825183563 37.462568575690966 27.224325614282861 18.280707980447914 11.512294622778425
+leaf_count=457172 18852 29717 53488 36133 26046 17046
+internal_value=0.00148402 0.0715982 0.0190112 0.112805 0.0429942 0.060405
+internal_weight=426.568 129.652 89.062 40.5897 51.5994 33.3187
+internal_count=638454 181282 126297 54985 72809 46763
+is_linear=0
+shrinkage=0.05
+
+
+end of trees
+
+feature_importances:
+Creatinine_ffill=3
+n_lab_obs_total=3
+Age=2
+HospAdmTime_slog=2
+BUN_ffill=1
+Alkalinephos_ffill=1
+Phosphate_age=1
+WBC_ffill=1
+MAP_mean6=1
+DBP_mean6=1
+DBP_std6=1
+ICULOS=1
+
+parameters:
+[boosting: gbdt]
+[objective: binary]
+[metric: auc]
+[tree_learner: serial]
+[device_type: cpu]
+[data_sample_strategy: bagging]
+[data: ]
+[valid: ]
+[num_iterations: 600]
+[learning_rate: 0.05]
+[num_leaves: 7]
+[num_threads: 0]
+[seed: 45]
+[deterministic: 0]
+[force_col_wise: 0]
+[force_row_wise: 0]
+[histogram_pool_size: -1]
+[max_depth: -1]
+[min_data_in_leaf: 5000]
+[min_sum_hessian_in_leaf: 0.001]
+[bagging_fraction: 0.8]
+[pos_bagging_fraction: 1]
+[neg_bagging_fraction: 1]
+[bagging_freq: 1]
+[bagging_seed: 32645]
+[bagging_by_query: 0]
+[feature_fraction: 0.5]
+[feature_fraction_bynode: 1]
+[feature_fraction_seed: 3942]
+[extra_trees: 0]
+[extra_seed: 24660]
+[early_stopping_round: 0]
+[early_stopping_min_delta: 0]
+[first_metric_only: 0]
+[max_delta_step: 0]
+[lambda_l1: 0]
+[lambda_l2: 50]
+[linear_lambda: 0]
+[min_gain_to_split: 0]
+[drop_rate: 0.1]
+[max_drop: 50]
+[skip_drop: 0.5]
+[xgboost_dart_mode: 0]
+[uniform_drop: 0]
+[drop_seed: 5926]
+[top_rate: 0.2]
+[other_rate: 0.1]
+[min_data_per_group: 100]
+[max_cat_threshold: 32]
+[cat_l2: 10]
+[cat_smooth: 10]
+[max_cat_to_onehot: 4]
+[top_k: 20]
+[monotone_constraints: ]
+[monotone_constraints_method: basic]
+[monotone_penalty: 0]
+[feature_contri: ]
+[forcedsplits_filename: ]
+[refit_decay_rate: 0.9]
+[cegb_tradeoff: 1]
+[cegb_penalty_split: 0]
+[cegb_penalty_feature_lazy: ]
+[cegb_penalty_feature_coupled: ]
+[path_smooth: 0]
+[interaction_constraints: ]
+[verbosity: -1]
+[saved_feature_importance_type: 0]
+[use_quantized_grad: 0]
+[num_grad_quant_bins: 4]
+[quant_train_renew_leaf: 0]
+[stochastic_rounding: 1]
+[linear_tree: 0]
+[max_bin: 255]
+[max_bin_by_feature: ]
+[min_data_in_bin: 3]
+[bin_construct_sample_cnt: 200000]
+[data_random_seed: 185]
+[is_enable_sparse: 1]
+[enable_bundle: 1]
+[use_missing: 1]
+[zero_as_missing: 0]
+[feature_pre_filter: 1]
+[pre_partition: 0]
+[two_round: 0]
+[header: 0]
+[label_column: ]
+[weight_column: ]
+[group_column: ]
+[ignore_column: ]
+[categorical_feature: ]
+[forcedbins_filename: ]
+[precise_float_parser: 0]
+[parser_config_file: ]
+[objective_seed: 14259]
+[num_class: 1]
+[is_unbalance: 0]
+[scale_pos_weight: 1]
+[sigmoid: 1]
+[boost_from_average: 1]
+[reg_sqrt: 0]
+[alpha: 0.9]
+[fair_c: 1]
+[poisson_max_delta_step: 0.7]
+[tweedie_variance_power: 1.5]
+[lambdarank_truncation_level: 30]
+[lambdarank_norm: 1]
+[label_gain: ]
+[lambdarank_position_bias_regularization: 0]
+[eval_at: ]
+[multi_error_top_k: 1]
+[auc_mu_weights: ]
+[num_machines: 1]
+[local_listen_port: 12400]
+[time_out: 120]
+[machine_list_filename: ]
+[machines: ]
+[gpu_platform_id: -1]
+[gpu_device_id: -1]
+[gpu_device_id_list: ]
+[gpu_use_dp: 0]
+[num_gpu: 1]
+
+end of parameters
+
+pandas_categorical:null

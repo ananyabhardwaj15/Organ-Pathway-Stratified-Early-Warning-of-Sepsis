@@ -1,0 +1,6 @@
+pattern,pattern_id,description,n_dev,n_test,n_hospital_A,n_hospital_B,median_first_pos_hour,mean_n_lab_hours_window,mean_MAP_last,mean_O2Sat_last,mean_Resp_last,mean_Temp_last,mean_HR_last,mean_desc_Creatinine_last,share_measured_Creatinine,mean_desc_Platelets_last,share_measured_Platelets,mean_desc_Bilirubin_total_last,share_measured_Bilirubin_total,mean_desc_Lactate_last,share_measured_Lactate,mean_desc_WBC_last,share_measured_WBC
+No abnormal vitals,0,No abnormal vitals,482,115,336,261,57.0,7.91,86.242,97.542,17.09,37.068,80.827,1.448,0.95,203.083,0.938,2.635,0.271,1.798,0.318,12.047,0.941
+Multi-system,1,Multi-system,397,92,322,167,49.0,7.78,76.33,96.206,25.192,37.131,100.049,1.616,0.926,219.687,0.922,2.775,0.319,2.306,0.409,13.463,0.926
+Inflammatory,2,Inflammatory,301,64,215,150,49.0,7.92,86.209,97.665,17.476,37.348,99.997,1.327,0.945,205.021,0.929,2.207,0.315,1.672,0.395,13.449,0.934
+Respiratory,3,Respiratory,208,62,187,83,58.0,7.94,86.24,96.094,25.617,37.109,84.644,1.393,0.937,208.5,0.926,2.436,0.27,1.808,0.274,12.198,0.93
+Hemodynamic,4,Hemodynamic,150,43,140,53,38.0,7.05,63.485,97.708,17.291,36.906,79.649,2.042,0.943,208.026,0.907,3.194,0.342,1.907,0.347,12.028,0.912

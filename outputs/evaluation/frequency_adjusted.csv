@@ -1,0 +1,15 @@
+term,odds_ratio,or_lo,or_hi,model,reference_pattern,outcome
+pattern: Hemodynamic,0.5631940592786031,0.40749616778320963,0.8287134091264493,unadjusted,No abnormal vitals,warned in the last 12 h
+pattern: Inflammatory,1.0383425949014533,0.7797213290439716,1.3634594675751233,unadjusted,No abnormal vitals,warned in the last 12 h
+pattern: Multi-system,1.1998498864102538,0.9464251337396563,1.5771792020166213,unadjusted,No abnormal vitals,warned in the last 12 h
+pattern: Respiratory,1.212746829922246,0.8620158913409173,1.686708784366501,unadjusted,No abnormal vitals,warned in the last 12 h
+pattern: unassigned,0.14959021182217927,0.117143128262898,0.19491619156219292,unadjusted,No abnormal vitals,warned in the last 12 h
+pattern: Hemodynamic,0.7978636575975168,0.5211589653179527,1.2491468542823239,adjusted,No abnormal vitals,warned in the last 12 h
+pattern: Inflammatory,1.104881267405428,0.7454704997859212,1.5644944789933528,adjusted,No abnormal vitals,warned in the last 12 h
+pattern: Multi-system,1.6591233886548873,1.188493398809306,2.2409119480591047,adjusted,No abnormal vitals,warned in the last 12 h
+pattern: Respiratory,0.9337749748937609,0.6683893617806554,1.3121716742294258,adjusted,No abnormal vitals,warned in the last 12 h
+pattern: unassigned,7.05646920940814,3.515397223406945,15.680477289621564,adjusted,No abnormal vitals,warned in the last 12 h
+"lab hours per h (log, per SD)",1.1991715353869794,1.0338532364760784,1.406099241216764,adjusted,No abnormal vitals,warned in the last 12 h
+trigger-vital obs per h (per SD),0.7409209303758282,0.5690821389196647,0.9152890241866245,adjusted,No abnormal vitals,warned in the last 12 h
+"label switch-on hour (log, per SD)",46.638267217129844,33.450496298783804,79.71890048433002,adjusted,No abnormal vitals,warned in the last 12 h
+hospital B,0.396194287971483,0.2878664458394651,0.49572915785367827,adjusted,No abnormal vitals,warned in the last 12 h

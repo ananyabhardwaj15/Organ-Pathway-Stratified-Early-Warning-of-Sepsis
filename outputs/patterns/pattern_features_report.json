@@ -1,0 +1,82 @@
+{
+  "parameters": {
+    "window_hours": 24,
+    "min_obs": 3,
+    "min_window_hours": 6,
+    "min_vitals_ok": 5,
+    "vitals": [
+      "HR",
+      "Resp",
+      "MAP",
+      "O2Sat",
+      "Temp"
+    ]
+  },
+  "septic_patients": 2506,
+  "eligible": 1914,
+  "eligible_share": 0.7638,
+  "ineligible_reasons": {
+    "eligible": 1914,
+    "short_window": 307,
+    "sparse_vitals": 285
+  },
+  "eligible_by_hospital": {
+    "A": {
+      "sum": 1200,
+      "size": 1587,
+      "mean": 0.7561
+    },
+    "B": {
+      "sum": 714,
+      "size": 919,
+      "mean": 0.7769
+    }
+  },
+  "eligible_by_split": {
+    "dev": {
+      "sum": 1538,
+      "size": 2005,
+      "mean": 0.7671
+    },
+    "test": {
+      "sum": 376,
+      "size": 501,
+      "mean": 0.7505
+    }
+  },
+  "window_hours_quantiles": {
+    "0.05": 2.0,
+    "0.25": 13.0,
+    "0.5": 24.0,
+    "0.75": 24.0
+  },
+  "vital_coverage_share_with_min_obs": {
+    "HR": {
+      "A": 0.9206,
+      "B": 0.9195
+    },
+    "Resp": {
+      "A": 0.9193,
+      "B": 0.877
+    },
+    "MAP": {
+      "A": 0.9193,
+      "B": 0.9129
+    },
+    "O2Sat": {
+      "A": 0.9156,
+      "B": 0.9195
+    },
+    "Temp": {
+      "A": 0.7656,
+      "B": 0.8172
+    }
+  },
+  "median_n_obs": {
+    "HR": 22.0,
+    "Resp": 20.0,
+    "MAP": 21.0,
+    "O2Sat": 21.0,
+    "Temp": 6.0
+  }
+}

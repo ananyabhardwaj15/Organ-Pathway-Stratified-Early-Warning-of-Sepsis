@@ -1,0 +1,2507 @@
+Patient_ID,hospital,split,fold,first_pos_hour,window_hours,pattern_id,pattern,pattern_desc,pattern_prob,assign_reason
+9,A,dev,2,248.0,24,0,P1,O2Sat_last low,0.9769363132490289,
+11,A,dev,1,24.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9756016741886314,
+15,A,dev,0,5.0,5,-1,unassigned,,,short_window
+18,A,dev,2,125.0,24,0,P1,O2Sat_last low,0.9895074227251196,
+22,A,dev,2,9.0,9,-1,unassigned,,,sparse_vitals
+28,A,dev,0,21.0,21,0,P1,O2Sat_last low,0.9999611714113168,
+34,A,dev,3,3.0,3,-1,unassigned,,,short_window
+42,A,dev,3,63.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5032317878430882,
+53,A,dev,1,15.0,15,0,P1,O2Sat_last low,0.6285600950307311,
+63,A,dev,0,4.0,4,-1,unassigned,,,short_window
+64,A,dev,1,19.0,19,1,P2,"O2Sat_last high, Resp_last low",0.9735988494362512,
+78,A,dev,1,94.0,24,0,P1,O2Sat_last low,0.999964616670076,
+141,A,dev,3,51.0,24,0,P1,O2Sat_last low,0.9999999998212505,
+161,A,dev,0,13.0,13,1,P2,"O2Sat_last high, Resp_last low",0.9564641657709677,
+171,A,dev,3,59.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9084777788174183,
+178,A,dev,3,87.0,24,0,P1,O2Sat_last low,0.9664041291857227,
+185,A,test,-1,55.0,24,0,P1,O2Sat_last low,0.9999999632648329,
+188,A,test,-1,75.0,24,0,P1,O2Sat_last low,0.9999999426316551,
+203,A,test,-1,71.0,24,-1,unassigned,,,sparse_vitals
+206,A,dev,3,13.0,13,0,P1,O2Sat_last low,0.9935519029970403,
+226,A,test,-1,9.0,9,-1,unassigned,,,sparse_vitals
+265,A,dev,0,52.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6554550530474801,
+272,A,test,-1,90.0,24,0,P1,O2Sat_last low,0.6094826520293344,
+283,A,dev,2,32.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9380175853491873,
+286,A,dev,1,84.0,24,0,P1,O2Sat_last low,0.9999795307486232,
+311,A,dev,2,88.0,24,0,P1,O2Sat_last low,0.6841719290166849,
+324,A,dev,0,54.0,24,0,P1,O2Sat_last low,0.9999959443163069,
+346,A,test,-1,55.0,24,-1,unassigned,,,sparse_vitals
+354,A,dev,4,2.0,2,-1,unassigned,,,short_window
+357,A,dev,1,137.0,24,-1,unassigned,,,sparse_vitals
+359,A,dev,1,34.0,24,1,P2,"O2Sat_last high, Resp_last low",0.962429841100164,
+371,A,test,-1,2.0,2,-1,unassigned,,,short_window
+373,A,dev,0,139.0,24,1,P2,"O2Sat_last high, Resp_last low",0.679891446138736,
+376,A,dev,2,28.0,24,0,P1,O2Sat_last low,0.8691829377808741,
+379,A,dev,3,49.0,24,0,P1,O2Sat_last low,0.9847275275919465,
+384,A,test,-1,1.0,1,-1,unassigned,,,short_window
+401,A,dev,3,204.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9141016101684104,
+466,A,dev,3,40.0,24,0,P1,O2Sat_last low,0.9995440568294968,
+468,A,dev,0,83.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5138324822146828,
+483,A,dev,2,19.0,19,0,P1,O2Sat_last low,0.9784095926928096,
+541,A,dev,0,241.0,24,0,P1,O2Sat_last low,0.8659954864039644,
+559,A,test,-1,41.0,24,0,P1,O2Sat_last low,0.99999999079545,
+574,A,dev,1,67.0,24,0,P1,O2Sat_last low,0.9976961149378066,
+584,A,test,-1,1.0,1,-1,unassigned,,,short_window
+587,A,dev,2,244.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5652817628941186,
+601,A,dev,2,83.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8987180263330348,
+614,A,dev,0,17.0,17,-1,unassigned,,,sparse_vitals
+635,A,dev,2,107.0,24,0,P1,O2Sat_last low,0.9986096327891465,
+639,A,dev,0,61.0,24,0,P1,O2Sat_last low,0.9791455597177355,
+650,A,test,-1,48.0,24,0,P1,O2Sat_last low,0.996788385748106,
+653,A,dev,1,28.0,24,0,P1,O2Sat_last low,0.9967491854037108,
+654,A,dev,0,7.0,7,-1,unassigned,,,sparse_vitals
+656,A,dev,2,31.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9484292200103807,
+674,A,dev,4,73.0,24,0,P1,O2Sat_last low,0.9800248755803391,
+679,A,dev,0,64.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6383507628761974,
+698,A,dev,2,21.0,21,1,P2,"O2Sat_last high, Resp_last low",0.910741852275573,
+702,A,dev,1,61.0,24,0,P1,O2Sat_last low,0.9899688988821641,
+705,A,dev,0,8.0,8,1,P2,"O2Sat_last high, Resp_last low",0.8390213612832388,
+714,A,test,-1,11.0,11,1,P2,"O2Sat_last high, Resp_last low",0.9678682096239525,
+730,A,dev,0,4.0,4,-1,unassigned,,,short_window
+754,A,dev,4,98.0,24,0,P1,O2Sat_last low,0.9999999999991793,
+762,A,dev,2,151.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7717074211986484,
+765,A,test,-1,53.0,24,0,P1,O2Sat_last low,0.9999993420636633,
+772,A,dev,0,69.0,24,0,P1,O2Sat_last low,0.9999999997254037,
+784,A,dev,2,23.0,23,0,P1,O2Sat_last low,0.9893902571709545,
+795,A,test,-1,128.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8638613497325499,
+811,A,test,-1,2.0,2,-1,unassigned,,,short_window
+818,A,dev,4,13.0,13,1,P2,"O2Sat_last high, Resp_last low",0.8800007307641565,
+847,A,dev,3,71.0,24,0,P1,O2Sat_last low,0.8983456367805774,
+851,A,dev,4,5.0,5,-1,unassigned,,,short_window
+872,A,test,-1,4.0,4,-1,unassigned,,,short_window
+890,A,dev,1,72.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9045224043284309,
+897,A,test,-1,212.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7746423816259722,
+938,A,dev,3,41.0,24,-1,unassigned,,,sparse_vitals
+939,A,test,-1,65.0,24,0,P1,O2Sat_last low,0.9999930896498773,
+962,A,dev,2,22.0,22,0,P1,O2Sat_last low,0.5992961958547837,
+967,A,dev,3,29.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8175527025775271,
+972,A,dev,3,8.0,8,-1,unassigned,,,sparse_vitals
+983,A,test,-1,33.0,24,0,P1,O2Sat_last low,0.5992679890311299,
+996,A,test,-1,5.0,5,-1,unassigned,,,short_window
+999,A,test,-1,4.0,4,-1,unassigned,,,short_window
+1040,A,test,-1,205.0,24,0,P1,O2Sat_last low,0.6338020403755237,
+1043,A,dev,3,72.0,24,0,P1,O2Sat_last low,0.9999999999980069,
+1069,A,dev,0,144.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9750493225347351,
+1072,A,dev,3,52.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5511709628094431,
+1084,A,dev,3,5.0,5,-1,unassigned,,,short_window
+1086,A,dev,1,34.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8726267502200936,
+1088,A,dev,4,23.0,23,0,P1,O2Sat_last low,0.9922018838806091,
+1092,A,dev,2,53.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9584861958952073,
+1123,A,dev,3,88.0,24,0,P1,O2Sat_last low,0.5235339279541481,
+1128,A,test,-1,7.0,7,1,P2,"O2Sat_last high, Resp_last low",0.9688505675493139,
+1133,A,dev,2,92.0,24,0,P1,O2Sat_last low,0.6689816188475237,
+1144,A,dev,3,35.0,24,0,P1,O2Sat_last low,0.9999863916947559,
+1183,A,dev,2,8.0,8,-1,unassigned,,,sparse_vitals
+1185,A,dev,3,142.0,24,0,P1,O2Sat_last low,0.9992417262935278,
+1192,A,dev,1,163.0,24,0,P1,O2Sat_last low,0.7417089579640392,
+1194,A,test,-1,2.0,2,-1,unassigned,,,short_window
+1201,A,test,-1,69.0,24,0,P1,O2Sat_last low,0.9999991592949139,
+1206,A,dev,4,211.0,24,0,P1,O2Sat_last low,0.9999999895742349,
+1226,A,dev,1,2.0,2,-1,unassigned,,,short_window
+1230,A,dev,0,15.0,15,0,P1,O2Sat_last low,0.9999999955998256,
+1245,A,dev,0,5.0,5,-1,unassigned,,,short_window
+1250,A,dev,4,67.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8976314003060485,
+1260,A,dev,2,8.0,8,-1,unassigned,,,sparse_vitals
+1273,A,dev,3,34.0,24,0,P1,O2Sat_last low,0.9997902431955263,
+1276,A,dev,1,45.0,24,-1,unassigned,,,sparse_vitals
+1277,A,test,-1,8.0,8,0,P1,O2Sat_last low,0.9999999965114945,
+1280,A,dev,4,80.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7458328605348669,
+1288,A,dev,4,11.0,11,0,P1,O2Sat_last low,0.7909793609306431,
+1291,A,dev,4,147.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7284772674743926,
+1298,A,dev,2,30.0,24,0,P1,O2Sat_last low,0.9999999999749427,
+1307,A,dev,0,13.0,13,-1,unassigned,,,sparse_vitals
+1319,A,dev,1,174.0,24,0,P1,O2Sat_last low,0.876295219427968,
+1336,A,dev,0,5.0,5,-1,unassigned,,,short_window
+1352,A,dev,0,3.0,3,-1,unassigned,,,short_window
+1366,A,dev,2,61.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9172443270582948,
+1368,A,test,-1,5.0,5,-1,unassigned,,,short_window
+1370,A,test,-1,35.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9865282769174591,
+1389,A,dev,4,164.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5586933308756203,
+1399,A,dev,4,157.0,24,-1,unassigned,,,sparse_vitals
+1429,A,dev,4,6.0,6,1,P2,"O2Sat_last high, Resp_last low",0.8647194889557374,
+1435,A,dev,0,2.0,2,-1,unassigned,,,short_window
+1439,A,test,-1,8.0,8,1,P2,"O2Sat_last high, Resp_last low",0.9598679742733844,
+1440,A,dev,4,1.0,1,-1,unassigned,,,short_window
+1441,A,dev,2,27.0,24,1,P2,"O2Sat_last high, Resp_last low",0.981754738625621,
+1446,A,dev,1,76.0,24,0,P1,O2Sat_last low,0.7757831286559831,
+1461,A,dev,4,13.0,13,1,P2,"O2Sat_last high, Resp_last low",0.9767705933139013,
+1485,A,dev,2,151.0,24,0,P1,O2Sat_last low,0.9434770829939332,
+1502,A,dev,3,19.0,19,0,P1,O2Sat_last low,0.9762570985206372,
+1519,A,dev,1,3.0,3,-1,unassigned,,,short_window
+1523,A,dev,2,48.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9587429277246031,
+1547,A,test,-1,118.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8406535817065542,
+1588,A,dev,0,21.0,21,0,P1,O2Sat_last low,0.8062741692159034,
+1605,A,dev,1,24.0,24,0,P1,O2Sat_last low,0.9828193995397961,
+1610,A,dev,2,215.0,24,0,P1,O2Sat_last low,0.992508861835299,
+1635,A,dev,1,63.0,24,0,P1,O2Sat_last low,0.6781981296737841,
+1646,A,dev,0,269.0,24,0,P1,O2Sat_last low,0.8972825226706351,
+1666,A,dev,3,117.0,24,0,P1,O2Sat_last low,0.9976377231351855,
+1668,A,dev,0,47.0,24,0,P1,O2Sat_last low,0.999999787336193,
+1669,A,dev,0,5.0,5,-1,unassigned,,,short_window
+1670,A,dev,1,1.0,1,-1,unassigned,,,short_window
+1698,A,dev,0,7.0,7,-1,unassigned,,,sparse_vitals
+1712,A,test,-1,21.0,21,1,P2,"O2Sat_last high, Resp_last low",0.9601020203621002,
+1717,A,dev,1,8.0,8,1,P2,"O2Sat_last high, Resp_last low",0.978511496359288,
+1727,A,dev,0,6.0,6,1,P2,"O2Sat_last high, Resp_last low",0.7412907698858351,
+1744,A,dev,0,113.0,24,-1,unassigned,,,sparse_vitals
+1765,A,dev,2,35.0,24,-1,unassigned,,,sparse_vitals
+1771,A,dev,0,16.0,16,1,P2,"O2Sat_last high, Resp_last low",0.7805054922144329,
+1786,A,test,-1,2.0,2,-1,unassigned,,,short_window
+1793,A,dev,3,75.0,24,0,P1,O2Sat_last low,0.9978814358386502,
+1810,A,dev,4,1.0,1,-1,unassigned,,,short_window
+1811,A,dev,1,33.0,24,1,P2,"O2Sat_last high, Resp_last low",0.698553301222248,
+1830,A,dev,3,24.0,24,0,P1,O2Sat_last low,0.8292584068076951,
+1834,A,dev,4,107.0,24,1,P2,"O2Sat_last high, Resp_last low",0.643659469522424,
+1836,A,dev,0,31.0,24,0,P1,O2Sat_last low,0.5864549311841064,
+1839,A,dev,1,15.0,15,1,P2,"O2Sat_last high, Resp_last low",0.9227530325333483,
+1849,A,dev,0,189.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6814903532805078,
+1861,A,dev,2,101.0,24,0,P1,O2Sat_last low,0.9999697131977312,
+1863,A,dev,3,23.0,23,0,P1,O2Sat_last low,0.9814346972834627,
+1873,A,test,-1,66.0,24,0,P1,O2Sat_last low,0.6408303049224712,
+1895,A,dev,3,256.0,24,0,P1,O2Sat_last low,0.9708231981169574,
+1917,A,dev,4,37.0,24,0,P1,O2Sat_last low,0.9982822964395438,
+1932,A,dev,2,83.0,24,0,P1,O2Sat_last low,0.9586996072402966,
+1948,A,dev,0,16.0,16,0,P1,O2Sat_last low,0.9999913608428947,
+1954,A,dev,4,15.0,15,1,P2,"O2Sat_last high, Resp_last low",0.9746483281586812,
+1955,A,dev,4,95.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7122637281178367,
+2004,A,dev,3,5.0,5,-1,unassigned,,,short_window
+2027,A,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+2029,A,dev,4,16.0,16,0,P1,O2Sat_last low,0.9999974942256269,
+2034,A,dev,0,5.0,5,-1,unassigned,,,short_window
+2067,A,dev,4,209.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7404430810330785,
+2080,A,test,-1,87.0,24,0,P1,O2Sat_last low,0.9348925143222172,
+2097,A,dev,2,17.0,17,-1,unassigned,,,sparse_vitals
+2099,A,test,-1,7.0,7,-1,unassigned,,,sparse_vitals
+2100,A,dev,4,216.0,24,0,P1,O2Sat_last low,0.9456158048516425,
+2114,A,test,-1,8.0,8,-1,unassigned,,,sparse_vitals
+2125,A,dev,0,81.0,24,0,P1,O2Sat_last low,0.5819466248018836,
+2130,A,dev,2,43.0,24,0,P1,O2Sat_last low,0.9999999999959801,
+2131,A,test,-1,24.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6048237737909097,
+2156,A,dev,4,16.0,16,0,P1,O2Sat_last low,0.9987669419212513,
+2161,A,dev,0,1.0,1,-1,unassigned,,,short_window
+2185,A,dev,1,13.0,13,0,P1,O2Sat_last low,0.6603160773585757,
+2188,A,dev,0,12.0,12,1,P2,"O2Sat_last high, Resp_last low",0.9014364507214122,
+2211,A,test,-1,219.0,24,0,P1,O2Sat_last low,0.6374996546238959,
+2213,A,dev,2,16.0,16,0,P1,O2Sat_last low,0.7565799676699935,
+2220,A,dev,1,29.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6497851937558063,
+2273,A,dev,1,19.0,19,0,P1,O2Sat_last low,0.9827529205119302,
+2292,A,dev,4,38.0,24,0,P1,O2Sat_last low,0.9938877287841775,
+2316,A,dev,0,225.0,24,0,P1,O2Sat_last low,0.9999998014516793,
+2321,A,dev,3,37.0,24,-1,unassigned,,,sparse_vitals
+2326,A,dev,3,26.0,24,0,P1,O2Sat_last low,0.5637811114133777,
+2332,A,test,-1,135.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9428200182702581,
+2360,A,dev,4,6.0,6,-1,unassigned,,,sparse_vitals
+2399,A,dev,2,79.0,24,0,P1,O2Sat_last low,0.8515200109434021,
+2404,A,dev,0,28.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9490576401141567,
+2425,A,dev,2,163.0,24,0,P1,O2Sat_last low,0.9708092601611421,
+2429,A,dev,1,30.0,24,0,P1,O2Sat_last low,0.9336150355037077,
+2446,A,dev,0,65.0,24,0,P1,O2Sat_last low,0.9984525002932352,
+2519,A,dev,2,46.0,24,0,P1,O2Sat_last low,0.6730049911250875,
+2521,A,dev,0,61.0,24,0,P1,O2Sat_last low,0.9998987106312209,
+2525,A,dev,2,6.0,6,1,P2,"O2Sat_last high, Resp_last low",0.5255966993421278,
+2535,A,dev,2,3.0,3,-1,unassigned,,,short_window
+2541,A,dev,3,11.0,11,0,P1,O2Sat_last low,0.7242403536941111,
+2544,A,dev,2,12.0,12,1,P2,"O2Sat_last high, Resp_last low",0.8767384993184805,
+2546,A,test,-1,44.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9781305315483345,
+2561,A,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+2564,A,dev,0,10.0,10,-1,unassigned,,,sparse_vitals
+2569,A,dev,0,25.0,24,0,P1,O2Sat_last low,0.9597676375289727,
+2589,A,dev,0,23.0,23,1,P2,"O2Sat_last high, Resp_last low",0.8170677997891388,
+2608,A,dev,4,16.0,16,0,P1,O2Sat_last low,0.9927039761825676,
+2610,A,dev,3,8.0,8,0,P1,O2Sat_last low,0.9553604363990154,
+2626,A,dev,2,69.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7007110907516709,
+2637,A,dev,1,52.0,24,0,P1,O2Sat_last low,0.8590448110961022,
+2648,A,test,-1,10.0,10,-1,unassigned,,,sparse_vitals
+2659,A,dev,0,210.0,24,0,P1,O2Sat_last low,0.9866084386702674,
+2670,A,dev,3,5.0,5,-1,unassigned,,,short_window
+2679,A,dev,0,70.0,24,1,P2,"O2Sat_last high, Resp_last low",0.865806540057015,
+2691,A,test,-1,7.0,7,-1,unassigned,,,sparse_vitals
+2700,A,dev,1,203.0,24,0,P1,O2Sat_last low,0.9999999999999929,
+2706,A,dev,2,36.0,24,0,P1,O2Sat_last low,0.9998012115382825,
+2714,A,dev,4,11.0,11,1,P2,"O2Sat_last high, Resp_last low",0.9800395941875063,
+2720,A,dev,1,71.0,24,0,P1,O2Sat_last low,0.9994603914481365,
+2761,A,dev,3,31.0,24,0,P1,O2Sat_last low,0.848965145324181,
+2774,A,dev,2,16.0,16,0,P1,O2Sat_last low,0.5499753082337353,
+2785,A,dev,2,7.0,7,0,P1,O2Sat_last low,0.9914451477540173,
+2808,A,test,-1,25.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9751267932626045,
+2852,A,dev,1,27.0,24,0,P1,O2Sat_last low,0.9922053121891311,
+2880,A,dev,1,21.0,21,0,P1,O2Sat_last low,0.5091933279582901,
+2881,A,dev,1,214.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8197748111475527,
+2884,A,dev,1,39.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7999272293566186,
+2905,A,dev,3,49.0,24,0,P1,O2Sat_last low,0.9999999954254157,
+2919,A,test,-1,15.0,15,-1,unassigned,,,sparse_vitals
+2921,A,dev,2,40.0,24,0,P1,O2Sat_last low,0.9999010991497932,
+2925,A,dev,1,4.0,4,-1,unassigned,,,short_window
+2927,A,dev,0,179.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7343980363441122,
+2935,A,test,-1,39.0,24,0,P1,O2Sat_last low,0.9939634109142075,
+2948,A,dev,0,7.0,7,-1,unassigned,,,sparse_vitals
+2949,A,dev,2,54.0,24,0,P1,O2Sat_last low,0.8244682636221751,
+2968,A,test,-1,1.0,1,-1,unassigned,,,short_window
+2969,A,dev,1,111.0,24,-1,unassigned,,,sparse_vitals
+2973,A,dev,2,11.0,11,1,P2,"O2Sat_last high, Resp_last low",0.9849402000132099,
+2974,A,dev,2,23.0,23,0,P1,O2Sat_last low,0.7796237468571368,
+2992,A,dev,1,98.0,24,0,P1,O2Sat_last low,0.7576739938181519,
+3010,A,dev,1,108.0,24,0,P1,O2Sat_last low,0.6928590531759163,
+3018,A,test,-1,74.0,24,0,P1,O2Sat_last low,0.8907232400528079,
+3023,A,dev,3,19.0,19,1,P2,"O2Sat_last high, Resp_last low",0.9765639984823107,
+3051,A,test,-1,54.0,24,0,P1,O2Sat_last low,0.9999991037076053,
+3061,A,dev,4,8.0,8,-1,unassigned,,,sparse_vitals
+3064,A,test,-1,43.0,24,0,P1,O2Sat_last low,0.9630168396828779,
+3071,A,test,-1,16.0,16,1,P2,"O2Sat_last high, Resp_last low",0.9509998366040991,
+3073,A,test,-1,119.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9917274976520895,
+3075,A,dev,2,34.0,24,0,P1,O2Sat_last low,0.9643719710059244,
+3079,A,test,-1,13.0,13,1,P2,"O2Sat_last high, Resp_last low",0.9433497561661828,
+3102,A,test,-1,47.0,24,0,P1,O2Sat_last low,0.8261203515418993,
+3104,A,dev,2,102.0,24,0,P1,O2Sat_last low,0.8066257506996525,
+3128,A,dev,2,132.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5723220970770835,
+3142,A,test,-1,82.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9731106766627453,
+3152,A,dev,2,55.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9242937071519101,
+3153,A,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+3182,A,test,-1,62.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9844752944997562,
+3199,A,dev,4,109.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8982412054005448,
+3204,A,test,-1,103.0,24,0,P1,O2Sat_last low,0.9999818131680912,
+3205,A,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+3227,A,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+3234,A,dev,4,46.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7915544500936298,
+3246,A,test,-1,24.0,24,0,P1,O2Sat_last low,0.5531150287293771,
+3247,A,dev,1,33.0,24,0,P1,O2Sat_last low,0.9985419826988585,
+3273,A,dev,3,108.0,24,0,P1,O2Sat_last low,0.9486428200974587,
+3308,A,dev,3,17.0,17,1,P2,"O2Sat_last high, Resp_last low",0.9571875704219907,
+3321,A,dev,0,4.0,4,-1,unassigned,,,short_window
+3323,A,dev,0,67.0,24,0,P1,O2Sat_last low,0.5460094645132545,
+3325,A,dev,4,50.0,24,0,P1,O2Sat_last low,0.9999999990757509,
+3332,A,dev,0,2.0,2,-1,unassigned,,,short_window
+3373,A,dev,4,166.0,24,0,P1,O2Sat_last low,0.9945309309128735,
+3375,A,dev,2,27.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9591402736289658,
+3377,A,dev,4,41.0,24,0,P1,O2Sat_last low,0.8243853878607357,
+3379,A,test,-1,13.0,13,0,P1,O2Sat_last low,0.949074588855576,
+3391,A,dev,4,88.0,24,0,P1,O2Sat_last low,0.9866483776868819,
+3407,A,dev,4,71.0,24,0,P1,O2Sat_last low,0.9898741714246806,
+3421,A,dev,3,214.0,24,0,P1,O2Sat_last low,0.9999304748365092,
+3427,A,dev,3,46.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9652417499210139,
+3438,A,dev,4,5.0,5,-1,unassigned,,,short_window
+3449,A,test,-1,29.0,24,0,P1,O2Sat_last low,0.9999949724806242,
+3455,A,dev,0,100.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9819442073143932,
+3457,A,dev,0,4.0,4,-1,unassigned,,,short_window
+3486,A,dev,4,3.0,3,-1,unassigned,,,short_window
+3488,A,test,-1,1.0,1,-1,unassigned,,,short_window
+3497,A,dev,3,10.0,10,-1,unassigned,,,sparse_vitals
+3523,A,test,-1,5.0,5,-1,unassigned,,,short_window
+3532,A,test,-1,26.0,24,0,P1,O2Sat_last low,0.9995761400573739,
+3539,A,test,-1,2.0,2,-1,unassigned,,,short_window
+3547,A,dev,4,17.0,17,0,P1,O2Sat_last low,0.9999999134566251,
+3567,A,test,-1,55.0,24,-1,unassigned,,,sparse_vitals
+3581,A,test,-1,45.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9276563595792818,
+3592,A,dev,0,10.0,10,-1,unassigned,,,sparse_vitals
+3614,A,dev,0,31.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5723068005493036,
+3634,A,dev,0,57.0,24,0,P1,O2Sat_last low,0.6708773727564961,
+3639,A,dev,2,63.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9268610166818885,
+3645,A,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+3647,A,dev,2,29.0,24,0,P1,O2Sat_last low,0.999969056873298,
+3648,A,dev,4,5.0,5,-1,unassigned,,,short_window
+3650,A,dev,3,266.0,24,0,P1,O2Sat_last low,0.78777975226303,
+3657,A,dev,2,59.0,24,0,P1,O2Sat_last low,0.9993338645012878,
+3661,A,dev,3,90.0,24,0,P1,O2Sat_last low,0.9999998839958689,
+3665,A,dev,3,44.0,24,0,P1,O2Sat_last low,0.8579330414066997,
+3668,A,dev,1,151.0,24,1,P2,"O2Sat_last high, Resp_last low",0.964022768540196,
+3685,A,dev,1,3.0,3,-1,unassigned,,,short_window
+3698,A,dev,4,4.0,4,-1,unassigned,,,short_window
+3708,A,test,-1,112.0,24,0,P1,O2Sat_last low,0.9999223017300406,
+3729,A,dev,1,86.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9878218608177755,
+3732,A,dev,1,34.0,24,0,P1,O2Sat_last low,0.9558124571425827,
+3752,A,dev,3,4.0,4,-1,unassigned,,,short_window
+3768,A,dev,0,23.0,23,0,P1,O2Sat_last low,0.9774506998459438,
+3778,A,dev,0,12.0,12,0,P1,O2Sat_last low,0.648858715126112,
+3791,A,dev,0,116.0,24,0,P1,O2Sat_last low,0.9032648820927404,
+3806,A,test,-1,22.0,22,1,P2,"O2Sat_last high, Resp_last low",0.9825635651136794,
+3809,A,dev,0,22.0,22,1,P2,"O2Sat_last high, Resp_last low",0.9479158932834464,
+3811,A,test,-1,19.0,19,1,P2,"O2Sat_last high, Resp_last low",0.9633476333367597,
+3831,A,dev,3,8.0,8,-1,unassigned,,,sparse_vitals
+3866,A,dev,2,25.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5839087187943804,
+3889,A,dev,1,38.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9484301655594695,
+3893,A,dev,3,5.0,5,-1,unassigned,,,short_window
+3920,A,dev,3,72.0,24,0,P1,O2Sat_last low,0.9999997994886046,
+3921,A,test,-1,38.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6971206040767893,
+3953,A,test,-1,26.0,24,0,P1,O2Sat_last low,0.9621787539184111,
+3959,A,dev,0,17.0,17,0,P1,O2Sat_last low,0.9999999938004169,
+4016,A,dev,3,36.0,24,0,P1,O2Sat_last low,0.9769509082013609,
+4019,A,dev,1,25.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9400119256427243,
+4020,A,dev,3,18.0,18,0,P1,O2Sat_last low,0.8485083542736617,
+4023,A,dev,1,19.0,19,0,P1,O2Sat_last low,0.9745842657485531,
+4024,A,dev,3,106.0,24,0,P1,O2Sat_last low,0.9996076719036774,
+4030,A,test,-1,119.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9422730993781568,
+4041,A,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+4069,A,dev,0,178.0,24,0,P1,O2Sat_last low,0.9908681959226575,
+4071,A,dev,4,22.0,22,1,P2,"O2Sat_last high, Resp_last low",0.9710327047070222,
+4123,A,dev,4,82.0,24,0,P1,O2Sat_last low,0.9928409356069465,
+4139,A,dev,1,139.0,24,0,P1,O2Sat_last low,0.9090189047056186,
+4162,A,dev,2,4.0,4,-1,unassigned,,,short_window
+4173,A,dev,1,52.0,24,0,P1,O2Sat_last low,0.9385485211588135,
+4174,A,dev,3,8.0,8,-1,unassigned,,,sparse_vitals
+4183,A,dev,1,56.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9757090046626103,
+4197,A,dev,1,238.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7602121748605768,
+4200,A,dev,1,30.0,24,0,P1,O2Sat_last low,0.9999959411288997,
+4209,A,dev,3,3.0,3,-1,unassigned,,,short_window
+4223,A,dev,3,15.0,15,0,P1,O2Sat_last low,0.9999999946614899,
+4243,A,dev,2,137.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6304824063883687,
+4252,A,dev,3,157.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6906572084566295,
+4259,A,dev,3,24.0,24,1,P2,"O2Sat_last high, Resp_last low",0.964132172645941,
+4292,A,dev,4,11.0,11,-1,unassigned,,,sparse_vitals
+4303,A,dev,0,50.0,24,0,P1,O2Sat_last low,0.9994338267768385,
+4329,A,dev,0,38.0,24,0,P1,O2Sat_last low,0.9994520370291046,
+4340,A,dev,3,5.0,5,-1,unassigned,,,short_window
+4368,A,test,-1,72.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6140577115023129,
+4376,A,dev,2,74.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5133499657226379,
+4440,A,dev,1,69.0,24,0,P1,O2Sat_last low,0.9999999999994422,
+4452,A,dev,2,3.0,3,-1,unassigned,,,short_window
+4487,A,dev,0,43.0,24,-1,unassigned,,,sparse_vitals
+4493,A,test,-1,1.0,1,-1,unassigned,,,short_window
+4518,A,dev,4,94.0,24,0,P1,O2Sat_last low,0.9972441723387756,
+4519,A,dev,1,4.0,4,-1,unassigned,,,short_window
+4532,A,dev,1,11.0,11,1,P2,"O2Sat_last high, Resp_last low",0.8744244246475797,
+4561,A,dev,4,248.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8549893513129582,
+4599,A,dev,4,65.0,24,1,P2,"O2Sat_last high, Resp_last low",0.798448287653314,
+4618,A,test,-1,188.0,24,0,P1,O2Sat_last low,0.9999981598669356,
+4629,A,dev,4,174.0,24,0,P1,O2Sat_last low,0.7084216602430718,
+4630,A,dev,1,23.0,23,0,P1,O2Sat_last low,0.9962231697211288,
+4634,A,dev,3,54.0,24,0,P1,O2Sat_last low,0.941805623437062,
+4642,A,dev,4,62.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6610848342653638,
+4683,A,dev,2,7.0,7,1,P2,"O2Sat_last high, Resp_last low",0.5597812235481197,
+4689,A,dev,4,228.0,24,1,P2,"O2Sat_last high, Resp_last low",0.968733149554298,
+4694,A,dev,3,75.0,24,0,P1,O2Sat_last low,0.8516865417280848,
+4698,A,dev,0,11.0,11,1,P2,"O2Sat_last high, Resp_last low",0.8622789298227617,
+4701,A,dev,0,122.0,24,0,P1,O2Sat_last low,0.99999999991811,
+4702,A,dev,2,243.0,24,0,P1,O2Sat_last low,0.6861861440352154,
+4712,A,dev,4,132.0,24,0,P1,O2Sat_last low,0.8840811969823998,
+4737,A,dev,1,37.0,24,0,P1,O2Sat_last low,0.9999998673107572,
+4740,A,dev,4,1.0,1,-1,unassigned,,,short_window
+4746,A,dev,3,17.0,17,0,P1,O2Sat_last low,0.9999999841292785,
+4749,A,dev,1,62.0,24,0,P1,O2Sat_last low,0.998433343445305,
+4758,A,dev,2,6.0,6,-1,unassigned,,,sparse_vitals
+4766,A,dev,4,86.0,24,0,P1,O2Sat_last low,0.5647288224093396,
+4785,A,dev,1,1.0,1,-1,unassigned,,,short_window
+4786,A,dev,1,8.0,8,-1,unassigned,,,sparse_vitals
+4813,A,dev,0,25.0,24,0,P1,O2Sat_last low,0.8381967679303061,
+4819,A,dev,0,5.0,5,-1,unassigned,,,short_window
+4821,A,dev,3,4.0,4,-1,unassigned,,,short_window
+4824,A,test,-1,99.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7799889095246764,
+4846,A,test,-1,7.0,7,0,P1,O2Sat_last low,0.9999765712661255,
+4847,A,dev,4,109.0,24,0,P1,O2Sat_last low,0.6777539220981154,
+4858,A,dev,1,21.0,21,0,P1,O2Sat_last low,0.9940972531808948,
+4865,A,dev,4,4.0,4,-1,unassigned,,,short_window
+4868,A,test,-1,7.0,7,-1,unassigned,,,sparse_vitals
+4880,A,test,-1,57.0,24,0,P1,O2Sat_last low,0.992786663232976,
+4894,A,dev,1,42.0,24,-1,unassigned,,,sparse_vitals
+4901,A,dev,4,53.0,24,0,P1,O2Sat_last low,0.9999911186511444,
+4924,A,dev,1,40.0,24,0,P1,O2Sat_last low,0.9438549489235232,
+4928,A,dev,0,58.0,24,0,P1,O2Sat_last low,0.8673103863064319,
+4939,A,dev,3,1.0,1,-1,unassigned,,,short_window
+4941,A,dev,1,14.0,14,0,P1,O2Sat_last low,0.8337129934023965,
+4964,A,dev,0,10.0,10,-1,unassigned,,,sparse_vitals
+4966,A,test,-1,23.0,23,-1,unassigned,,,sparse_vitals
+4980,A,test,-1,53.0,24,0,P1,O2Sat_last low,0.9929788056777896,
+4982,A,test,-1,19.0,19,0,P1,O2Sat_last low,0.724734584346364,
+4988,A,dev,4,63.0,24,-1,unassigned,,,sparse_vitals
+5007,A,dev,3,64.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5809900266834159,
+5026,A,dev,1,47.0,24,0,P1,O2Sat_last low,0.9652249731007227,
+5037,A,dev,0,68.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9853614394677161,
+5038,A,dev,0,23.0,23,0,P1,O2Sat_last low,0.9649273086771847,
+5053,A,dev,0,6.0,6,-1,unassigned,,,sparse_vitals
+5079,A,dev,3,62.0,24,0,P1,O2Sat_last low,0.9999945957220182,
+5091,A,dev,1,32.0,24,1,P2,"O2Sat_last high, Resp_last low",0.948374062179707,
+5092,A,dev,2,11.0,11,0,P1,O2Sat_last low,0.5706293869546614,
+5099,A,dev,3,55.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5570519528644899,
+5154,A,dev,0,2.0,2,-1,unassigned,,,short_window
+5179,A,test,-1,45.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9083949936818126,
+5186,A,dev,3,101.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7277663721675307,
+5188,A,dev,0,63.0,24,0,P1,O2Sat_last low,0.9648914824958131,
+5211,A,dev,3,20.0,20,-1,unassigned,,,sparse_vitals
+5233,A,dev,2,20.0,20,-1,unassigned,,,sparse_vitals
+5234,A,dev,1,27.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8456716577100267,
+5251,A,dev,1,86.0,24,1,P2,"O2Sat_last high, Resp_last low",0.837372127671887,
+5259,A,dev,2,28.0,24,0,P1,O2Sat_last low,0.9791962684026405,
+5277,A,test,-1,7.0,7,-1,unassigned,,,sparse_vitals
+5294,A,test,-1,13.0,13,0,P1,O2Sat_last low,0.6819862700215659,
+5316,A,dev,0,5.0,5,-1,unassigned,,,short_window
+5317,A,dev,0,2.0,2,-1,unassigned,,,short_window
+5322,A,dev,3,56.0,24,1,P2,"O2Sat_last high, Resp_last low",0.978713202631814,
+5325,A,dev,1,12.0,12,-1,unassigned,,,sparse_vitals
+5338,A,dev,2,63.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9891877387176052,
+5359,A,dev,3,321.0,24,1,P2,"O2Sat_last high, Resp_last low",0.973279812533928,
+5386,A,dev,3,139.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9610547113637158,
+5391,A,dev,1,47.0,24,0,P1,O2Sat_last low,0.9999852878651829,
+5394,A,dev,4,35.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9092037220646215,
+5406,A,dev,0,287.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6506830550982842,
+5416,A,dev,4,40.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9737934030559731,
+5418,A,dev,3,22.0,22,0,P1,O2Sat_last low,0.6631603788193516,
+5425,A,dev,4,11.0,11,0,P1,O2Sat_last low,0.8525012197038088,
+5427,A,dev,1,104.0,24,0,P1,O2Sat_last low,0.9716668860970502,
+5429,A,dev,3,24.0,24,0,P1,O2Sat_last low,0.9999971707607307,
+5457,A,dev,1,86.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5134374587114598,
+5462,A,dev,2,40.0,24,0,P1,O2Sat_last low,0.9949019685856658,
+5508,A,dev,2,25.0,24,0,P1,O2Sat_last low,0.9999963010873663,
+5511,A,test,-1,2.0,2,-1,unassigned,,,short_window
+5519,A,dev,1,18.0,18,0,P1,O2Sat_last low,0.999999999999833,
+5533,A,dev,4,18.0,18,-1,unassigned,,,sparse_vitals
+5539,A,dev,2,71.0,24,0,P1,O2Sat_last low,0.9999969825987818,
+5545,A,dev,4,34.0,24,1,P2,"O2Sat_last high, Resp_last low",0.634176050494082,
+5554,A,dev,4,45.0,24,0,P1,O2Sat_last low,0.9998750919129137,
+5566,A,dev,3,32.0,24,0,P1,O2Sat_last low,0.6140264214181118,
+5576,A,test,-1,30.0,24,-1,unassigned,,,sparse_vitals
+5600,A,test,-1,42.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9587580212319214,
+5605,A,dev,4,169.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7631320576859183,
+5610,A,test,-1,16.0,16,0,P1,O2Sat_last low,0.8451774980265893,
+5637,A,dev,3,147.0,24,0,P1,O2Sat_last low,0.9516777732246632,
+5642,A,dev,0,53.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5710628604154651,
+5644,A,dev,2,9.0,9,1,P2,"O2Sat_last high, Resp_last low",0.9706667313696064,
+5651,A,dev,2,34.0,24,0,P1,O2Sat_last low,0.721324735802482,
+5676,A,dev,2,42.0,24,0,P1,O2Sat_last low,0.8820772644102084,
+5677,A,dev,2,18.0,18,0,P1,O2Sat_last low,0.7985889192473982,
+5691,A,dev,3,17.0,17,0,P1,O2Sat_last low,0.8952412350417089,
+5693,A,dev,4,63.0,24,1,P2,"O2Sat_last high, Resp_last low",0.978607626697047,
+5702,A,test,-1,53.0,24,0,P1,O2Sat_last low,0.7769921089501991,
+5710,A,dev,4,8.0,8,0,P1,O2Sat_last low,0.9861773638912906,
+5714,A,dev,3,30.0,24,0,P1,O2Sat_last low,0.5098852014885394,
+5719,A,dev,2,68.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9237387366033905,
+5728,A,test,-1,23.0,23,0,P1,O2Sat_last low,0.9999999999999556,
+5748,A,dev,0,13.0,13,0,P1,O2Sat_last low,0.9999999937871689,
+5751,A,test,-1,6.0,6,-1,unassigned,,,sparse_vitals
+5755,A,dev,1,16.0,16,0,P1,O2Sat_last low,0.9195137554586309,
+5765,A,dev,4,61.0,24,-1,unassigned,,,sparse_vitals
+5772,A,dev,0,41.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9356543951307602,
+5810,A,dev,2,40.0,24,0,P1,O2Sat_last low,0.9999999990013819,
+5841,A,dev,2,11.0,11,-1,unassigned,,,sparse_vitals
+5885,A,dev,0,64.0,24,0,P1,O2Sat_last low,0.9334387072826386,
+5888,A,dev,3,4.0,4,-1,unassigned,,,short_window
+5906,A,test,-1,61.0,24,1,P2,"O2Sat_last high, Resp_last low",0.891338995049851,
+5932,A,dev,4,28.0,24,0,P1,O2Sat_last low,0.5692561208724563,
+5935,A,dev,2,59.0,24,0,P1,O2Sat_last low,0.9319885032479667,
+5937,A,dev,1,68.0,24,0,P1,O2Sat_last low,0.9925753544452235,
+5943,A,dev,1,71.0,24,0,P1,O2Sat_last low,0.9911208040733004,
+5950,A,dev,0,26.0,24,0,P1,O2Sat_last low,0.9999999997945022,
+5955,A,test,-1,105.0,24,0,P1,O2Sat_last low,0.855514369520168,
+5981,A,test,-1,11.0,11,0,P1,O2Sat_last low,0.5098159858689404,
+5998,A,dev,3,34.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7481758814087275,
+6022,A,dev,3,80.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9318735123895268,
+6041,A,dev,4,187.0,24,-1,unassigned,,,sparse_vitals
+6044,A,dev,4,6.0,6,1,P2,"O2Sat_last high, Resp_last low",0.9212395396369991,
+6051,A,dev,2,22.0,22,1,P2,"O2Sat_last high, Resp_last low",0.9225368294800663,
+6072,A,dev,1,3.0,3,-1,unassigned,,,short_window
+6094,A,dev,1,11.0,11,1,P2,"O2Sat_last high, Resp_last low",0.9710815081872607,
+6101,A,test,-1,28.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9002244564165913,
+6133,A,dev,0,207.0,24,0,P1,O2Sat_last low,0.99999999968602,
+6136,A,dev,2,19.0,19,0,P1,O2Sat_last low,0.9905703992407745,
+6140,A,dev,1,18.0,18,1,P2,"O2Sat_last high, Resp_last low",0.5139629646116236,
+6158,A,dev,0,172.0,24,0,P1,O2Sat_last low,0.9493625552133841,
+6162,A,dev,2,4.0,4,-1,unassigned,,,short_window
+6176,A,dev,3,40.0,24,1,P2,"O2Sat_last high, Resp_last low",0.940821587043461,
+6241,A,dev,0,18.0,18,0,P1,O2Sat_last low,0.5889710569648509,
+6247,A,dev,3,23.0,23,0,P1,O2Sat_last low,0.9999995385357731,
+6257,A,dev,1,1.0,1,-1,unassigned,,,short_window
+6260,A,test,-1,98.0,24,0,P1,O2Sat_last low,0.8866287567587412,
+6265,A,dev,1,2.0,2,-1,unassigned,,,short_window
+6266,A,test,-1,21.0,21,0,P1,O2Sat_last low,0.9999999997354259,
+6299,A,dev,4,92.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9176409509814472,
+6300,A,dev,4,118.0,24,0,P1,O2Sat_last low,0.9999623460618186,
+6308,A,test,-1,182.0,24,0,P1,O2Sat_last low,0.9999872725030615,
+6321,A,dev,2,12.0,12,-1,unassigned,,,sparse_vitals
+6326,A,dev,3,21.0,21,1,P2,"O2Sat_last high, Resp_last low",0.946708031544237,
+6351,A,dev,2,17.0,17,1,P2,"O2Sat_last high, Resp_last low",0.5238088054044528,
+6354,A,dev,0,143.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9656842672331978,
+6363,A,test,-1,44.0,24,0,P1,O2Sat_last low,0.7688716586093226,
+6374,A,dev,3,194.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9263057975514155,
+6414,A,dev,1,34.0,24,0,P1,O2Sat_last low,0.5643679141447887,
+6416,A,dev,1,18.0,18,0,P1,O2Sat_last low,0.7461372658901687,
+6461,A,dev,2,107.0,24,0,P1,O2Sat_last low,0.5953321213985782,
+6474,A,dev,2,15.0,15,1,P2,"O2Sat_last high, Resp_last low",0.8147799278851541,
+6481,A,dev,0,41.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9394260973736629,
+6496,A,test,-1,10.0,10,-1,unassigned,,,sparse_vitals
+6499,A,test,-1,143.0,24,0,P1,O2Sat_last low,0.7214682329560932,
+6504,A,dev,0,23.0,23,0,P1,O2Sat_last low,0.5883320146652297,
+6507,A,dev,1,318.0,24,0,P1,O2Sat_last low,0.9999999999562128,
+6537,A,test,-1,25.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9640196898443466,
+6573,A,dev,1,23.0,23,1,P2,"O2Sat_last high, Resp_last low",0.6568932201591927,
+6585,A,dev,3,5.0,5,-1,unassigned,,,short_window
+6617,A,dev,0,4.0,4,-1,unassigned,,,short_window
+6632,A,dev,0,2.0,2,-1,unassigned,,,short_window
+6639,A,dev,0,118.0,24,0,P1,O2Sat_last low,0.9909064216195581,
+6669,A,dev,0,74.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6930761530812378,
+6673,A,dev,4,94.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9663299457495802,
+6681,A,dev,4,38.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5412189903821415,
+6700,A,test,-1,18.0,18,1,P2,"O2Sat_last high, Resp_last low",0.9824812502524151,
+6706,A,dev,0,6.0,6,-1,unassigned,,,sparse_vitals
+6737,A,dev,4,8.0,8,1,P2,"O2Sat_last high, Resp_last low",0.9895860431653147,
+6743,A,dev,2,52.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8771457724528872,
+6765,A,dev,3,5.0,5,-1,unassigned,,,short_window
+6766,A,dev,4,24.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9582529619167022,
+6770,A,dev,2,49.0,24,1,P2,"O2Sat_last high, Resp_last low",0.908002551515711,
+6785,A,test,-1,70.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8706219680147819,
+6787,A,dev,0,32.0,24,0,P1,O2Sat_last low,0.9999125396618924,
+6833,A,dev,2,27.0,24,0,P1,O2Sat_last low,0.9999690806890212,
+6940,A,dev,4,42.0,24,0,P1,O2Sat_last low,0.9962906114071226,
+6967,A,dev,1,54.0,24,0,P1,O2Sat_last low,0.9998449154083239,
+6984,A,dev,3,15.0,15,1,P2,"O2Sat_last high, Resp_last low",0.9096429663329094,
+6995,A,dev,3,7.0,7,-1,unassigned,,,sparse_vitals
+7001,A,dev,4,20.0,20,0,P1,O2Sat_last low,0.6971071800496776,
+7017,A,dev,2,51.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9357615510992807,
+7018,A,dev,0,44.0,24,-1,unassigned,,,sparse_vitals
+7048,A,dev,1,3.0,3,-1,unassigned,,,short_window
+7070,A,dev,1,70.0,24,0,P1,O2Sat_last low,0.9191827398814635,
+7093,A,dev,2,92.0,24,0,P1,O2Sat_last low,0.9990161243936817,
+7128,A,dev,4,12.0,12,1,P2,"O2Sat_last high, Resp_last low",0.9482190205654035,
+7132,A,dev,3,113.0,24,0,P1,O2Sat_last low,0.908748906965981,
+7140,A,dev,2,108.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8774998563504978,
+7154,A,dev,0,61.0,24,0,P1,O2Sat_last low,0.9422733384838665,
+7168,A,dev,0,92.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7466487693846573,
+7174,A,test,-1,7.0,7,-1,unassigned,,,sparse_vitals
+7186,A,dev,1,3.0,3,-1,unassigned,,,short_window
+7187,A,dev,3,3.0,3,-1,unassigned,,,short_window
+7194,A,dev,1,80.0,24,0,P1,O2Sat_last low,0.999999999999563,
+7240,A,dev,2,7.0,7,0,P1,O2Sat_last low,0.9664750167138443,
+7245,A,dev,2,12.0,12,0,P1,O2Sat_last low,0.8190111932738907,
+7252,A,dev,2,1.0,1,-1,unassigned,,,short_window
+7280,A,test,-1,3.0,3,-1,unassigned,,,short_window
+7283,A,test,-1,43.0,24,0,P1,O2Sat_last low,0.8546067047060213,
+7328,A,dev,3,141.0,24,0,P1,O2Sat_last low,0.5661159370732743,
+7348,A,dev,3,36.0,24,0,P1,O2Sat_last low,0.9048508715346943,
+7352,A,dev,3,42.0,24,0,P1,O2Sat_last low,0.990595838706502,
+7382,A,dev,3,43.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9614400212095515,
+7399,A,dev,1,47.0,24,0,P1,O2Sat_last low,0.6546518512834927,
+7411,A,dev,1,187.0,24,0,P1,O2Sat_last low,0.8723927413049339,
+7416,A,dev,3,38.0,24,0,P1,O2Sat_last low,0.9999999959498602,
+7417,A,dev,0,145.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9104291272847558,
+7423,A,dev,0,206.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9738287901326117,
+7456,A,dev,4,112.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7377991737626676,
+7459,A,dev,4,103.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9418461661645543,
+7472,A,test,-1,91.0,24,0,P1,O2Sat_last low,0.9989772569854867,
+7481,A,dev,1,144.0,24,0,P1,O2Sat_last low,0.996233828446492,
+7492,A,dev,3,112.0,24,0,P1,O2Sat_last low,0.99972917007669,
+7500,A,dev,1,37.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9017691591482083,
+7510,A,dev,2,96.0,24,0,P1,O2Sat_last low,0.8176749873886882,
+7526,A,dev,4,145.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6261505129593534,
+7552,A,dev,0,209.0,24,1,P2,"O2Sat_last high, Resp_last low",0.617628498485077,
+7564,A,dev,4,34.0,24,1,P2,"O2Sat_last high, Resp_last low",0.955815834832908,
+7577,A,dev,1,67.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9242558675876876,
+7599,A,dev,3,13.0,13,1,P2,"O2Sat_last high, Resp_last low",0.9293681337107794,
+7603,A,dev,4,56.0,24,0,P1,O2Sat_last low,0.9999638401900277,
+7639,A,test,-1,36.0,24,0,P1,O2Sat_last low,0.9999804854909381,
+7646,A,dev,4,79.0,24,-1,unassigned,,,sparse_vitals
+7649,A,test,-1,76.0,24,0,P1,O2Sat_last low,0.716425680516422,
+7676,A,test,-1,58.0,24,0,P1,O2Sat_last low,0.9559190291159902,
+7694,A,dev,0,3.0,3,-1,unassigned,,,short_window
+7768,A,dev,0,8.0,8,1,P2,"O2Sat_last high, Resp_last low",0.9456638180443716,
+7770,A,dev,2,11.0,11,0,P1,O2Sat_last low,0.999488504819984,
+7775,A,dev,1,17.0,17,1,P2,"O2Sat_last high, Resp_last low",0.5955739270686747,
+7826,A,dev,2,19.0,19,0,P1,O2Sat_last low,0.940811563382894,
+7836,A,dev,0,78.0,24,0,P1,O2Sat_last low,0.9915109365211225,
+7837,A,dev,2,111.0,24,0,P1,O2Sat_last low,0.964646149568714,
+7857,A,dev,2,84.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9528631899861028,
+7884,A,dev,1,9.0,9,-1,unassigned,,,sparse_vitals
+7902,A,dev,4,4.0,4,-1,unassigned,,,short_window
+7927,A,dev,1,101.0,24,0,P1,O2Sat_last low,0.7900733548934957,
+7963,A,dev,0,5.0,5,-1,unassigned,,,short_window
+7966,A,dev,1,39.0,24,0,P1,O2Sat_last low,0.9999999536521582,
+7972,A,dev,0,6.0,6,-1,unassigned,,,sparse_vitals
+7975,A,dev,2,66.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6902794618166669,
+7976,A,dev,3,76.0,24,0,P1,O2Sat_last low,0.9773989489992775,
+7980,A,dev,4,15.0,15,1,P2,"O2Sat_last high, Resp_last low",0.8661112206385234,
+8017,A,dev,4,15.0,15,1,P2,"O2Sat_last high, Resp_last low",0.9817014322586977,
+8035,A,dev,0,195.0,24,0,P1,O2Sat_last low,0.8620349360919801,
+8040,A,dev,1,2.0,2,-1,unassigned,,,short_window
+8050,A,dev,2,2.0,2,-1,unassigned,,,short_window
+8057,A,dev,1,109.0,24,0,P1,O2Sat_last low,0.978654960523357,
+8076,A,dev,1,25.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9496926982998446,
+8150,A,test,-1,77.0,24,0,P1,O2Sat_last low,0.9999938277510415,
+8154,A,dev,4,37.0,24,-1,unassigned,,,sparse_vitals
+8173,A,dev,4,31.0,24,0,P1,O2Sat_last low,0.9533182012471263,
+8187,A,dev,2,101.0,24,0,P1,O2Sat_last low,0.7076839878407645,
+8194,A,dev,2,65.0,24,1,P2,"O2Sat_last high, Resp_last low",0.963469796238318,
+8220,A,dev,1,6.0,6,0,P1,O2Sat_last low,0.9191617455302634,
+8231,A,dev,0,20.0,20,1,P2,"O2Sat_last high, Resp_last low",0.9502498087245236,
+8250,A,dev,3,15.0,15,0,P1,O2Sat_last low,0.8993045573215058,
+8259,A,test,-1,34.0,24,0,P1,O2Sat_last low,0.9996576312819199,
+8275,A,test,-1,44.0,24,0,P1,O2Sat_last low,0.9140992926339753,
+8293,A,dev,1,9.0,9,1,P2,"O2Sat_last high, Resp_last low",0.9779563629922269,
+8297,A,dev,4,30.0,24,-1,unassigned,,,sparse_vitals
+8316,A,dev,3,7.0,7,-1,unassigned,,,sparse_vitals
+8318,A,dev,2,31.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6827033729526215,
+8330,A,dev,1,8.0,8,1,P2,"O2Sat_last high, Resp_last low",0.8399343912944047,
+8332,A,dev,4,9.0,9,-1,unassigned,,,sparse_vitals
+8335,A,dev,4,62.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7624118088012353,
+8343,A,dev,4,160.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9797875060380666,
+8362,A,dev,4,19.0,19,0,P1,O2Sat_last low,0.9999919121626104,
+8372,A,dev,3,12.0,12,0,P1,O2Sat_last low,0.9999979831394742,
+8382,A,dev,0,91.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5944470755853015,
+8388,A,test,-1,94.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9484625356796207,
+8391,A,dev,0,1.0,1,-1,unassigned,,,short_window
+8399,A,dev,3,49.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9090827517964291,
+8402,A,dev,2,11.0,11,1,P2,"O2Sat_last high, Resp_last low",0.9853859247375295,
+8403,A,dev,2,10.0,10,-1,unassigned,,,sparse_vitals
+8448,A,dev,4,167.0,24,0,P1,O2Sat_last low,0.9991564559137278,
+8453,A,test,-1,5.0,5,-1,unassigned,,,short_window
+8460,A,dev,4,15.0,15,0,P1,O2Sat_last low,0.9997126132860722,
+8470,A,dev,2,4.0,4,-1,unassigned,,,short_window
+8490,A,dev,2,277.0,24,0,P1,O2Sat_last low,0.9999998105153856,
+8506,A,dev,4,263.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8622819317365978,
+8522,A,dev,1,63.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9339820841753728,
+8533,A,test,-1,70.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8050581416464073,
+8586,A,test,-1,68.0,24,0,P1,O2Sat_last low,0.7177227751745129,
+8594,A,dev,4,67.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6017511375283794,
+8603,A,dev,3,50.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9291384820051809,
+8608,A,dev,3,119.0,24,0,P1,O2Sat_last low,0.9172807287887805,
+8630,A,test,-1,10.0,10,0,P1,O2Sat_last low,0.9998845462334455,
+8634,A,test,-1,41.0,24,0,P1,O2Sat_last low,0.6632972939914048,
+8638,A,dev,0,180.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8451157714895556,
+8640,A,dev,3,136.0,24,0,P1,O2Sat_last low,0.8763987721828175,
+8654,A,test,-1,42.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9534880516902939,
+8658,A,dev,0,17.0,17,0,P1,O2Sat_last low,0.9999999999951026,
+8679,A,dev,0,77.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6049575590042008,
+8684,A,dev,1,92.0,24,0,P1,O2Sat_last low,0.7672889972811788,
+8697,A,test,-1,98.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9201927293407395,
+8713,A,dev,0,145.0,24,0,P1,O2Sat_last low,0.7703180553317911,
+8727,A,dev,2,11.0,11,0,P1,O2Sat_last low,0.5708497246610479,
+8736,A,dev,4,109.0,24,0,P1,O2Sat_last low,0.5218448780808964,
+8756,A,dev,0,31.0,24,0,P1,O2Sat_last low,0.5989391414514194,
+8772,A,dev,2,29.0,24,0,P1,O2Sat_last low,0.9999999809756501,
+8780,A,dev,0,66.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9795417001489816,
+8801,A,dev,3,26.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7206386456188766,
+8802,A,dev,4,123.0,24,0,P1,O2Sat_last low,0.783655838473824,
+8803,A,dev,1,149.0,24,0,P1,O2Sat_last low,0.9999999900804291,
+8811,A,dev,2,69.0,24,-1,unassigned,,,sparse_vitals
+8814,A,dev,4,35.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8025891158984153,
+8852,A,test,-1,5.0,5,-1,unassigned,,,short_window
+8853,A,dev,0,14.0,14,1,P2,"O2Sat_last high, Resp_last low",0.768643241412907,
+8861,A,test,-1,15.0,15,0,P1,O2Sat_last low,0.7259968978553163,
+8867,A,dev,4,296.0,24,0,P1,O2Sat_last low,0.9999999987792183,
+8873,A,dev,1,13.0,13,1,P2,"O2Sat_last high, Resp_last low",0.7618452867881431,
+8890,A,dev,3,20.0,20,0,P1,O2Sat_last low,0.9950077469161396,
+8907,A,dev,1,69.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9316039388717413,
+8912,A,dev,2,92.0,24,-1,unassigned,,,sparse_vitals
+8927,A,dev,0,53.0,24,0,P1,O2Sat_last low,0.9953671863526927,
+8978,A,test,-1,72.0,24,0,P1,O2Sat_last low,0.9541750150943283,
+9000,A,dev,4,12.0,12,1,P2,"O2Sat_last high, Resp_last low",0.7533416539595088,
+9002,A,dev,4,6.0,6,-1,unassigned,,,sparse_vitals
+9008,A,test,-1,46.0,24,0,P1,O2Sat_last low,0.9962477947331054,
+9030,A,test,-1,15.0,15,1,P2,"O2Sat_last high, Resp_last low",0.8980501954397092,
+9036,A,dev,0,38.0,24,0,P1,O2Sat_last low,0.9987255171263856,
+9038,A,test,-1,78.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7524105874376159,
+9042,A,dev,2,8.0,8,-1,unassigned,,,sparse_vitals
+9051,A,dev,1,11.0,11,-1,unassigned,,,sparse_vitals
+9053,A,dev,0,66.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9806697557918744,
+9057,A,dev,1,70.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7708498314024601,
+9064,A,test,-1,120.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9792488873753846,
+9092,A,dev,1,8.0,8,-1,unassigned,,,sparse_vitals
+9099,A,dev,1,108.0,24,0,P1,O2Sat_last low,0.99747912332481,
+9115,A,dev,3,4.0,4,-1,unassigned,,,short_window
+9129,A,dev,0,11.0,11,0,P1,O2Sat_last low,0.9999997156718705,
+9139,A,dev,4,202.0,24,0,P1,O2Sat_last low,0.6676681706623314,
+9142,A,dev,3,51.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6714396240868683,
+9145,A,dev,4,4.0,4,-1,unassigned,,,short_window
+9146,A,test,-1,94.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6314211913661415,
+9167,A,dev,3,17.0,17,0,P1,O2Sat_last low,0.9990209330671239,
+9178,A,test,-1,26.0,24,0,P1,O2Sat_last low,0.5436286865394021,
+9197,A,test,-1,187.0,24,0,P1,O2Sat_last low,0.9531962528229735,
+9207,A,dev,0,49.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9367865307916429,
+9214,A,dev,4,38.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9898346072019529,
+9245,A,test,-1,33.0,24,-1,unassigned,,,sparse_vitals
+9252,A,dev,3,80.0,24,0,P1,O2Sat_last low,0.9999988339234149,
+9259,A,dev,4,184.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8883409993456532,
+9260,A,dev,2,59.0,24,0,P1,O2Sat_last low,0.9683896496726689,
+9277,A,dev,4,56.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9828254732434715,
+9278,A,dev,4,12.0,12,-1,unassigned,,,sparse_vitals
+9313,A,dev,3,84.0,24,0,P1,O2Sat_last low,0.9993873588924693,
+9315,A,dev,0,9.0,9,0,P1,O2Sat_last low,0.9999999979259595,
+9322,A,dev,3,64.0,24,0,P1,O2Sat_last low,0.9990583376267183,
+9332,A,dev,1,58.0,24,0,P1,O2Sat_last low,1.0,
+9334,A,dev,3,8.0,8,-1,unassigned,,,sparse_vitals
+9360,A,dev,1,21.0,21,0,P1,O2Sat_last low,0.9999781679628043,
+9361,A,dev,4,13.0,13,-1,unassigned,,,sparse_vitals
+9372,A,dev,2,11.0,11,-1,unassigned,,,sparse_vitals
+9393,A,test,-1,86.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9099099060064538,
+9396,A,dev,1,5.0,5,-1,unassigned,,,short_window
+9420,A,test,-1,21.0,21,0,P1,O2Sat_last low,0.9999933488572397,
+9433,A,dev,2,51.0,24,0,P1,O2Sat_last low,0.9876192044807339,
+9463,A,dev,2,71.0,24,0,P1,O2Sat_last low,0.9831916044290732,
+9464,A,dev,4,114.0,24,0,P1,O2Sat_last low,0.9959323652382361,
+9484,A,dev,2,86.0,24,0,P1,O2Sat_last low,0.9999999725046752,
+9499,A,dev,2,92.0,24,0,P1,O2Sat_last low,0.9983972926909478,
+9501,A,dev,1,24.0,24,0,P1,O2Sat_last low,0.975124690996631,
+9513,A,dev,1,4.0,4,-1,unassigned,,,short_window
+9533,A,test,-1,204.0,24,0,P1,O2Sat_last low,0.7666086323191723,
+9541,A,test,-1,88.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7356762364895972,
+9561,A,dev,1,63.0,24,0,P1,O2Sat_last low,0.6093858127959892,
+9569,A,dev,2,179.0,24,0,P1,O2Sat_last low,0.6978614648160401,
+9573,A,dev,2,59.0,24,0,P1,O2Sat_last low,0.8457024751928486,
+9582,A,dev,1,27.0,24,0,P1,O2Sat_last low,0.5765279902468649,
+9591,A,dev,3,49.0,24,0,P1,O2Sat_last low,0.9384854129260642,
+9622,A,test,-1,65.0,24,0,P1,O2Sat_last low,0.9998824214996794,
+9647,A,dev,2,7.0,7,-1,unassigned,,,sparse_vitals
+9651,A,dev,3,104.0,24,0,P1,O2Sat_last low,0.9994102513972545,
+9658,A,test,-1,40.0,24,0,P1,O2Sat_last low,0.9698851883823817,
+9661,A,test,-1,49.0,24,0,P1,O2Sat_last low,0.7075183008741863,
+9671,A,dev,4,5.0,5,-1,unassigned,,,short_window
+9673,A,dev,3,40.0,24,0,P1,O2Sat_last low,0.7977601275989092,
+9675,A,test,-1,19.0,19,1,P2,"O2Sat_last high, Resp_last low",0.9031324880645785,
+9697,A,dev,0,104.0,24,0,P1,O2Sat_last low,0.9999786431896786,
+9728,A,dev,4,9.0,9,-1,unassigned,,,sparse_vitals
+9740,A,dev,1,41.0,24,0,P1,O2Sat_last low,0.7284060644641766,
+9761,A,dev,3,56.0,24,1,P2,"O2Sat_last high, Resp_last low",0.976978305156521,
+9776,A,dev,4,5.0,5,-1,unassigned,,,short_window
+9826,A,test,-1,131.0,24,0,P1,O2Sat_last low,0.7935615103719963,
+9829,A,dev,0,8.0,8,0,P1,O2Sat_last low,0.5024568671227287,
+9831,A,test,-1,1.0,1,-1,unassigned,,,short_window
+9833,A,dev,0,69.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8686145672932426,
+9835,A,dev,0,2.0,2,-1,unassigned,,,short_window
+9862,A,test,-1,51.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9613122342831385,
+9890,A,dev,1,83.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9722647829883033,
+9894,A,dev,1,80.0,24,0,P1,O2Sat_last low,0.9867610449668908,
+9903,A,dev,3,6.0,6,-1,unassigned,,,sparse_vitals
+9909,A,dev,4,68.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5891633218236715,
+9912,A,test,-1,6.0,6,-1,unassigned,,,sparse_vitals
+9913,A,dev,0,10.0,10,-1,unassigned,,,sparse_vitals
+9914,A,dev,3,55.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9440559155097191,
+9916,A,dev,1,20.0,20,0,P1,O2Sat_last low,0.9999999999999858,
+9921,A,test,-1,3.0,3,-1,unassigned,,,short_window
+9927,A,dev,1,69.0,24,0,P1,O2Sat_last low,0.9999999999915321,
+9944,A,dev,0,6.0,6,0,P1,O2Sat_last low,0.7075015713926817,
+9947,A,dev,2,29.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5109758133363073,
+9954,A,dev,2,30.0,24,0,P1,O2Sat_last low,0.9989128419019077,
+9955,A,dev,2,8.0,8,-1,unassigned,,,sparse_vitals
+9962,A,dev,3,28.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9886999419503025,
+9970,A,dev,2,29.0,24,0,P1,O2Sat_last low,0.999999999998149,
+9973,A,test,-1,105.0,24,0,P1,O2Sat_last low,0.996171115664081,
+10043,A,dev,3,45.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9567934638907377,
+10049,A,dev,1,66.0,24,0,P1,O2Sat_last low,0.7005573049370595,
+10070,A,dev,2,50.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9636228407014227,
+10094,A,dev,1,128.0,24,0,P1,O2Sat_last low,0.9999999999999929,
+10095,A,dev,2,15.0,15,1,P2,"O2Sat_last high, Resp_last low",0.9677793945252974,
+10114,A,dev,2,16.0,16,0,P1,O2Sat_last low,0.8891356839411533,
+10115,A,dev,0,52.0,24,0,P1,O2Sat_last low,0.9542436737040036,
+10126,A,dev,1,58.0,24,0,P1,O2Sat_last low,0.5621322694212089,
+10137,A,dev,2,148.0,24,0,P1,O2Sat_last low,0.9453383445028305,
+10142,A,dev,0,2.0,2,-1,unassigned,,,short_window
+10156,A,dev,4,32.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7459153147800883,
+10161,A,dev,0,12.0,12,1,P2,"O2Sat_last high, Resp_last low",0.8710886680420614,
+10211,A,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+10220,A,dev,1,5.0,5,-1,unassigned,,,short_window
+10253,A,dev,4,32.0,24,0,P1,O2Sat_last low,0.938736039526605,
+10262,A,dev,0,25.0,24,0,P1,O2Sat_last low,0.9887438958510105,
+10264,A,dev,0,53.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9306861474498608,
+10280,A,dev,4,118.0,24,0,P1,O2Sat_last low,0.9999999571313003,
+10289,A,dev,3,134.0,24,0,P1,O2Sat_last low,0.9791657493430621,
+10308,A,test,-1,100.0,24,-1,unassigned,,,sparse_vitals
+10339,A,dev,0,187.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9534894245654093,
+10349,A,dev,1,8.0,8,-1,unassigned,,,sparse_vitals
+10355,A,test,-1,66.0,24,0,P1,O2Sat_last low,0.9999890116360225,
+10387,A,dev,0,10.0,10,1,P2,"O2Sat_last high, Resp_last low",0.6253672444060886,
+10389,A,dev,3,122.0,24,0,P1,O2Sat_last low,0.6691424216985968,
+10416,A,test,-1,30.0,24,0,P1,O2Sat_last low,0.999999992259264,
+10418,A,dev,0,122.0,24,0,P1,O2Sat_last low,0.8852913651572486,
+10427,A,dev,3,58.0,24,0,P1,O2Sat_last low,0.9999999997490381,
+10441,A,dev,2,13.0,13,0,P1,O2Sat_last low,0.9998335344731428,
+10482,A,dev,2,25.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6421115717961514,
+10490,A,dev,3,120.0,24,0,P1,O2Sat_last low,0.9765817195109541,
+10491,A,dev,4,86.0,24,0,P1,O2Sat_last low,0.9999987113954834,
+10497,A,dev,1,45.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8802366616915915,
+10540,A,test,-1,91.0,24,0,P1,O2Sat_last low,0.7669214969461977,
+10549,A,dev,0,96.0,24,0,P1,O2Sat_last low,0.999998571757429,
+10580,A,dev,4,6.0,6,-1,unassigned,,,sparse_vitals
+10606,A,dev,0,51.0,24,1,P2,"O2Sat_last high, Resp_last low",0.972978133671449,
+10627,A,dev,2,7.0,7,-1,unassigned,,,sparse_vitals
+10628,A,dev,4,40.0,24,0,P1,O2Sat_last low,0.9999998054082949,
+10631,A,dev,0,15.0,15,1,P2,"O2Sat_last high, Resp_last low",0.9833939088334723,
+10634,A,dev,0,18.0,18,0,P1,O2Sat_last low,0.9999971701255925,
+10645,A,test,-1,231.0,24,0,P1,O2Sat_last low,0.9996598426354308,
+10656,A,dev,4,144.0,24,0,P1,O2Sat_last low,0.9995693965075912,
+10664,A,dev,4,10.0,10,1,P2,"O2Sat_last high, Resp_last low",0.5162741163909176,
+10682,A,dev,1,76.0,24,0,P1,O2Sat_last low,0.9977795589524859,
+10700,A,dev,4,28.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7825323817676333,
+10705,A,dev,0,121.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6474646435302684,
+10710,A,dev,4,3.0,3,-1,unassigned,,,short_window
+10740,A,dev,4,1.0,1,-1,unassigned,,,short_window
+10741,A,dev,3,20.0,20,0,P1,O2Sat_last low,0.9999700706789914,
+10755,A,dev,0,11.0,11,1,P2,"O2Sat_last high, Resp_last low",0.9741217494297966,
+10756,A,dev,2,107.0,24,0,P1,O2Sat_last low,0.999999887592046,
+10771,A,dev,2,80.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8940992102449787,
+10782,A,test,-1,3.0,3,-1,unassigned,,,short_window
+10804,A,test,-1,17.0,17,0,P1,O2Sat_last low,0.6960373119802712,
+10821,A,dev,1,85.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9705042619893725,
+10829,A,dev,3,81.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9669745601246889,
+10855,A,dev,4,39.0,24,0,P1,O2Sat_last low,0.9999968050156559,
+10876,A,dev,3,20.0,20,1,P2,"O2Sat_last high, Resp_last low",0.9728680623176424,
+10879,A,dev,4,5.0,5,-1,unassigned,,,short_window
+10888,A,test,-1,55.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9463825284229279,
+10924,A,dev,4,19.0,19,0,P1,O2Sat_last low,0.9792921222045872,
+10936,A,test,-1,23.0,23,-1,unassigned,,,sparse_vitals
+10948,A,test,-1,39.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9128637608509568,
+10957,A,test,-1,8.0,8,0,P1,O2Sat_last low,0.9999738062712896,
+10966,A,dev,2,58.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9633482700267546,
+10974,A,test,-1,12.0,12,1,P2,"O2Sat_last high, Resp_last low",0.9744447644344092,
+10976,A,dev,0,95.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6625092467192847,
+10983,A,dev,1,61.0,24,0,P1,O2Sat_last low,0.9996726610816025,
+10984,A,test,-1,5.0,5,-1,unassigned,,,short_window
+10992,A,test,-1,69.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9232489774305225,
+10997,A,test,-1,9.0,9,-1,unassigned,,,sparse_vitals
+10998,A,test,-1,7.0,7,-1,unassigned,,,sparse_vitals
+11010,A,dev,1,119.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9492178814729441,
+11056,A,dev,2,96.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7935315298729126,
+11090,A,dev,4,78.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8792039552429912,
+11093,A,dev,3,50.0,24,-1,unassigned,,,sparse_vitals
+11094,A,dev,4,49.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9827020107418803,
+11105,A,dev,1,169.0,24,0,P1,O2Sat_last low,0.9999723057345031,
+11132,A,dev,4,77.0,24,0,P1,O2Sat_last low,0.9213957219111554,
+11156,A,test,-1,11.0,11,-1,unassigned,,,sparse_vitals
+11173,A,test,-1,99.0,24,0,P1,O2Sat_last low,0.9804696845943746,
+11187,A,test,-1,9.0,9,-1,unassigned,,,sparse_vitals
+11200,A,dev,4,55.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9679771092677179,
+11215,A,dev,1,117.0,24,0,P1,O2Sat_last low,0.9999999996583817,
+11251,A,dev,1,35.0,24,0,P1,O2Sat_last low,0.9999185734575504,
+11272,A,dev,0,138.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8621699704599266,
+11273,A,dev,0,159.0,24,0,P1,O2Sat_last low,0.9259571556004589,
+11290,A,test,-1,5.0,5,-1,unassigned,,,short_window
+11292,A,dev,2,83.0,24,0,P1,O2Sat_last low,0.999326957172181,
+11294,A,dev,4,22.0,22,0,P1,O2Sat_last low,0.6001548910367831,
+11297,A,dev,0,18.0,18,1,P2,"O2Sat_last high, Resp_last low",0.865666590828205,
+11317,A,dev,4,1.0,1,-1,unassigned,,,short_window
+11319,A,dev,4,5.0,5,-1,unassigned,,,short_window
+11339,A,dev,4,167.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8825264706224697,
+11348,A,dev,0,78.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9490892902591695,
+11366,A,dev,0,64.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5948219457436473,
+11374,A,dev,0,76.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6590149107617456,
+11382,A,test,-1,136.0,24,0,P1,O2Sat_last low,0.9994090711753382,
+11385,A,dev,4,28.0,24,0,P1,O2Sat_last low,0.9984177655280012,
+11432,A,dev,2,65.0,24,0,P1,O2Sat_last low,0.774562618899421,
+11444,A,test,-1,8.0,8,0,P1,O2Sat_last low,0.9728106691035397,
+11470,A,dev,0,7.0,7,-1,unassigned,,,sparse_vitals
+11480,A,dev,1,126.0,24,0,P1,O2Sat_last low,0.5833625159883581,
+11498,A,dev,0,115.0,24,0,P1,O2Sat_last low,0.8598336579758504,
+11500,A,test,-1,2.0,2,-1,unassigned,,,short_window
+11510,A,dev,4,30.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9563272068248426,
+11551,A,dev,2,40.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9531293759821486,
+11564,A,dev,0,117.0,24,0,P1,O2Sat_last low,0.9885484604509153,
+11565,A,dev,4,45.0,24,0,P1,O2Sat_last low,0.5780223498395378,
+11575,A,dev,1,13.0,13,1,P2,"O2Sat_last high, Resp_last low",0.8209676602029948,
+11591,A,dev,2,23.0,23,1,P2,"O2Sat_last high, Resp_last low",0.9566212702409842,
+11607,A,test,-1,25.0,24,0,P1,O2Sat_last low,0.9999991058144905,
+11634,A,dev,3,1.0,1,-1,unassigned,,,short_window
+11638,A,dev,0,92.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7347795722068576,
+11647,A,test,-1,208.0,24,0,P1,O2Sat_last low,0.7661031701192209,
+11656,A,dev,2,2.0,2,-1,unassigned,,,short_window
+11659,A,dev,0,6.0,6,-1,unassigned,,,sparse_vitals
+11676,A,dev,2,34.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9452532987121999,
+11700,A,test,-1,10.0,10,-1,unassigned,,,sparse_vitals
+11708,A,dev,4,18.0,18,0,P1,O2Sat_last low,0.9702581477571164,
+11716,A,test,-1,36.0,24,0,P1,O2Sat_last low,0.9971590011773694,
+11720,A,dev,3,68.0,24,0,P1,O2Sat_last low,0.9999992556795155,
+11731,A,dev,2,21.0,21,0,P1,O2Sat_last low,0.8247550298488647,
+11745,A,test,-1,259.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7846253182382111,
+11751,A,test,-1,199.0,24,0,P1,O2Sat_last low,0.6629192123173977,
+11760,A,dev,0,18.0,18,-1,unassigned,,,sparse_vitals
+11762,A,dev,4,14.0,14,0,P1,O2Sat_last low,0.9994540665387084,
+11772,A,dev,0,5.0,5,-1,unassigned,,,short_window
+11791,A,dev,1,21.0,21,0,P1,O2Sat_last low,0.9827422050747973,
+11800,A,dev,0,75.0,24,0,P1,O2Sat_last low,0.9998847763195908,
+11810,A,test,-1,53.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9769973935055987,
+11856,A,dev,3,43.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8189035925992746,
+11872,A,test,-1,7.0,7,-1,unassigned,,,sparse_vitals
+11874,A,dev,4,17.0,17,0,P1,O2Sat_last low,1.0,
+11876,A,test,-1,59.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9381072126639542,
+11898,A,dev,4,125.0,24,0,P1,O2Sat_last low,0.8730682732963078,
+11899,A,dev,1,3.0,3,-1,unassigned,,,short_window
+11929,A,test,-1,4.0,4,-1,unassigned,,,short_window
+11932,A,dev,1,43.0,24,0,P1,O2Sat_last low,0.9999999999999893,
+11953,A,dev,0,4.0,4,-1,unassigned,,,short_window
+11966,A,test,-1,9.0,9,-1,unassigned,,,sparse_vitals
+11967,A,dev,2,91.0,24,0,P1,O2Sat_last low,0.974234134277643,
+11980,A,test,-1,48.0,24,0,P1,O2Sat_last low,0.8519146529504943,
+11989,A,test,-1,23.0,23,1,P2,"O2Sat_last high, Resp_last low",0.9212723632004431,
+12023,A,test,-1,4.0,4,-1,unassigned,,,short_window
+12028,A,dev,1,9.0,9,1,P2,"O2Sat_last high, Resp_last low",0.9916922747529346,
+12043,A,dev,2,11.0,11,1,P2,"O2Sat_last high, Resp_last low",0.9910738764286656,
+12057,A,dev,4,116.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9508185751331409,
+12076,A,dev,4,33.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9863746474716155,
+12091,A,dev,3,57.0,24,0,P1,O2Sat_last low,0.9999960165754345,
+12107,A,dev,3,33.0,24,0,P1,O2Sat_last low,0.9594372902940989,
+12116,A,test,-1,144.0,24,0,P1,O2Sat_last low,0.9999467368731484,
+12117,A,dev,2,1.0,1,-1,unassigned,,,short_window
+12123,A,dev,1,16.0,16,0,P1,O2Sat_last low,0.9848125906133814,
+12141,A,dev,1,1.0,1,-1,unassigned,,,short_window
+12150,A,dev,4,4.0,4,-1,unassigned,,,short_window
+12171,A,test,-1,6.0,6,-1,unassigned,,,sparse_vitals
+12177,A,dev,4,8.0,8,-1,unassigned,,,sparse_vitals
+12194,A,dev,4,1.0,1,-1,unassigned,,,short_window
+12208,A,test,-1,36.0,24,0,P1,O2Sat_last low,0.9567113232999565,
+12210,A,dev,4,36.0,24,0,P1,O2Sat_last low,0.7551990592731413,
+12228,A,dev,2,204.0,24,0,P1,O2Sat_last low,0.9529307253369613,
+12233,A,dev,1,21.0,21,0,P1,O2Sat_last low,0.9981323647075699,
+12245,A,dev,2,95.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9545912526695494,
+12269,A,dev,3,33.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8950609080586812,
+12278,A,dev,3,85.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7004818886634568,
+12293,A,dev,2,7.0,7,-1,unassigned,,,sparse_vitals
+12294,A,dev,1,107.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5944303091499816,
+12303,A,dev,3,82.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9479424120033415,
+12322,A,dev,4,146.0,24,0,P1,O2Sat_last low,0.959748281845767,
+12332,A,dev,1,68.0,24,0,P1,O2Sat_last low,0.9823030239242669,
+12333,A,dev,1,3.0,3,-1,unassigned,,,short_window
+12341,A,test,-1,108.0,24,0,P1,O2Sat_last low,0.9378512993902812,
+12349,A,dev,1,1.0,1,-1,unassigned,,,short_window
+12352,A,dev,2,7.0,7,1,P2,"O2Sat_last high, Resp_last low",0.7119319403454982,
+12359,A,test,-1,4.0,4,-1,unassigned,,,short_window
+12373,A,dev,0,30.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6328318817882309,
+12375,A,dev,4,53.0,24,0,P1,O2Sat_last low,0.8221464266534764,
+12391,A,dev,0,23.0,23,0,P1,O2Sat_last low,0.9711448815555207,
+12417,A,dev,0,6.0,6,-1,unassigned,,,sparse_vitals
+12459,A,test,-1,13.0,13,0,P1,O2Sat_last low,0.9978200616305624,
+12461,A,dev,2,15.0,15,1,P2,"O2Sat_last high, Resp_last low",0.5753855573020736,
+12465,A,dev,2,147.0,24,0,P1,O2Sat_last low,0.9997061090756992,
+12476,A,dev,0,97.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9655072972586344,
+12485,A,test,-1,11.0,11,0,P1,O2Sat_last low,0.9831376406394945,
+12497,A,dev,2,3.0,3,-1,unassigned,,,short_window
+12506,A,test,-1,21.0,21,1,P2,"O2Sat_last high, Resp_last low",0.8916210433221377,
+12508,A,dev,0,160.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9497923903191465,
+12513,A,dev,1,19.0,19,1,P2,"O2Sat_last high, Resp_last low",0.9713954025334044,
+12525,A,dev,1,17.0,17,0,P1,O2Sat_last low,0.8644811400409655,
+12529,A,dev,2,110.0,24,0,P1,O2Sat_last low,0.999925187846568,
+12538,A,dev,2,26.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9802291721467987,
+12547,A,dev,2,20.0,20,0,P1,O2Sat_last low,0.668553183147897,
+12562,A,dev,3,1.0,1,-1,unassigned,,,short_window
+12566,A,test,-1,45.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9633192753445411,
+12567,A,dev,1,47.0,24,0,P1,O2Sat_last low,0.9999999998113474,
+12568,A,dev,3,13.0,13,-1,unassigned,,,sparse_vitals
+12570,A,dev,1,17.0,17,-1,unassigned,,,sparse_vitals
+12576,A,dev,1,37.0,24,0,P1,O2Sat_last low,0.99999995447567,
+12590,A,dev,2,2.0,2,-1,unassigned,,,short_window
+12591,A,dev,4,7.0,7,-1,unassigned,,,sparse_vitals
+12598,A,test,-1,53.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8889777891969243,
+12619,A,dev,2,9.0,9,-1,unassigned,,,sparse_vitals
+12621,A,dev,1,204.0,24,0,P1,O2Sat_last low,0.9999996720032739,
+12625,A,test,-1,65.0,24,0,P1,O2Sat_last low,0.9414252619991718,
+12636,A,test,-1,90.0,24,0,P1,O2Sat_last low,0.9875903472828768,
+12651,A,test,-1,103.0,24,0,P1,O2Sat_last low,0.6486184722886299,
+12682,A,dev,1,165.0,24,0,P1,O2Sat_last low,0.9999999944208628,
+12702,A,dev,0,171.0,24,0,P1,O2Sat_last low,0.9954237448475702,
+12711,A,dev,3,1.0,1,-1,unassigned,,,short_window
+12727,A,dev,4,48.0,24,0,P1,O2Sat_last low,0.999922044648421,
+12733,A,dev,3,27.0,24,0,P1,O2Sat_last low,0.999999999446672,
+12747,A,test,-1,8.0,8,-1,unassigned,,,sparse_vitals
+12759,A,dev,4,13.0,13,-1,unassigned,,,sparse_vitals
+12766,A,dev,4,28.0,24,0,P1,O2Sat_last low,0.9999993429829059,
+12804,A,dev,1,21.0,21,1,P2,"O2Sat_last high, Resp_last low",0.9573800508408926,
+12809,A,dev,4,57.0,24,0,P1,O2Sat_last low,0.9990674876549165,
+12828,A,test,-1,47.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7195737088805226,
+12879,A,dev,3,8.0,8,-1,unassigned,,,sparse_vitals
+12883,A,dev,1,67.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9514334399377092,
+12884,A,dev,2,135.0,24,0,P1,O2Sat_last low,0.9998314752239663,
+12898,A,dev,3,37.0,24,0,P1,O2Sat_last low,0.9409974437088973,
+12900,A,dev,2,38.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9968088315380277,
+12904,A,test,-1,141.0,24,0,P1,O2Sat_last low,0.6655208234312225,
+12910,A,dev,3,33.0,24,0,P1,O2Sat_last low,0.9999997667959969,
+12970,A,dev,4,7.0,7,-1,unassigned,,,sparse_vitals
+13002,A,test,-1,23.0,23,1,P2,"O2Sat_last high, Resp_last low",0.9163790146774093,
+13013,A,dev,4,8.0,8,-1,unassigned,,,sparse_vitals
+13027,A,dev,1,6.0,6,-1,unassigned,,,sparse_vitals
+13033,A,dev,2,44.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9426253688080817,
+13035,A,dev,4,144.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9739667365710234,
+13054,A,dev,3,29.0,24,0,P1,O2Sat_last low,0.9999929247458725,
+13085,A,dev,3,57.0,24,0,P1,O2Sat_last low,0.9999993996829691,
+13090,A,dev,4,1.0,1,-1,unassigned,,,short_window
+13096,A,dev,0,17.0,17,1,P2,"O2Sat_last high, Resp_last low",0.8860817394114326,
+13120,A,dev,2,10.0,10,1,P2,"O2Sat_last high, Resp_last low",0.8377719005709935,
+13124,A,test,-1,62.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9540520111789011,
+13146,A,dev,0,8.0,8,-1,unassigned,,,sparse_vitals
+13149,A,dev,1,86.0,24,0,P1,O2Sat_last low,0.9148252991291002,
+13152,A,dev,2,3.0,3,-1,unassigned,,,short_window
+13163,A,dev,4,40.0,24,0,P1,O2Sat_last low,0.9994237697822221,
+13183,A,dev,1,11.0,11,-1,unassigned,,,sparse_vitals
+13201,A,dev,4,2.0,2,-1,unassigned,,,short_window
+13204,A,dev,2,75.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5221904951532956,
+13231,A,dev,3,36.0,24,0,P1,O2Sat_last low,0.5697800255848533,
+13248,A,dev,1,8.0,8,1,P2,"O2Sat_last high, Resp_last low",0.9502136822092262,
+13254,A,test,-1,7.0,7,-1,unassigned,,,sparse_vitals
+13264,A,dev,3,121.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9874135227759592,
+13305,A,dev,2,31.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9699565057743736,
+13326,A,dev,1,109.0,24,0,P1,O2Sat_last low,0.999999999999357,
+13334,A,dev,0,165.0,24,0,P1,O2Sat_last low,0.9321181007813459,
+13337,A,dev,1,41.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9657116591142775,
+13342,A,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+13346,A,dev,2,78.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8911608873140836,
+13361,A,dev,0,121.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8941125788436217,
+13365,A,dev,2,6.0,6,-1,unassigned,,,sparse_vitals
+13391,A,test,-1,98.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9573677504731192,
+13402,A,dev,4,13.0,13,0,P1,O2Sat_last low,0.9722655013113556,
+13429,A,dev,0,19.0,19,0,P1,O2Sat_last low,0.9999981717687089,
+13490,A,dev,2,3.0,3,-1,unassigned,,,short_window
+13491,A,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+13492,A,dev,0,61.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5273782986460896,
+13493,A,test,-1,14.0,14,1,P2,"O2Sat_last high, Resp_last low",0.9690635575803141,
+13499,A,dev,2,20.0,20,1,P2,"O2Sat_last high, Resp_last low",0.8743414996204854,
+13500,A,dev,3,130.0,24,0,P1,O2Sat_last low,0.8732177302548743,
+13507,A,test,-1,12.0,12,0,P1,O2Sat_last low,0.999999997065677,
+13509,A,dev,0,12.0,12,0,P1,O2Sat_last low,0.5512041429664329,
+13516,A,dev,0,126.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6973896259427287,
+13542,A,dev,1,30.0,24,0,P1,O2Sat_last low,0.9888299642090238,
+13565,A,dev,4,27.0,24,0,P1,O2Sat_last low,0.9976794209703584,
+13569,A,dev,3,47.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9142571966449431,
+13579,A,dev,4,28.0,24,0,P1,O2Sat_last low,0.9518786815547141,
+13586,A,dev,1,1.0,1,-1,unassigned,,,short_window
+13594,A,dev,4,1.0,1,-1,unassigned,,,short_window
+13612,A,dev,0,12.0,12,0,P1,O2Sat_last low,0.6573398236708076,
+13623,A,dev,1,104.0,24,0,P1,O2Sat_last low,0.9959329815748691,
+13640,A,dev,0,86.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5867680273169416,
+13652,A,dev,3,35.0,24,0,P1,O2Sat_last low,0.9999583082143065,
+13659,A,test,-1,7.0,7,-1,unassigned,,,sparse_vitals
+13669,A,dev,0,19.0,19,1,P2,"O2Sat_last high, Resp_last low",0.9865568960049675,
+13687,A,dev,4,96.0,24,0,P1,O2Sat_last low,0.9999999998356213,
+13695,A,dev,2,2.0,2,-1,unassigned,,,short_window
+13697,A,test,-1,30.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9670994641859745,
+13699,A,dev,0,1.0,1,-1,unassigned,,,short_window
+13727,A,dev,2,24.0,24,0,P1,O2Sat_last low,0.999267626157861,
+13729,A,dev,4,21.0,21,1,P2,"O2Sat_last high, Resp_last low",0.9791118383979893,
+13745,A,dev,4,65.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9913752195440491,
+13764,A,dev,2,22.0,22,1,P2,"O2Sat_last high, Resp_last low",0.9067238925440338,
+13784,A,test,-1,49.0,24,0,P1,O2Sat_last low,0.9999992542096595,
+13812,A,test,-1,14.0,14,0,P1,O2Sat_last low,0.7388919731817175,
+13830,A,dev,4,86.0,24,0,P1,O2Sat_last low,0.9528326347361087,
+13852,A,dev,3,11.0,11,-1,unassigned,,,sparse_vitals
+13856,A,dev,0,16.0,16,0,P1,O2Sat_last low,0.5439338199852153,
+13882,A,dev,1,47.0,24,0,P1,O2Sat_last low,0.9839313428634884,
+13891,A,dev,0,199.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8676648970374328,
+13907,A,test,-1,236.0,24,0,P1,O2Sat_last low,0.9839274409002611,
+13917,A,test,-1,63.0,24,0,P1,O2Sat_last low,0.565145856257018,
+13934,A,dev,0,45.0,24,0,P1,O2Sat_last low,0.9123326064295608,
+13946,A,test,-1,38.0,24,-1,unassigned,,,sparse_vitals
+13957,A,dev,4,2.0,2,-1,unassigned,,,short_window
+13976,A,dev,0,174.0,24,1,P2,"O2Sat_last high, Resp_last low",0.715416934429482,
+13980,A,dev,2,66.0,24,0,P1,O2Sat_last low,0.999638600755142,
+13985,A,dev,1,9.0,9,-1,unassigned,,,sparse_vitals
+13997,A,dev,3,100.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9840141007915633,
+14020,A,dev,1,168.0,24,-1,unassigned,,,sparse_vitals
+14037,A,dev,1,95.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9863048771805965,
+14046,A,test,-1,70.0,24,0,P1,O2Sat_last low,0.9910482923705118,
+14064,A,dev,2,55.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8210245250523445,
+14076,A,dev,1,45.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6366521807162988,
+14081,A,dev,4,44.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9337539944959812,
+14085,A,test,-1,20.0,20,0,P1,O2Sat_last low,0.9999999383256776,
+14088,A,dev,2,77.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9132923338083557,
+14092,A,dev,1,100.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9451990783596262,
+14096,A,test,-1,10.0,10,1,P2,"O2Sat_last high, Resp_last low",0.9497326719427969,
+14110,A,dev,0,37.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8637822483045151,
+14114,A,test,-1,45.0,24,1,P2,"O2Sat_last high, Resp_last low",0.951884050561264,
+14127,A,test,-1,49.0,24,0,P1,O2Sat_last low,0.9747310298513374,
+14131,A,test,-1,2.0,2,-1,unassigned,,,short_window
+14136,A,dev,0,1.0,1,-1,unassigned,,,short_window
+14139,A,dev,4,56.0,24,0,P1,O2Sat_last low,0.9613470441189553,
+14142,A,dev,1,39.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8429404837469185,
+14144,A,dev,3,32.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8506426137861013,
+14159,A,dev,3,6.0,6,1,P2,"O2Sat_last high, Resp_last low",0.9961775795302842,
+14168,A,dev,2,46.0,24,0,P1,O2Sat_last low,0.9999598611011451,
+14182,A,dev,1,2.0,2,-1,unassigned,,,short_window
+14231,A,dev,3,66.0,24,0,P1,O2Sat_last low,0.5888466359862827,
+14232,A,dev,0,63.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9642587354816252,
+14248,A,dev,3,66.0,24,0,P1,O2Sat_last low,0.9999207376482278,
+14251,A,test,-1,58.0,24,0,P1,O2Sat_last low,0.9932016493873848,
+14253,A,dev,3,3.0,3,-1,unassigned,,,short_window
+14259,A,dev,2,48.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9803144361462333,
+14280,A,dev,1,36.0,24,0,P1,O2Sat_last low,0.8777123359867159,
+14285,A,test,-1,9.0,9,-1,unassigned,,,sparse_vitals
+14289,A,dev,2,190.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5213376571062953,
+14291,A,dev,4,25.0,24,0,P1,O2Sat_last low,0.9780923064541102,
+14312,A,dev,3,2.0,2,-1,unassigned,,,short_window
+14315,A,dev,3,41.0,24,0,P1,O2Sat_last low,0.9999999984335695,
+14361,A,dev,1,63.0,24,0,P1,O2Sat_last low,0.681080275465225,
+14365,A,dev,4,50.0,24,0,P1,O2Sat_last low,0.5242543735096188,
+14401,A,test,-1,12.0,12,0,P1,O2Sat_last low,0.984212978529794,
+14405,A,dev,3,6.0,6,-1,unassigned,,,sparse_vitals
+14407,A,dev,2,20.0,20,1,P2,"O2Sat_last high, Resp_last low",0.9817219698176951,
+14409,A,test,-1,155.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5043111169356205,
+14410,A,test,-1,20.0,20,0,P1,O2Sat_last low,0.9389589735073227,
+14414,A,dev,2,32.0,24,0,P1,O2Sat_last low,0.9999999957758785,
+14430,A,dev,2,81.0,24,0,P1,O2Sat_last low,0.9993375905643646,
+14451,A,dev,0,13.0,13,1,P2,"O2Sat_last high, Resp_last low",0.8073379308629045,
+14458,A,dev,3,20.0,20,0,P1,O2Sat_last low,0.9997957176038595,
+14463,A,dev,1,24.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9164053477891135,
+14488,A,dev,2,49.0,24,0,P1,O2Sat_last low,0.5456997354414242,
+14492,A,test,-1,13.0,13,0,P1,O2Sat_last low,0.7294579648713988,
+14495,A,dev,4,38.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6286739667593099,
+14510,A,dev,0,64.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9611965031446137,
+14518,A,test,-1,28.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9621986855150216,
+14521,A,dev,4,124.0,24,1,P2,"O2Sat_last high, Resp_last low",0.877838218214154,
+14529,A,dev,3,10.0,10,0,P1,O2Sat_last low,0.999970296699934,
+14545,A,dev,2,108.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7605673416501327,
+14547,A,dev,0,22.0,22,1,P2,"O2Sat_last high, Resp_last low",0.9811098998098093,
+14556,A,dev,3,17.0,17,1,P2,"O2Sat_last high, Resp_last low",0.9865623904419506,
+14560,A,dev,3,6.0,6,-1,unassigned,,,sparse_vitals
+14563,A,test,-1,91.0,24,0,P1,O2Sat_last low,0.9906868642587169,
+14565,A,test,-1,12.0,12,0,P1,O2Sat_last low,0.9998782184100775,
+14574,A,dev,0,38.0,24,0,P1,O2Sat_last low,0.9999999651768002,
+14577,A,dev,3,66.0,24,0,P1,O2Sat_last low,0.9958666798265697,
+14590,A,dev,1,13.0,13,-1,unassigned,,,sparse_vitals
+14597,A,dev,1,91.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7093732075894413,
+14601,A,dev,2,160.0,24,0,P1,O2Sat_last low,0.7384536577187459,
+14602,A,test,-1,31.0,24,0,P1,O2Sat_last low,0.9999999219701378,
+14606,A,test,-1,63.0,24,0,P1,O2Sat_last low,0.8378621503121075,
+14614,A,dev,2,163.0,24,0,P1,O2Sat_last low,1.0,
+14640,A,dev,4,14.0,14,0,P1,O2Sat_last low,0.9995430616051812,
+14642,A,test,-1,12.0,12,-1,unassigned,,,sparse_vitals
+14684,A,dev,2,14.0,14,0,P1,O2Sat_last low,0.9703356445704197,
+14727,A,dev,3,138.0,24,0,P1,O2Sat_last low,0.99200969390453,
+14728,A,dev,1,62.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9605197042554394,
+14746,A,dev,4,22.0,22,0,P1,O2Sat_last low,0.9818396781474961,
+14763,A,dev,3,67.0,24,0,P1,O2Sat_last low,0.9985147057799497,
+14764,A,dev,4,73.0,24,0,P1,O2Sat_last low,0.8768475754131398,
+14765,A,test,-1,2.0,2,-1,unassigned,,,short_window
+14769,A,dev,1,31.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8353962045585238,
+14771,A,test,-1,35.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9228926087838581,
+14774,A,dev,1,2.0,2,-1,unassigned,,,short_window
+14795,A,dev,2,268.0,24,0,P1,O2Sat_last low,0.999999999998721,
+14798,A,dev,4,35.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8106460810463813,
+14807,A,test,-1,20.0,20,0,P1,O2Sat_last low,0.9984565314615109,
+14813,A,dev,0,81.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9650791505765253,
+14820,A,dev,0,178.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8129365355778935,
+14823,A,dev,4,8.0,8,-1,unassigned,,,sparse_vitals
+14824,A,dev,4,53.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9898649494780544,
+14841,A,dev,0,2.0,2,-1,unassigned,,,short_window
+14855,A,dev,0,9.0,9,-1,unassigned,,,sparse_vitals
+14876,A,dev,1,37.0,24,0,P1,O2Sat_last low,0.9940067074057133,
+14880,A,dev,1,154.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8337645305083631,
+14881,A,test,-1,105.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8420501102965271,
+14882,A,dev,1,8.0,8,-1,unassigned,,,sparse_vitals
+14887,A,dev,4,207.0,24,0,P1,O2Sat_last low,0.7029122708486137,
+14888,A,dev,4,47.0,24,0,P1,O2Sat_last low,0.9096036210427669,
+14895,A,dev,4,71.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5046120401681992,
+14899,A,dev,0,32.0,24,0,P1,O2Sat_last low,0.964760931830839,
+14924,A,dev,2,10.0,10,-1,unassigned,,,sparse_vitals
+14942,A,dev,1,81.0,24,0,P1,O2Sat_last low,0.9682004472523196,
+14976,A,dev,4,59.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9382667584912634,
+14990,A,dev,4,78.0,24,0,P1,O2Sat_last low,0.9761016776555398,
+14997,A,test,-1,110.0,24,0,P1,O2Sat_last low,0.995848630678577,
+14999,A,dev,3,131.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9387298063914826,
+15036,A,dev,3,39.0,24,0,P1,O2Sat_last low,0.7551886813748513,
+15043,A,test,-1,9.0,9,-1,unassigned,,,sparse_vitals
+15049,A,dev,1,56.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9850857995096727,
+15051,A,dev,2,55.0,24,0,P1,O2Sat_last low,0.5179398929836686,
+15077,A,dev,4,17.0,17,1,P2,"O2Sat_last high, Resp_last low",0.7711198608578239,
+15085,A,dev,2,21.0,21,1,P2,"O2Sat_last high, Resp_last low",0.8678475223024886,
+15094,A,dev,2,2.0,2,-1,unassigned,,,short_window
+15106,A,dev,2,36.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9794088393618493,
+15115,A,dev,2,200.0,24,0,P1,O2Sat_last low,0.6877815174724774,
+15120,A,test,-1,23.0,23,-1,unassigned,,,sparse_vitals
+15142,A,dev,3,137.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9926881980096028,
+15152,A,test,-1,40.0,24,0,P1,O2Sat_last low,0.9999999975960971,
+15158,A,dev,3,18.0,18,1,P2,"O2Sat_last high, Resp_last low",0.9142715826148718,
+15160,A,dev,3,12.0,12,0,P1,O2Sat_last low,0.9823332319685607,
+15180,A,test,-1,32.0,24,0,P1,O2Sat_last low,0.9996672933553893,
+15187,A,dev,3,30.0,24,0,P1,O2Sat_last low,0.9999999998038476,
+15188,A,dev,4,83.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9615572934340546,
+15193,A,dev,3,6.0,6,-1,unassigned,,,sparse_vitals
+15199,A,dev,3,52.0,24,0,P1,O2Sat_last low,0.9756427630165031,
+15214,A,dev,3,63.0,24,-1,unassigned,,,sparse_vitals
+15246,A,dev,1,100.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6960631719422135,
+15247,A,test,-1,148.0,24,0,P1,O2Sat_last low,0.9123541155432691,
+15264,A,test,-1,89.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7065798476683799,
+15281,A,dev,3,178.0,24,0,P1,O2Sat_last low,0.9755334111127038,
+15335,A,dev,3,15.0,15,1,P2,"O2Sat_last high, Resp_last low",0.8622090490968214,
+15338,A,test,-1,32.0,24,0,P1,O2Sat_last low,0.9999858574607372,
+15353,A,dev,1,37.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9575072699515449,
+15378,A,dev,4,3.0,3,-1,unassigned,,,short_window
+15393,A,dev,2,10.0,10,-1,unassigned,,,sparse_vitals
+15426,A,test,-1,6.0,6,-1,unassigned,,,sparse_vitals
+15445,A,dev,2,26.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9541697492437439,
+15449,A,dev,3,18.0,18,1,P2,"O2Sat_last high, Resp_last low",0.8628061171085136,
+15476,A,dev,1,15.0,15,1,P2,"O2Sat_last high, Resp_last low",0.960977613350453,
+15488,A,dev,2,2.0,2,-1,unassigned,,,short_window
+15490,A,dev,3,151.0,24,0,P1,O2Sat_last low,0.9729084418967523,
+15510,A,dev,2,77.0,24,0,P1,O2Sat_last low,0.9999974280619347,
+15535,A,dev,3,40.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5186055298569179,
+15540,A,dev,1,71.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9593342754917579,
+15549,A,test,-1,31.0,24,1,P2,"O2Sat_last high, Resp_last low",0.627404800119345,
+15586,A,test,-1,12.0,12,1,P2,"O2Sat_last high, Resp_last low",0.9923235562512449,
+15587,A,test,-1,16.0,16,1,P2,"O2Sat_last high, Resp_last low",0.6126829375290609,
+15611,A,dev,1,10.0,10,-1,unassigned,,,sparse_vitals
+15619,A,dev,0,73.0,24,0,P1,O2Sat_last low,0.9056651422649465,
+15621,A,test,-1,9.0,9,-1,unassigned,,,sparse_vitals
+15643,A,dev,2,118.0,24,0,P1,O2Sat_last low,0.9998582911341145,
+15658,A,dev,0,14.0,14,1,P2,"O2Sat_last high, Resp_last low",0.9882696648336221,
+15678,A,dev,0,1.0,1,-1,unassigned,,,short_window
+15726,A,dev,1,39.0,24,0,P1,O2Sat_last low,0.9870582528554691,
+15728,A,dev,0,23.0,23,1,P2,"O2Sat_last high, Resp_last low",0.7804049155122061,
+15731,A,test,-1,12.0,12,1,P2,"O2Sat_last high, Resp_last low",0.6432409891601284,
+15757,A,dev,2,7.0,7,-1,unassigned,,,sparse_vitals
+15765,A,dev,0,51.0,24,0,P1,O2Sat_last low,0.691971424143256,
+15786,A,test,-1,39.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9127856651867851,
+15805,A,dev,2,1.0,1,-1,unassigned,,,short_window
+15809,A,dev,3,12.0,12,-1,unassigned,,,sparse_vitals
+15821,A,dev,0,24.0,24,0,P1,O2Sat_last low,0.9978937831573221,
+15836,A,dev,3,66.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7904768193747945,
+15853,A,test,-1,152.0,24,0,P1,O2Sat_last low,0.9376060899709389,
+15885,A,dev,3,27.0,24,0,P1,O2Sat_last low,0.9509623772148423,
+15889,A,test,-1,94.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7449914366767562,
+15892,A,dev,4,11.0,11,1,P2,"O2Sat_last high, Resp_last low",0.9913162194923155,
+15893,A,dev,3,96.0,24,0,P1,O2Sat_last low,0.7975743611767165,
+15911,A,test,-1,69.0,24,0,P1,O2Sat_last low,0.999936366832712,
+15941,A,dev,2,9.0,9,1,P2,"O2Sat_last high, Resp_last low",0.9246501559366188,
+15946,A,dev,3,1.0,1,-1,unassigned,,,short_window
+15962,A,dev,0,59.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9814026996586734,
+15967,A,dev,4,2.0,2,-1,unassigned,,,short_window
+15971,A,dev,2,20.0,20,0,P1,O2Sat_last low,0.9439083784061996,
+15981,A,test,-1,16.0,16,0,P1,O2Sat_last low,0.9999998292971618,
+15988,A,dev,2,10.0,10,1,P2,"O2Sat_last high, Resp_last low",0.6722254820966694,
+15993,A,dev,1,31.0,24,0,P1,O2Sat_last low,0.9999431850292559,
+16018,A,dev,3,109.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9826829266296941,
+16033,A,dev,4,18.0,18,0,P1,O2Sat_last low,0.9332252964581379,
+16038,A,dev,1,188.0,24,0,P1,O2Sat_last low,0.9908475356144907,
+16051,A,dev,0,161.0,24,0,P1,O2Sat_last low,0.8916792030840418,
+16056,A,dev,1,15.0,15,0,P1,O2Sat_last low,0.9994640763893183,
+16057,A,dev,3,4.0,4,-1,unassigned,,,short_window
+16060,A,dev,3,39.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5999425372234012,
+16088,A,test,-1,121.0,24,0,P1,O2Sat_last low,0.9802616122629156,
+16099,A,dev,4,21.0,21,1,P2,"O2Sat_last high, Resp_last low",0.9047683275739331,
+16114,A,dev,1,13.0,13,1,P2,"O2Sat_last high, Resp_last low",0.985070081185865,
+16137,A,dev,3,7.0,7,-1,unassigned,,,sparse_vitals
+16185,A,test,-1,224.0,24,0,P1,O2Sat_last low,0.9999988414591702,
+16209,A,test,-1,3.0,3,-1,unassigned,,,short_window
+16220,A,dev,3,37.0,24,-1,unassigned,,,sparse_vitals
+16231,A,dev,4,41.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6711186300167671,
+16249,A,dev,0,71.0,24,-1,unassigned,,,sparse_vitals
+16256,A,dev,4,2.0,2,-1,unassigned,,,short_window
+16257,A,dev,4,32.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6295274482317837,
+16276,A,dev,4,81.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8847176341686035,
+16281,A,dev,4,71.0,24,0,P1,O2Sat_last low,0.5254011359011647,
+16289,A,dev,4,4.0,4,-1,unassigned,,,short_window
+16290,A,dev,0,8.0,8,-1,unassigned,,,sparse_vitals
+16301,A,dev,3,4.0,4,-1,unassigned,,,short_window
+16307,A,dev,2,4.0,4,-1,unassigned,,,short_window
+16323,A,dev,4,48.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9514218465543726,
+16346,A,test,-1,40.0,24,0,P1,O2Sat_last low,0.9939476118420812,
+16348,A,dev,3,116.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9810938185425547,
+16349,A,dev,1,182.0,24,0,P1,O2Sat_last low,0.999405870239754,
+16386,A,dev,0,110.0,24,0,P1,O2Sat_last low,0.6127065567280556,
+16393,A,test,-1,59.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9407157040910153,
+16395,A,dev,0,15.0,15,0,P1,O2Sat_last low,0.9999993041313561,
+16403,A,dev,4,31.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6436236552933696,
+16414,A,dev,2,1.0,1,-1,unassigned,,,short_window
+16421,A,dev,0,3.0,3,-1,unassigned,,,short_window
+16445,A,dev,3,126.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6801683693646512,
+16461,A,dev,2,4.0,4,-1,unassigned,,,short_window
+16487,A,dev,3,91.0,24,0,P1,O2Sat_last low,0.966192892845073,
+16500,A,dev,3,82.0,24,0,P1,O2Sat_last low,0.9978739577266398,
+16518,A,dev,2,234.0,24,0,P1,O2Sat_last low,0.9998287885293038,
+16547,A,dev,4,193.0,24,0,P1,O2Sat_last low,0.9998745254204472,
+16558,A,dev,2,23.0,23,0,P1,O2Sat_last low,0.9999998204746597,
+16575,A,dev,3,295.0,24,0,P1,O2Sat_last low,0.9610523538280161,
+16590,A,dev,3,2.0,2,-1,unassigned,,,short_window
+16594,A,dev,4,75.0,24,0,P1,O2Sat_last low,0.9999369037908822,
+16606,A,dev,2,19.0,19,0,P1,O2Sat_last low,0.9999628645226399,
+16609,A,dev,3,26.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8991504449979573,
+16614,A,test,-1,11.0,11,0,P1,O2Sat_last low,0.9995263962546006,
+16627,A,dev,0,125.0,24,0,P1,O2Sat_last low,0.990131820950302,
+16629,A,dev,1,40.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9378573386142676,
+16630,A,dev,2,100.0,24,0,P1,O2Sat_last low,0.999997357344856,
+16648,A,dev,3,12.0,12,0,P1,O2Sat_last low,0.7331780770054532,
+16668,A,test,-1,196.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9477139087964674,
+16698,A,dev,3,22.0,22,1,P2,"O2Sat_last high, Resp_last low",0.8597559046249602,
+16701,A,dev,3,17.0,17,0,P1,O2Sat_last low,0.9214061120653789,
+16714,A,test,-1,48.0,24,0,P1,O2Sat_last low,0.8331415756447428,
+16719,A,dev,2,41.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9289761575111297,
+16722,A,test,-1,2.0,2,-1,unassigned,,,short_window
+16726,A,test,-1,27.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9022214037562983,
+16744,A,dev,1,173.0,24,0,P1,O2Sat_last low,0.9997365096657778,
+16806,A,dev,1,45.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5610758222084449,
+16823,A,dev,3,29.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8722899195305374,
+16864,A,dev,4,14.0,14,1,P2,"O2Sat_last high, Resp_last low",0.9715136971759821,
+16873,A,dev,4,3.0,3,-1,unassigned,,,short_window
+16876,A,dev,0,48.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9821990493250823,
+16901,A,dev,3,1.0,1,-1,unassigned,,,short_window
+16905,A,dev,4,42.0,24,1,P2,"O2Sat_last high, Resp_last low",0.936401891456842,
+16906,A,test,-1,45.0,24,1,P2,"O2Sat_last high, Resp_last low",0.505636348167357,
+16921,A,dev,0,106.0,24,0,P1,O2Sat_last low,0.9580145972269379,
+16927,A,dev,4,23.0,23,1,P2,"O2Sat_last high, Resp_last low",0.981080013591171,
+16929,A,test,-1,5.0,5,-1,unassigned,,,short_window
+16943,A,dev,2,37.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8948045051290238,
+16944,A,test,-1,95.0,24,0,P1,O2Sat_last low,0.9974102357165672,
+16966,A,test,-1,9.0,9,1,P2,"O2Sat_last high, Resp_last low",0.6809442363422804,
+16968,A,dev,4,11.0,11,1,P2,"O2Sat_last high, Resp_last low",0.9881661830194043,
+16970,A,test,-1,1.0,1,-1,unassigned,,,short_window
+17018,A,test,-1,190.0,24,0,P1,O2Sat_last low,0.9996308423823466,
+17037,A,dev,0,20.0,20,0,P1,O2Sat_last low,0.6288744217615022,
+17043,A,dev,4,4.0,4,-1,unassigned,,,short_window
+17048,A,dev,3,3.0,3,-1,unassigned,,,short_window
+17052,A,dev,2,137.0,24,0,P1,O2Sat_last low,0.9862190892691229,
+17058,A,dev,0,58.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8419444471349343,
+17064,A,dev,0,31.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8387441500459644,
+17068,A,dev,2,64.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6026710619892777,
+17078,A,dev,4,133.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9272357185197242,
+17086,A,dev,4,10.0,10,1,P2,"O2Sat_last high, Resp_last low",0.5911178385841277,
+17091,A,test,-1,103.0,24,0,P1,O2Sat_last low,0.9999586507834768,
+17163,A,dev,0,100.0,24,1,P2,"O2Sat_last high, Resp_last low",0.638102042210456,
+17168,A,dev,0,9.0,9,-1,unassigned,,,sparse_vitals
+17196,A,test,-1,124.0,24,1,P2,"O2Sat_last high, Resp_last low",0.926523235543079,
+17204,A,dev,2,228.0,24,0,P1,O2Sat_last low,0.8155166883051025,
+17205,A,test,-1,2.0,2,-1,unassigned,,,short_window
+17217,A,dev,3,110.0,24,0,P1,O2Sat_last low,0.9836310245578508,
+17299,A,test,-1,2.0,2,-1,unassigned,,,short_window
+17302,A,test,-1,4.0,4,-1,unassigned,,,short_window
+17316,A,dev,2,75.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9397075088172796,
+17333,A,dev,3,8.0,8,-1,unassigned,,,sparse_vitals
+17343,A,dev,3,100.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9617310451869273,
+17347,A,dev,0,17.0,17,0,P1,O2Sat_last low,0.8294110677937314,
+17354,A,test,-1,7.0,7,-1,unassigned,,,sparse_vitals
+17366,A,dev,2,4.0,4,-1,unassigned,,,short_window
+17370,A,test,-1,141.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9454704740768224,
+17372,A,dev,4,2.0,2,-1,unassigned,,,short_window
+17376,A,dev,3,42.0,24,0,P1,O2Sat_last low,0.9999964680844333,
+17377,A,test,-1,13.0,13,1,P2,"O2Sat_last high, Resp_last low",0.8976519222438243,
+17382,A,dev,2,48.0,24,0,P1,O2Sat_last low,0.9989877182174728,
+17405,A,dev,3,31.0,24,-1,unassigned,,,sparse_vitals
+17412,A,dev,2,104.0,24,0,P1,O2Sat_last low,0.506193957790925,
+17428,A,dev,3,39.0,24,0,P1,O2Sat_last low,0.9999750382574262,
+17466,A,test,-1,13.0,13,-1,unassigned,,,sparse_vitals
+17469,A,test,-1,30.0,24,0,P1,O2Sat_last low,0.9993223716438859,
+17475,A,dev,4,134.0,24,0,P1,O2Sat_last low,0.9999980928117488,
+17519,A,test,-1,109.0,24,0,P1,O2Sat_last low,0.9999999782578224,
+17523,A,dev,3,30.0,24,0,P1,O2Sat_last low,0.9905393984907248,
+17525,A,dev,0,70.0,24,0,P1,O2Sat_last low,0.9984070451165054,
+17535,A,dev,0,41.0,24,0,P1,O2Sat_last low,0.9999796597901042,
+17554,A,test,-1,33.0,24,0,P1,O2Sat_last low,0.999884178009254,
+17583,A,dev,3,2.0,2,-1,unassigned,,,short_window
+17587,A,dev,4,122.0,24,0,P1,O2Sat_last low,0.9995978658603685,
+17595,A,dev,4,192.0,24,0,P1,O2Sat_last low,0.9999418038012293,
+17627,A,dev,2,10.0,10,1,P2,"O2Sat_last high, Resp_last low",0.6375458554925458,
+17638,A,dev,0,46.0,24,0,P1,O2Sat_last low,0.9999999999997033,
+17644,A,dev,0,90.0,24,0,P1,O2Sat_last low,0.9998535256509516,
+17659,A,dev,4,66.0,24,0,P1,O2Sat_last low,0.9821083192519284,
+17676,A,dev,0,157.0,24,0,P1,O2Sat_last low,0.8647130644806702,
+17690,A,dev,1,22.0,22,0,P1,O2Sat_last low,0.9998718032569605,
+17691,A,dev,3,68.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9341865701654304,
+17726,A,dev,1,121.0,24,0,P1,O2Sat_last low,0.9739979677319204,
+17754,A,dev,2,5.0,5,-1,unassigned,,,short_window
+17776,A,dev,2,21.0,21,0,P1,O2Sat_last low,0.9855833694474803,
+17788,A,dev,2,101.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9479537082732225,
+17792,A,dev,4,83.0,24,0,P1,O2Sat_last low,0.9966614806571936,
+17806,A,dev,1,1.0,1,-1,unassigned,,,short_window
+17815,A,dev,0,7.0,7,-1,unassigned,,,sparse_vitals
+17818,A,dev,0,69.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9493322762873039,
+17854,A,dev,1,32.0,24,0,P1,O2Sat_last low,0.834543144093638,
+17867,A,dev,3,95.0,24,0,P1,O2Sat_last low,0.999900083745568,
+17931,A,dev,1,66.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9678819713999874,
+17953,A,dev,4,23.0,23,1,P2,"O2Sat_last high, Resp_last low",0.8287056080656866,
+17960,A,dev,4,30.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8432762710206922,
+17968,A,dev,4,2.0,2,-1,unassigned,,,short_window
+17972,A,dev,0,1.0,1,-1,unassigned,,,short_window
+18010,A,dev,0,155.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7992773321731426,
+18013,A,dev,4,9.0,9,-1,unassigned,,,sparse_vitals
+18040,A,dev,3,14.0,14,0,P1,O2Sat_last low,0.9999997453453475,
+18053,A,dev,1,2.0,2,-1,unassigned,,,short_window
+18057,A,dev,2,18.0,18,1,P2,"O2Sat_last high, Resp_last low",0.9240011912276722,
+18063,A,dev,0,4.0,4,-1,unassigned,,,short_window
+18114,A,test,-1,200.0,24,0,P1,O2Sat_last low,0.9999999999999822,
+18124,A,dev,0,6.0,6,-1,unassigned,,,sparse_vitals
+18145,A,dev,4,135.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8866913489544505,
+18160,A,dev,2,11.0,11,1,P2,"O2Sat_last high, Resp_last low",0.9567315147052117,
+18163,A,dev,1,47.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9509197284496334,
+18175,A,dev,3,12.0,12,1,P2,"O2Sat_last high, Resp_last low",0.9462141400750601,
+18180,A,dev,2,63.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8165277899893317,
+18185,A,dev,1,93.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6156500538771343,
+18207,A,dev,2,11.0,11,-1,unassigned,,,sparse_vitals
+18219,A,dev,1,175.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8784615524451411,
+18230,A,dev,4,109.0,24,0,P1,O2Sat_last low,0.9939755562149996,
+18239,A,dev,2,141.0,24,0,P1,O2Sat_last low,0.9299832918556088,
+18248,A,dev,4,75.0,24,0,P1,O2Sat_last low,0.9989380239436985,
+18252,A,dev,2,27.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8405340244813929,
+18289,A,dev,1,10.0,10,0,P1,O2Sat_last low,0.9999999844498363,
+18300,A,dev,3,34.0,24,0,P1,O2Sat_last low,0.9995031994724348,
+18305,A,dev,1,29.0,24,0,P1,O2Sat_last low,0.9810340431832806,
+18328,A,test,-1,115.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9635272527302747,
+18329,A,dev,3,19.0,19,1,P2,"O2Sat_last high, Resp_last low",0.7005504511201668,
+18342,A,dev,3,27.0,24,0,P1,O2Sat_last low,0.9999931360164683,
+18344,A,dev,3,1.0,1,-1,unassigned,,,short_window
+18345,A,dev,1,52.0,24,0,P1,O2Sat_last low,0.9999999999999112,
+18369,A,test,-1,128.0,24,0,P1,O2Sat_last low,0.9981025099094032,
+18393,A,dev,4,41.0,24,0,P1,O2Sat_last low,0.961121591827782,
+18407,A,dev,4,24.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9794383956244224,
+18414,A,test,-1,50.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7280639148969903,
+18440,A,dev,3,201.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8313758894408397,
+18444,A,dev,3,135.0,24,0,P1,O2Sat_last low,0.9999990534817552,
+18469,A,test,-1,330.0,24,0,P1,O2Sat_last low,0.9939142439848373,
+18487,A,dev,2,3.0,3,-1,unassigned,,,short_window
+18504,A,dev,0,147.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9260011810240245,
+18507,A,dev,2,261.0,24,0,P1,O2Sat_last low,0.5169199805671472,
+18521,A,dev,0,126.0,24,0,P1,O2Sat_last low,0.9999999059223059,
+18556,A,test,-1,44.0,24,0,P1,O2Sat_last low,0.9999978079480192,
+18558,A,dev,0,8.0,8,-1,unassigned,,,sparse_vitals
+18561,A,test,-1,19.0,19,0,P1,O2Sat_last low,0.9988794226001727,
+18564,A,dev,4,6.0,6,0,P1,O2Sat_last low,0.9994399253099641,
+18575,A,test,-1,44.0,24,0,P1,O2Sat_last low,0.998927270067639,
+18597,A,test,-1,58.0,24,0,P1,O2Sat_last low,0.5125724855270448,
+18598,A,dev,0,5.0,5,-1,unassigned,,,short_window
+18609,A,dev,2,15.0,15,0,P1,O2Sat_last low,0.9998138278522859,
+18630,A,test,-1,135.0,24,0,P1,O2Sat_last low,0.999313812834144,
+18641,A,dev,3,207.0,24,-1,unassigned,,,sparse_vitals
+18648,A,dev,1,5.0,5,-1,unassigned,,,short_window
+18650,A,dev,0,12.0,12,1,P2,"O2Sat_last high, Resp_last low",0.9748541067526816,
+18660,A,dev,2,115.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9733789623337827,
+18668,A,dev,1,246.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9227365639972457,
+18683,A,dev,1,1.0,1,-1,unassigned,,,short_window
+18688,A,dev,2,55.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6819452712694362,
+18699,A,test,-1,66.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8855662678368096,
+18703,A,dev,2,2.0,2,-1,unassigned,,,short_window
+18707,A,dev,0,57.0,24,0,P1,O2Sat_last low,0.8996295573637125,
+18714,A,test,-1,25.0,24,0,P1,O2Sat_last low,0.9999999934225947,
+18720,A,dev,2,150.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6692222819206983,
+18736,A,dev,3,8.0,8,-1,unassigned,,,sparse_vitals
+18738,A,dev,3,66.0,24,0,P1,O2Sat_last low,0.9227387261644358,
+18740,A,dev,0,36.0,24,0,P1,O2Sat_last low,0.9998638632245911,
+18742,A,dev,1,62.0,24,0,P1,O2Sat_last low,0.9815588494755352,
+18755,A,dev,3,1.0,1,-1,unassigned,,,short_window
+18760,A,dev,1,137.0,24,0,P1,O2Sat_last low,0.9320067325123708,
+18763,A,dev,2,115.0,24,0,P1,O2Sat_last low,0.9551223444359784,
+18770,A,dev,2,108.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6132496894546323,
+18799,A,dev,4,29.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7297516712680012,
+18805,A,dev,3,15.0,15,1,P2,"O2Sat_last high, Resp_last low",0.967765143312096,
+18824,A,dev,3,24.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6195772098895989,
+18857,A,dev,3,47.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6111678770711086,
+18860,A,dev,3,73.0,24,0,P1,O2Sat_last low,0.9985858071967932,
+18871,A,dev,4,20.0,20,0,P1,O2Sat_last low,0.996202707493398,
+18872,A,test,-1,183.0,24,0,P1,O2Sat_last low,0.5168972112806145,
+18909,A,dev,1,9.0,9,1,P2,"O2Sat_last high, Resp_last low",0.8513102171698607,
+18911,A,dev,3,5.0,5,-1,unassigned,,,short_window
+18930,A,dev,1,2.0,2,-1,unassigned,,,short_window
+18941,A,test,-1,15.0,15,0,P1,O2Sat_last low,0.999940674450745,
+18953,A,dev,3,18.0,18,-1,unassigned,,,sparse_vitals
+18958,A,dev,1,36.0,24,0,P1,O2Sat_last low,0.6311267671021252,
+18986,A,dev,0,160.0,24,0,P1,O2Sat_last low,0.9999962318609221,
+18987,A,dev,3,5.0,5,-1,unassigned,,,short_window
+18994,A,dev,3,7.0,7,-1,unassigned,,,sparse_vitals
+18998,A,dev,3,169.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9535858877059682,
+19007,A,dev,1,192.0,24,0,P1,O2Sat_last low,0.9985360923603085,
+19010,A,dev,1,180.0,24,0,P1,O2Sat_last low,0.8122966002858301,
+19049,A,dev,2,4.0,4,-1,unassigned,,,short_window
+19061,A,dev,1,65.0,24,1,P2,"O2Sat_last high, Resp_last low",0.949928632667324,
+19072,A,dev,1,72.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9793014856934595,
+19094,A,dev,3,96.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9905748273801732,
+19095,A,dev,1,195.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8826574321684916,
+19098,A,dev,4,30.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9701043833637731,
+19109,A,test,-1,27.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9715013667129878,
+19114,A,dev,4,2.0,2,-1,unassigned,,,short_window
+19149,A,dev,4,265.0,24,0,P1,O2Sat_last low,0.999999999765393,
+19153,A,dev,4,125.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9612864750229684,
+19170,A,dev,3,37.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9773183851779215,
+19175,A,dev,0,5.0,5,-1,unassigned,,,short_window
+19185,A,dev,3,38.0,24,0,P1,O2Sat_last low,0.998604765047339,
+19207,A,dev,2,85.0,24,0,P1,O2Sat_last low,0.9996105010331092,
+19210,A,dev,4,47.0,24,0,P1,O2Sat_last low,0.9999995554720489,
+19222,A,test,-1,72.0,24,0,P1,O2Sat_last low,0.9999999999999911,
+19228,A,dev,4,1.0,1,-1,unassigned,,,short_window
+19231,A,dev,3,5.0,5,-1,unassigned,,,short_window
+19245,A,test,-1,19.0,19,1,P2,"O2Sat_last high, Resp_last low",0.5199618044083837,
+19249,A,dev,0,88.0,24,-1,unassigned,,,sparse_vitals
+19268,A,dev,4,138.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8743134174677017,
+19304,A,dev,1,121.0,24,0,P1,O2Sat_last low,0.7076868090490782,
+19311,A,test,-1,119.0,24,-1,unassigned,,,sparse_vitals
+19331,A,dev,4,1.0,1,-1,unassigned,,,short_window
+19335,A,test,-1,215.0,24,0,P1,O2Sat_last low,0.9986747795689768,
+19340,A,dev,0,14.0,14,0,P1,O2Sat_last low,0.9999993201277138,
+19353,A,dev,2,75.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9921895718783927,
+19361,A,dev,0,1.0,1,-1,unassigned,,,short_window
+19372,A,dev,3,89.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9653166002646414,
+19374,A,dev,4,30.0,24,1,P2,"O2Sat_last high, Resp_last low",0.959476427737522,
+19375,A,dev,3,79.0,24,0,P1,O2Sat_last low,0.8147742418252626,
+19378,A,dev,2,63.0,24,1,P2,"O2Sat_last high, Resp_last low",0.786677212985895,
+19401,A,test,-1,47.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9129126941985168,
+19421,A,dev,3,125.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9265506476121311,
+19423,A,dev,2,6.0,6,-1,unassigned,,,sparse_vitals
+19434,A,dev,0,88.0,24,0,P1,O2Sat_last low,0.9964985325306703,
+19437,A,dev,0,14.0,14,0,P1,O2Sat_last low,0.9999987063603141,
+19453,A,dev,4,15.0,15,0,P1,O2Sat_last low,0.9999903914659233,
+19489,A,dev,4,11.0,11,-1,unassigned,,,sparse_vitals
+19492,A,dev,4,18.0,18,1,P2,"O2Sat_last high, Resp_last low",0.6104308729987088,
+19498,A,dev,0,13.0,13,0,P1,O2Sat_last low,0.9987589761925747,
+19509,A,dev,1,55.0,24,0,P1,O2Sat_last low,0.9999997085759362,
+19510,A,dev,4,61.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9663481930396999,
+19547,A,dev,0,93.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7004685024695999,
+19581,A,test,-1,9.0,9,0,P1,O2Sat_last low,0.7027458946741579,
+19584,A,dev,4,24.0,24,0,P1,O2Sat_last low,0.9999999999981775,
+19601,A,dev,2,9.0,9,1,P2,"O2Sat_last high, Resp_last low",0.9758313531916175,
+19602,A,test,-1,235.0,24,0,P1,O2Sat_last low,0.5897671761916233,
+19636,A,dev,3,1.0,1,-1,unassigned,,,short_window
+19675,A,dev,2,78.0,24,0,P1,O2Sat_last low,0.991571304008621,
+19678,A,dev,1,19.0,19,-1,unassigned,,,sparse_vitals
+19680,A,test,-1,114.0,24,0,P1,O2Sat_last low,0.6198502755491848,
+19687,A,dev,4,19.0,19,1,P2,"O2Sat_last high, Resp_last low",0.5774829856595385,
+19722,A,dev,1,42.0,24,0,P1,O2Sat_last low,0.9999999999207709,
+19731,A,dev,2,7.0,7,-1,unassigned,,,sparse_vitals
+19738,A,test,-1,233.0,24,0,P1,O2Sat_last low,0.7358399720884706,
+19743,A,dev,3,48.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8673348396404139,
+19751,A,dev,0,34.0,24,0,P1,O2Sat_last low,0.7454969975159993,
+19760,A,test,-1,115.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8839533680827591,
+19769,A,dev,1,18.0,18,0,P1,O2Sat_last low,0.5007943335378711,
+19778,A,dev,4,228.0,24,0,P1,O2Sat_last low,0.9999900254916916,
+19802,A,dev,1,15.0,15,0,P1,O2Sat_last low,0.9999822750490603,
+19820,A,dev,4,51.0,24,1,P2,"O2Sat_last high, Resp_last low",0.909775339566836,
+19826,A,dev,1,34.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9641704525574856,
+19829,A,dev,3,3.0,3,-1,unassigned,,,short_window
+19847,A,dev,4,51.0,24,1,P2,"O2Sat_last high, Resp_last low",0.983221704444197,
+19850,A,dev,1,6.0,6,-1,unassigned,,,sparse_vitals
+19866,A,dev,2,37.0,24,0,P1,O2Sat_last low,0.9424594348914115,
+19877,A,dev,1,200.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8284600762029496,
+19878,A,dev,1,25.0,24,0,P1,O2Sat_last low,0.9999999593312027,
+19901,A,dev,0,5.0,5,-1,unassigned,,,short_window
+19930,A,test,-1,15.0,15,1,P2,"O2Sat_last high, Resp_last low",0.9732557345799899,
+19947,A,dev,2,30.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9560759479915624,
+19950,A,test,-1,211.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6678052340605924,
+19952,A,test,-1,94.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6821794079219083,
+19960,A,dev,0,72.0,24,0,P1,O2Sat_last low,0.9999991890420825,
+19966,A,dev,2,2.0,2,-1,unassigned,,,short_window
+19970,A,test,-1,48.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5733262874149103,
+19985,A,dev,0,16.0,16,-1,unassigned,,,sparse_vitals
+20323,A,dev,2,84.0,24,0,P1,O2Sat_last low,0.9999999968590352,
+20332,A,dev,3,12.0,12,-1,unassigned,,,sparse_vitals
+20349,A,dev,0,1.0,1,-1,unassigned,,,short_window
+20354,A,dev,3,15.0,15,0,P1,O2Sat_last low,0.6320774044757874,
+20360,A,test,-1,123.0,24,0,P1,O2Sat_last low,0.8016543421347705,
+20367,A,dev,0,95.0,24,0,P1,O2Sat_last low,0.8963761422887699,
+20374,A,dev,1,19.0,19,0,P1,O2Sat_last low,0.9997850134371358,
+20382,A,dev,1,200.0,24,0,P1,O2Sat_last low,0.99995862510521,
+20383,A,dev,0,3.0,3,-1,unassigned,,,short_window
+20391,A,dev,2,4.0,4,-1,unassigned,,,short_window
+20400,A,dev,1,70.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9902896433466422,
+20406,A,test,-1,77.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8865787935590456,
+20411,A,dev,3,132.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7556515156992547,
+20419,A,dev,3,62.0,24,1,P2,"O2Sat_last high, Resp_last low",0.644838964047647,
+20434,A,dev,0,8.0,8,-1,unassigned,,,sparse_vitals
+20444,A,dev,4,17.0,17,1,P2,"O2Sat_last high, Resp_last low",0.9840413569002396,
+20456,A,dev,3,113.0,24,0,P1,O2Sat_last low,0.9997768302663067,
+20463,A,test,-1,1.0,1,-1,unassigned,,,short_window
+20480,A,dev,2,58.0,24,-1,unassigned,,,sparse_vitals
+20503,A,test,-1,136.0,24,0,P1,O2Sat_last low,0.9742774836929737,
+20524,A,dev,0,35.0,24,-1,unassigned,,,sparse_vitals
+20526,A,dev,1,13.0,13,-1,unassigned,,,sparse_vitals
+20538,A,dev,0,88.0,24,0,P1,O2Sat_last low,0.7472574288182525,
+20563,A,test,-1,16.0,16,0,P1,O2Sat_last low,0.6333878318976087,
+20565,A,dev,2,14.0,14,1,P2,"O2Sat_last high, Resp_last low",0.9846036782211607,
+20575,A,dev,3,117.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9572850029655541,
+20585,A,dev,2,165.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8136797041473015,
+20593,A,dev,3,5.0,5,-1,unassigned,,,short_window
+20601,A,dev,3,21.0,21,1,P2,"O2Sat_last high, Resp_last low",0.9633193449016717,
+20637,A,test,-1,133.0,24,0,P1,O2Sat_last low,0.9447585232353441,
+20643,A,dev,2,24.0,24,0,P1,O2Sat_last low,0.9982398348456071,
+100013,B,dev,4,80.0,24,0,P1,O2Sat_last low,0.9045275504988046,
+100016,B,test,-1,265.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9704562720852553,
+100047,B,test,-1,26.0,24,0,P1,O2Sat_last low,0.9923504167982035,
+100049,B,test,-1,78.0,24,0,P1,O2Sat_last low,0.9999977719558283,
+100068,B,dev,1,94.0,24,1,P2,"O2Sat_last high, Resp_last low",0.638951260172972,
+100072,B,dev,4,25.0,24,0,P1,O2Sat_last low,0.9999999990376338,
+100073,B,dev,3,18.0,18,-1,unassigned,,,sparse_vitals
+100088,B,dev,1,29.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9933024902452051,
+100100,B,dev,1,52.0,24,1,P2,"O2Sat_last high, Resp_last low",0.768164869162219,
+100111,B,dev,3,32.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8611264239238895,
+100162,B,test,-1,109.0,24,-1,unassigned,,,sparse_vitals
+100217,B,dev,2,191.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8385514635882784,
+100218,B,dev,1,56.0,24,0,P1,O2Sat_last low,0.9999998915482872,
+100232,B,test,-1,89.0,24,0,P1,O2Sat_last low,0.9999996477123058,
+100275,B,test,-1,17.0,17,1,P2,"O2Sat_last high, Resp_last low",0.9530526241627655,
+100312,B,dev,1,39.0,24,0,P1,O2Sat_last low,0.9999994486395344,
+100333,B,dev,4,134.0,24,0,P1,O2Sat_last low,0.9997894510630785,
+100334,B,dev,0,208.0,24,0,P1,O2Sat_last low,0.9998289720721486,
+100356,B,dev,2,6.0,6,-1,unassigned,,,sparse_vitals
+100362,B,dev,1,105.0,24,0,P1,O2Sat_last low,0.9860293946417439,
+100367,B,dev,2,89.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6186598716642248,
+100462,B,dev,4,31.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8279878950890901,
+100504,B,dev,2,250.0,24,0,P1,O2Sat_last low,0.8391659044633448,
+100527,B,dev,2,40.0,24,0,P1,O2Sat_last low,0.9994216168017058,
+100540,B,test,-1,77.0,24,0,P1,O2Sat_last low,0.8913735800250988,
+100543,B,test,-1,3.0,3,-1,unassigned,,,short_window
+100579,B,dev,4,3.0,3,-1,unassigned,,,short_window
+100580,B,test,-1,26.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9439097771429662,
+100612,B,dev,3,31.0,24,0,P1,O2Sat_last low,0.9999950827900236,
+100632,B,dev,4,46.0,24,0,P1,O2Sat_last low,0.9999999999999503,
+100658,B,dev,4,100.0,24,0,P1,O2Sat_last low,0.9999999860456121,
+100671,B,dev,0,39.0,24,0,P1,O2Sat_last low,0.9999884807582475,
+100673,B,dev,3,44.0,24,0,P1,O2Sat_last low,0.6675674591472415,
+100675,B,dev,0,61.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9882023796154648,
+100693,B,test,-1,2.0,2,-1,unassigned,,,short_window
+100705,B,test,-1,91.0,24,0,P1,O2Sat_last low,0.8738363215540932,
+100737,B,dev,3,13.0,13,1,P2,"O2Sat_last high, Resp_last low",0.8499042816039817,
+100738,B,dev,2,68.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8140999721107415,
+100739,B,dev,1,92.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9863915942306233,
+100741,B,dev,0,18.0,18,0,P1,O2Sat_last low,0.9997616904569815,
+100811,B,dev,4,45.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8239713798770728,
+100823,B,dev,0,14.0,14,0,P1,O2Sat_last low,0.9999810527262635,
+100836,B,dev,0,76.0,24,0,P1,O2Sat_last low,0.7908892296112663,
+100837,B,test,-1,110.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6559342996464504,
+100838,B,dev,4,33.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9594360991178806,
+100862,B,dev,3,5.0,5,-1,unassigned,,,short_window
+100870,B,dev,4,24.0,24,0,P1,O2Sat_last low,0.9969090376265894,
+100901,B,dev,0,1.0,1,-1,unassigned,,,short_window
+100907,B,test,-1,16.0,16,-1,unassigned,,,sparse_vitals
+100946,B,dev,4,310.0,24,0,P1,O2Sat_last low,0.9999996796844142,
+100974,B,dev,3,128.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8252144885553997,
+100992,B,dev,0,223.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9801636500176838,
+100995,B,dev,0,38.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9446444761546091,
+101090,B,test,-1,51.0,24,-1,unassigned,,,sparse_vitals
+101108,B,dev,0,1.0,1,-1,unassigned,,,short_window
+101157,B,dev,3,34.0,24,0,P1,O2Sat_last low,0.9999996686720463,
+101189,B,test,-1,20.0,20,0,P1,O2Sat_last low,0.9961429060038627,
+101190,B,dev,0,62.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5168908264663976,
+101245,B,test,-1,15.0,15,1,P2,"O2Sat_last high, Resp_last low",0.8724001364901071,
+101257,B,test,-1,18.0,18,0,P1,O2Sat_last low,0.9998161292294925,
+101262,B,dev,3,29.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9958705324496656,
+101291,B,dev,0,43.0,24,-1,unassigned,,,sparse_vitals
+101295,B,dev,1,55.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9492187771455866,
+101300,B,test,-1,15.0,15,0,P1,O2Sat_last low,0.9999999926657352,
+101327,B,dev,3,6.0,6,1,P2,"O2Sat_last high, Resp_last low",0.874805156752664,
+101341,B,test,-1,2.0,2,-1,unassigned,,,short_window
+101357,B,dev,0,2.0,2,-1,unassigned,,,short_window
+101367,B,dev,0,6.0,6,-1,unassigned,,,sparse_vitals
+101375,B,dev,0,122.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7732593039431043,
+101405,B,dev,0,119.0,24,-1,unassigned,,,sparse_vitals
+101413,B,dev,2,197.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6134989695499623,
+101444,B,test,-1,247.0,24,0,P1,O2Sat_last low,1.0,
+101517,B,dev,4,13.0,13,0,P1,O2Sat_last low,0.9999985688755091,
+101527,B,test,-1,63.0,24,0,P1,O2Sat_last low,1.0,
+101561,B,dev,2,77.0,24,0,P1,O2Sat_last low,0.9622205041337037,
+101596,B,dev,0,83.0,24,0,P1,O2Sat_last low,0.9997188269727517,
+101601,B,test,-1,38.0,24,-1,unassigned,,,sparse_vitals
+101618,B,dev,1,46.0,24,0,P1,O2Sat_last low,0.9999999999999734,
+101630,B,test,-1,1.0,1,-1,unassigned,,,short_window
+101696,B,dev,1,101.0,24,0,P1,O2Sat_last low,0.9990372922509977,
+101712,B,dev,0,31.0,24,0,P1,O2Sat_last low,0.9098728953439313,
+101724,B,test,-1,12.0,12,-1,unassigned,,,sparse_vitals
+101729,B,test,-1,2.0,2,-1,unassigned,,,short_window
+101739,B,dev,3,138.0,24,0,P1,O2Sat_last low,0.8086225627327568,
+101748,B,dev,1,13.0,13,0,P1,O2Sat_last low,0.9999882292183511,
+101750,B,dev,4,23.0,23,0,P1,O2Sat_last low,0.9167737950361732,
+101805,B,dev,1,154.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9371960662617727,
+101857,B,dev,2,107.0,24,0,P1,O2Sat_last low,0.8831083625646277,
+101879,B,test,-1,26.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9435303988867959,
+101880,B,dev,0,44.0,24,0,P1,O2Sat_last low,0.9866280454237079,
+101883,B,dev,0,37.0,24,0,P1,O2Sat_last low,0.9999995091487236,
+101911,B,dev,0,12.0,12,-1,unassigned,,,sparse_vitals
+101922,B,dev,1,330.0,24,0,P1,O2Sat_last low,0.9999999736111483,
+101933,B,dev,1,157.0,24,0,P1,O2Sat_last low,0.9412111332788802,
+101934,B,dev,4,2.0,2,-1,unassigned,,,short_window
+101956,B,dev,1,28.0,24,1,P2,"O2Sat_last high, Resp_last low",0.607463852452836,
+101982,B,dev,3,103.0,24,0,P1,O2Sat_last low,0.9920718812102854,
+101990,B,dev,2,8.0,8,-1,unassigned,,,sparse_vitals
+102020,B,dev,3,47.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9841738221148872,
+102022,B,dev,2,60.0,24,1,P2,"O2Sat_last high, Resp_last low",0.91818190529726,
+102070,B,dev,2,73.0,24,0,P1,O2Sat_last low,0.9996440269819049,
+102109,B,dev,2,12.0,12,-1,unassigned,,,sparse_vitals
+102128,B,dev,0,33.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9970701183685415,
+102129,B,dev,2,13.0,13,1,P2,"O2Sat_last high, Resp_last low",0.906177333304501,
+102158,B,dev,4,26.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9876368423676234,
+102173,B,dev,1,60.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7259757642571307,
+102260,B,test,-1,29.0,24,0,P1,O2Sat_last low,0.9999882328657248,
+102267,B,dev,0,11.0,11,-1,unassigned,,,sparse_vitals
+102306,B,dev,1,109.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8470514900789071,
+102313,B,dev,0,83.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9360017997447382,
+102347,B,dev,0,13.0,13,1,P2,"O2Sat_last high, Resp_last low",0.9904180686662177,
+102390,B,dev,3,32.0,24,0,P1,O2Sat_last low,0.9977683146343173,
+102398,B,test,-1,18.0,18,1,P2,"O2Sat_last high, Resp_last low",0.9325098487031314,
+102401,B,dev,1,22.0,22,1,P2,"O2Sat_last high, Resp_last low",0.8533897359509959,
+102421,B,dev,0,138.0,24,0,P1,O2Sat_last low,0.9949695849621732,
+102436,B,dev,4,6.0,6,-1,unassigned,,,sparse_vitals
+102468,B,dev,4,27.0,24,0,P1,O2Sat_last low,0.954911261381495,
+102478,B,dev,3,82.0,24,0,P1,O2Sat_last low,0.9995023396319813,
+102481,B,test,-1,3.0,3,-1,unassigned,,,short_window
+102495,B,dev,3,23.0,23,0,P1,O2Sat_last low,0.9999751155654534,
+102542,B,dev,0,9.0,9,-1,unassigned,,,sparse_vitals
+102582,B,dev,3,23.0,23,0,P1,O2Sat_last low,0.9960927057354357,
+102590,B,dev,3,31.0,24,0,P1,O2Sat_last low,0.9998098609808426,
+102643,B,dev,2,11.0,11,-1,unassigned,,,sparse_vitals
+102644,B,dev,0,36.0,24,0,P1,O2Sat_last low,0.6255935535128226,
+102671,B,dev,3,38.0,24,0,P1,O2Sat_last low,0.993159439536059,
+102708,B,dev,1,39.0,24,0,P1,O2Sat_last low,0.9999999999995737,
+102746,B,dev,1,178.0,24,0,P1,O2Sat_last low,0.7801333636171657,
+102749,B,dev,1,46.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9449509120272165,
+102771,B,dev,1,50.0,24,0,P1,O2Sat_last low,0.9633611982848971,
+102780,B,dev,1,17.0,17,1,P2,"O2Sat_last high, Resp_last low",0.9737424217047825,
+102784,B,dev,3,121.0,24,0,P1,O2Sat_last low,0.9346889733595385,
+102787,B,dev,3,2.0,2,-1,unassigned,,,short_window
+102830,B,dev,4,8.0,8,-1,unassigned,,,sparse_vitals
+102844,B,dev,4,121.0,24,1,P2,"O2Sat_last high, Resp_last low",0.909020335719371,
+102888,B,dev,0,82.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9147378912065645,
+102934,B,dev,2,47.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8513051049504841,
+102937,B,dev,1,23.0,23,1,P2,"O2Sat_last high, Resp_last low",0.9675346022566728,
+102971,B,dev,4,4.0,4,-1,unassigned,,,short_window
+102972,B,dev,3,148.0,24,0,P1,O2Sat_last low,0.9999999957975128,
+102989,B,dev,0,5.0,5,-1,unassigned,,,short_window
+103001,B,dev,4,2.0,2,-1,unassigned,,,short_window
+103037,B,test,-1,38.0,24,0,P1,O2Sat_last low,0.999999953452199,
+103073,B,dev,3,26.0,24,0,P1,O2Sat_last low,0.9188608399649462,
+103080,B,test,-1,11.0,11,-1,unassigned,,,sparse_vitals
+103148,B,test,-1,4.0,4,-1,unassigned,,,short_window
+103159,B,dev,3,59.0,24,0,P1,O2Sat_last low,0.9938101914269378,
+103194,B,dev,2,74.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9624857711547284,
+103207,B,dev,3,67.0,24,0,P1,O2Sat_last low,0.8264090676547008,
+103249,B,dev,1,70.0,24,0,P1,O2Sat_last low,0.9997793554292086,
+103259,B,dev,2,5.0,5,-1,unassigned,,,short_window
+103261,B,dev,0,54.0,24,0,P1,O2Sat_last low,0.9999930838163138,
+103278,B,test,-1,33.0,24,-1,unassigned,,,sparse_vitals
+103293,B,dev,0,24.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7032095560199901,
+103317,B,dev,4,90.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9448922854106089,
+103357,B,dev,1,1.0,1,-1,unassigned,,,short_window
+103365,B,test,-1,86.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7971222431153717,
+103367,B,dev,1,15.0,15,0,P1,O2Sat_last low,0.9999999992536459,
+103395,B,dev,2,54.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9509320457508944,
+103429,B,dev,1,34.0,24,0,P1,O2Sat_last low,0.9999999938241757,
+103435,B,dev,4,6.0,6,-1,unassigned,,,sparse_vitals
+103452,B,dev,2,13.0,13,0,P1,O2Sat_last low,0.9165601791877315,
+103525,B,dev,2,4.0,4,-1,unassigned,,,short_window
+103562,B,dev,0,242.0,24,-1,unassigned,,,sparse_vitals
+103568,B,test,-1,44.0,24,0,P1,O2Sat_last low,0.9998584779021437,
+103577,B,test,-1,28.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9399533861788608,
+103623,B,dev,4,195.0,24,0,P1,O2Sat_last low,0.9999368530292932,
+103662,B,dev,4,6.0,6,-1,unassigned,,,sparse_vitals
+103663,B,dev,1,83.0,24,-1,unassigned,,,sparse_vitals
+103686,B,dev,0,86.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8877645713020356,
+103691,B,dev,0,8.0,8,-1,unassigned,,,sparse_vitals
+103744,B,dev,2,91.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9824475797809203,
+103815,B,dev,1,99.0,24,0,P1,O2Sat_last low,0.999998289666993,
+103819,B,dev,1,180.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8259992322966088,
+103863,B,dev,1,25.0,24,0,P1,O2Sat_last low,0.9999375372347975,
+103871,B,dev,4,26.0,24,0,P1,O2Sat_last low,0.9819469618898908,
+103897,B,dev,3,1.0,1,-1,unassigned,,,short_window
+103905,B,dev,4,12.0,12,-1,unassigned,,,sparse_vitals
+103995,B,dev,3,8.0,8,0,P1,O2Sat_last low,0.9999999999798792,
+104025,B,test,-1,36.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6474815123842281,
+104049,B,dev,4,298.0,24,0,P1,O2Sat_last low,0.9999992204561466,
+104051,B,dev,0,197.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9922451536144503,
+104053,B,dev,2,23.0,23,0,P1,O2Sat_last low,0.9999999998029807,
+104106,B,dev,1,60.0,24,0,P1,O2Sat_last low,0.9963096587875258,
+104130,B,dev,2,16.0,16,1,P2,"O2Sat_last high, Resp_last low",0.9880914295743449,
+104184,B,test,-1,80.0,24,0,P1,O2Sat_last low,0.9999883934080149,
+104187,B,dev,2,52.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9657246751380368,
+104210,B,dev,3,53.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8706980548749709,
+104274,B,dev,2,45.0,24,-1,unassigned,,,sparse_vitals
+104281,B,dev,2,30.0,24,0,P1,O2Sat_last low,0.9994249693510531,
+104288,B,dev,4,122.0,24,0,P1,O2Sat_last low,0.9999999545771853,
+104318,B,dev,4,53.0,24,0,P1,O2Sat_last low,0.9997934963385665,
+104320,B,dev,1,19.0,19,0,P1,O2Sat_last low,0.7076727017794471,
+104367,B,test,-1,155.0,24,1,P2,"O2Sat_last high, Resp_last low",0.97307427798657,
+104445,B,dev,0,103.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9505449348237676,
+104456,B,dev,1,70.0,24,0,P1,O2Sat_last low,0.9022567150841777,
+104474,B,dev,3,25.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9165565884730852,
+104483,B,dev,2,22.0,22,0,P1,O2Sat_last low,0.9954026355892389,
+104507,B,dev,3,49.0,24,0,P1,O2Sat_last low,0.9942737175803565,
+104524,B,dev,0,153.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5324531312454331,
+104530,B,dev,4,239.0,24,1,P2,"O2Sat_last high, Resp_last low",0.957889791837596,
+104535,B,test,-1,6.0,6,-1,unassigned,,,sparse_vitals
+104541,B,dev,0,18.0,18,-1,unassigned,,,sparse_vitals
+104545,B,dev,3,1.0,1,-1,unassigned,,,short_window
+104616,B,dev,0,5.0,5,-1,unassigned,,,short_window
+104624,B,dev,1,83.0,24,0,P1,O2Sat_last low,0.8369630766912742,
+104666,B,test,-1,19.0,19,1,P2,"O2Sat_last high, Resp_last low",0.972407106262639,
+104728,B,dev,0,29.0,24,0,P1,O2Sat_last low,0.9987270726407121,
+104734,B,dev,2,120.0,24,0,P1,O2Sat_last low,0.993803747126773,
+104738,B,dev,4,17.0,17,0,P1,O2Sat_last low,0.9999997656741034,
+104754,B,dev,2,51.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9236003182469197,
+104769,B,dev,4,83.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9517411174139887,
+104780,B,dev,1,1.0,1,-1,unassigned,,,short_window
+104785,B,dev,4,35.0,24,1,P2,"O2Sat_last high, Resp_last low",0.868797591428012,
+104787,B,test,-1,27.0,24,0,P1,O2Sat_last low,1.0,
+104800,B,dev,2,6.0,6,-1,unassigned,,,sparse_vitals
+104804,B,dev,2,12.0,12,1,P2,"O2Sat_last high, Resp_last low",0.6842909063214015,
+104893,B,dev,2,10.0,10,0,P1,O2Sat_last low,1.0,
+104932,B,dev,2,98.0,24,0,P1,O2Sat_last low,0.9746829160958796,
+104980,B,dev,4,2.0,2,-1,unassigned,,,short_window
+104996,B,dev,4,22.0,22,1,P2,"O2Sat_last high, Resp_last low",0.9815921884417652,
+105017,B,dev,1,35.0,24,0,P1,O2Sat_last low,0.998830400454082,
+105030,B,dev,3,41.0,24,0,P1,O2Sat_last low,0.9999952743921159,
+105038,B,test,-1,72.0,24,0,P1,O2Sat_last low,0.5717518192661317,
+105042,B,dev,1,95.0,24,0,P1,O2Sat_last low,0.9999970618471108,
+105045,B,dev,4,288.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7744473646060379,
+105055,B,test,-1,96.0,24,0,P1,O2Sat_last low,0.9866704533257648,
+105061,B,dev,0,45.0,24,0,P1,O2Sat_last low,0.9999999422185101,
+105081,B,dev,0,30.0,24,0,P1,O2Sat_last low,0.9999998690423976,
+105102,B,test,-1,8.0,8,-1,unassigned,,,sparse_vitals
+105122,B,dev,2,203.0,24,-1,unassigned,,,sparse_vitals
+105180,B,test,-1,13.0,13,-1,unassigned,,,sparse_vitals
+105190,B,dev,0,182.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9772334631354523,
+105259,B,dev,0,113.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9494696329442082,
+105270,B,dev,4,17.0,17,0,P1,O2Sat_last low,0.9999961960649822,
+105284,B,dev,3,1.0,1,-1,unassigned,,,short_window
+105287,B,dev,1,44.0,24,0,P1,O2Sat_last low,0.999999999999968,
+105308,B,dev,0,27.0,24,1,P2,"O2Sat_last high, Resp_last low",0.749112993993142,
+105320,B,dev,3,127.0,24,0,P1,O2Sat_last low,0.9999357712749586,
+105405,B,dev,3,196.0,24,0,P1,O2Sat_last low,0.9998882316781629,
+105410,B,dev,0,56.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6728679313440733,
+105423,B,dev,1,32.0,24,0,P1,O2Sat_last low,0.9999972896277884,
+105431,B,test,-1,49.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8325682644077613,
+105474,B,dev,2,103.0,24,0,P1,O2Sat_last low,0.7773395258074456,
+105483,B,dev,1,5.0,5,-1,unassigned,,,short_window
+105496,B,test,-1,51.0,24,0,P1,O2Sat_last low,0.9999999947220672,
+105586,B,dev,3,164.0,24,0,P1,O2Sat_last low,1.0,
+105599,B,dev,4,196.0,24,0,P1,O2Sat_last low,0.8374339181849566,
+105639,B,test,-1,43.0,24,0,P1,O2Sat_last low,0.8427857915691951,
+105640,B,dev,4,86.0,24,0,P1,O2Sat_last low,0.9798191484714753,
+105645,B,dev,0,5.0,5,-1,unassigned,,,short_window
+105659,B,dev,3,85.0,24,0,P1,O2Sat_last low,0.9999920570446976,
+105667,B,test,-1,36.0,24,0,P1,O2Sat_last low,0.9999999999999964,
+105669,B,test,-1,73.0,24,0,P1,O2Sat_last low,0.7603077000946679,
+105741,B,dev,1,246.0,24,1,P2,"O2Sat_last high, Resp_last low",0.90200709883702,
+105753,B,dev,4,5.0,5,-1,unassigned,,,short_window
+105781,B,dev,4,105.0,24,0,P1,O2Sat_last low,0.8289052913432421,
+105788,B,test,-1,31.0,24,0,P1,O2Sat_last low,0.9999999661621916,
+105796,B,dev,4,1.0,1,-1,unassigned,,,short_window
+105809,B,dev,2,230.0,24,0,P1,O2Sat_last low,0.9999998332540546,
+105824,B,dev,3,25.0,24,0,P1,O2Sat_last low,0.9979760712874273,
+105831,B,dev,0,178.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8947279403121572,
+105862,B,test,-1,37.0,24,0,P1,O2Sat_last low,0.9999999999999929,
+105869,B,dev,3,39.0,24,0,P1,O2Sat_last low,0.9268651678896019,
+105885,B,dev,3,124.0,24,0,P1,O2Sat_last low,0.9999423251391705,
+105892,B,test,-1,13.0,13,0,P1,O2Sat_last low,0.9989570183381384,
+105905,B,dev,1,9.0,9,1,P2,"O2Sat_last high, Resp_last low",0.965648828083249,
+105912,B,dev,2,25.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9736283601775462,
+105915,B,dev,4,91.0,24,0,P1,O2Sat_last low,0.9999998294803362,
+105962,B,dev,2,1.0,1,-1,unassigned,,,short_window
+105969,B,dev,3,29.0,24,0,P1,O2Sat_last low,0.9957042447955898,
+105979,B,dev,0,24.0,24,0,P1,O2Sat_last low,0.8716814313537068,
+105999,B,dev,4,34.0,24,0,P1,O2Sat_last low,0.9998902305715454,
+106037,B,dev,3,9.0,9,-1,unassigned,,,sparse_vitals
+106058,B,dev,4,41.0,24,0,P1,O2Sat_last low,0.9893221510130119,
+106064,B,dev,4,68.0,24,0,P1,O2Sat_last low,0.9999947034266466,
+106114,B,dev,3,5.0,5,-1,unassigned,,,short_window
+106129,B,dev,2,29.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8359349038072238,
+106158,B,test,-1,12.0,12,0,P1,O2Sat_last low,0.9998470945525839,
+106171,B,dev,3,92.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9046884047925301,
+106214,B,dev,4,43.0,24,0,P1,O2Sat_last low,0.9935672805548975,
+106246,B,dev,0,74.0,24,0,P1,O2Sat_last low,0.9999816819400252,
+106293,B,dev,2,58.0,24,0,P1,O2Sat_last low,0.9999871052929223,
+106358,B,test,-1,17.0,17,-1,unassigned,,,sparse_vitals
+106376,B,dev,0,63.0,24,0,P1,O2Sat_last low,0.9946746963356649,
+106401,B,dev,3,64.0,24,0,P1,O2Sat_last low,0.9686729561586437,
+106429,B,dev,2,9.0,9,-1,unassigned,,,sparse_vitals
+106433,B,dev,3,198.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9283691842959022,
+106445,B,dev,0,97.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7109482143441566,
+106451,B,dev,3,7.0,7,-1,unassigned,,,sparse_vitals
+106479,B,dev,0,1.0,1,-1,unassigned,,,short_window
+106488,B,dev,1,170.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9430096159403614,
+106498,B,dev,1,113.0,24,0,P1,O2Sat_last low,0.9999839306559123,
+106507,B,test,-1,80.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9592195655793316,
+106511,B,dev,1,129.0,24,0,P1,O2Sat_last low,0.7252036928950548,
+106515,B,dev,1,4.0,4,-1,unassigned,,,short_window
+106608,B,dev,2,3.0,3,-1,unassigned,,,short_window
+106618,B,test,-1,94.0,24,0,P1,O2Sat_last low,0.9999999999664233,
+106644,B,test,-1,105.0,24,0,P1,O2Sat_last low,0.9916420164235921,
+106661,B,dev,3,128.0,24,-1,unassigned,,,sparse_vitals
+106714,B,dev,4,46.0,24,0,P1,O2Sat_last low,0.8632377559616697,
+106718,B,dev,1,38.0,24,0,P1,O2Sat_last low,0.9999993291482893,
+106720,B,test,-1,9.0,9,1,P2,"O2Sat_last high, Resp_last low",0.6112090691683467,
+106750,B,dev,2,85.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5581613466857476,
+106826,B,dev,2,4.0,4,-1,unassigned,,,short_window
+106836,B,dev,2,18.0,18,1,P2,"O2Sat_last high, Resp_last low",0.5194331223182136,
+106855,B,dev,4,134.0,24,1,P2,"O2Sat_last high, Resp_last low",0.779792785138039,
+106868,B,dev,3,45.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9435060217328373,
+106900,B,dev,0,21.0,21,0,P1,O2Sat_last low,1.0,
+106914,B,dev,0,112.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7522568748071772,
+106943,B,test,-1,27.0,24,0,P1,O2Sat_last low,0.8457246939663257,
+106969,B,dev,0,136.0,24,0,P1,O2Sat_last low,0.9811907159046617,
+106984,B,dev,2,12.0,12,0,P1,O2Sat_last low,0.9990639962712904,
+107021,B,test,-1,57.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9544272116608419,
+107022,B,dev,3,54.0,24,0,P1,O2Sat_last low,0.9999933639363644,
+107063,B,dev,4,90.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9611805297155767,
+107111,B,dev,2,102.0,24,0,P1,O2Sat_last low,0.7116361694428803,
+107138,B,test,-1,34.0,24,0,P1,O2Sat_last low,0.9999999993967599,
+107246,B,dev,0,11.0,11,-1,unassigned,,,sparse_vitals
+107250,B,dev,3,38.0,24,0,P1,O2Sat_last low,0.970481397656215,
+107262,B,test,-1,112.0,24,0,P1,O2Sat_last low,0.9999994182895677,
+107267,B,dev,3,56.0,24,0,P1,O2Sat_last low,0.9966889119908147,
+107279,B,test,-1,199.0,24,0,P1,O2Sat_last low,0.9997313927250333,
+107283,B,dev,0,215.0,24,0,P1,O2Sat_last low,0.9999999999715943,
+107297,B,dev,1,12.0,12,0,P1,O2Sat_last low,0.7593237353283971,
+107350,B,dev,3,30.0,24,0,P1,O2Sat_last low,0.6079132114265056,
+107362,B,dev,4,136.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9559476003965047,
+107372,B,dev,3,16.0,16,-1,unassigned,,,sparse_vitals
+107375,B,dev,3,10.0,10,1,P2,"O2Sat_last high, Resp_last low",0.9741914071631742,
+107424,B,test,-1,24.0,24,0,P1,O2Sat_last low,0.8863880053649701,
+107438,B,dev,1,5.0,5,-1,unassigned,,,short_window
+107511,B,dev,0,13.0,13,0,P1,O2Sat_last low,1.0,
+107525,B,test,-1,32.0,24,0,P1,O2Sat_last low,0.9102058889377815,
+107532,B,dev,2,199.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9805299973370898,
+107547,B,dev,2,11.0,11,-1,unassigned,,,sparse_vitals
+107563,B,dev,2,38.0,24,0,P1,O2Sat_last low,0.9999916502910435,
+107567,B,dev,1,28.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9654014965353519,
+107599,B,dev,4,13.0,13,1,P2,"O2Sat_last high, Resp_last low",0.9839947916301066,
+107638,B,dev,0,33.0,24,0,P1,O2Sat_last low,0.6528300454072026,
+107664,B,dev,2,89.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9354291931650787,
+107665,B,dev,1,4.0,4,-1,unassigned,,,short_window
+107670,B,test,-1,197.0,24,0,P1,O2Sat_last low,0.9377203248790932,
+107674,B,dev,0,8.0,8,-1,unassigned,,,sparse_vitals
+107684,B,dev,4,172.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9606359881913137,
+107691,B,dev,0,38.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8141369299514976,
+107703,B,test,-1,79.0,24,0,P1,O2Sat_last low,0.9969349590347517,
+107721,B,dev,3,14.0,14,-1,unassigned,,,sparse_vitals
+107746,B,dev,3,87.0,24,0,P1,O2Sat_last low,0.9142681059440307,
+107754,B,test,-1,36.0,24,0,P1,O2Sat_last low,0.9999953048637414,
+107793,B,dev,4,201.0,24,0,P1,O2Sat_last low,0.9998685827213032,
+107830,B,dev,1,63.0,24,0,P1,O2Sat_last low,0.9996460912122285,
+107847,B,dev,2,4.0,4,-1,unassigned,,,short_window
+107874,B,test,-1,124.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6246390363972282,
+107896,B,dev,2,12.0,12,1,P2,"O2Sat_last high, Resp_last low",0.8449660293038429,
+107912,B,dev,1,17.0,17,1,P2,"O2Sat_last high, Resp_last low",0.5896747301169466,
+107917,B,dev,0,84.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9863262258323291,
+107939,B,test,-1,23.0,23,1,P2,"O2Sat_last high, Resp_last low",0.9772464149333114,
+107963,B,dev,4,48.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9565563931605123,
+107979,B,dev,1,46.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6291468937804036,
+108007,B,dev,2,179.0,24,0,P1,O2Sat_last low,0.9813088545772239,
+108009,B,dev,0,33.0,24,0,P1,O2Sat_last low,0.9999999948641971,
+108042,B,test,-1,64.0,24,0,P1,O2Sat_last low,0.999753068039706,
+108047,B,dev,1,158.0,24,0,P1,O2Sat_last low,0.9999624400651121,
+108054,B,dev,2,45.0,24,0,P1,O2Sat_last low,0.9999999907046,
+108086,B,dev,2,16.0,16,0,P1,O2Sat_last low,0.9571804272965893,
+108092,B,dev,4,5.0,5,-1,unassigned,,,short_window
+108101,B,dev,2,1.0,1,-1,unassigned,,,short_window
+108124,B,dev,2,3.0,3,-1,unassigned,,,short_window
+108141,B,test,-1,11.0,11,1,P2,"O2Sat_last high, Resp_last low",0.5298115153165575,
+108143,B,dev,3,73.0,24,0,P1,O2Sat_last low,0.9999654443174636,
+108144,B,test,-1,128.0,24,-1,unassigned,,,sparse_vitals
+108146,B,test,-1,12.0,12,1,P2,"O2Sat_last high, Resp_last low",0.8715304631743028,
+108163,B,dev,2,87.0,24,0,P1,O2Sat_last low,0.9999996115539718,
+108171,B,dev,4,9.0,9,-1,unassigned,,,sparse_vitals
+108176,B,dev,1,46.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9653339014115739,
+108195,B,dev,3,36.0,24,0,P1,O2Sat_last low,0.9999064270323955,
+108210,B,test,-1,81.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6860203534161868,
+108217,B,dev,3,41.0,24,0,P1,O2Sat_last low,0.9999999999998828,
+108284,B,dev,2,16.0,16,1,P2,"O2Sat_last high, Resp_last low",0.9021895280689955,
+108296,B,test,-1,224.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9383778270200038,
+108355,B,dev,4,87.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9232630444945487,
+108361,B,dev,0,19.0,19,0,P1,O2Sat_last low,0.9999980764351184,
+108381,B,test,-1,33.0,24,0,P1,O2Sat_last low,0.6021555495460222,
+108388,B,dev,3,26.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9058543571388498,
+108417,B,dev,0,65.0,24,0,P1,O2Sat_last low,0.9978806804447166,
+108474,B,dev,0,128.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6826799616601447,
+108482,B,dev,4,53.0,24,0,P1,O2Sat_last low,0.9998060635402019,
+108559,B,dev,4,15.0,15,0,P1,O2Sat_last low,0.9999999926975534,
+108569,B,dev,1,12.0,12,1,P2,"O2Sat_last high, Resp_last low",0.7214212696583161,
+108574,B,dev,0,137.0,24,0,P1,O2Sat_last low,1.0,
+108585,B,dev,0,92.0,24,0,P1,O2Sat_last low,0.9875447904690067,
+108648,B,dev,3,211.0,24,0,P1,O2Sat_last low,0.9999999990236361,
+108689,B,dev,4,64.0,24,0,P1,O2Sat_last low,0.9999977775459984,
+108701,B,dev,0,119.0,24,0,P1,O2Sat_last low,0.9999146570004851,
+108717,B,dev,1,42.0,24,0,P1,O2Sat_last low,0.9999996542466871,
+108727,B,dev,2,12.0,12,1,P2,"O2Sat_last high, Resp_last low",0.986621600558013,
+108734,B,dev,1,4.0,4,-1,unassigned,,,short_window
+108750,B,dev,4,26.0,24,0,P1,O2Sat_last low,0.9999999999913083,
+108804,B,test,-1,2.0,2,-1,unassigned,,,short_window
+108833,B,dev,2,64.0,24,0,P1,O2Sat_last low,0.7436470868335013,
+108849,B,dev,3,255.0,24,0,P1,O2Sat_last low,0.999999733751192,
+108871,B,dev,1,56.0,24,0,P1,O2Sat_last low,0.9090106705891882,
+108952,B,test,-1,100.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9272174205529643,
+109005,B,dev,0,33.0,24,0,P1,O2Sat_last low,0.9999999999999964,
+109023,B,test,-1,202.0,24,0,P1,O2Sat_last low,0.9579546730785096,
+109080,B,dev,2,138.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8011985858482865,
+109092,B,dev,0,1.0,1,-1,unassigned,,,short_window
+109145,B,dev,4,4.0,4,-1,unassigned,,,short_window
+109148,B,dev,1,87.0,24,-1,unassigned,,,sparse_vitals
+109165,B,dev,1,34.0,24,0,P1,O2Sat_last low,0.9999783044367616,
+109167,B,test,-1,14.0,14,1,P2,"O2Sat_last high, Resp_last low",0.9607292706844377,
+109195,B,dev,2,34.0,24,0,P1,O2Sat_last low,0.6267183151794045,
+109197,B,dev,2,24.0,24,0,P1,O2Sat_last low,0.9218118395129092,
+109202,B,dev,4,15.0,15,0,P1,O2Sat_last low,0.9999996143921643,
+109218,B,dev,1,35.0,24,0,P1,O2Sat_last low,0.9999999999999964,
+109222,B,dev,1,11.0,11,0,P1,O2Sat_last low,0.9999995724015233,
+109263,B,test,-1,4.0,4,-1,unassigned,,,short_window
+109266,B,test,-1,44.0,24,0,P1,O2Sat_last low,0.9999998197706026,
+109273,B,dev,2,14.0,14,-1,unassigned,,,sparse_vitals
+109290,B,test,-1,45.0,24,0,P1,O2Sat_last low,0.9986374314630913,
+109299,B,dev,4,24.0,24,0,P1,O2Sat_last low,0.5171540511757123,
+109332,B,test,-1,10.0,10,-1,unassigned,,,sparse_vitals
+109337,B,dev,2,153.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6637470858853441,
+109338,B,dev,3,82.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7020864356393484,
+109349,B,test,-1,29.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5905931632089453,
+109358,B,test,-1,5.0,5,-1,unassigned,,,short_window
+109388,B,dev,3,26.0,24,0,P1,O2Sat_last low,0.9931512266107909,
+109392,B,dev,2,1.0,1,-1,unassigned,,,short_window
+109468,B,dev,0,60.0,24,0,P1,O2Sat_last low,0.9906628648152065,
+109501,B,test,-1,63.0,24,0,P1,O2Sat_last low,0.8185809843338864,
+109524,B,dev,1,5.0,5,-1,unassigned,,,short_window
+109588,B,dev,2,22.0,22,0,P1,O2Sat_last low,0.9905539536953636,
+109617,B,dev,0,51.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7515079044817059,
+109639,B,dev,4,165.0,24,0,P1,O2Sat_last low,0.9997570477485794,
+109654,B,dev,3,6.0,6,-1,unassigned,,,sparse_vitals
+109656,B,test,-1,9.0,9,0,P1,O2Sat_last low,0.7455778461912967,
+109702,B,dev,2,34.0,24,0,P1,O2Sat_last low,0.883571895091137,
+109721,B,dev,4,80.0,24,-1,unassigned,,,sparse_vitals
+109725,B,test,-1,9.0,9,-1,unassigned,,,sparse_vitals
+109842,B,dev,0,5.0,5,-1,unassigned,,,short_window
+109874,B,dev,3,156.0,24,0,P1,O2Sat_last low,0.9995537058545004,
+109888,B,test,-1,5.0,5,-1,unassigned,,,short_window
+109952,B,dev,4,6.0,6,-1,unassigned,,,sparse_vitals
+109959,B,dev,0,97.0,24,0,P1,O2Sat_last low,0.8934424032548052,
+109961,B,test,-1,113.0,24,0,P1,O2Sat_last low,0.8242444561095222,
+110004,B,dev,2,198.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9163059971926698,
+110008,B,test,-1,59.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9611274225132603,
+110031,B,dev,2,16.0,16,1,P2,"O2Sat_last high, Resp_last low",0.9495788206266409,
+110033,B,dev,0,96.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9284031957680229,
+110048,B,dev,4,47.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7179142522339604,
+110074,B,dev,0,29.0,24,0,P1,O2Sat_last low,0.9999886525692044,
+110087,B,dev,4,57.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7988068415086879,
+110106,B,dev,1,10.0,10,-1,unassigned,,,sparse_vitals
+110158,B,test,-1,53.0,24,0,P1,O2Sat_last low,0.965127880914571,
+110163,B,dev,0,151.0,24,0,P1,O2Sat_last low,0.9985578020841047,
+110181,B,test,-1,43.0,24,0,P1,O2Sat_last low,0.9999999999999964,
+110194,B,dev,1,7.0,7,-1,unassigned,,,sparse_vitals
+110216,B,dev,2,308.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9486870310089629,
+110234,B,dev,1,61.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9675222446329135,
+110288,B,dev,3,130.0,24,0,P1,O2Sat_last low,0.9999999835042744,
+110389,B,dev,4,1.0,1,-1,unassigned,,,short_window
+110411,B,dev,2,265.0,24,0,P1,O2Sat_last low,0.9904287548694373,
+110426,B,dev,1,24.0,24,0,P1,O2Sat_last low,0.9650945449541347,
+110458,B,test,-1,23.0,23,1,P2,"O2Sat_last high, Resp_last low",0.6922872048122208,
+110487,B,dev,0,11.0,11,-1,unassigned,,,sparse_vitals
+110508,B,dev,1,69.0,24,0,P1,O2Sat_last low,0.7912822050497839,
+110509,B,dev,1,230.0,24,1,P2,"O2Sat_last high, Resp_last low",0.692864197074456,
+110574,B,dev,1,5.0,5,-1,unassigned,,,short_window
+110588,B,test,-1,136.0,24,0,P1,O2Sat_last low,0.976626216727507,
+110591,B,test,-1,26.0,24,0,P1,O2Sat_last low,0.5500181119874217,
+110597,B,test,-1,105.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8330742268687625,
+110600,B,dev,3,15.0,15,1,P2,"O2Sat_last high, Resp_last low",0.9785994228721163,
+110602,B,dev,2,41.0,24,1,P2,"O2Sat_last high, Resp_last low",0.894938213442135,
+110658,B,dev,0,49.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7891573484940203,
+110685,B,test,-1,12.0,12,-1,unassigned,,,sparse_vitals
+110693,B,dev,2,14.0,14,1,P2,"O2Sat_last high, Resp_last low",0.6680103278068674,
+110708,B,dev,1,15.0,15,1,P2,"O2Sat_last high, Resp_last low",0.9655007356941401,
+110711,B,dev,2,209.0,24,0,P1,O2Sat_last low,0.9599576822846314,
+110736,B,dev,3,8.0,8,-1,unassigned,,,sparse_vitals
+110738,B,dev,3,3.0,3,-1,unassigned,,,short_window
+110744,B,dev,2,16.0,16,0,P1,O2Sat_last low,0.9997918119702528,
+110750,B,test,-1,2.0,2,-1,unassigned,,,short_window
+110755,B,dev,3,48.0,24,0,P1,O2Sat_last low,0.9999999999303455,
+110758,B,dev,1,26.0,24,0,P1,O2Sat_last low,0.9901345482464261,
+110765,B,dev,2,7.0,7,-1,unassigned,,,sparse_vitals
+110769,B,dev,1,120.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9711762156371483,
+110775,B,dev,1,6.0,6,-1,unassigned,,,sparse_vitals
+110778,B,dev,4,185.0,24,0,P1,O2Sat_last low,0.7387733600915316,
+110786,B,dev,2,105.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8552037153564115,
+110794,B,dev,0,106.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6745799127877448,
+110881,B,dev,3,163.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8466462852148753,
+110906,B,dev,2,48.0,24,1,P2,"O2Sat_last high, Resp_last low",0.813429067518566,
+110917,B,dev,0,6.0,6,-1,unassigned,,,sparse_vitals
+110938,B,dev,1,111.0,24,0,P1,O2Sat_last low,0.9978258964061704,
+110947,B,dev,2,12.0,12,1,P2,"O2Sat_last high, Resp_last low",0.8891604987705054,
+111007,B,dev,4,79.0,24,0,P1,O2Sat_last low,0.9854660684549814,
+111026,B,dev,3,129.0,24,0,P1,O2Sat_last low,0.9999948622288245,
+111029,B,test,-1,56.0,24,0,P1,O2Sat_last low,0.9999338251198229,
+111035,B,dev,2,14.0,14,0,P1,O2Sat_last low,0.9991881247054958,
+111054,B,dev,4,31.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7320135682913554,
+111055,B,dev,1,242.0,24,0,P1,O2Sat_last low,0.9999982382939524,
+111072,B,dev,2,61.0,24,0,P1,O2Sat_last low,0.9999999999998117,
+111087,B,dev,0,59.0,24,0,P1,O2Sat_last low,0.9999772717158495,
+111099,B,dev,2,2.0,2,-1,unassigned,,,short_window
+111102,B,dev,4,13.0,13,0,P1,O2Sat_last low,0.9786028262114121,
+111130,B,test,-1,84.0,24,-1,unassigned,,,sparse_vitals
+111204,B,dev,2,44.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9773045576683709,
+111207,B,dev,3,4.0,4,-1,unassigned,,,short_window
+111301,B,test,-1,235.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6234455128986102,
+111318,B,dev,4,54.0,24,0,P1,O2Sat_last low,0.7633422118381166,
+111327,B,dev,1,33.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7047978537252372,
+111351,B,dev,4,28.0,24,-1,unassigned,,,sparse_vitals
+111353,B,dev,0,326.0,24,0,P1,O2Sat_last low,0.9995965761872411,
+111354,B,dev,0,43.0,24,0,P1,O2Sat_last low,0.9999018586129631,
+111417,B,dev,2,8.0,8,-1,unassigned,,,sparse_vitals
+111418,B,test,-1,220.0,24,0,P1,O2Sat_last low,0.999073335855993,
+111420,B,test,-1,1.0,1,-1,unassigned,,,short_window
+111447,B,dev,0,3.0,3,-1,unassigned,,,short_window
+111449,B,test,-1,43.0,24,0,P1,O2Sat_last low,0.5591308625387812,
+111465,B,dev,1,143.0,24,0,P1,O2Sat_last low,0.9999999999906493,
+111512,B,dev,0,324.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7170651008168112,
+111523,B,test,-1,98.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9651192369286109,
+111529,B,dev,2,32.0,24,-1,unassigned,,,sparse_vitals
+111537,B,test,-1,52.0,24,0,P1,O2Sat_last low,0.9240935368937873,
+111540,B,dev,0,30.0,24,0,P1,O2Sat_last low,0.9999232972985699,
+111554,B,dev,3,31.0,24,0,P1,O2Sat_last low,0.995336415734988,
+111580,B,dev,1,160.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6649847507302256,
+111593,B,dev,3,33.0,24,-1,unassigned,,,sparse_vitals
+111657,B,dev,4,41.0,24,0,P1,O2Sat_last low,0.9999997677480209,
+111690,B,dev,4,19.0,19,1,P2,"O2Sat_last high, Resp_last low",0.515065049155581,
+111692,B,test,-1,41.0,24,0,P1,O2Sat_last low,0.9999040525699223,
+111697,B,dev,3,90.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9793319750608608,
+111706,B,dev,0,49.0,24,1,P2,"O2Sat_last high, Resp_last low",0.559627192195099,
+111750,B,dev,3,39.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7722177542027933,
+111806,B,test,-1,66.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6631831552918345,
+111823,B,dev,2,22.0,22,0,P1,O2Sat_last low,0.9999982130991198,
+111856,B,test,-1,27.0,24,0,P1,O2Sat_last low,0.968251779326387,
+111870,B,test,-1,20.0,20,-1,unassigned,,,sparse_vitals
+111908,B,test,-1,37.0,24,-1,unassigned,,,sparse_vitals
+111920,B,dev,0,106.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7954765596886333,
+111945,B,dev,1,36.0,24,0,P1,O2Sat_last low,0.9705076591611563,
+112050,B,test,-1,135.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8916079015071925,
+112060,B,dev,4,107.0,24,-1,unassigned,,,sparse_vitals
+112097,B,dev,1,53.0,24,0,P1,O2Sat_last low,0.9999454600958431,
+112115,B,dev,4,102.0,24,0,P1,O2Sat_last low,0.6557646574231779,
+112134,B,dev,3,41.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8998456171862251,
+112153,B,dev,0,12.0,12,1,P2,"O2Sat_last high, Resp_last low",0.8922078279502131,
+112155,B,dev,0,50.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9820562478634502,
+112166,B,dev,2,44.0,24,0,P1,O2Sat_last low,0.9513756728349709,
+112182,B,test,-1,30.0,24,0,P1,O2Sat_last low,1.0,
+112231,B,dev,4,46.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8479573493627283,
+112268,B,dev,1,221.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9214369757274149,
+112297,B,dev,3,54.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8957508042282477,
+112302,B,dev,1,45.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6716360118976886,
+112345,B,dev,0,2.0,2,-1,unassigned,,,short_window
+112363,B,dev,0,27.0,24,0,P1,O2Sat_last low,0.6489094174860536,
+112411,B,dev,2,31.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6062700133935024,
+112416,B,dev,3,195.0,24,0,P1,O2Sat_last low,1.0,
+112464,B,test,-1,25.0,24,0,P1,O2Sat_last low,0.7255961036014563,
+112538,B,dev,2,254.0,24,0,P1,O2Sat_last low,0.6987175825511136,
+112554,B,dev,4,52.0,24,0,P1,O2Sat_last low,0.9999954160191795,
+112569,B,dev,1,52.0,24,1,P2,"O2Sat_last high, Resp_last low",0.916304356604908,
+112587,B,dev,3,1.0,1,-1,unassigned,,,short_window
+112590,B,test,-1,2.0,2,-1,unassigned,,,short_window
+112602,B,test,-1,113.0,24,0,P1,O2Sat_last low,0.9279306291588842,
+112608,B,dev,1,281.0,24,0,P1,O2Sat_last low,0.9999936707882597,
+112610,B,dev,1,124.0,24,0,P1,O2Sat_last low,0.9482312046821509,
+112640,B,dev,4,75.0,24,0,P1,O2Sat_last low,0.9999999990775805,
+112647,B,dev,2,136.0,24,0,P1,O2Sat_last low,0.9940691279609001,
+112763,B,test,-1,217.0,24,0,P1,O2Sat_last low,0.9999999998295479,
+112769,B,test,-1,174.0,24,0,P1,O2Sat_last low,0.9999928799785038,
+112788,B,test,-1,142.0,24,1,P2,"O2Sat_last high, Resp_last low",0.909735349489293,
+112807,B,dev,3,39.0,24,0,P1,O2Sat_last low,0.9992283750012455,
+112816,B,dev,3,3.0,3,-1,unassigned,,,short_window
+112820,B,dev,2,9.0,9,1,P2,"O2Sat_last high, Resp_last low",0.9509356399853918,
+112826,B,dev,4,74.0,24,0,P1,O2Sat_last low,0.9999999999999343,
+112828,B,dev,1,85.0,24,0,P1,O2Sat_last low,0.8021303932987274,
+112859,B,dev,4,3.0,3,-1,unassigned,,,short_window
+112872,B,dev,2,15.0,15,1,P2,"O2Sat_last high, Resp_last low",0.9844334788967535,
+112882,B,test,-1,35.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8004151902419521,
+112888,B,dev,1,88.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9243121267514555,
+112944,B,dev,3,86.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9090886772811256,
+112947,B,dev,4,84.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5918748876791566,
+112955,B,test,-1,73.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9422446447373317,
+112964,B,dev,2,8.0,8,-1,unassigned,,,sparse_vitals
+112966,B,dev,1,36.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9377338402243769,
+112999,B,dev,4,9.0,9,-1,unassigned,,,sparse_vitals
+113023,B,test,-1,11.0,11,0,P1,O2Sat_last low,0.9479510025323885,
+113029,B,dev,0,41.0,24,0,P1,O2Sat_last low,0.994200519613335,
+113036,B,dev,2,14.0,14,-1,unassigned,,,sparse_vitals
+113106,B,dev,1,53.0,24,0,P1,O2Sat_last low,0.9107851505920033,
+113119,B,test,-1,10.0,10,-1,unassigned,,,sparse_vitals
+113129,B,test,-1,17.0,17,0,P1,O2Sat_last low,0.8914009607812438,
+113135,B,dev,3,11.0,11,1,P2,"O2Sat_last high, Resp_last low",0.7118899166586874,
+113147,B,dev,2,3.0,3,-1,unassigned,,,short_window
+113153,B,dev,2,75.0,24,-1,unassigned,,,sparse_vitals
+113248,B,test,-1,1.0,1,-1,unassigned,,,short_window
+113260,B,dev,1,25.0,24,0,P1,O2Sat_last low,0.879129636823256,
+113272,B,dev,2,2.0,2,-1,unassigned,,,short_window
+113277,B,dev,4,6.0,6,-1,unassigned,,,sparse_vitals
+113291,B,dev,3,1.0,1,-1,unassigned,,,short_window
+113334,B,test,-1,16.0,16,0,P1,O2Sat_last low,0.9999999713449044,
+113377,B,dev,2,104.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9911569877071158,
+113388,B,dev,2,35.0,24,0,P1,O2Sat_last low,0.834083197681019,
+113392,B,dev,4,83.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7784722344442806,
+113404,B,dev,2,172.0,24,0,P1,O2Sat_last low,0.9999999547652766,
+113407,B,dev,3,38.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5861709312099598,
+113428,B,dev,4,222.0,24,0,P1,O2Sat_last low,0.9996960237708511,
+113489,B,dev,2,43.0,24,0,P1,O2Sat_last low,0.9999999999999432,
+113526,B,dev,1,28.0,24,0,P1,O2Sat_last low,0.9999999999990408,
+113562,B,dev,4,19.0,19,1,P2,"O2Sat_last high, Resp_last low",0.537345380704984,
+113566,B,dev,1,92.0,24,1,P2,"O2Sat_last high, Resp_last low",0.960156272851712,
+113618,B,dev,3,166.0,24,0,P1,O2Sat_last low,0.6818834965704708,
+113626,B,test,-1,8.0,8,1,P2,"O2Sat_last high, Resp_last low",0.7372504919249806,
+113636,B,dev,4,189.0,24,0,P1,O2Sat_last low,0.9999312862085111,
+113691,B,dev,3,14.0,14,0,P1,O2Sat_last low,0.9726552858762543,
+113729,B,dev,1,34.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9582913287984881,
+113748,B,dev,1,31.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9627418727468449,
+113783,B,dev,2,70.0,24,1,P2,"O2Sat_last high, Resp_last low",0.5129757450753482,
+113784,B,dev,3,3.0,3,-1,unassigned,,,short_window
+113787,B,dev,0,143.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8037934374687592,
+113793,B,dev,0,34.0,24,0,P1,O2Sat_last low,0.9999984439945591,
+113822,B,dev,2,7.0,7,-1,unassigned,,,sparse_vitals
+113872,B,dev,4,12.0,12,0,P1,O2Sat_last low,0.9999957013911784,
+113886,B,dev,1,6.0,6,-1,unassigned,,,sparse_vitals
+113887,B,test,-1,50.0,24,0,P1,O2Sat_last low,0.9948643427532313,
+113897,B,dev,1,78.0,24,0,P1,O2Sat_last low,0.9989069703652818,
+113934,B,test,-1,69.0,24,0,P1,O2Sat_last low,0.8250405311182506,
+113944,B,dev,0,24.0,24,0,P1,O2Sat_last low,0.9902638794643048,
+113961,B,dev,1,34.0,24,0,P1,O2Sat_last low,0.9935508219612157,
+113985,B,test,-1,52.0,24,0,P1,O2Sat_last low,0.9976912187918908,
+114100,B,dev,3,65.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8472318378774082,
+114108,B,test,-1,42.0,24,1,P2,"O2Sat_last high, Resp_last low",0.770915387358304,
+114109,B,dev,4,12.0,12,0,P1,O2Sat_last low,0.9460884228171808,
+114113,B,dev,0,250.0,24,0,P1,O2Sat_last low,0.9826349803830595,
+114127,B,test,-1,4.0,4,-1,unassigned,,,short_window
+114165,B,test,-1,4.0,4,-1,unassigned,,,short_window
+114181,B,dev,2,103.0,24,0,P1,O2Sat_last low,0.6393176294846651,
+114187,B,dev,3,13.0,13,0,P1,O2Sat_last low,0.9242188278609511,
+114202,B,dev,1,37.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9217034009827014,
+114260,B,test,-1,14.0,14,0,P1,O2Sat_last low,0.9999993298132822,
+114276,B,dev,2,17.0,17,0,P1,O2Sat_last low,0.9904793213798111,
+114295,B,dev,3,72.0,24,0,P1,O2Sat_last low,0.9999994405156072,
+114315,B,dev,3,80.0,24,0,P1,O2Sat_last low,0.999435566123307,
+114352,B,dev,3,21.0,21,1,P2,"O2Sat_last high, Resp_last low",0.9917741327689198,
+114387,B,dev,4,67.0,24,0,P1,O2Sat_last low,0.8513964909020499,
+114397,B,dev,4,5.0,5,-1,unassigned,,,short_window
+114404,B,dev,4,85.0,24,0,P1,O2Sat_last low,0.9999921417674175,
+114421,B,dev,3,27.0,24,0,P1,O2Sat_last low,0.9989528969353066,
+114432,B,dev,2,97.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8664519660924905,
+114435,B,dev,1,12.0,12,0,P1,O2Sat_last low,0.8985462721584891,
+114444,B,dev,1,56.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9560488562104568,
+114448,B,dev,2,183.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6908042320521091,
+114464,B,dev,3,90.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8075088854730583,
+114518,B,dev,1,7.0,7,1,P2,"O2Sat_last high, Resp_last low",0.9500085337029717,
+114568,B,dev,0,15.0,15,0,P1,O2Sat_last low,0.9396471860869865,
+114581,B,dev,0,135.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7315246160310552,
+114585,B,dev,0,50.0,24,0,P1,O2Sat_last low,0.9988939740364849,
+114591,B,dev,0,24.0,24,0,P1,O2Sat_last low,0.9253590960909187,
+114598,B,test,-1,64.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9525739973080029,
+114638,B,test,-1,11.0,11,1,P2,"O2Sat_last high, Resp_last low",0.6490697355157183,
+114673,B,dev,4,33.0,24,0,P1,O2Sat_last low,0.9862593582642392,
+114679,B,dev,3,152.0,24,1,P2,"O2Sat_last high, Resp_last low",0.953027275794975,
+114710,B,dev,4,10.0,10,-1,unassigned,,,sparse_vitals
+114775,B,dev,1,88.0,24,0,P1,O2Sat_last low,0.9788065560378484,
+114779,B,dev,2,64.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9739240501234139,
+114799,B,dev,1,24.0,24,-1,unassigned,,,sparse_vitals
+114802,B,test,-1,1.0,1,-1,unassigned,,,short_window
+114830,B,dev,3,101.0,24,0,P1,O2Sat_last low,0.8371689148155528,
+114864,B,dev,0,57.0,24,-1,unassigned,,,sparse_vitals
+114883,B,dev,1,114.0,24,0,P1,O2Sat_last low,0.9958852406817945,
+114893,B,dev,1,79.0,24,0,P1,O2Sat_last low,0.9958711736694178,
+114917,B,dev,0,67.0,24,0,P1,O2Sat_last low,0.9417752515638996,
+114937,B,dev,0,30.0,24,0,P1,O2Sat_last low,1.0,
+114997,B,dev,4,34.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9867895462340366,
+115031,B,dev,2,17.0,17,0,P1,O2Sat_last low,0.9997326035596612,
+115042,B,dev,1,44.0,24,0,P1,O2Sat_last low,0.9999866822107727,
+115066,B,dev,1,1.0,1,-1,unassigned,,,short_window
+115075,B,test,-1,4.0,4,-1,unassigned,,,short_window
+115137,B,dev,2,28.0,24,0,P1,O2Sat_last low,0.9998376544660468,
+115139,B,dev,3,1.0,1,-1,unassigned,,,short_window
+115158,B,dev,4,5.0,5,-1,unassigned,,,short_window
+115162,B,dev,0,9.0,9,0,P1,O2Sat_last low,0.6614496843804615,
+115169,B,dev,2,24.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9253421464885059,
+115184,B,dev,4,74.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8879732492635899,
+115190,B,dev,2,3.0,3,-1,unassigned,,,short_window
+115199,B,dev,1,78.0,24,0,P1,O2Sat_last low,0.9999869593938163,
+115214,B,test,-1,45.0,24,0,P1,O2Sat_last low,0.5119674662032954,
+115261,B,dev,3,8.0,8,-1,unassigned,,,sparse_vitals
+115364,B,test,-1,15.0,15,0,P1,O2Sat_last low,0.9990296478824338,
+115380,B,dev,0,65.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9752799307801949,
+115389,B,dev,2,2.0,2,-1,unassigned,,,short_window
+115408,B,dev,0,45.0,24,0,P1,O2Sat_last low,0.8790340138776342,
+115441,B,dev,2,19.0,19,0,P1,O2Sat_last low,0.9910810955548572,
+115463,B,dev,2,82.0,24,0,P1,O2Sat_last low,0.993691758356278,
+115487,B,dev,3,20.0,20,1,P2,"O2Sat_last high, Resp_last low",0.9507104638389448,
+115527,B,dev,2,19.0,19,1,P2,"O2Sat_last high, Resp_last low",0.8671971589306531,
+115536,B,test,-1,105.0,24,0,P1,O2Sat_last low,0.9999999999996199,
+115594,B,dev,4,111.0,24,0,P1,O2Sat_last low,0.9999999935133843,
+115595,B,dev,1,36.0,24,0,P1,O2Sat_last low,0.8788459662420316,
+115624,B,dev,2,15.0,15,0,P1,O2Sat_last low,0.9172098258622421,
+115625,B,dev,1,12.0,12,0,P1,O2Sat_last low,1.0,
+115627,B,dev,0,7.0,7,-1,unassigned,,,sparse_vitals
+115633,B,dev,4,62.0,24,0,P1,O2Sat_last low,0.9983103389686592,
+115636,B,dev,0,45.0,24,0,P1,O2Sat_last low,0.9999999998742943,
+115742,B,dev,0,23.0,23,0,P1,O2Sat_last low,0.9999999999999982,
+115743,B,test,-1,47.0,24,-1,unassigned,,,sparse_vitals
+115767,B,dev,2,60.0,24,0,P1,O2Sat_last low,0.9964267417655116,
+115768,B,test,-1,10.0,10,0,P1,O2Sat_last low,0.9999999999062013,
+115775,B,test,-1,132.0,24,0,P1,O2Sat_last low,0.9999999999997584,
+115826,B,dev,0,44.0,24,0,P1,O2Sat_last low,0.9999632067903146,
+115835,B,dev,3,166.0,24,0,P1,O2Sat_last low,0.6848598944579142,
+115861,B,dev,2,118.0,24,0,P1,O2Sat_last low,0.9992777657449876,
+115898,B,test,-1,34.0,24,-1,unassigned,,,sparse_vitals
+115920,B,dev,2,8.0,8,-1,unassigned,,,sparse_vitals
+115928,B,dev,0,109.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9166174836708296,
+115956,B,dev,3,86.0,24,0,P1,O2Sat_last low,0.872719602603399,
+115976,B,dev,1,26.0,24,0,P1,O2Sat_last low,0.9999996416227435,
+115980,B,test,-1,65.0,24,0,P1,O2Sat_last low,0.9998135578220237,
+115988,B,dev,0,103.0,24,0,P1,O2Sat_last low,0.759360119911421,
+116039,B,dev,1,3.0,3,-1,unassigned,,,short_window
+116049,B,dev,4,143.0,24,0,P1,O2Sat_last low,0.9999999802267399,
+116066,B,dev,1,34.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7847130883640918,
+116076,B,test,-1,56.0,24,0,P1,O2Sat_last low,0.9728433793711526,
+116085,B,dev,3,105.0,24,0,P1,O2Sat_last low,0.9967810080993005,
+116091,B,dev,0,9.0,9,1,P2,"O2Sat_last high, Resp_last low",0.9897015037550289,
+116122,B,dev,3,90.0,24,0,P1,O2Sat_last low,0.9999992003595466,
+116124,B,dev,4,46.0,24,0,P1,O2Sat_last low,0.9879645886605289,
+116125,B,dev,3,11.0,11,-1,unassigned,,,sparse_vitals
+116140,B,dev,3,2.0,2,-1,unassigned,,,short_window
+116172,B,test,-1,39.0,24,0,P1,O2Sat_last low,0.9989756893175676,
+116195,B,dev,1,55.0,24,1,P2,"O2Sat_last high, Resp_last low",0.955191426882418,
+116206,B,dev,2,138.0,24,0,P1,O2Sat_last low,0.940206788326909,
+116218,B,test,-1,23.0,23,0,P1,O2Sat_last low,0.7613951750251062,
+116221,B,dev,2,130.0,24,-1,unassigned,,,sparse_vitals
+116223,B,dev,4,76.0,24,0,P1,O2Sat_last low,0.9999847392026985,
+116237,B,test,-1,36.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9725107636949344,
+116263,B,dev,0,101.0,24,0,P1,O2Sat_last low,0.9999997342059517,
+116303,B,dev,0,38.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9567094961421296,
+116322,B,test,-1,302.0,24,0,P1,O2Sat_last low,0.7247808994317004,
+116379,B,dev,3,18.0,18,0,P1,O2Sat_last low,0.9999999999733742,
+116382,B,dev,2,29.0,24,0,P1,O2Sat_last low,0.9968348725290094,
+116392,B,dev,1,129.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9924423528008928,
+116403,B,dev,0,2.0,2,-1,unassigned,,,short_window
+116460,B,dev,1,48.0,24,0,P1,O2Sat_last low,0.999999766746385,
+116469,B,dev,4,65.0,24,0,P1,O2Sat_last low,0.6145976439688366,
+116488,B,dev,3,31.0,24,0,P1,O2Sat_last low,0.9998648448538965,
+116522,B,dev,0,1.0,1,-1,unassigned,,,short_window
+116564,B,dev,0,1.0,1,-1,unassigned,,,short_window
+116578,B,dev,4,86.0,24,0,P1,O2Sat_last low,0.7534268205594988,
+116673,B,dev,3,43.0,24,0,P1,O2Sat_last low,0.5306822977271715,
+116718,B,dev,3,41.0,24,0,P1,O2Sat_last low,0.9999984494413119,
+116743,B,dev,3,173.0,24,0,P1,O2Sat_last low,0.6309170285930544,
+116778,B,test,-1,34.0,24,0,P1,O2Sat_last low,0.9999999999998277,
+116789,B,dev,3,12.0,12,0,P1,O2Sat_last low,0.9999999999886668,
+116790,B,test,-1,27.0,24,0,P1,O2Sat_last low,0.999999392664154,
+116832,B,dev,2,119.0,24,0,P1,O2Sat_last low,0.9999999999436504,
+116858,B,dev,0,25.0,24,0,P1,O2Sat_last low,0.9999999930854813,
+116870,B,dev,4,117.0,24,0,P1,O2Sat_last low,0.980023937910398,
+116887,B,dev,4,151.0,24,0,P1,O2Sat_last low,0.5919406183749235,
+116890,B,dev,1,24.0,24,0,P1,O2Sat_last low,0.9999999999696918,
+116910,B,dev,4,32.0,24,0,P1,O2Sat_last low,0.9990747608515085,
+116946,B,dev,4,59.0,24,0,P1,O2Sat_last low,0.6580443285887041,
+116950,B,dev,3,49.0,24,-1,unassigned,,,sparse_vitals
+116955,B,dev,3,17.0,17,0,P1,O2Sat_last low,0.9999999767558132,
+117069,B,dev,4,6.0,6,-1,unassigned,,,sparse_vitals
+117124,B,test,-1,212.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9294152352372431,
+117142,B,dev,4,36.0,24,0,P1,O2Sat_last low,0.8907974017139093,
+117159,B,dev,1,156.0,24,0,P1,O2Sat_last low,0.9491900417057992,
+117217,B,dev,2,67.0,24,1,P2,"O2Sat_last high, Resp_last low",0.982862582038708,
+117272,B,dev,2,45.0,24,0,P1,O2Sat_last low,0.6000437116228096,
+117299,B,dev,1,80.0,24,-1,unassigned,,,sparse_vitals
+117320,B,test,-1,152.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8260185858161708,
+117325,B,test,-1,88.0,24,-1,unassigned,,,sparse_vitals
+117335,B,test,-1,112.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8240600373066079,
+117339,B,test,-1,22.0,22,1,P2,"O2Sat_last high, Resp_last low",0.8839022330026558,
+117365,B,dev,2,4.0,4,-1,unassigned,,,short_window
+117397,B,dev,0,16.0,16,0,P1,O2Sat_last low,0.7028382052670835,
+117399,B,test,-1,88.0,24,0,P1,O2Sat_last low,0.9999997164885397,
+117407,B,test,-1,5.0,5,-1,unassigned,,,short_window
+117462,B,dev,3,64.0,24,0,P1,O2Sat_last low,0.670748829459815,
+117490,B,dev,1,7.0,7,0,P1,O2Sat_last low,0.6492132262058282,
+117492,B,dev,4,214.0,24,0,P1,O2Sat_last low,0.975370845848943,
+117517,B,dev,3,41.0,24,0,P1,O2Sat_last low,0.999114410186128,
+117521,B,dev,0,89.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7352874404446357,
+117534,B,dev,1,174.0,24,0,P1,O2Sat_last low,0.999999867326597,
+117542,B,dev,4,13.0,13,-1,unassigned,,,sparse_vitals
+117566,B,dev,2,8.0,8,-1,unassigned,,,sparse_vitals
+117585,B,dev,0,1.0,1,-1,unassigned,,,short_window
+117592,B,dev,2,98.0,24,0,P1,O2Sat_last low,0.9826397445159166,
+117598,B,dev,2,94.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9651569044983843,
+117620,B,dev,1,97.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9795579181414116,
+117631,B,test,-1,5.0,5,-1,unassigned,,,short_window
+117660,B,dev,0,19.0,19,0,P1,O2Sat_last low,0.9953654795503678,
+117683,B,dev,1,46.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9900115068783656,
+117691,B,dev,0,85.0,24,0,P1,O2Sat_last low,0.9561965524477223,
+117705,B,dev,3,45.0,24,0,P1,O2Sat_last low,0.9999353049589527,
+117714,B,dev,4,65.0,24,-1,unassigned,,,sparse_vitals
+117717,B,dev,4,126.0,24,0,P1,O2Sat_last low,0.9431865185819285,
+117721,B,dev,0,8.0,8,-1,unassigned,,,sparse_vitals
+117724,B,test,-1,109.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9019595921562034,
+117761,B,dev,0,18.0,18,0,P1,O2Sat_last low,0.9753770479551999,
+117768,B,test,-1,3.0,3,-1,unassigned,,,short_window
+117805,B,dev,3,44.0,24,0,P1,O2Sat_last low,0.9845150255643854,
+117843,B,dev,3,4.0,4,-1,unassigned,,,short_window
+117856,B,dev,4,5.0,5,-1,unassigned,,,short_window
+117871,B,dev,0,60.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9145444116361483,
+117886,B,dev,2,20.0,20,0,P1,O2Sat_last low,0.9999999999722391,
+117891,B,dev,4,53.0,24,0,P1,O2Sat_last low,0.9685401855410156,
+117919,B,dev,4,2.0,2,-1,unassigned,,,short_window
+117931,B,dev,1,47.0,24,0,P1,O2Sat_last low,0.9999999999998614,
+117968,B,dev,3,247.0,24,0,P1,O2Sat_last low,0.8508695874397422,
+117981,B,dev,2,2.0,2,-1,unassigned,,,short_window
+118005,B,dev,4,43.0,24,0,P1,O2Sat_last low,0.9996609253788997,
+118030,B,dev,2,30.0,24,0,P1,O2Sat_last low,0.8820730277273371,
+118058,B,dev,4,16.0,16,-1,unassigned,,,sparse_vitals
+118069,B,dev,0,38.0,24,0,P1,O2Sat_last low,0.591285334425507,
+118083,B,dev,1,190.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6818468333310126,
+118154,B,test,-1,33.0,24,0,P1,O2Sat_last low,0.5034819769172741,
+118213,B,dev,1,42.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9593944756086707,
+118231,B,dev,4,75.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7030315186880004,
+118264,B,dev,0,49.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7911688121090665,
+118265,B,dev,4,20.0,20,0,P1,O2Sat_last low,0.9999999980925605,
+118275,B,dev,1,27.0,24,0,P1,O2Sat_last low,0.9997704420385073,
+118292,B,dev,4,9.0,9,-1,unassigned,,,sparse_vitals
+118306,B,dev,0,84.0,24,0,P1,O2Sat_last low,0.9874013992804141,
+118311,B,dev,3,59.0,24,0,P1,O2Sat_last low,0.999999954566655,
+118313,B,dev,2,25.0,24,0,P1,O2Sat_last low,0.9919739073967351,
+118386,B,dev,1,34.0,24,0,P1,O2Sat_last low,0.748697822131572,
+118388,B,dev,1,198.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9583927072321873,
+118396,B,dev,2,2.0,2,-1,unassigned,,,short_window
+118429,B,dev,3,16.0,16,0,P1,O2Sat_last low,0.9322044588653706,
+118440,B,dev,3,5.0,5,-1,unassigned,,,short_window
+118449,B,dev,2,135.0,24,0,P1,O2Sat_last low,0.6587859416647004,
+118461,B,dev,4,66.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8208834147137983,
+118501,B,dev,3,54.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8355655632754941,
+118515,B,dev,4,72.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9807098002927135,
+118522,B,test,-1,113.0,24,0,P1,O2Sat_last low,0.800593035539087,
+118529,B,dev,0,19.0,19,1,P2,"O2Sat_last high, Resp_last low",0.9430902540415042,
+118539,B,dev,3,44.0,24,1,P2,"O2Sat_last high, Resp_last low",0.845769597806005,
+118572,B,dev,3,70.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9755934854306114,
+118577,B,dev,1,11.0,11,0,P1,O2Sat_last low,0.9963390686803303,
+118583,B,dev,3,99.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7423563851425712,
+118611,B,dev,4,79.0,24,0,P1,O2Sat_last low,0.9861597611703263,
+118613,B,dev,1,152.0,24,0,P1,O2Sat_last low,0.964080931876567,
+118620,B,dev,4,17.0,17,0,P1,O2Sat_last low,0.9999943334717561,
+118630,B,dev,3,218.0,24,1,P2,"O2Sat_last high, Resp_last low",0.939130449816552,
+118632,B,dev,4,23.0,23,0,P1,O2Sat_last low,0.7717517475482466,
+118654,B,dev,3,11.0,11,-1,unassigned,,,sparse_vitals
+118674,B,dev,4,13.0,13,0,P1,O2Sat_last low,0.9476952616757741,
+118746,B,dev,1,103.0,24,0,P1,O2Sat_last low,0.9999099191442936,
+118783,B,test,-1,95.0,24,1,P2,"O2Sat_last high, Resp_last low",0.723096364774722,
+118795,B,test,-1,14.0,14,0,P1,O2Sat_last low,0.9999999364250913,
+118804,B,test,-1,211.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9151570489306657,
+118848,B,dev,3,108.0,24,0,P1,O2Sat_last low,0.9999992443801181,
+118849,B,dev,4,303.0,24,0,P1,O2Sat_last low,0.9964940646405035,
+118906,B,dev,4,8.0,8,-1,unassigned,,,sparse_vitals
+118939,B,dev,2,1.0,1,-1,unassigned,,,short_window
+118954,B,test,-1,89.0,24,0,P1,O2Sat_last low,0.9999982656671567,
+118963,B,dev,4,186.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7636293012854125,
+118966,B,dev,2,72.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9878423789733586,
+118976,B,dev,0,22.0,22,0,P1,O2Sat_last low,0.9999999860652835,
+119022,B,test,-1,79.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8087966395586795,
+119032,B,dev,3,5.0,5,-1,unassigned,,,short_window
+119052,B,dev,1,171.0,24,0,P1,O2Sat_last low,0.9999997707361651,
+119059,B,dev,3,28.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9792419620210544,
+119061,B,dev,3,57.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9036485998738226,
+119076,B,dev,0,19.0,19,1,P2,"O2Sat_last high, Resp_last low",0.5909531079516595,
+119082,B,dev,3,84.0,24,0,P1,O2Sat_last low,0.9999998752227846,
+119098,B,dev,0,31.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8836083452626988,
+119103,B,dev,2,7.0,7,1,P2,"O2Sat_last high, Resp_last low",0.7045022830507546,
+119107,B,dev,0,200.0,24,1,P2,"O2Sat_last high, Resp_last low",0.964825765206323,
+119109,B,dev,4,58.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7931993299766135,
+119118,B,dev,3,25.0,24,0,P1,O2Sat_last low,0.6770709078244328,
+119150,B,test,-1,23.0,23,0,P1,O2Sat_last low,0.8814642997184934,
+119158,B,dev,4,17.0,17,1,P2,"O2Sat_last high, Resp_last low",0.9426540692123722,
+119161,B,dev,1,16.0,16,1,P2,"O2Sat_last high, Resp_last low",0.9063489926794527,
+119162,B,test,-1,1.0,1,-1,unassigned,,,short_window
+119168,B,dev,0,13.0,13,0,P1,O2Sat_last low,0.9981907189001702,
+119194,B,test,-1,14.0,14,0,P1,O2Sat_last low,0.6133136097619678,
+119214,B,test,-1,45.0,24,0,P1,O2Sat_last low,0.9999999197903368,
+119232,B,dev,0,5.0,5,-1,unassigned,,,short_window
+119276,B,dev,4,37.0,24,0,P1,O2Sat_last low,0.9999990832467961,
+119279,B,dev,1,39.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9756167112035742,
+119309,B,dev,1,12.0,12,0,P1,O2Sat_last low,0.9999931564408615,
+119343,B,dev,1,23.0,23,0,P1,O2Sat_last low,0.9835390632242852,
+119407,B,dev,2,42.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7638320920850141,
+119442,B,dev,4,50.0,24,1,P2,"O2Sat_last high, Resp_last low",0.7592583838996428,
+119463,B,dev,4,53.0,24,0,P1,O2Sat_last low,0.9999999929472558,
+119482,B,dev,0,17.0,17,-1,unassigned,,,sparse_vitals
+119504,B,dev,4,55.0,24,0,P1,O2Sat_last low,0.9037152166722566,
+119520,B,dev,2,22.0,22,-1,unassigned,,,sparse_vitals
+119545,B,dev,3,301.0,24,0,P1,O2Sat_last low,0.9999999806163198,
+119585,B,dev,2,80.0,24,0,P1,O2Sat_last low,0.9831049138208532,
+119621,B,dev,3,62.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9191133612012974,
+119627,B,dev,4,79.0,24,1,P2,"O2Sat_last high, Resp_last low",0.8641933054469582,
+119643,B,dev,1,49.0,24,1,P2,"O2Sat_last high, Resp_last low",0.9789996680466982,
+119674,B,dev,3,36.0,24,0,P1,O2Sat_last low,0.9999978363869684,
+119692,B,dev,2,186.0,24,0,P1,O2Sat_last low,0.9966390519537366,
+119713,B,test,-1,3.0,3,-1,unassigned,,,short_window
+119722,B,dev,0,1.0,1,-1,unassigned,,,short_window
+119738,B,dev,1,135.0,24,0,P1,O2Sat_last low,0.9998572431465907,
+119749,B,dev,4,159.0,24,0,P1,O2Sat_last low,0.9999971139156606,
+119751,B,dev,4,130.0,24,0,P1,O2Sat_last low,0.9833638997524774,
+119760,B,test,-1,135.0,24,0,P1,O2Sat_last low,0.9894214879320781,
+119770,B,test,-1,73.0,24,0,P1,O2Sat_last low,0.9668007071383518,
+119791,B,dev,1,152.0,24,0,P1,O2Sat_last low,0.995210369672404,
+119794,B,dev,3,1.0,1,-1,unassigned,,,short_window
+119808,B,dev,0,42.0,24,0,P1,O2Sat_last low,0.9999999999982734,
+119813,B,dev,3,30.0,24,0,P1,O2Sat_last low,0.9999995588891113,
+119822,B,test,-1,122.0,24,0,P1,O2Sat_last low,0.7758920592451334,
+119867,B,dev,1,88.0,24,0,P1,O2Sat_last low,0.9999808275433248,
+119874,B,test,-1,13.0,13,1,P2,"O2Sat_last high, Resp_last low",0.9568147921505996,
+119884,B,dev,3,230.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6426489960372505,
+119888,B,dev,3,2.0,2,-1,unassigned,,,short_window
+119910,B,dev,1,41.0,24,1,P2,"O2Sat_last high, Resp_last low",0.6555173423293517,
+119917,B,dev,3,58.0,24,-1,unassigned,,,sparse_vitals
+119938,B,dev,0,101.0,24,0,P1,O2Sat_last low,0.9999894278505841,
+119959,B,dev,0,31.0,24,0,P1,O2Sat_last low,0.8875908062441006,

@@ -1,0 +1,16 @@
+**Table 4.** Performance of the four models on held-out TEST set (final, reported once), at the balanced alert setting (thresholds chosen on development data for about 5 false alarms per 100 non-septic patient-days). Warned in time = an alert in the 12 hours before the sepsis label; AUROC and AUPRC are hour-level.
+
+| Model | Patients | AUROC | AUPRC | Warned in time, % (95% CI) | False alarms per 100 patient-days | Non-septic patients alerted, % | Median warning, h | Normalised utility |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| LightGBM | All |  |  | 41.7 (37.7 to 45.7) | 4.08 | 5.9 | 45 | 0.284 |
+| LightGBM | Hospital A |  |  | 45.7 (39.4 to 50.8) | 6.08 | 8.7 | 44 | 0.327 |
+| LightGBM | Hospital B |  |  | 34.8 (28.8 to 40.8) | 2.09 | 3.1 | 50 | 0.212 |
+| Logistic regression | All |  |  | 34.7 (31.5 to 38.5) | 4.75 | 6.6 | 45 | 0.219 |
+| Logistic regression | Hospital A |  |  | 38.8 (33.4 to 43.9) | 6.93 | 9.7 | 40 | 0.257 |
+| Logistic regression | Hospital B |  |  | 27.7 (21.7 to 33.2) | 2.58 | 3.7 | 48 | 0.154 |
+| GRU | All |  |  | 39.7 (35.1 to 43.3) | 3.47 | 4.9 | 47 | 0.267 |
+| GRU | Hospital A |  |  | 44.2 (38.5 to 50.2) | 4.61 | 6.6 | 47 | 0.307 |
+| GRU | Hospital B |  |  | 32.1 (26.1 to 38.6) | 2.34 | 3.2 | 53 | 0.199 |
+| Ensemble | All |  |  | 42.9 (38.7 to 47.5) | 5.02 | 7.0 | 47 | 0.278 |
+| Ensemble | Hospital A |  |  | 48.3 (43.5 to 53.6) | 7.19 | 10.1 | 43 | 0.324 |
+| Ensemble | Hospital B |  |  | 33.7 (27.2 to 40.8) | 2.85 | 4.0 | 53 | 0.199 |

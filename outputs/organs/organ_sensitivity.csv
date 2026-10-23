@@ -1,0 +1,10 @@
+lab_ffill_h,window,primary,attributable_%,agreement_with_primary_%,n_Lungs,n_Clotting,n_Liver,n_Circulation,n_Kidneys,n_Multi-organ,n_Unattributable
+12,-24 h to +6 h,False,50.6,97.5,121,107,14,622,86,317,1239
+12,-12 h to +3 h,False,34.2,67.4,88,57,8,514,69,122,1648
+12,-48 h to +12 h,False,61.9,71.1,119,127,22,665,104,513,956
+24,-24 h to +6 h,True,51.5,100.0,128,118,17,604,85,338,1216
+24,-12 h to +3 h,False,36.5,69.7,91,81,12,500,86,144,1592
+24,-48 h to +12 h,False,62.0,70.2,118,127,22,647,102,538,952
+48,-24 h to +6 h,False,51.6,99.4,127,119,18,598,84,346,1214
+48,-12 h to +3 h,False,36.7,69.9,91,83,14,498,86,147,1587
+48,-48 h to +12 h,False,62.2,69.7,122,125,24,639,101,548,947

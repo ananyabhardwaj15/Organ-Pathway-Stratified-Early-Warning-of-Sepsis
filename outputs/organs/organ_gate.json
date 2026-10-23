@@ -1,0 +1,29 @@
+{
+  "threshold": 0.5,
+  "overall_share": 0.5147645650438947,
+  "by_hospital": {
+    "A": 0.5116572148708255,
+    "B": 0.5201305767138193
+  },
+  "passes": true,
+  "window": {
+    "before_h": 24,
+    "after_h": 6,
+    "lab_ffill_h": 24,
+    "lungs_room_air_assumed": false
+  },
+  "counts": {
+    "Unattributable": 1216,
+    "Circulation": 604,
+    "Multi-organ": 338,
+    "Lungs": 128,
+    "Clotting": 118,
+    "Kidneys": 85,
+    "Liver": 17
+  },
+  "unattributable_reasons": {
+    "no measurable change": 1090,
+    "labs not measured": 126
+  },
+  "fio2_assumed_share_of_hours": 0.6148354217197352
+}

@@ -1,0 +1,14 @@
+**Table 1.** Characteristics of the included patients, overall and by hospital (PhysioNet/CinC 2019). 426 patients were excluded because sepsis was already labelled at their first hour.
+
+| Characteristic | All | Hospital A | Hospital B |
+| --- | --- | --- | --- |
+| Patients, n | 39,910 | 20,133 | 19,777 |
+| Development / test set, n | 31,928 / 7,982 | 16,107 / 4,026 | 15,821 / 3,956 |
+| Septic, n (%) | 2,506 (6.3%) | 1,587 (7.9%) | 919 (4.6%) |
+| Age, years, median (IQR) | 63 (51 to 74) | 65 (52 to 76) | 62 (50 to 72) |
+| Male, n (%) | 22,315 (55.9%) | 11,709 (58.2%) | 10,606 (53.6%) |
+| Medical ICU, n (%) | 12,078 (30.3%) | 5,255 (26.1%) | 6,823 (34.5%) |
+| Surgical ICU, n (%) | 12,365 (31.0%) | 5,448 (27.1%) | 6,917 (35.0%) |
+| ICU unit not recorded, n (%) | 15,467 (38.8%) | 9,430 (46.8%) | 6,037 (30.5%) |
+| Recorded ICU stay, hours, median (IQR) | 39 (24 to 47) | 39 (25 to 47) | 39 (23 to 47) |
+| Hour of sepsis label in septic patients, median (IQR) | 37 (13 to 83) | 35 (12 to 78) | 41 (15 to 87) |

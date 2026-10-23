@@ -1,0 +1,36 @@
+{
+  "column": "p_gru_mtl",
+  "head": "mtl",
+  "excluded_groups": [],
+  "patterns": [
+    "Hemodynamic",
+    "Inflammatory",
+    "Multi-system",
+    "No abnormal vitals",
+    "Respiratory"
+  ],
+  "oof_dev": {
+    "auroc": 0.8060969131301488,
+    "auprc": 0.0877100766225265,
+    "prevalence": 0.017273293153093602,
+    "n": 1219339
+  },
+  "seconds": 733.4,
+  "config": {
+    "stage": "gru",
+    "head": "mtl",
+    "exclude": [],
+    "hidden": 64,
+    "dropout": 0.2,
+    "epochs": 12,
+    "patience": 3,
+    "batch": 64,
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "pos_weight": 5.0,
+    "aux_weight": 0.3,
+    "threads": 0,
+    "seed": 42,
+    "patient_frac": 1.0
+  }
+}
